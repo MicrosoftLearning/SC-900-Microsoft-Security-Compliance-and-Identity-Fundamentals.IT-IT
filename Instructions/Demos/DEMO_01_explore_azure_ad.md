@@ -1,12 +1,17 @@
 ---
 Demo:
-    title: 'Impostazioni utente di Azure Active Directory'
-    module: 'Modulo 2. Lezione 1. Descrizione delle funzionalità delle soluzioni Microsoft per la gestione delle identità e degli accessi: esplorare i servizi e i tipi di identità di Azure AD'
+  title: Impostazioni utente di Azure Active Directory
+  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
+ms.openlocfilehash: 755c16992ea1b9a626850507dbebf270dbe7c0de
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893946"
 ---
+# <a name="demo-azure-active-directory-user-settings"></a>Dimostrazione: Impostazioni utente di Azure Active Directory
 
-# Demo: Impostazioni utente di Azure Active Directory
-
-### Scenario demo
+### <a name="demo-scenario"></a>Scenario demo
 
 In questa demo, si accederà ad Azure Active Directory e verranno illustrate le varie impostazioni per un utente esistente.
 
@@ -36,10 +41,10 @@ In questa demo, si accederà ad Azure Active Directory e verranno illustrate le 
 
 1. Dal pannello di navigazione sinistro, selezionare **Accessi**.  Qui è riportata l'attività di accesso per questo utente.  Per questo utente potrebbe non essere riportate informazioni, dato che non ha ancora effettuato l'accesso.
 
-1. Selezionare la **X** nell'angolo in alto a destra della pagina. In questo modo si torna all'elenco degli utenti.  Prima di chiudere l'elenco degli utenti, è possibile evidenziare che la MFA è mostrata nella parte superiore della pagina.  Selezionare **Autenticazione a più fattori**.  In questo modo si apre una nuova finestra del browser.  Qui è possibile selezionare in blocco la MFA per gli utenti.  Questo è un modo per abilitare la MFA per gli utenti.  In realtà mostreremo di più sulla MFA nel contesto dell'Accesso condizionale che consente un controllo più granulare della MFA.  Chiudere la scheda del browser per l'Autenticazione a più fattori.
+1. Selezionare la **X** nell'angolo in alto a destra della pagina. In questo modo si torna all'elenco degli utenti.  Prima di chiudere l'elenco degli utenti, è possibile evidenziare che la MFA è mostrata nella parte superiore della pagina.  Selezionare **Multi-Factor Authentication**.  Si aprirà una nuova finestra del browser.  Qui è possibile selezionare in blocco la MFA per gli utenti.  Questo è un modo per abilitare la MFA per gli utenti.  In realtà mostreremo di più sulla MFA nel contesto dell'Accesso condizionale che consente un controllo più granulare della MFA.  Chiudere la scheda del browser per l'Autenticazione a più fattori.
 
 1. Selezionare la **X** nell'angolo in alto a destra della pagina. In questo modo si torna alla pagina principale per il tenant di Contoso.
 
-### Verifica
+### <a name="review"></a>Verifica
 
 Questa demo ha mostrato le impostazioni di un utente esistente, compresi i gruppi a cui l'utente può essere assegnato, la disponibilità dei ruoli e l'assegnazione delle licenze utente.
