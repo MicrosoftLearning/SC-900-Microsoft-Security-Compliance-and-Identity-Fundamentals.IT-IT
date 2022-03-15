@@ -1,16 +1,21 @@
 ---
 Demo:
-    title: 'Gruppi di sicurezza di rete (NSG) di Azure'
-    module: 'Modulo 3. Lezione 1. Descrizione delle funzionalità delle soluzioni di sicurezza Microsoft: descrizione delle funzionalità di sicurezza di base in Azure'
+  title: Gruppi di sicurezza di rete (NSG) di Azure
+  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
+ms.openlocfilehash: 878316bb32c23e57550dddda1312af270a2fe078
+ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "138019284"
 ---
+# <a name="demo-azure-network-security-groups-nsgs"></a>Dimostrazione: Gruppi di sicurezza di rete (NSG) di Azure
 
-# Demo: Gruppi di sicurezza di rete (NSG) di Azure
-
-### Scenario demo
+### <a name="demo-scenario"></a>Scenario demo
 Questa demo illustrerà le funzionalità di un gruppo di sicurezza di rete (NSG) in Azure.  Per farlo, verrà innanzitutto creata una macchina virtuale (VM) senza alcun NSG come parte della configurazione pre-demo. Verrà anche creato un NSG senza alcuna interfaccia o subnet associata.  Come parte della demo, verranno anche mostrare le regole in ingresso e in uscita predefinite per il NSG. Si esaminerà quindi il processo di assegnazione dell'interfaccia della VM al NSG.  Al termine della configurazione, si testerà la connessione alla VM usando le regole del NSG predefinite e anche le regole create.
   
 
-#### Configurazione pre-demo parte 1
+#### <a name="pre-demo-setup-part-1"></a>Configurazione pre-demo parte 1
  Si raccomanda agli istruttori di farlo **PRIMA** della lezione poiché la creazione di una VM può richiedere diversi minuti. In questa configurazione verrà creata una macchina virtuale di Windows 10.
 
 1. Aprire la scheda **Home – Microsoft Azure** nel browser.  Se la scheda era stata chiusa in precedenza, aprire una pagina del browser e nella barra degli indirizzi inserire portal.azure.com e accedere di nuovo.
@@ -22,28 +27,28 @@ Questa demo illustrerà le funzionalità di un gruppo di sicurezza di rete (NSG)
 1. Dalla scheda generale, compilare le seguenti informazioni (per eventuali voci non elencate, lasciare le impostazioni predefinite):
     1. **Sottoscrizione**: verificare che l'impostazione predefinita sia Azure Pass – Sponsorizzazione.
     1. **Gruppo di risorse**: selezionare **Crea nuovo** quindi nel campo Nome inserire **LabsSC900-RG**, poi selezionare **OK**.
-    1. **Nome delle macchine virtuali**:  immettere **SC900-WinVM**.
-    1. **Area**:  lasciare l'impostazione predefinita.
+    1. **Nome macchine virtuali**: immettere **SC900-WinVM**.
+    1. **Area**: lasciare il valore predefinito.
     1. **Opzioni di disponibilità**: assicurarsi di selezionare **La ridondanza dell'infrastruttura non è richiesta**.  NOTA: è molto importante che le opzioni di disponibilità siano impostate su La ridondanza dell'infrastruttura non è richiesta, altrimenti la demo non funzionerà come previsto.  Avere un'opzione di disponibilità richiede un NSG e viene intenzionalmente creata la VM senza un NSG.
-    1. **Immagine**:  dal menu a discesa, selezionare **Windows 10 Pro, Versione 20H2 – Gen 1**.
-    1. **Dimensione**:  selezionare **vedi tutte le dimensioni** dal menu a discesa e selezionare **B2s**, quindi premere **Seleziona** sulla parte inferiore della pagina.
-    1. **Nome utente**:  immettere **AzureUser**.
-    1. **Password**:  immettere **SC900AzureLabs**.
-    1. **Porte in ingresso pubbliche**:  si può lasciare l'impostazione predefinita (non importa cosa si seleziona qui perché le impostazioni di rete sovrascriveranno ciò che si fa qui).
-    1. **Licenze**:  selezionare **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights** (Confermo di avere una licenza idonea di Windows 10 con diritti di hosting multi-tenant), in modo che nella casella compaia un segno di spunta.
+    1. **Immagine**: selezionare **Windows 10 Pro, Versione 20H2 – Gen 1** nell'elenco a discesa.
+    1. **Dimensioni**: selezionare **vedi tutte le dimensioni** nell'elenco a discesa e selezionare **B2s**, quindi fare clic su **Seleziona** nella parte inferiore della pagina.
+    1. **Nome utente**:  immettere il nome utente desiderato.  Prenderne nota, perché sarà necessario per accedere alla macchina virtuale.
+    1. **Password**:  immettere una password di propria scelta.  Prenderne nota, perché sarà necessario per accedere alla macchina virtuale.
+    1. **Porte in ingresso pubbliche**: si può lasciare l'impostazione predefinita (non importa cosa si seleziona qui perché le impostazioni di rete sovrascriveranno questa impostazione).
+    1. **Licenze**: selezionare **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights** (Confermo di avere una licenza idonea di Windows 10 con diritti di hosting multi-tenant), in modo che nella casella compaia un segno di spunta.
     1. Selezionare **Avanti: Dischi**.
 
-1. Ora ci si trova nella scheda Dischi per la configurazione della macchina virtuale  Lasciare tutte le impostazioni sul valore predefinito, quindi selezionare **Avanti: Rete >**.
+1. Ora ci si trova nella scheda Dischi per la configurazione della macchina virtuale  Lasciare tutte le impostazioni sul valore predefinito, quindi selezionare **Avanti: Rete >** .
 
 1. Ora ci si trova nella scheda Rete per la configurazione della macchina virtuale.  Inserire le seguenti informazioni (per eventuali voci non elencate, lasciare le impostazioni predefinite):
-    1. Gruppo di sicurezza di rete della scheda di interfaccia di rete:  selezionare **Nessuno**.  Nota: selezionando Nessuno si assicura che la scheda di interfaccia di rete non abbia un NSG.  In un passaggio successivo della demo si creerà un NSG e si assegnerà una scheda di interfaccia di rete della VM al NSG creato.
-    1. Poiché altre impostazioni della VM verranno mantenuto al valore predefinito, andare avanti e selezionare Avanti: **Verifica + Crea >**.
+    1. Gruppo di sicurezza di rete della scheda di interfaccia di rete: selezionare **Nessuno**.  Nota: selezionando Nessuno si assicura che la scheda di interfaccia di rete non abbia un NSG.  In un passaggio successivo della demo si creerà un NSG e si assegnerà una scheda di interfaccia di rete della VM al NSG creato.
+    1. Poiché altre impostazioni della VM verranno mantenuto al valore predefinito, andare avanti e selezionare Avanti: **Verifica + crea >** .
 
 1. Rivedere la configurazione della macchina virtuale.  Alcuni punti da notare: Questa VM ha un indirizzo IP pubblico e nessun gruppo di sicurezza di rete della scheda di interfaccia di rete.  Dal punto di vista della sicurezza, in questo modo la macchina virtuale è esposta.  Questo problema verrà affrontato in un'attività successiva. Selezionare **Crea**.  Il completamento della distribuzione della macchina virtuale può richiedere diversi minuti.
 
 1. Notare il nome dell'interfaccia di rete, **sc900-winvmXXX** (XXX sarà specifico dell'interfaccia di rete della macchina virtuale).
 
-1. Una volta completata la distribuzione della VM, selezionare **Vai alla risorsa**.  Ora ci si trova nella pagina SC900-WinVM.  Notare l'indirizzo IP pubblico.
+1. Una volta completata la distribuzione della VM, selezionare **Vai alla risorsa**.  Ora ci si trova nella pagina SC900-WinVM.  Si noti l'indirizzo IP pubblico.
 
 1. Dal riquadro di spostamento sinistro, selezionare **Rete** e notare l'interfaccia di rete **sc900-winvmXXX** (XXX sarà specifico dell'interfaccia di rete della propria macchina virtuale).  Non devono esserci regole in ingresso o in uscita associate all'interfaccia.  
 
@@ -51,13 +56,13 @@ Questa demo illustrerà le funzionalità di un gruppo di sicurezza di rete (NSG)
     1. Dalla parte superiore della pagina, assicurarsi che sia selezionato **RDP** (sottolineato).
     1. Verificare che l'indirizzo IP sia impostato su Indirizzo IP pubblico, lasciare il numero di porta predefinito e selezionare **Scarica file DRP**.
     1. **Aprire** il file scaricato e nella finestra che compare selezionare **Connetti**.
-    1. Si apre una finestra di richiesta di inserimento delle credenziali. Se la finestra predefinita chiede di inserire un PIN, selezionare **Altre opzioni**, quindi selezionare **Usa un altro account**.   Verrà chiesto di inserire le credenziali.  Per il nome utente immettere **AzureUser**.  Per la password immettere **SC900AzureLabs**.
+    1. Si apre una finestra di richiesta di inserimento delle credenziali. Se la finestra predefinita chiede di inserire un PIN, selezionare **Altre opzioni**, quindi selezionare **Usa un altro account**.   Verrà chiesto di inserire le credenziali.  Immettere il nome utente e la password usati al momento della creazione della macchina virtuale.
     1. Si apre una finestra di connessione al Desktop remoto con l'avviso "The identity of the remote computer cannot be verified.  Do you wish to connect anyway?" (Non è possibile verificare l'identità del computer remoto. Connettersi comunque?)  Selezionare **Sì**.
     1. Ora si è connessi alla macchina virtuale di Windows appena creata. Completare la configurazione di Windows. Sebbene sia stata eseguita la connessione alla VM tramite RDP e una porta RDP comunemente usata, questa VM ha tutte le porte aperte e non c'è nulla che filtri il traffico.  Chiudere la connessione al desktop remoto selezionando la **X** in alto al centro della pagina dove viene mostrato l'indirizzo IP.  Una finestra pop-up indicherà "La sessione remota verrà disconnessa". Selezionare **OK**.
 
 1. Ora si torna alla pagina SC900-WinVM del portale di Azure.  Lasciare aperta questa scheda del browser per l'attività successiva.
 
-#### Configurazione pre-demo parte 2
+#### <a name="pre-demo-setup-part-2"></a>Configurazione pre-demo parte 2
 Creare un gruppo di sicurezza di rete ma NON assegnare l'interfaccia di rete della VM a quel NSG.  
 
 1. Aprire la scheda SC900-WinVM – Microsoft Azure nel browser.
@@ -70,12 +75,12 @@ Creare un gruppo di sicurezza di rete ma NON assegnare l'interfaccia di rete del
     1. Sottoscrizione:  Azure Pass – Sponsorizzazione
     1. Gruppo di risorse:  **LabsSC900-RG**
     1. Nome:  **NSG-SC900**
-    1. Area:  lasciare l'impostazione predefinita **(Stati Uniti) Stati Uniti orientali**
+    1. Area: lasciare l'impostazione predefinita **(Stati Uniti) Stati Uniti orientali**
     1. Selezionare **Verifica + Crea**, quindi **Crea**.
 
 1. Al termine della distribuzione, selezionare **Vai alla risorsa** e assicurarsi che tutte le impostazioni siano corrette.  Dovrebbero esserci 3 regole in ingresso predefinite, 3 regole in uscita predefinite e nessuna subnet e nessuna interfaccia associate al NSG.  Tornare alla pagina **Home** del portale di Azure.  
 
-#### Demo
+#### <a name="demo"></a>Demo
 Esaminare le impostazioni per un NSG.  In questo caso si esaminerà un NSG (quello creato nella configurazione precedente) che non è ancora stato assegnato a un'interfaccia della VM. Verrà quindi illustrato il processo di associazione di un'interfaccia al NSG e il processo di creazione di regole in ingresso e in uscita.
 
 1. Aprire la scheda del browser, **Home-Microsoft Azure**.  Se la scheda era stata chiusa in precedenza, aprire una pagina del browser e nella barra degli indirizzi inserire portal.azure.com e accedere di nuovo.
@@ -132,19 +137,19 @@ Esaminare le impostazioni per un NSG.  In questo caso si esaminerà un NSG (quel
     1. Selezionare **Connetti** nel riquadro di spostamento a sinistra.
     1. Verificare che l'indirizzo IP sia impostato su Indirizzo IP pubblico, lasciare il numero di porta predefinito e selezionare **Scarica file DRP**.
     1. **Aprire** il file scaricato e selezionare **Connetti**.
-    1. Verrà chiesto di inserire le credenziali. Per il nome utente immettere **AzureUser**. Per la password immettere **SC900AzureLabs**.  Se la finestra di richiesta di inserimento delle credenziali richiede un PIN, selezionare **Altre opzioni**, quindi selezionare **Usa un altro account**.
+    1. Verrà chiesto di inserire le credenziali. Immettere il nome utente e la password usati al momento della creazione della macchina virtuale.  Se la finestra di richiesta di inserimento delle credenziali richiede un PIN, selezionare **Altre opzioni**, quindi selezionare **Usa un altro account**.
     1. Si apre una finestra di connessione al Desktop remoto con l'avviso "The identity of the remote computer cannot be verified. Do you wish to connect anyway?" (Non è possibile verificare l'identità del computer remoto. Connettersi comunque?) Selezionare **Sì**.
-    1. Si è ora connessi alla VM. Sottolineare allo studente che in questo caso era possibile connettersi alla VM perché la regola del traffico in ingresso creata consentiva il traffico in ingresso alla VM tramite RDP.
+    1. Ora la connessione alla VM è stata stabilita. Sottolineare allo studente che in questo caso è stato possibile connettersi alla macchina virtuale perché la regola del traffico in ingresso creata consente il traffico in ingresso alla macchina virtuale tramite RDP.
 
 1. Ora testare la regola del NSG in uscita
     1. Aprire il browser Edge nella VM.
-    1. Digitare **https://www.bing.com**. La pagina non dovrebbe essere visualizzata. Nota: se si riesce a connettersi a Internet e si è verificata la corretta impostazione di tutti i parametri della regola in uscita, è possibile che ciò avvenga perché la regola impiega alcuni minuti per diventare efficace. Attendere alcuni minuti e riprovare.
+    1. Immettere **https://www.bing.com** . La pagina non dovrebbe essere visualizzata. Nota: se si riesce a connettersi a Internet e si è verificata la corretta impostazione di tutti i parametri della regola in uscita, è possibile che ciò avvenga perché la regola impiega alcuni minuti per diventare efficace. Attendere alcuni minuti e riprovare.
 
-1. Chiudere la connessione al desktop remoto selezionando la **X** in alto al centro della pagina dove viene mostrato l'indirizzo IP. Una finestra pop-up indicherà "La sessione remota verrà disconnessa". Selezionare **Ok**.
+1. Chiudere la connessione al desktop remoto selezionando la **X** in alto al centro della pagina dove viene mostrato l'indirizzo IP. Una finestra pop-up indicherà "La sessione remota verrà disconnessa". Selezionare **OK**.
 
 1. Tornare alla Home page del portale Azure selezionando **Microsoft Azure** sulla barra blu sulla parte superiore della pagina.
 
-#### Eliminazione
+#### <a name="tear-down"></a>Eliminazione
 **IMPORTANTE**: In questa attività si eliminerà il gruppo di risorse e tutte le risorse in esso contenute.   Questo è importante per evitare altri addebiti.
 
 1. Aprire la scheda SC900-WinVM – Microsoft Azure nel browser.
@@ -161,6 +166,6 @@ Esaminare le impostazioni per un NSG.  In questo caso si esaminerà un NSG (quel
 
 1. L'eliminazione di tutte le risorse e del gruppo di risorse può richiedere alcuni minuti.
 
-#### Verifica
+#### <a name="review"></a>Verifica
 
 Questa demo ha illustrato le informazioni e le impostazioni associate a un NSG, incluso il processo di associazione di un'interfaccia al NSG, ha illustrato e regole in ingresso e in uscita predefinite e infine i passaggi per creare una nuova regola.
