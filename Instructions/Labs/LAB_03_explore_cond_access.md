@@ -1,24 +1,28 @@
 ---
 lab:
-    title: 'Esplorazione della gestione degli accessi in Azure AD con accesso condizionale'
-    module: 'Modulo 2. Lezione 3. Descrizione delle funzionalità delle soluzioni Microsoft per la gestione delle identità e degli accessi: esplorazione delle funzionalità di gestione degli accessi di Azure AD'
+  title: Esplorazione della gestione degli accessi in Azure AD con accesso condizionale
+  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
+ms.openlocfilehash: 14cd1839bb4f8b883592cc000e4bded63b8e1002
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894003"
 ---
+# <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Laboratorio: Esplorazione della gestione degli accessi in Azure AD con accesso condizionale
 
-
-# Lab: Esplorazione della gestione degli accessi in Azure AD con accesso condizionale
-
-## Scenario del lab
+## <a name="lab-scenario"></a>Scenario del lab
 In questo lab, si esplorerà l'autenticazione a più fattori (MFA) degli accessi condizionali dal punto di vista di un amministratore e di un utente.  In qualità di amministratore, si creerà un criterio che richiederà a un utente di eseguire l'autenticazione a più fattori durante l'accesso a un'applicazione di gestione di Microsoft Azure basata su cloud.  Dal punto di vista di un utente, si vedrà l'impatto dei criteri di accesso condizionale, compreso il processo per la registrazione all'autenticazione a più fattori.
 
 **Tempo stimato**: 10-15 minuti
 
-#### Attività 1. In questa attività, in qualità di amministratore, si reimposterà la password per l'utente Debra Berger.  Questo passaggio è necessario in modo da poter effettuare l'accesso iniziale come utente nelle attività successive.
+#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-debra-berger--this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>Attività 1: In questa attività, in qualità di amministratore, si reimposterà la password per l'utente Debra Berger.  Questo passaggio è necessario in modo da poter effettuare l'accesso iniziale come utente nelle attività successive.
 
 1. Aprire Microsoft Edge.  Nella barra degli indirizzi immettere **portal.azure.com**.
 
 2. Accedere con le credenziali di amministratore.
-    1. Nella finestra di accesso, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab), quindi selezionare **Avanti**.
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
+    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.
 
 3. Selezionare **Azure Active Directory**.  
@@ -38,7 +42,7 @@ In questo lab, si esplorerà l'autenticazione a più fattori (MFA) degli accessi
 10. Tenere aperta questa finestra.
 
 
-#### Attività 2.  In questa attività, si seguirà il processo di creazione di criteri di accesso condizionale in Azure AD.
+#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-creating-a-conditional-access-policy-in-azure-ad"></a>Attività 2:  In questa attività, si seguirà il processo di creazione di criteri di accesso condizionale in Azure AD.
 
 1. Aprire la scheda del browser chiamata Contoso - Microsoft Azure.   Se la scheda del browser era stata chiusa in precedenza, aprire Microsoft Edge e, nella barra degli indirizzi, immettere portal.azure.com e accedere con le proprie credenziali di amministratore, quindi selezionare Azure Active Directory.  
 
@@ -46,7 +50,7 @@ In questo lab, si esplorerà l'autenticazione a più fattori (MFA) degli accessi
 
 3. Dal riquadro di spostamento sinistro, selezionare **Accesso condizionale**.
 
-4. Compare la schermata Criteri di accesso condizionale. Qualsiasi criterio di accesso condizionale esistente è elencato qui. Selezionare **Nuovi criteri**.
+4. Compare la schermata Criteri di accesso condizionale. Qualsiasi criterio di accesso condizionale esistente è elencato qui. Selezionare **Nuovo criterio**.
 
 5. Nel campo Nome, immettere **MFA Test Policy** (Criteri MFA di test).
 
@@ -76,25 +80,25 @@ In questo lab, si esplorerà l'autenticazione a più fattori (MFA) degli accessi
 
 18. Disconnettersi da Azure e chiudere le finestre del browser.
 
-#### Attività 3. In questa attività, si vedrà l'impatto dei criteri di accesso condizionale dal punto di vista dell'utente Debra Berger. Si inizierà effettuando l'accesso a un'applicazione non inclusa nei criteri di accesso condizionale.  Quindi, si ripeterà il processo per un'applicazione inclusa nei criteri di accesso condizionale.  È opportuno ricordare che i criteri richiedono che l'utente effettui l'autenticazione a più fattori al momento dell'accesso a una applicazione di gestione di Microsoft Azure.  Per utilizzare la MFA, l'utente deve innanzitutto registrare il metodo di autenticazione che verrà utilizzato per la MFA, ad esempio un codice inviato a un dispositivo mobile o un'app di autenticazione.
+#### <a name="task-3-in-this-task-you-will-see-the-impact-of-the-conditional-access-policy-from-the-perspective-of-the-user-debra-berger-you-will-start-first-by-signing-in-to-an-application-that-is-not-included-in-the-conditional-access-policy--then-you-will-repeat-the-process-for-an-application-that-is-included-in-the-conditional-access-policy--recall-that-the-policy-requires-the-user-to-go-through-mfa-when-accessing-a-microsoft-azure-management-application--to-use-mfa-the-user-must-first-register-the-authentication-method-that-will-be-used-for-mfa-for-example-a-code-sent-to-a-mobile-device-or-an-authenticator-application"></a>Attività 3: In questa attività, si vedrà l'impatto dei criteri di accesso condizionale dal punto di vista dell'utente Debra Berger. Si inizierà effettuando l'accesso a un'applicazione non inclusa nei criteri di accesso condizionale.  Quindi, si ripeterà il processo per un'applicazione inclusa nei criteri di accesso condizionale.  È opportuno ricordare che i criteri richiedono che l'utente effettui l'autenticazione a più fattori al momento dell'accesso a una applicazione di gestione di Microsoft Azure.  Per utilizzare la MFA, l'utente deve innanzitutto registrare il metodo di autenticazione che verrà utilizzato per la MFA, ad esempio un codice inviato a un dispositivo mobile o un'app di autenticazione.
 
-1. Aprire Microsoft Edge.  Nella barra degli indirizzi del browser, immettere **https://login.microsoftonline.com/**.
+1. Aprire Microsoft Edge.  Nella barra degli indirizzi del browser immettere **https://login.microsoftonline.com/** .
 
 1. Accedere come Debra Burger.
-    1. Nella finestra di accesso, immettere **DebraB@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab), quindi selezionare **Avanti**.
-    1. Immettere la password annotata nell'attività precedente. Selezionare **Accedi**.
-    1. Poiché la password fornita quando, in qualità di amministratore, è stata reimpostata è temporanea, sarà necessario aggiornare la password (questo non fa parte della MFA).  Immettere la password corrente, quindi per i campi Nuova password e Conferma password immettere **SC900-Lab**. 
+    1. Nella finestra Accedi immettere **DebraB@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Immettere la password annotata nell'attività precedente. Fare clic su **Accedi**.
+    1. Poiché la password fornita quando, in qualità di amministratore, è stata reimpostata è temporanea, sarà necessario aggiornare la password (questo non fa parte della MFA).  Immettere la password corrente, quindi per i campi Nuova password e Conferma password immettere **SC900-Lab**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**
 
 1. Dovrebbe essere stato effettuato correttamente l'accesso al proprio account di Microsoft 365.  La MFA non era richiesta per questa applicazione poiché non fa parte dei criteri.
 
-1. Ora si proverà a effettuare l'accesso a un'applicazione che soddisfa i criteri per la MFA.  Aprire Microsoft Edge e, nella barra degli indirizzi, immettere https://portal.azure.com.
+1. Ora si proverà a effettuare l'accesso a un'applicazione che soddisfa i criteri per la MFA.  Aprire Microsoft Edge e nella barra degli indirizzi immettere https://portal.azure.com.
 
 1. Verrà visualizzata una finestra che indica Sono necessarie altre informazioni.  Selezionare **Avanti**.  Notare che in questo modo si avvierà il processo di registrazione MFA, poiché si tratta del primo accesso all'app cloud identificato nei criteri di accesso condizionale.  Questo processo di registrazione è richiesto una sola volta.   Un'alternativa all'esecuzione del processo di registrazione da parte dell'utente prevede che sia l'amministratore a configurare il metodo di autenticazione da utilizzare.
 
 1. Nella finestra Proteggi l'account, è possibile selezionare il metodo da utilizzare per la MFA.  Microsoft Authenticator è un'opzione. Per comodità, in questo esercizio del lab si selezionerà un metodo diverso.  Selezionare **Si vuole configurare un metodo diverso**.  Dalla finestra popup Scegliere un metodo diverso, selezionare **la freccia a discesa**, quindi **Telefono** e infine **Conferma**.
 
-1. Nella finestra che si apre, assicurarsi che sia selezionato il proprio paese, quindi immettere il numero di telefono cellulare da utilizzare, verificare che sia selezionato **Invia un SMS**, quindi premere **Avanti**.  Nella schermata comparirà "Verificato tramite SMS. Il telefono è stato registrato".  Selezionare **Avanti**, quindi **Fatto**.  In questo modo si completa il processo di registrazione da effettuare una sola volta.
+1. Nella finestra che si apre, assicurarsi che sia selezionato il proprio paese, quindi immettere il numero di telefono cellulare da utilizzare, verificare che sia selezionato **Invia un SMS**, quindi premere **Avanti**.  Nella schermata comparirà "Verificato tramite SMS. Il telefono è stato registrato".  Selezionare **Avanti**. Selezionare quindi **Fine**.  In questo modo si completa il processo di registrazione da effettuare una sola volta.
 
 1. Probabilmente verrà visualizzato un messaggio il quale indica che l'accesso è scaduto.  Immettere solamente la password **SC900-Lab** e selezionare **Accedi**.
 
@@ -106,5 +110,5 @@ In questo lab, si esplorerà l'autenticazione a più fattori (MFA) degli accessi
 
 1. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata, quindi Disconnetti. Quindi, chiudere tutte le finestre del browser.
 
-#### Verifica
+#### <a name="review"></a>Verifica
 In questo lab, si è seguito il processo di configurazione dei criteri di accesso condizionale, che richiede che gli utenti effettuino la MFA quando accedono all'applicazione cloud di gestione di Microsoft Azure.  Quindi, in qualità di utente, si è seguito il processo di registrazione per la MFA e si è visto l'impatto dei criteri di accesso condizionale che richiedono l'utilizzo della MFA quando si accede al portale di Azure.

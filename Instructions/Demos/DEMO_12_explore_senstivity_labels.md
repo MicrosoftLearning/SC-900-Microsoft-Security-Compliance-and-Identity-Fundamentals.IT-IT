@@ -1,23 +1,27 @@
 ---
 Demo:
-    title: 'Etichette di riservatezza in Microsoft 365'
-    module: 'Modulo 4. Lezione 2. Descrizione delle funzionalità delle soluzioni di conformità Microsoft: descrizione delle funzionalità di protezione e governance delle informazioni in Microsoft 365'
+  title: Etichette di riservatezza in Microsoft 365
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894074"
 ---
+# <a name="demo-sensitivity-labels-in-microsoft-365"></a>Dimostrazione: Etichette di riservatezza in Microsoft 365
 
-
-# Demo: Etichette di riservatezza in Microsoft 365
-
-### Scenario demo
+### <a name="demo-scenario"></a>Scenario demo
 Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno esaminate le impostazioni per le etichette di riservatezza esistenti che sono state create e il criterio corrispondente per pubblicare l'etichetta.   Quindi verrà illustrato come applicare un'etichetta e l'impatto della stessa dal punto di vista dell'utente.
 
 
-#### Demo Parte 1: Questa demo illustrerà le impostazioni per un'etichetta di riservatezza esistente e il criterio corrispondente per pubblicare l'etichetta.
+#### <a name="demo-part-1-in-this-demo-you-show-the-settings-for-an-existing-sensitivity-label-and-the-corresponding-policy-to-publish-the-label"></a>Demo Parte 1: Questa demo illustrerà le impostazioni per un'etichetta di riservatezza esistente e il criterio corrispondente per pubblicare l'etichetta.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
 
 1. Accedere con le credenziali di amministratore.
-    1. Nella finestra di accesso, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab) quindi selezionare **Avanti**.
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
+    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**. In questo modo si accede alla pagina dell'interfaccia di amministrazione di Microsoft 365.
 
 1. Dal riquadro di spostamento sinistro dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
@@ -71,9 +75,9 @@ Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno e
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
 
-#### Demo Parte 2:  Questo passaggio illustrerà il processo di applicazione di un'etichetta dalla prospettiva dell'utente (in questo caso l'utente è l'amministratore) e verrà mostrato il contrassegno dei contenuti che viene generato dall'etichetta.
+#### <a name="demo-part-2--in-this-step-you-will-show-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>Demo parte 2:  Questo passaggio illustrerà il processo di applicazione di un'etichetta dalla prospettiva dell'utente (in questo caso l'utente è l'amministratore) e verrà mostrato il contrassegno dei contenuti che viene generato dall'etichetta.
 
-1. Dalla home page del Centro conformità Microsoft 365, selezionare l'**icona di avvio delle app**, accanto a Contoso Electronics. Fare **clic con il tasto destro sull'icona di Word** e selezionare **Apri in una nuova scheda**.  
+1. Nella home page del Centro conformità Microsoft 365 selezionare l'**icona di avvio dell'app** accanto a Contoso Electronics. **Fare clic con il pulsante destro del mouse sull'icona di Word** e scegliere **Apri in una nuova scheda**.  
 
 1. Selezionare **+ Nuovo documento vuoto**, quindi immettere il testo nella pagina.  Sulla barra blu nella parte superiore della pagina, selezionare la freccia verso il basso, accanto a DocumentoXX - Salvato, e nella casella Nome file immettere **Etichetta di test**.
 
@@ -85,9 +89,9 @@ Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno e
 
 1. Chiudere le schede di Microsoft Word aperte sul browser per uscire da Word.
 
-#### Demo Parte 3 (opzionale): Oltre al contrassegno dei contenuti, l'impostazione della protezione dell'etichetta è stata impostata per la crittografia. Secondo i permessi che sono stati configurati con questa etichetta, i membri del gruppo finanziario possono ave autorizzazioni di co-autore per i documenti con questa etichetta applicata e gli utenti del tenant Contoso possono visualizzare (o qualsiasi documento/e-mail con l'etichetta applicata).  In questa sezione verrà inviato questo documento a un indirizzo e-mail a cui si ha avete accesso (cioè, un indirizzo e-mail personale o la propria e-mail Microsoft) e che NON fa parte del dominio WWLxZZZZ.OnMicrosoft.com e si scoprirà cosa succede quando si prova ad aprire l'allegato.  
+#### <a name="demo-part-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view-or-any-documentemail-with-the-label-applied--in-this-section-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-or-your-microsoft-email-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>Demo Parte 3 (opzionale): Oltre al contrassegno dei contenuti, l'impostazione della protezione dell'etichetta è stata impostata per la crittografia. Secondo i permessi che sono stati configurati con questa etichetta, i membri del gruppo finanziario possono ave autorizzazioni di co-autore per i documenti con questa etichetta applicata e gli utenti del tenant Contoso possono visualizzare (o qualsiasi documento/e-mail con l'etichetta applicata).  In questa sezione verrà inviato questo documento a un indirizzo e-mail a cui si ha avete accesso (cioè, un indirizzo e-mail personale o la propria e-mail Microsoft) e che NON fa parte del dominio WWLxZZZZ.OnMicrosoft.com e si scoprirà cosa succede quando si prova ad aprire l'allegato.  
 
-1. Dalla home page del Centro conformità Microsoft 365, selezionare l'**icona di avvio delle app**, accanto a Contoso Electronics. Fare **clic con il tasto destro sull'icona di Outlook** e selezionare **Apri in una nuova scheda**.
+1. Nella home page del Centro conformità Microsoft 365 selezionare l'**icona di avvio dell'app** accanto a Contoso Electronics. **Fare clic con il pulsante destro del mouse sull'icona di Outlook** e scegliere **Apri in una nuova scheda**.
 
 1. Selezionare **Nuovo messaggio** dall'angolo in alto a sinistra dello schermo.  Inserire un indirizzo e-mail a cui si ha accesso e che non fa parte del dominio WWLxZZZZ.OnMicrosoft.com e immettere **Test** nell'oggetto.
 
@@ -95,12 +99,12 @@ Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno e
 
 1. Selezionare **Cerca nei percorsi sul cloud**.
 
-1. Dall'elenco che appare, selezionare il documento creato e al quale è stata applicata l'etichetta **Etichetta di test**. Selezionare **Avanti** e selezionare **Allega come copia**.  Premere **Invia**.
+1. Dall'elenco che appare, selezionare il documento creato e al quale è stata applicata l'etichetta **Etichetta di test**. Selezionare **Avanti** e selezionare **Allega come copia**.  Fare clic su **Invia**.
 
 1. Controllare l'e-mail a cui è stato inviato il documento.  L'e-mail potrebbe essere finita nella cartella della posta indesiderata.  Quando si tenta di aprire il file Word allegato comparirà una notifica che informa l'utente che non ha il permesso di aprire il documento.
 
 1. Chiudere le schede del browser aperte.
 
 
-#### Verifica
+#### <a name="review"></a>Verifica
 Questa demo ha mostrato le capacità delle etichette di riservatezza.  Sono state esaminate le impostazioni per le etichette di riservatezza esistenti che erano già state create e il criterio corrispondente per pubblicare l'etichetta. Quindi è stato illustrato come applicare un'etichetta e l'impatto della stessa dal punto di vista dell'utente.

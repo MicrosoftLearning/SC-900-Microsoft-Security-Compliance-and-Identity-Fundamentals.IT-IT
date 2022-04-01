@@ -1,16 +1,20 @@
 ---
 Demo:
-    title: 'Il portale Microsoft 365 Defender'
-    module: 'Modulo 3. Lezione 5. Descrizione delle funzionalità delle soluzioni di sicurezza Microsoft: descrizione delle funzionalità di gestione della sicurezza di Microsoft 365'
+  title: Il portale Microsoft 365 Defender
+  module: 'Module 3 Lesson 5: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Microsoft 365'
+ms.openlocfilehash: 48d70c8773c76e590a6e18ae6173f7240dca2b79
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894090"
 ---
+# <a name="demo-the-microsoft-365-defender-portal"></a>Dimostrazione: Il portale Microsoft 365 Defender
 
-
-# Demo: Il portale Microsoft 365 Defender
-
-### Scenario demo
+### <a name="demo-scenario"></a>Scenario demo
 Questa demo illustrerà il portale Microsoft 365 Defender esaminando i contenuti visualizzati sulla pagina di destinazione. Verranno inoltre esaminate le opzioni del riquadro di spostamento che consentono un accesso rapido alle funzionalità che fanno parte della soluzione di rilevamento e risposta estesi (XDR) di Microsoft: Microsoft Defender per endpoint e Microsoft Defender per Office 365 (e-mail e collaborazione).  Infine, mostrerà anche come Microsoft Secure Score può aiutare un'organizzazione a migliorare la sua posizione di sicurezza.
 
-#### Demo Parte 1:  Esplorazione della pagina di destinazione di Microsoft 365 Defender
+#### <a name="demo-part-1--explore-the-microsoft-365-defender-landing-page"></a>Demo Parte 1:  Esplorazione della pagina di destinazione di Microsoft 365 Defender
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.  Occorre aver già eseguito l'accesso come amministratore.  In caso contrario, accedere con le credenziali di amministratore.
 
@@ -32,11 +36,11 @@ Questa demo illustrerà il portale Microsoft 365 Defender esaminando i contenuti
 
 1. Selezionando il titolo di una scheda si accede a informazioni aggiuntive per quell'argomento. Questo passaggio sarà approfondito nell'attività successiva.  Tenere aperta la finestra del browser.
 
-#### Demo Parte 2: Questa parte della demo mostrerà come Microsoft Secure Score può aiutare un'organizzazione a migliorare la sua posizione di sicurezza.
+#### <a name="demo-part-2-in-this-part-of-the-demo-you-will-show-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Demo parte 2: Questa parte della demo mostrerà come Microsoft Secure Score può aiutare un'organizzazione a migliorare la sua posizione di sicurezza.
 
 1. Dalla pagina di benvenuto del portale Microsoft 365 Defender, selezionare **Microsoft Secure Score**, dalla barra del titolo della scheda (il testo diventerà blu).  In alternativa, è possibile selezionare **Secure Score** dal riquadro di spostamento sinistro.
 
-1. La pagina Microsoft Secure Score si apre sulla scheda Panoramica.  Microsoft Secure Score è una misura del profilo di sicurezza di un'organizzazione. Il punteggio di sicurezza dell'organizzazione è mostrato come percentuale, insieme al numero di punti raggiunti sul totale dei punti possibili e suddiviso per categoria. Selezionare **Includi** accanto a dove è visualizzato il punteggio di sicurezza. È possibile scegliere di includere nella visualizzazione del proprio punteggio il punteggio realizzabile, il punteggio pianificato e il punteggio di licenza corrente.
+1. La pagina Microsoft Secure Score si apre sulla scheda Panoramica.  Microsoft Secure Score è una misura del profilo di sicurezza di un'organizzazione. Il punteggio di sicurezza dell'organizzazione è mostrato come percentuale, insieme al numero di punti raggiunti sul totale dei punti possibili e suddiviso per categoria. Selezionare **Includi** accanto alla posizione in cui è indicato Il punteggio di sicurezza. Per la visualizzazione del punteggio, è possibile scegliere di includere il punteggio realizzabile, il punteggio pianificato e il punteggio della licenza corrente.
 
 1. La pagina panoramica include anche le azioni di miglioramento più importanti, il punteggio di confronto, la cronologia e le risorse aggiuntive.
 
@@ -52,6 +56,6 @@ Questa demo illustrerà il portale Microsoft 365 Defender esaminando i contenuti
 
 1. Chiudere la pagina del browser.
 
-#### Verifica
+#### <a name="review"></a>Verifica
 
 Questa demo ha illustrato il portale Microsoft 365 Defender esaminando i contenuti visualizzati sulla pagina di destinazione, ha illustrato le opzioni del riquadro di spostamento che offrono un accesso rapido alle funzionalità che fanno parte della soluzione di rilevamento e risposta estesi (XDR) di Microsoft, Microsoft Defender per endpoint e Microsoft Defender per Office 365 (e-mail e collaborazione).  Infine, ha illustrato come Microsoft Secure Score può aiutare un'organizzazione a migliorare la sua posizione di sicurezza.

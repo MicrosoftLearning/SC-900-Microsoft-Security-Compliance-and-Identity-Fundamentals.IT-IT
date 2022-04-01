@@ -1,37 +1,41 @@
 ---
 lab:
-    title: 'Esplorazione dei Criteri di Azure'
-    module: 'Modulo 4. Lezione 5. Descrizione delle funzionalità delle soluzioni di conformità Microsoft: descrizione dei criteri di Azure'
+  title: Esplorare Criteri di Azure
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893937"
 ---
+# <a name="lab-explore-azure-policy"></a>Laboratorio: Esplorare Criteri di Azure
 
-
-# Lab: Esplorazione dei Criteri di Azure
-
-## Scenario del lab
-Criteri di Azure consente di applicare gli standard dell'organizzazione e di valutare la conformità su larga scala. Criteri di Azure valuta le risorse in Azure confrontando le proprietà di quelle risorse con le business rules. In questo lab, lo studente inizierà esplorando la pagina di destinazione Criteri di Azure. Dopo aver esplorato la pagina Criteri di Azure, lo studente creerà un criterio ed esaminerà gli effetti del criterio creato.
+## <a name="lab-scenario"></a>Scenario del lab
+Criteri di Azure è un servizio che consente di applicare gli standard aziendali e di valutare la conformità su larga scala. Criteri di Azure valuta le risorse in Azure confrontando le proprietà di tali risorse con le regole business. In questo lab, lo studente inizierà esplorando la pagina di destinazione Criteri di Azure. Dopo aver esplorato la pagina Criteri di Azure, lo studente creerà un criterio ed esaminerà gli effetti del criterio creato.
 
 
 **Tempo stimato**: 20-25 minuti
 
-#### Attività 1. Esplorare brevemente la pagina Criteri di Azure.
+#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>Attività 1: Esplorare brevemente la pagina Criteri di Azure.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.microsoft.com**.
 
 1. Accedere con le credenziali di amministratore.
-    1. Nella finestra di accesso, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab), quindi selezionare **Avanti**.
+    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.
 
 1. Ora ci si trova nel portale di Azure.  Nella casella di ricerca, nella barra blu nella parte superiore della pagina accanto a Microsoft Azure, inserire **criteri**, quindi selezionare **Criteri** dai risultati della ricerca. Viene aperta la home page Criteri che fornisce una vista del dashboard.  L'ambito nel quale vengono visualizzate le informazioni è determinato dall'Azure Pass che si sta utilizzando, come parte di questo lab.   Notare le informazioni disponibili nel dashboard.
 
-1. È presente la voce ASC Default (ASC sta per Centro sicurezza di Azure, ora denominato Microsoft Defender for Cloud) con ambito Azure Pass – Sponsorizzazione.   Selezionare **ASC Default**.
+1. È presente un elemento, denominato ASC Default (ASC è l'acronimo di Azure Security Center, ovvero Centro sicurezza di Azure ora denominato Microsoft Defender per il cloud) il cui ambito è Azure Pass - Sponsorship.   Selezionare **ASC Default**.
 
-1. In alto sulla pagina, sotto Essentials, si possono vedere nome, descrizione e altre informazioni essenziali.  Leggere la descrizione (far scorrere il mouse sopra la descrizione). NOTA: il campo della descrizione fa riferimento al Centro sicurezza di Azure, rinominato Microsoft Defender for Cloud.
+1. In alto sulla pagina, sotto Essentials, si possono vedere nome, descrizione e altre informazioni essenziali.  Leggere la descrizione (far scorrere il mouse sopra la descrizione). NOTA: il campo della descrizione fa riferimento a Centro sicurezza di Azure che è stato ridenominato Microsoft Defender per il cloud.
 
 1. Notare che le informazioni fornite dal dashboard vengono aggiornate per riflettere l'elemento selezionato, la definizione dell'iniziativa ASC Default.  Si ricordi che la definizione di un'iniziativa è una raccolta di definizioni di criteri che mirano a raggiungere un singolo obiettivo generale. Le informazioni possono essere visualizzate per gruppi, criteri, risorse non conformi o eventi.
 
-1. Uscire dalla pagina ASC e tornare alla home page dei criteri selezionando la **X** nell'angolo in alto a destra della finestra.
+1. Uscire dalla pagina ASC e tornare alla home page dei criteri selezionando **X** nell'angolo in alto a destra della finestra.
 
 1. Dal riquadro di spostamento sinistro, selezionare **Attività iniziali**.  Vengono visualizzare le varie opzioni disponibili, inclusa l'opzione per sfogliare i criteri integrati e assegnare i criteri su larga scala, e si possono creare definizioni di criteri personalizzate per il proprio ambiente, consigliare assegnazioni di criteri e molto altro ancora.
 
@@ -49,7 +53,7 @@ Criteri di Azure consente di applicare gli standard dell'organizzazione e di val
 
 1. Mantenere aperta questa scheda del browser (Criteri – Microsoft Azure) per la prossima attività.
 
-#### Attività 2.  In questa attività verrà creata un'assegnazione di criteri base per richiedere un tag sui gruppi di risorse.
+#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>Attività 2:  In questa attività verrà creata un'assegnazione di criteri base per richiedere un tag sui gruppi di risorse.
 
 1. Nel browser, aprire la scheda Criteri – Microsoft Azure.
 
@@ -75,7 +79,7 @@ Criteri di Azure consente di applicare gli standard dell'organizzazione e di val
 
 1. Ora ci si trova nella home page dei servizi di Azure.  Tenere questa pagina aperta, servirà per l'attività successiva.
 
-#### Attività 3.  In questa attività si vedrà l'effetto dell'assegnazione dei criteri di Azure, tramite la creazione in Azure di un gruppo di risorse privo di un tag, quindi il gruppo di risorse verrà aggiornato per includere un tag.  Nota: L'applicazione del criterio creato durante la precedente attività potrebbe richiedere fino a 30 minuti, ma in genere l'applicazione avviene più rapidamente.
+#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>Attività 3:  In questa attività si vedrà l'effetto dell'assegnazione dei criteri di Azure, tramite la creazione in Azure di un gruppo di risorse privo di un tag, quindi il gruppo di risorse verrà aggiornato per includere un tag.  Nota: L'applicazione del criterio creato durante la precedente attività potrebbe richiedere fino a 30 minuti, ma in genere l'applicazione avviene più rapidamente.
 
 1. Nel browser, aprire la scheda Home – Microsoft Azure.
 
@@ -87,7 +91,7 @@ Criteri di Azure consente di applicare gli standard dell'organizzazione e di val
 
 1. Nel campo Gruppo di risorse immettere **SC900-Labs**.
 
-1. Lasciare l'impostazione Area geografica sul valore predefinito, quindi selezionare **Avanti: Tag**.
+1. Lasciare l'impostazione Area geografica sul valore predefinito e quindi selezionare **Avanti: Tag**.
 
 1. Lasciare vuoto il campo Nome e Valore del tag.  NON POPOLARE, quindi selezionare **Verifica + Crea**.
 
@@ -95,11 +99,11 @@ Criteri di Azure consente di applicare gli standard dell'organizzazione e di val
 
 1. Comparirà un messaggio di errore nella parte superiore dello schermo, "Non è stato possibile creare il gruppo di risorse. Visualizza i dettagli dell'errore".  Selezionare **Visualizza dettagli errore**. La condizione che fa parte dei criteri di Azure non è stata soddisfatta, quindi la creazione del gruppo di risorse è stata bloccata per non conformità. Nota: se non viene visualizzato il messaggio di errore e il gruppo di risorse viene creato, significa che l'applicazione del criterio non è ancora avvenuta.  Accedere alla pagina dei criteri per il criterio creato nell'attività precedente e una volta che il criterio ha effetto si vedrà che la risorsa non è conforme.  La pagina dei dettagli includerà il messaggio di non conformità.
 
-1. Il riepilogo dell'errore mostra il seguente tipo di errore, “La risorsa ‘SC900-Labs' non è consentita dai criteri.  Chiudere questa finestra selezionando la **X** nell'angolo in alto a sinistra dello schermo.
+1. Il riepilogo dell'errore mostra il seguente tipo di errore, "La risorsa 'SC900-Labs' non è consentita dal criterio".  Chiudere questa finestra selezionando la **X** nell'angolo in alto a sinistra dello schermo.
 
 1. Dalla finestra Crea un gruppo di risorse selezionare **<Precedente**.
 
-1. Si ritorna alla pagina Tag per la creazione di un gruppo di risorse.  Nel campo Nome immettere Ambiente e nel campo Valore immettere **SC900-Labs**, quindi selezionare **Avanti: Verifica + Crea >**.
+1. Si ritorna alla pagina Tag per la creazione di un gruppo di risorse.  Nel campo Nome immettere Ambiente e nel campo Valore immettere **SC900-Labs**, quindi selezionare **Avanti: Rivedi e crea >** .
 
 1. Verificare il tag e selezionare **Crea**.
 
@@ -113,6 +117,6 @@ Criteri di Azure consente di applicare gli standard dell'organizzazione e di val
     1. Verrà richiesto di confermare che si desidera eliminare l'assegnazione.  Selezionare Sì.
 
 
-#### Verifica
+#### <a name="review"></a>Verifica
 
 In questo lab, lo studente ha esplorato la pagina di destinazione Criteri di Azure. Dopo aver esplorato la pagina Criteri di Azure, lo studente ha eseguito la procedura per creare un criterio e ha potuto vedere gli effetti del criterio creato.

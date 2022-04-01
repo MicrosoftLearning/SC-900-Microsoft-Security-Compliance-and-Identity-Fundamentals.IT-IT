@@ -1,26 +1,30 @@
 ---
 lab:
-    title: 'Esplorazione delle etichette di riservatezza in Microsoft 365'
-    module: 'Modulo 4. Lezione 2. Descrizione delle funzionalità delle soluzioni di conformità Microsoft: descrizione delle funzionalità di protezione e governance delle informazioni in Microsoft 365'
+  title: Esplorazione delle etichette di riservatezza in Microsoft 365
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: f2d18ddf6554ce7c3b1d9c328333512782289a0a
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893929"
 ---
+# <a name="lab-explore-sensitivity-labels-in-microsoft-365"></a>Laboratorio: Esplorazione delle etichette di riservatezza in Microsoft 365
 
-
-# Lab: Esplorazione delle etichette di riservatezza in Microsoft 365
-
-## Scenario del lab
+## <a name="lab-scenario"></a>Scenario del lab
 In questo lab verranno esplorate le funzionalità delle etichette di riservatezza.  Verranno esaminate le impostazioni per le etichette di riservatezza esistenti che sono state create e il criterio corrispondente per pubblicare l'etichetta.   Quindi verrà illustrato come applicare un'etichetta e l'impatto della stessa dal punto di vista dell'utente.
 
 
 **Tempo stimato**: 20-25 minuti
 
-#### Attività 1. In questa attività si comprenderanno le funzioni delle etichette di riservatezza esaminando le impostazioni di un'etichetta di riservatezza esistente che è stata creata e il criterio corrispondente per pubblicare l'etichetta.
+#### <a name="task-1-in-this-task-you-will-gain-an-understanding-of-what-sensitivity-labels-can-do-by-going-through-the-settings-for-an-existing-sensitivity-label-that-have-been-created-and-the-corresponding-policy-to-publish-the-label"></a>Attività 1: In questa attività si comprenderanno le funzioni delle etichette di riservatezza esaminando le impostazioni di un'etichetta di riservatezza esistente che è stata creata e il criterio corrispondente per pubblicare l'etichetta.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
 
 1. Accedere con le credenziali di amministratore.
-    1. Nella finestra di accesso, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab), quindi selezionare **Avanti**.
+    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**. In questo modo si accede alla pagina dell'interfaccia di amministrazione di Microsoft 365.
 
 1. Dal riquadro di spostamento sinistro dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
@@ -31,10 +35,10 @@ In questo lab verranno esplorate le funzionalità delle etichette di riservatezz
 
 1. Selezionare la scheda **Etichette** nella parte superiore della pagina.
 
-1. Viene visualizzato un riquadro delle informazioni giallo che indica "L'organizzazione non ha attivato la possibilità di elaborare contenuti nei file di Office online con etichette di riservatezza crittografate applicate e archiviati in SharePoint o OneDrive."  Selezionare Abilita ora.  Al termine, potrebbe esserci un ritardo nella propagazione delle impostazioni nel sistema.
+1. Viene visualizzata una casella di informazioni gialla che indica che l'organizzazione non ha attivato la possibilità di elaborare il contenuto nei file online di Office con etichette di riservatezza crittografate applicate e archiviate in OneDrive e SharePoint.  Selezionare Abilita ora.  Al termine, potrebbe esserci un ritardo nella propagazione delle impostazioni nel sistema.
 
 
-1. Al centro della pagina notare che sono presenti etichette già create.  Selezionare **Riservato - Finanza**.  Si apre una finestra contenente informazioni su questa etichetta.  Questa etichetta è impostata per supportare sia la crittografia che il contrassegno dei contenuti.  Selezionare Modifica etichetta nella parte superiore della pagina per visualizzare alcune delle impostazioni di configurazione di base.
+1. Al centro della pagina sono presenti etichette già create.  Selezionare **Riservato - Finanza**.  Si apre una finestra contenente informazioni su questa etichetta.  Questa etichetta è impostata per supportare sia la crittografia che il contrassegno dei contenuti.  Selezionare Modifica etichetta nella parte superiore della pagina per visualizzare alcune delle impostazioni di configurazione di base.
 
 1. La configurazione inizia fornendo un nome e una descrizione per l'etichetta.  Non modificare nulla.  Selezionare **Avanti** nella parte inferiore della pagina.
 
@@ -44,7 +48,7 @@ In questo lab verranno esplorate le funzionalità delle etichette di riservatezz
 
 1. La finestra Crittografia mostra la configurazione per le impostazioni di crittografia.  Non modificare nulla.  Esaminare la casella delle informazioni sotto Configura impostazioni di crittografia ed esaminare le impostazioni configurate. Notare che la modalità con cui l'utente accede ai contenuti è impostata per non scadere mai.  È anche possibile assegnare autorizzazioni a specifici utenti e gruppi in modo che solo loro possano interagire con il contenuto a cui è applicata questa etichetta.  Sotto utenti e gruppi, il tenant è definito in modo che tutti gli utenti nel tenant possano vedere il contenuto a cui è applicata questa etichetta.  Nell'elenco è presente il team finanziario che ha autorizzazioni di Co-autore.  Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
 
-1. Nella pagina dei contrassegni dei contenuti, prendere nota del riquadro informativo nella parte superiore della pagina.  I contrassegni dei contenuti saranno applicati ai documenti, ma solo le intestazioni e i piè di pagina saranno applicati ai messaggi di posta elettronica. In altre parole, le filigrane non vengono applicate alle e-mail.  Il contrassegno dei contenuti associato a questa etichetta è una filigrana con la dicitura ALTAMENTE RISERVATO.  Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
+1. Nella pagina dei contrassegni dei contenuti, prendere nota del riquadro informativo nella parte superiore della pagina.  I contrassegni dei contenuti saranno applicati ai documenti, ma solo le intestazioni e i piè di pagina saranno applicati ai messaggi di posta elettronica. In altre parole, le filigrane non vengono applicate alle e-mail.  Il contrassegno del contenuto associato a questa etichetta è una filigrana con la dicitura RISERVATEZZA ELEVATA.  Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
 
 1. Ora ci si trova nell'etichettatura automatica per la finestra di file e messaggi e-mail.  Leggere la descrizione dell'etichettatura automatica sulla parte alta della pagina e la casella delle informazioni sotto.  Si noti anche che questa etichetta è impostata per l'etichettatura automatica per condizioni specifiche. Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
 
@@ -63,9 +67,9 @@ In questo lab verranno esplorate le funzionalità delle etichette di riservatezz
 1. Leggere la descrizione sotto "Pubblica per utenti e gruppi".  Notare che questa etichetta è disponibile per tutti gli utenti.  Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
 
 1. Rivedere le impostazioni dei criteri.  Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
-    1. Leggere la descrizione sotto ad "Apply a default label to documents" (Applica un'etichetta predefinita ai documenti).  Si noti che non è presente un'etichetta predefinita. Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
-    1. Leggere la descrizione sotto ad "Apply a default label to e-mail" (Applica un'etichetta predefinita ai messaggi e-mail).  Selezionare la freccia in giù della casella di input per visualizzare le opzioni disponibili. Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
-    1. Leggere la descrizione sotto ad "Apply a default label to Power BI content" (Applica un'etichetta predefinita al contenuto di Power BI).  Si noti che non è presente un'etichetta predefinita. Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
+    1. Leggere la descrizione in "Applica un'etichetta predefinita ai documenti".  Si noti che non è presente alcuna etichetta predefinita. Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
+    1. Leggere la descrizione in "Applica un'etichetta predefinita ai messaggi di posta elettronica".  Selezionare la freccia a discesa nella casella di input per visualizzare le opzioni disponibili. Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
+    1. Leggere la descrizione in "Apply a default label to Power BI content" (Applica un'etichetta predefinita al contenuto di Power BI).  Si noti che non è presente alcuna etichetta predefinita. Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
 
 1. L'ultima opzione di configurazione è quella di dare un nome al criterio.  Non modificare alcuna impostazione.  Selezionare **Annulla** in fondo alla pagina per uscire dalla configurazione dei criteri e tornare alla pagina Information Protection.
 
@@ -76,26 +80,26 @@ In questo lab verranno esplorate le funzionalità delle etichette di riservatezz
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
 
-#### Attività 2.  In questa attività, verrà affrontato il processo per applicare un'etichetta dal punto di vista dell'utente (in questo caso l'utente è l'amministratore) e visualizzare la marcatura dei contenuti generata dall'etichetta.
+#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>Attività 2:  In questa attività, verrà affrontato il processo per applicare un'etichetta dal punto di vista dell'utente (in questo caso l'utente è l'amministratore) e visualizzare la marcatura dei contenuti generata dall'etichetta.
 
-1. Assicurarsi prima di tutto che Office sia installato nella macchina virtuale del lab.  A tale scopo, selezionare la scheda **Interfaccia di amministrazione di Microsoft 365** aperta nel browser.  Se la scheda è stata chiusa in precedenza, aprire una nuova scheda del browser e immettere **admin.microsoft.com**.
-    1. Dal riquadro di spostamento a sinistra selezionare **Fatturazione** per visualizzare tutte le opzioni e quindi selezionare **I tuoi prodotti**.
-    1. Dalla pagina I tuoi prodotti selezionare **Microsoft 365 E5 Trial**
-    1. Dalla pagina Microsoft 365 E5 Trial selezionare **Scarica e installa il software** e seguire le istruzioni visualizzate.
+1. Assicurarsi prima di tutto di avere Office configurato nella macchina virtuale del lab.  A tale scopo, selezionare la scheda **Interfaccia di amministrazione di Microsoft 365** aperta nel browser.  Se la scheda è stata chiusa in precedenza, aprire una nuova scheda del browser e immettere **admin.microsoft.com**.
+    1. Nel pannello di spostamento a sinistra selezionare **Fatturazione** per visualizzare tutte le opzioni e quindi selezionare **I tuoi prodotti**.
+    1. Nella pagina I tuoi prodotti selezionare **Microsoft 365 E5 Trial**
+    1. Nella pagina Microsoft 365 E5 Trial selezionare **Scarica e installa software** e seguire le istruzioni nella pagina.
 
-1. Nell'angolo in basso a sinistra della macchina virtuale del lab selezionare l'icona di Windows, quindi selezionare **Word** e infine selezionare **Documento vuoto**.  Verrà aperto un nuovo documento di Word usando la versione desktop del programma.
+1. Nell'angolo in basso a sinistra della macchina virtuale del lab selezionare l'icona di Windows, quindi selezionare **Word** e infine **Documento vuoto**.  Verrà aperto un nuovo documento di Word usando la versione desktop di Word.
 
 1. Dalla barra dei menu in alto selezionare **Riservatezza**. Dall'elenco a discesa, selezionare **Riservato - Finanza**.
 
-1. Osservare in che modo il documento include la filigrana.  La filigrana è costituita da un piccolo testo grigio chiaro visualizzato verticalmente nella pagina. 
+1. Osservare in che modo il documento include la filigrana.  La filigrana verrà visualizzata come piccolo testo grigio chiaro disposto verticalmente nella pagina. 
 
 1. Salvare il file di Word.
 
 1. Chiudere le schede di Microsoft Word aperte sul browser per uscire da Word.
 
-#### Attività 3 (facoltativa): Oltre al contrassegno dei contenuti, l'impostazione della protezione dell'etichetta è stata impostata per la crittografia. In base alle autorizzazioni configurate con questa etichetta, i membri del gruppo finanziario possono essere co-autori per i documenti con questa etichetta applicata e gli utenti del tenant Contoso sono autorizzati alla visualizzazione.  In questa attività si invierà il documento a un indirizzo e-mail a cui si può accedere (ovvero, un indirizzo e-mail personale) e che NON fa parte del dominio WWLxZZZZ.OnMicrosoft.com e si vedrà cosa succede quando si tenta di aprire l'allegato.  
+#### <a name="task-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view--in-this-task-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>Attività 3 (facoltativa): Oltre al contrassegno dei contenuti, l'impostazione della protezione dell'etichetta è stata impostata per la crittografia. Secondo le autorizzazioni configurate con questa etichetta, i membri del gruppo finanziario possono essere coautori per i documenti con questa etichetta applicata e gli utenti del tenant Contoso possono visualizzare.  In questa attività si invierà il documento a un indirizzo e-mail a cui si può accedere (ovvero, un indirizzo e-mail personale) e che NON è parte del dominio WWLxZZZZ.OnMicrosoft.com e vedere cosa succede quando si tenta di aprire l'allegato.  
 
-1. Dalla home page del Centro conformità Microsoft 365, selezionare l'**icona di avvio delle app**, accanto a Contoso Electronics. Fare **clic con il tasto destro sull'icona di Outlook** e selezionare **Apri in una nuova scheda**.
+1. Nella home page del Centro conformità Microsoft 365 selezionare l'**icona di avvio dell'app** accanto a Contoso Electronics. **Fare clic con il pulsante destro del mouse sull'icona di Outlook** e scegliere **Apri in una nuova scheda**.
 
 1. Selezionare **Nuovo messaggio** dall'angolo in alto a sinistra dello schermo.  Inserire un indirizzo e-mail a cui si ha accesso e che non fa parte del dominio WWLxZZZZ.OnMicrosoft.com e immettere **Test** nell'oggetto.
 
@@ -103,12 +107,12 @@ In questo lab verranno esplorate le funzionalità delle etichette di riservatezz
 
 1. Selezionare **Cerca nei percorsi sul cloud**.
 
-1. Dall'elenco che appare, selezionare il documento creato e al quale è stata applicata l'etichetta **Etichetta di test**. Selezionare **Avanti** e selezionare **Allega come copia**.  Premere **Invia**.
+1. Dall'elenco che appare, selezionare il documento creato e al quale è stata applicata l'etichetta **Etichetta di test**. Selezionare **Avanti** e selezionare **Allega come copia**.  Fare clic su **Invia**.
 
-1. Accedere all'account e-mail a cui è stato inviato il documento usando il Web browser nella macchina virtuale del lab.  L'e-mail potrebbe essere finita nella cartella della posta indesiderata.  Quando si tenta di aprire il file Word allegato comparirà una notifica che informa l'utente che non ha il permesso di aprire il documento.
+1. Usando il Web browser nella macchina virtuale del lab, accedere all'account di posta elettronica a cui è stato inviato il documento.  L'e-mail potrebbe essere finita nella cartella della posta indesiderata.  Quando si tenta di aprire il file Word allegato comparirà una notifica che informa l'utente che non ha il permesso di aprire il documento.
 
 1. Chiudere le schede del browser aperte.
 
 
-#### Verifica
+#### <a name="review"></a>Verifica
 In questo lab verranno esplorate le funzionalità delle etichette di riservatezza.  Verranno esaminate le impostazioni per le etichetta di riservatezza esistenti che sono già state create e il criterio corrispondente per pubblicare l'etichetta.   Quindi verrà illustrato come applicare un'etichetta e l'impatto della stessa dal punto di vista dell'utente.

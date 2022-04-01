@@ -1,12 +1,17 @@
 ---
 lab:
-    title: 'Esplorazione di Azure Active Directory'
-    module: 'Modulo 2. Lezione 1. Descrizione delle funzionalità delle soluzioni Microsoft per la gestione delle identità e degli accessi: esplorare i servizi e i tipi di identità di Azure AD'
+  title: Esplorazione di Azure Active Directory
+  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
+ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894019"
 ---
+# <a name="lab-explore-azure-active-directory"></a>Laboratorio: Esplorazione di Azure Active Directory
 
-# Lab: Esplorazione di Azure Active Directory
-
-## Scenario del lab
+## <a name="lab-scenario"></a>Scenario del lab
 
 In questo lab si accederà ad Azure Active Directory.  Inoltre, si creerà un utente e si configureranno le varie impostazioni, compresa l'aggiunta di licenze.  
 
@@ -14,15 +19,15 @@ In questo lab si accederà ad Azure Active Directory.  Inoltre, si creerà un ut
 
 **Tempo stimato**: 10-15 minuti
 
-#### Attività 1.  In qualità di abbonato di Microsoft 365, si usa già Azure AD.  Questa attività illustrerà i passaggi dettagliati per accedere ad Azure AD tramite il portale di amministrazione di Microsoft 365 e il portale di Azure.
+#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>Attività 1:  In qualità di abbonato di Microsoft 365, si usa già Azure AD.  Questa attività illustrerà i passaggi dettagliati per accedere ad Azure AD tramite il portale di amministrazione di Microsoft 365 e il portale di Azure.
 
 1. Aprire Microsoft Edge.
 
 2. Nella barra degli indirizzi immettere **admin.microsoft.com** per accedere all'interfaccia di amministrazione di Microsoft 365.
 
 3. Accedere con le credenziali di amministratore. 
-    1. Nella finestra di accesso, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab), quindi selezionare **Avanti**.
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
+    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.
 
 4. Dal riquadro di spostamento sinistro dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
@@ -31,7 +36,7 @@ In questo lab si accederà ad Azure Active Directory.  Inoltre, si creerà un ut
 
 6. Dal riquadro di spostamento a sinistra, in Preferiti, selezionare **Azure Active Directory**.  Nella finestra principale sarà visibile un altro riquadro di spostamento che elenca tutti i servizi disponibili in Azure AD. A destra verranno visualizzate informazioni sul tenant Contoso, collegamenti ai tipi di identità che è possibile creare e i servizi offerti.  
 
-7. Aprire ora una nuova finestra del browser e, nella barra degli indirizzi, immettere **portal.azure.com**.  Poiché è stato già effettuato l'accesso come admin@WWLxZZZZZZ.onmicrosoft.com e queste stesse credenziali erano state utilizzate per riscattare l'Azure Pass, l'accesso al portale di Azure dovrebbe essere avvenuto come amministratore.  È possibile verificarlo controllando l'indirizzo e-mail nell'angolo in alto a destra della pagina e passando il mouse sopra l'icona dell'utente.
+7. Aprire ora una nuova finestra del browser e, nella barra degli indirizzi, immettere **portal.azure.com**.  Poiché è stato già effettuato l'accesso come admin@WWLxZZZZZZ.onmicrosoft.com e queste stesse credenziali erano state usate in origine per riscattare l'Azure Pass, l'accesso al portale di Azure dovrebbe essere avvenuto come amministratore.  È possibile verificarlo controllando l'indirizzo e-mail nell'angolo in alto a destra della pagina e passando il mouse sopra l'icona dell'utente.
 
 8. La pagina di destinazione del portale di Azure mostra i servizi di Azure, compresi Azure Active Directory, macchine virtuali, account di archiviazione, database e altro ancora.  Selezionare **Azure Active Directory**.  
 
@@ -40,7 +45,7 @@ In questo lab si accederà ad Azure Active Directory.  Inoltre, si creerà un ut
 10. Lasciare aperta questa pagina del browser per la prossima attività.
 
 
-#### Attività 2.  In questa attività, si apprenderà come creare un nuovo utente in Azure Active Directory e si esploreranno alcuni dei servizi che possono essere gestiti a livello di utente.
+#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>Attività 2:  In questa attività, si apprenderà come creare un nuovo utente in Azure Active Directory e si esploreranno alcuni dei servizi che possono essere gestiti a livello di utente.
 
 1. Passare alla scheda Contoso – Microsoft Azure aperta nel browser. Se la scheda era stata chiusa, aprire una pagina del browser e, nella barra degli indirizzi, inserire portal.azure.com e selezionare Azure Active Directory.  Occorre aver effettuato l'accesso come amministratore nel portale di Azure. In caso contrario, eseguire di nuovo l'accesso.
 
@@ -74,7 +79,7 @@ In questo lab si accederà ad Azure Active Directory.  Inoltre, si creerà un ut
 
     3. Accanto a Ruoli, selezionare **Utente**. Viene visualizzato l'elenco dei ruoli della directory.  Scorrere verso il basso per visualizzare i vari ruoli predefiniti, i diversi ruoli, ma non modificare il ruolo dell'utente.  Chiudere questa finestra selezionando la **X** nell'angolo in alto a destra della pagina.
 
-8. Configurare **Impostazioni**.
+8. Configurare le **impostazioni**
 
     1. Blocca l'accesso:  **No** (lasciare l'impostazione predefinita).
 
@@ -86,7 +91,7 @@ In questo lab si accederà ad Azure Active Directory.  Inoltre, si creerà un ut
 
 11. Dall'elenco degli utenti, selezionare l'utente appena creato, **Sara Perez**.  Si apre la pagina del profilo.
 
-12. Il riquadro di spostamento a sinistra mostra le varie opzioni che è possibile configurare per l'utente.  Selezionare **Gruppi**.  Qui è possibile visualizzare ulteriori informazioni sul gruppo.  Verificare che il gruppo Operazioni sia presente nell'elenco (la visualizzazione dell'assegnazione del gruppo potrebbe richiedere alcuni minuti).  Nota:  verrà visualizzato anche il gruppo Contoso, anche se al momento della creazione dell'utente è stato assegnato un solo gruppo.  Questo è il risultato di un criterio preconfigurato nel tenant, che assegna automaticamente i nuovi utenti al gruppo Contoso.
+12. Il riquadro di spostamento a sinistra mostra le varie opzioni che è possibile configurare per l'utente.  Selezionare **Gruppi**.  Qui è possibile visualizzare ulteriori informazioni sul gruppo.  Verificare che il gruppo Operazioni sia presente nell'elenco (la visualizzazione dell'assegnazione del gruppo potrebbe richiedere alcuni minuti).  Nota: verrà visualizzato anche il gruppo Contoso, anche se al momento della creazione dell'utente è stato assegnato un solo gruppo.  Questo è il risultato di un criterio preconfigurato nel tenant, che assegna automaticamente i nuovi utenti al gruppo Contoso.
 
 13. Dal riquadro di spostamento sinistro selezionare **Licenze**.  Notare che per questo utente non sono state trovate assegnazioni di licenze.  
 
@@ -102,21 +107,21 @@ In questo lab si accederà ad Azure Active Directory.  Inoltre, si creerà un ut
 
 19. È stato creato e configurato correttamente un utente in Azure Active Directory.
 
-20.	Disconnettersi da tutte le schede del browser selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata. Quindi, chiudere tutte le finestre del browser.
+20. Disconnettersi da tutte le schede del browser selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata. Quindi, chiudere tutte le finestre del browser.
 
-#### Attività 3.  In questa attività, si effettuerà l'accesso come Sara Perez per la prima volta.
+#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>Attività 3:  In questa attività, si effettuerà l'accesso come Sara Perez per la prima volta.
 
 1. Aprire Microsoft Edge.
 
 2. Nella barra degli indirizzi immettere **login.microsoft.com**.
 
-3. Accedere come **sara@WWLxZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab).
+3. Accedere come **sara@WWLxZZZZZ.onmicrosoft.com** , dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab.
 
 4. Immettere la password temporanea **Naja8996**.
 
 5. Ora viene richiesto l'aggiornamento della password. Nel campo Password corrente immettere **Naja8996**.
 
-6. Nel campo Nuova password immettere **SC900-Lab**.  Nel campo Confermare la password immettere SC900-Lab, quindi selezionare Accedi. Nota: è consigliabile utilizzare una password più sicura. Questa password è stata selezionata come espediente e solo per questo lab.
+6. Nel campo Nuova password immettere **SC900-Lab**.  Nel campo Confermare la password immettere SC900-Lab, quindi selezionare Accedi.  Nota: è consigliabile utilizzare una password più sicura. Questa password è stata selezionata come espediente e solo per questo lab.
 
 7. Ora dovrebbe essere stato effettuato l'accesso a Microsoft 365.
 
@@ -124,7 +129,7 @@ In questo lab si accederà ad Azure Active Directory.  Inoltre, si creerà un ut
 
 
 
-#### Verifica
+#### <a name="review"></a>Verifica
 In questo lab è stata avviata l'esplorazione iniziale di Azure AD. Poiché gli abbonati di Microsoft 365 accedono automaticamente utilizzando Azure AD, si è scoperto che è possibile accedere alle funzionalità e ai servizi di Azure AD tramite il portale di amministrazione Microsoft 365 o il portale di Azure.  Entrambi gli approcci portano alla stessa destinazione.  Inoltre, sono stati illustrati in modo dettagliato il processo di creazione di un nuovo utente e le diverse impostazioni configurabili, inclusi i gruppi a cui è possibile assegnare l'utente, la disponibilità dei ruoli e l'assegnazione di licenze utenti.
 
 

@@ -1,24 +1,28 @@
 ---
 lab:
-    title: 'Esplorazione della governance dell’identità in Azure AD con Privileged Identity Management'
-    module: 'Modulo 2. Lezione 4. Descrizione delle funzionalità di protezione e governance dell'identità di Azure AD: Descrizione di Azure Identity Protection.'
+  title: "Esplorazione della governance dell'identità in Azure AD con Privileged Identity Management "
+  module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
+ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894010"
 ---
+# <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Laboratorio: Esplorazione della governance dell'identità in Azure AD con Privileged Identity Management
 
-
-# Lab: Esplorazione della governance dell'identità in Azure AD con Privileged Identity Management
-
-## Scenario del lab
+## <a name="lab-scenario"></a>Scenario del lab
 In questo lab, si esploreranno alcune delle funzionalità di base di Privileged identity Management (PIM). PIM richiede Azure AD Premium P2.  In questo lab, in qualità di amministratore, si configurerà uno degli utenti, Diego Siciliani, con un ruolo di amministratore utenti di Azure AD attraverso Privileged ID Management (PIM).   Attraverso i privilegi di amministratore, Diego riuscirà a creare utenti e gruppi, gestire licenze e altro ancora.  Per la licenza di Azure AD Premium P2 è necessario configurare sia l'amministratore che l'utente, Diego.
 
 **Tempo stimato**: 30-45 minuti
 
-#### Attività 1. In questa attività, in qualità di amministratore, si reimposterà la password per l'utente Diego Siciliani. Questo passaggio è necessario in modo da poter effettuare l'accesso iniziale come utente nelle attività successive.
+#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-diego-siciliani-this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>Attività 1: In questa attività, in qualità di amministratore, si reimposterà la password per l'utente Diego Siciliani. Questo passaggio è necessario in modo da poter effettuare l'accesso iniziale come utente nelle attività successive.
 
 1. Aprire Microsoft Edge.  Nella barra degli indirizzi immettere **portal.azure.com**.
 
 2. Accedere con le credenziali di amministratore.
-    1. Nella finestra di accesso, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab), quindi selezionare **Avanti**.
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
+    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.
 
 3. Selezionare **Azure Active Directory**.  
@@ -40,7 +44,7 @@ In questo lab, si esploreranno alcune delle funzionalità di base di Privileged 
 11. Tenere aperta la pagina del browser poiché verrà usata nelle attività successive.
 
 
-#### Attività 2. In questa attività, in qualità di amministratore si assegnerà a Diego un ruolo di Azure AD in Privileged Identity Management.
+#### <a name="task-2-in-this-task-you-as-the-admin-will-assign-diego-an-azure-ad-role-in-privileged-identity-management"></a>Attività 2: In questa attività, in qualità di amministratore si assegnerà a Diego un ruolo di Azure AD in Privileged Identity Management.
 
 1. Passare alla scheda del browser aperta chiamata Contoso - Microsoft Azure.   Se la scheda del browser era stata chiusa in precedenza, aprire Microsoft Edge e, nella barra degli indirizzi, immettere portal.azure.com e accedere con le proprie credenziali di amministratore, quindi selezionare Azure Active Directory.  
 
@@ -50,7 +54,7 @@ In questo lab, si esploreranno alcune delle funzionalità di base di Privileged 
 
 4. Ora ci si trova nella finestra di avvio rapido di Privileged Identity Management.  Selezionare **Gestisci accesso**.
 
-5. Ora ci si trova nella pagina Ruoli di Contoso.  Nella barra della ricerca in cima alla pagina, immettere **utente**.  Selezionare **Amministratore utenti** dai risultati della ricerca. 
+5. Ora ci si trova nella pagina Ruoli di Contoso.  Nella barra della ricerca in cima alla pagina, immettere **utente**.  Selezionare **Amministratore utenti** dai risultati della ricerca.
 
 6. Dalla parte superiore della pagina, selezionare **+ Assegnazioni**.
 
@@ -76,18 +80,18 @@ In questo lab, si esploreranno alcune delle funzionalità di base di Privileged 
 
 17. Dalla parte superiore della pagina, selezionare **Impostazioni**.
 
-18. Nei dettagli dell'impostazione Ruolo per l'amministratore utenti, notare le varie opzioni.  Osservare che l'opzione "Richiedi giustificazione all'attivazione" è impostata su Sì e che anche "All'attivazione richiedi Azure MFA" è impostata su Sì.  Queste impostazioni saranno entrambe visibili nell'attività successiva, quando Diego attiverà il ruolo.  Notare inoltre che "Richiedi l'approvazione per l'attivazione" è impostata su No. Lasciare tutte le impostazioni sui valori predefiniti.  Chiudere la pagina selezionando la **X** nell'angolo in alto a destra della schermata.
+18. Nei dettagli dell'impostazione Ruolo per l'amministratore utenti, notare le varie opzioni.  Osservare che l'opzione "Richiedi giustificazione all'attivazione" è impostata su Sì e che anche "All'attivazione richiedi Azure MFA" è impostata su Sì.  Queste impostazioni saranno entrambe visibili nell'attività successiva, quando Diego attiverà il ruolo.  Si noti anche che l'opzione "Richiedi l'approvazione per l'attivazione" è impostata su No.  Lasciare i valori predefiniti per tutte le impostazioni.  Chiudere la pagina selezionando la **X** nell'angolo in alto a destra della schermata.
 
 19. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata, quindi **Disconnetti**. Quindi, chiudere tutte le finestre del browser.
 
 
-#### Attività 3. Attività 3.  In questa attività, in qualità di Diego Siciliani, si effettuerà l'accesso al portale di Azure per accedere alla funzionalità Privileged Identity Management di Azure Active Directory in modo da attivare la propria assegnazione come amministratore utenti.  Una volta attivata, si apporteranno alcune modifiche alla configurazione di un utente esistente. Nota: per questa attività sarà necessario avere accesso immediato a un dispositivo mobile che può ricevere messaggi di testo.
+#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Attività 3: Attività 3:  In questa attività, in qualità di Diego Siciliani, si effettuerà l'accesso al portale di Azure per accedere alla funzionalità Privileged Identity Management di Azure Active Directory in modo da attivare la propria assegnazione come amministratore utenti.  Una volta attivata, si apporteranno alcune modifiche alla configurazione di un utente esistente. Nota: per questa attività sarà necessario avere accesso immediato a un dispositivo mobile che può ricevere messaggi di testo.
 
 1. Aprire Microsoft Edge.  Nella barra degli indirizzi del browser, immettere **portal.azure.com**.
 
 1. Accedere come Diego Siciliani.
-    1. Nella finestra di accesso, immettere **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab), quindi selezionare **Avanti**.
-    1. Immettere la password temporanea annotata nell'attività precedente, quindi selezionare **Accedi**. Selezionare **Accedi**.
+    1. Nella finestra Accedi immettere **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Immettere la password temporanea annotata nell'attività precedente, quindi selezionare **Accedi**.  Fare clic su **Accedi**.
     1. Poiché la password immessa era una password temporanea, ora occorre aggiornarla. Immettere la password corrente.  Per i campi Nuova password e Conferma password, immettere **SC900-Lab**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.
 
@@ -105,12 +109,12 @@ In questo lab, si esploreranno alcune delle funzionalità di base di Privileged 
 1. Viene richiesta l'immissione del numero di telefono che si vuole usare. Assicurarsi della correttezza del paese per il prefisso internazionale del proprio numero di telefono.  Immettere il numero di telefono, assicurarsi che **Invia un SMS** sia selezionato, quindi premere **Avanti**.
 1. Immettere il codice a 6 cifre ricevuto sul telefono e selezionare **Avanti**. 
 1. Verrà visualizzata una notifica dell'avvenuta registrazione del telefono. Selezionare **Avanti**, quindi **Fatto**.
-1. Compare la richiesta se rimanere connessi. Selezionare **Sì**.
+1. Viene chiesto se si vuole rimanere connessi.  Selezionare **Sì**.
 1. Viene visualizzata la finestra Activate User Administrator (Attiva amministratore utenti).  È necessario immettere un motivo per l'attivazione.  Nella casella visualizzata, immettere un motivo a scelta (con un massimo di 500 caratteri), quindi selezionare **Attiva**.
 1. Durante l'elaborazione dell'attivazione verrà visualizzato il relativo stato (3 stadi di avanzamento).
-1. Una volta completata l'attivazione, si tornerà alla pagina Ruoli personali | di Azure AD, dove verrà visualizzata una notifica che indica l'avvenuta attivazione di un ruolo.  Selezionare **Fare clic qui** per visualizzare i propri ruoli attivi.  Se si nota che l'ora di fine è diversa dalla configurazione originale, selezionare il pulsante di aggiornamento in cima alla pagina (l'aggiornamento potrebbe richiedere alcuni minuti). 
+1. Al termine dell'attivazione, viene nuovamente visualizzata la pagina Ruoli personali | Ruoli di Azure AD, dove sarà visibile una notifica indicante che è stato appena attivato un ruolo.  Selezionare **Fare clic qui** per visualizzare i propri ruoli attivi.  Se si nota che l'ora di fine è diversa dalla configurazione originale, selezionare il pulsante di aggiornamento in cima alla pagina (l'aggiornamento potrebbe richiedere alcuni minuti). 
 1. Chiudere la finestra selezionando la **X** nell'angolo in alto a destra della schermata.
-1. Chiudere la finestra di avvio rapido di Privileged Identity Management | selezionando la **X** nell'angolo in alto a destra della schermata.
+1. Chiudere la finestra Privileged Identity Management | Avvio rapido selezionando la **X** nell'angolo superiore destro della schermata.
 1. Chiudere la finestra di Identity Governance selezionando la **X** nell'angolo in alto a destra della schermata.
 1. Ora si torna alla pagina di Contoso di Azure Active Directory.  In qualità di amministratore utenti di Azure AD, è possibile creare utenti e gruppi, gestire licenze e altro ancora.   Dal riquadro di spostamento sinistro, selezionare **Utenti**.
 1. Dall'elenco degli utenti, selezionare **Bianca Pisani**.
@@ -122,5 +126,5 @@ In questo lab, si esploreranno alcune delle funzionalità di base di Privileged 
 1. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata, quindi **Disconnetti**. Quindi, chiudere tutte le finestre del browser.
 1. La durata del ruolo di amministratore utenti è limitata al tempo configurato.
 
-#### Verifica
+#### <a name="review"></a>Verifica
 In questo lab, si è esplorato PIM.  In qualità di amministratore, si è configurato Diego con privilegi di amministratore utenti per un determinato periodo di tempo.  Quindi, in qualità di Diego, si è seguito il processo di attivazione dei privilegi di amministratore utenti e di configurazione delle impostazioni utente.  Ricordare che PIM richiede la licenza Azure AD Premium P2.

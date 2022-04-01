@@ -1,18 +1,22 @@
 ---
 Demo:
-    title: 'Esplorazione del Centro conformità Microsoft 365 e Compliance Manager'
-    module: 'Modulo 4. Lezione 1. Descrizione delle funzionalità delle soluzioni di conformità Microsoft: descrizione delle funzionalità di gestione della conformità di Microsoft'
+  title: Esplorazione del Centro conformità Microsoft 365 e Compliance Manager
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
+ms.openlocfilehash: 1a1b11d8ff967f2c18af43eb77e1d74add032556
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894075"
 ---
+# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Dimostrazione: Esplorazione del Centro conformità Microsoft 365 e Compliance Manager
 
-
-# Demo: Esplorazione del Centro conformità Microsoft 365 e Compliance Manager
-
-## Scenario demo
+## <a name="demo-scenario"></a>Scenario demo
 Questa demo illustrerà la home page del Centro conformità Microsoft 365 e i modi in cui le funzionalità di Compliance Manager possono aiutare le organizzazioni a migliorare la loro posizione di conformità.
 
-## Istruzioni
+## <a name="instructions"></a>Istruzioni
 
-#### Demo Parte 1: Mostra la home page del Centro conformità Microsoft 365 e come personalizzare la visualizzazione delle schede e il riquadro di spostamento.
+#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>Demo Parte 1: Mostra la home page del Centro conformità Microsoft 365 e come personalizzare la visualizzazione delle schede e il riquadro di spostamento.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**. Occorre aver già eseguito l'accesso come amministratore.  In caso contrario, accedere con le credenziali di amministratore.
 
@@ -30,7 +34,7 @@ Questa demo illustrerà la home page del Centro conformità Microsoft 365 e i mo
 
 1. È possibile aggiungere schede selezionando **+ Aggiungi schede**.  Si apre la finestra Aggiungi schede alla home page.  Posizionare il cursore del mouse sulla scheda Catalogo soluzioni mostrata in questa finestra e trascinarla nella posizione della schermata iniziale in cui si vuole che la scheda sia posizionata.
 
-1. Dal riquadro di spostamento sinistro della home page del Centro conformità Microsoft 365, notare le voci elencate sotto Soluzioni.  Se è visualizzato solo il Catalogo, dal riquadro di spostamento sinistro selezionare **[...Mostra tutto]**.  Osservare in che modo tutte le soluzioni aggiuntive vengono visualizzate sotto la sezione delle soluzioni.  
+1. Dal riquadro di spostamento sinistro della home page del Centro conformità Microsoft 365, notare le voci elencate sotto Soluzioni.  Se è visualizzato solo il Catalogo, dal riquadro di spostamento sinistro selezionare **...Mostra tutto**.  Osservare in che modo tutte le soluzioni aggiuntive vengono visualizzate sotto la sezione delle soluzioni.  
 
 1. In qualità di amministratore della conformità, può esserci un insieme di soluzioni da gestire per l'organizzazione e da avere sempre elencate nel riquadro di spostamento.  Per personalizzare le preferenze, selezionare **Personalizza navigazione**.  
 
@@ -38,7 +42,7 @@ Questa demo illustrerà la home page del Centro conformità Microsoft 365 e i mo
 
 1. Lasciare la scheda del browser aperta.
 
-#### Demo Parte 2: Scoprire la posizione di conformità dell'organizzazione attraverso Compliance Manager.
+#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>Demo parte 2: Scoprire la posizione di conformità dell'organizzazione attraverso Compliance Manager.
 
 1. Dal riquadro di spostamento sinistro del Centro conformità Microsoft 365, selezionare **Compliance Manager**.  In alternativa, è possibile selezionare Compliance Manager sulla barra del titolo della scheda Compliance Manager.
 
@@ -64,5 +68,5 @@ Questa demo illustrerà la home page del Centro conformità Microsoft 365 e i mo
 
 1. Dal riquadro di spostamento sinistro, selezionare **Home** per tornare alla home page del Centro conformità Microsoft 365.  Tenere aperta questa pagina del browser per la prossima demo.
 
-#### Verifica
+#### <a name="review"></a>Verifica
 Questa demo ha illustrato la home page del Centro conformità Microsoft 365 e i modi in cui le funzionalità di Compliance Manager possono aiutare le organizzazioni a migliorare la loro posizione di conformità.

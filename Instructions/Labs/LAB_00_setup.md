@@ -1,17 +1,22 @@
 ---
 lab:
-    title: 'Configurazione'
+  title: Eseguire la configurazione
+ms.openlocfilehash: 29b07bfeb08919349ac982c5a8ee5b3cce254704
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894066"
 ---
+# <a name="lab-setup"></a>Laboratorio: Eseguire la configurazione
 
-# Lab: Configurazione
-
-### Scenario del lab
+### <a name="lab-scenario"></a>Scenario del lab
 
 In questo lab, si riscatterà l'Azure Pass utilizzando le stesse credenziali del tenant Microsoft 365.  Questo garantirà la continuità nel passaggio tra Microsoft 365 e Azure. Come parte della configurazione, verrà inoltre abilitata la funzionalità del log di controllo nel tenant Microsoft 365, poiché la sua applicazione potrebbe richiedere del tempo. Microsoft 365 utilizza log di controllo per informazioni dettagliate e attività degli utenti identificate nei criteri e nelle informazioni dettagliate di analisi.
 
 **Tempo stimato**: 5-10 minuti
 
-#### Parte 1 della configurazione - Riscatto dell'Azure Pass
+#### <a name="setup-part-1---redeem-azure-pass"></a>Parte 1 della configurazione - Riscatto dell'Azure Pass
 In questa attività di configurazione, si riscatterà l'Azure Pass utilizzando le stesse credenziali del tenant Microsoft 365.  Questo garantirà una maggiore continuità nel passaggio tra Microsoft 365 e Azure.
 
 1. Se sono presenti finestre del browser aperte, si consiglia di chiudere tutti i browser.
@@ -22,25 +27,25 @@ In questa attività di configurazione, si riscatterà l'Azure Pass utilizzando l
 
 1. Selezionare il pulsante **Accedi** per iniziare.
 
-    1. Nella finestra di accesso, immettere l'indirizzo e-mail **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab), quindi selezionare **Avanti**.
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**. Se si visualizza la domanda se rimanere connessi, selezionare **Sì**.
+    1. Nella finestra Accedi immettere l'indirizzo di posta elettronica **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.  Se viene richiesto se si desidera rimanere connessi, selezionare **Sì**.
     1. Se viene elencato l'indirizzo e-mail corretto, selezionare **Conferma account Microsoft**.
     1. Immettere il codice promo nella relativa casella e fare clic su **Claim Promo Code** (Codice promo di attestazione).  
-    1. Nella pagina del proprio profilo, lasciare tutte le informazioni predefinite, selezionare **Accetto il contratto di sottoscrizione, i dettagli dell'offerta e l'informativa sulla privacy**, quindi **Iscrizione**.
+    1. Nella pagina del profilo personale lasciare tutte le informazioni predefinite, selezionare **Accetto il contratto di sottoscrizione, i dettagli dell'offerta e l'informativa sulla privacy** e quindi selezionare **Iscrizione**.
     1. Se si apre una finestra di sondaggio, scegliere di chiuderla selezionando **X** o rispondere nel modo appropriato, quindi selezionare **Invia**.
 
 1. Per l'attivazione dell'account potrebbero essere necessari alcuni minuti.  Una volta attivato, si viene reindirizzati alla home page del portale di Azure. Si apre una finestra di benvenuto di Microsoft Azure; selezionare **Forse in seguito**. È possibile che venga visualizzata una finestra popup "Optimize your cloud workloads with personalized recommendations" (Ottimizzare i carichi di lavoro del cloud con consigli personalizzati); selezionare **X** nell'angolo in alto a destra della finestra.
 
-1. Lasciare aperta la scheda del browser per la home page del portale di Azure, poiché verrà utilizzata nella prossima demo. 
+1. Lasciare aperta la scheda del browser per la home page del portale di Azure, poiché verrà utilizzata nella prossima demo.
 
-#### Parte 2 della configurazione - Abilitazione del log di controllo di Microsoft 365
+#### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Parte 2 della configurazione - Abilitazione del log di controllo di Microsoft 365
 In questa attività di configurazione, si abiliterà la funzionalità Log di controllo in Microsoft 365.  Sebbene la documentazione indichi che il log di controllo è attivato per impostazione predefinita, questa funzionalità non è abilitata per la maggior parte dei tenant dei lab e la sua attivazione potrebbe richiedere parecchie ore.  È vantaggioso abilitare questa funzionalità, poiché Microsoft 365 utilizza i log di controllo per informazioni dettagliate e attività degli utenti identificate nei criteri e nelle informazioni dettagliate di analisi.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
 
 1. Accedere con le credenziali di amministratore.
-    1. Nella finestra di accesso, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab), quindi selezionare **Avanti**.
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
+    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**. In questo modo si accede alla pagina dell'interfaccia di amministrazione di Microsoft 365.
 
 1. Dal riquadro di spostamento sinistro dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
@@ -55,6 +60,6 @@ In questa attività di configurazione, si abiliterà la funzionalità Log di con
 
 1. Tornare alla home page del Centro conformità Microsoft 365 selezionando **Home** dal riquadro di spostamento a sinistra.
 
-#### Verifica
+#### <a name="review"></a>Verifica
 
 In questa di configurazione, è stato riscattato l'Azure Pass utilizzando le stesse credenziali del tenant Microsoft 365.  Inoltre, è stata abilitata la funzionalità Log di controllo in Microsoft 365.

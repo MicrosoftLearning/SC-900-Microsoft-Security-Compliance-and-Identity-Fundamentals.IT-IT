@@ -1,16 +1,20 @@
 ---
 Demo:
-    title: 'Microsoft Defender for Cloud Apps'
-    module: 'Modulo 3. Lezione 4. Descrizione delle funzionalità delle soluzioni di sicurezza Microsoft: descrizione della protezione dalle minacce con Microsoft 365 Defender'
+  title: 'Microsoft Defender for Cloud Apps '
+  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
+ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894091"
 ---
+# <a name="demo-microsoft-defender-for-cloud-apps"></a>Dimostrazione: Microsoft Defender for Cloud Apps
 
+### <a name="demo-scenario"></a>Scenario demo
+In questa demo verranno presentate le funzionalità di Microsoft Defender for Cloud Apps.  Lo studente verrà guidato attraverso le informazioni disponibili sul dashboard di Cloud Discovery, nonché le funzionalità disponibili per esaminare i risultati e controllare l'impatto sull'organizzazione attraverso i criteri.  Nota:  un'organizzazione deve avere una licenza per usare Microsoft Defender for Cloud Apps, che è un servizio con sottoscrizione basato sull'utente.  
 
-# Demo: Microsoft Defender for Cloud Apps
-
-### Scenario demo
-Questa demo illustrerà le funzionalità di Microsoft Defender for Cloud Apps.  Lo studente verrà guidato attraverso le informazioni disponibili nel dashboard di Cloud Discovery, nonché le funzionalità disponibili per esaminare i risultati e controllare l'impatto sull'organizzazione tramite i criteri.  Nota:  un'organizzazione deve avere una licenza per usare Microsoft Defender for Cloud Apps, che è un servizio in abbonamento basato sull'utente.  
-
-#### Demo Parte 1: Esplorare Cloud Discovery.
+#### <a name="demo-part-1-explore-cloud-discovery"></a>Demo Parte 1: Esplorare Cloud Discovery.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.  Occorre aver già eseguito l'accesso come amministratore.  In caso contrario, accedere con le credenziali di amministratore.
 
@@ -22,7 +26,7 @@ Questa demo illustrerà le funzionalità di Microsoft Defender for Cloud Apps.  
 
 1. Dalla parte inferiore del riquadro di spostamento sinistro della pagina di Microsoft 365 Defender, selezionare **Altre risorse**.
 
-1. Nella scheda **Microsoft Defender for Cloud Apps** selezionare **Apri**.  Si apre una nuova pagina del browser nel dashboard di Cloud App Security.  Osservare le schede di informazioni disponibili.  È possibile che non sia visibile alcuna informazione sulle schede, dato che questo è un ambiente tenant di laboratorio preconfigurato che non è stato utilizzato attivamente.  
+1. Nella scheda **Microsoft Defender for Cloud Apps** selezionare **Apri**.  Si apre una nuova pagina del browser sul dashboard di Cloud App Security.  Osservare le schede di informazioni disponibili.  È possibile che non sia visibile alcuna informazione sulle schede, dato che questo è un ambiente tenant di laboratorio preconfigurato che non è stato utilizzato attivamente.  
 
 1. Dal riquadro di spostamento sinistro, selezionare **Individua**, quindi dal menu a discesa selezionare **Dashboard Cloud Discovery**.  Il dashboard include una panoramica delle app individuate, categorie di app, livelli di rischio e altro.  
 
@@ -50,9 +54,9 @@ Questa demo illustrerà le funzionalità di Microsoft Defender for Cloud Apps.  
 
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
-#### Demo Parte 2: Esplorare i modi in cui è possibile esaminare le attività registrate.
+#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Demo parte 2: Esplorare i modi in cui è possibile esaminare le attività registrate.
 
-1. Dal riquadro di spostamento sinistro, sotto **Esamina**, selezionare **Log attività**.  Qui è possibile visualizzare tutte le attività delle app connesse.   Poiché il connettore di Office 365 è già connesso, dovrebbero essere visibili alcuni dati. Dopo aver collegato Cloud App Security a un'app utilizzando il Connettore app, Cloud App Security scansiona tutte le attività che si sono verificate (il periodo di tempo della scansione retroattiva è diverso per ogni app) e poi viene aggiornato costantemente con nuove attività.  
+1. Dal riquadro di spostamento sinistro, sotto **Esamina**, selezionare **Log attività**.  Qui è possibile visualizzare tutte le attività delle app connesse.   Poiché il connettore di Office 365 è già connesso, dovrebbero essere visibili alcuni dati. Dopo la connessione a un'app tramite il connettore app, Cloud App Security analizza tutte le attività eseguite (il periodo di retroattività dell'analisi varia a seconda dell'app) e quindi viene aggiornato con le nuove attività.  
 
 1. Selezionare una voce per visualizzare informazioni più dettagliate. Nella parte superiore della pagina è presente l'opzione per aggiungere un nuovo criterio dalla ricerca o per esportare i dati per ulteriori analisi.  Selezionare **+Nuovo criterio dalla ricerca**.  È possibile creare un criterio basato su un modello, selezionare una gravità e una categoria del criterio, creare filtri per il criterio, creare avvisi e persino inviare gli avvisi a Power Automate.  Selezionare **Annulla** per uscire dalla finestra di creazione dei criteri.
 
@@ -63,13 +67,13 @@ Questa demo illustrerà le funzionalità di Microsoft Defender for Cloud Apps.  
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
 
-#### Demo Parte 3: In questa attività si esploreranno le pagine dei criteri e degli avvisi in Microsoft Defender for Cloud Apps.
+#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Demo parte 3: In questa attività si esploreranno le pagine dei criteri e degli avvisi in Microsoft Defender for Cloud Apps.
 
-1. Dal riquadro di spostamento sinistro, sotto dove è visualizzato Controllo, selezionare **Criteri**.  I criteri elencati forniscono informazioni sul numero di avvisi generati per criterio, gravità e così via. La selezione di una voce fornisce informazioni più dettagliate relative al criterio. Selezionare una voce dall'elenco, ad esempio, **Accesso a rischio**.  
+1. Dal riquadro di spostamento a sinistra, sotto dove è visualizzato Controllo, selezionare **Criteri**.  I criteri elencati offrono informazioni sul numero di avvisi generati dai criteri, la gravità e così via. Selezionando qualsiasi elemento vengono visualizzate informazioni più dettagliate sul criterio. Selezionare una voce dall'elenco, ad esempio, **Accesso a rischio**.  
 
 1. Dal riquadro di spostamento sinistro, selezionare **Avvisi**.  Se sono elencati degli avvisi, selezionare una voce dall'elenco degli avvisi. Esaminare le informazioni fornite.  Dal lato superiore destro della finestra, selezionare **Chiudi avviso** per visualizzare le opzioni di chiusura dell'avviso.  
 
 1. Chiudere la finestra del browser.
 
-#### Verifica
-In questa demo sono state presentate le funzionalità di Microsoft Defender for Cloud Apps.  Sono state illustrate le informazioni disponibili sul dashboard di Cloud Discovery, nonché le funzionalità disponibili per esaminare i risultati e controllare l'impatto sull'organizzazione tramite i criteri.
+#### <a name="review"></a>Verifica
+In questa demo sono state presentate le funzionalità di Microsoft Defender for Cloud Apps.  Sono state illustrate le informazioni disponibili sul dashboard di Cloud Discovery, nonché le funzionalità disponibili per esaminare i risultati e controllare l'impatto sull'organizzazione attraverso i criteri.
