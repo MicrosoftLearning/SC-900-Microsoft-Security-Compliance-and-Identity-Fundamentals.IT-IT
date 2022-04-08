@@ -2,12 +2,12 @@
 lab:
   title: "Esplorazione della governance dell'identità in Azure AD con Privileged Identity Management "
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894010"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489236"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Laboratorio: Esplorazione della governance dell'identità in Azure AD con Privileged Identity Management
 
@@ -50,9 +50,9 @@ In questo lab, si esploreranno alcune delle funzionalità di base di Privileged 
 
 2. Dal riquadro di spostamento sinistro, selezionare **Identity Governance**.
 
-3. Dalla finestra principale, assicurarsi che **Attività iniziali** sia sottolineato, quindi selezionare **Gestione delle assegnazioni di ruolo** nella porzione centrale della schermata sulla destra.  In alternativa, dal riquadro di spostamento a sinistra, sotto Privileged Identity Management, selezionare **Ruoli di Azure AD**.
+3. Dal riquadro di spostamento a sinistra, sotto Privileged Identity Management, selezionare **Ruoli di Azure AD**.
 
-4. Ora ci si trova nella finestra di avvio rapido di Privileged Identity Management.  Selezionare **Gestisci accesso**.
+4. Ora ci si trova nella finestra di avvio rapido di Privileged Identity Management.  Selezionare **Gestisci**.
 
 5. Ora ci si trova nella pagina Ruoli di Contoso.  Nella barra della ricerca in cima alla pagina, immettere **utente**.  Selezionare **Amministratore utenti** dai risultati della ricerca.
 
@@ -85,7 +85,7 @@ In questo lab, si esploreranno alcune delle funzionalità di base di Privileged 
 19. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata, quindi **Disconnetti**. Quindi, chiudere tutte le finestre del browser.
 
 
-#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Attività 3: Attività 3:  In questa attività, in qualità di Diego Siciliani, si effettuerà l'accesso al portale di Azure per accedere alla funzionalità Privileged Identity Management di Azure Active Directory in modo da attivare la propria assegnazione come amministratore utenti.  Una volta attivata, si apporteranno alcune modifiche alla configurazione di un utente esistente. Nota: per questa attività sarà necessario avere accesso immediato a un dispositivo mobile che può ricevere messaggi di testo.
+#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Attività 3: In questa attività, in qualità di Diego Siciliani, si effettuerà l'accesso al portale di Azure per accedere alla funzionalità Privileged Identity Management di Azure Active Directory in modo da attivare la propria assegnazione come amministratore utenti.  Una volta attivata, si apporteranno alcune modifiche alla configurazione di un utente esistente. Nota: per questa attività sarà necessario avere accesso immediato a un dispositivo mobile che può ricevere messaggi di testo.
 
 1. Aprire Microsoft Edge.  Nella barra degli indirizzi del browser, immettere **portal.azure.com**.
 
