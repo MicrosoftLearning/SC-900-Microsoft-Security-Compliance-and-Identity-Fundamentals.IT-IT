@@ -1,13 +1,13 @@
 ---
 lab:
   title: Esplorazione del flusso di lavoro di Core eDiscovery
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
-ms.openlocfilehash: cb7b0e4c2d7b2ac980e829f24ebbdbb31965e2b8
-ms.sourcegitcommit: 965f24bd5f74be6d0841bf526259a5651af4fdf5
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
+ms.openlocfilehash: 0754237aa892e9fe31ad2eea0811642bce929fe8
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "139253908"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614375"
 ---
 # <a name="lab-explore-the-core-ediscovery-workflow"></a>Laboratorio: Esplorazione del flusso di lavoro di Core eDiscovery
 
@@ -22,7 +22,7 @@ In questo lab eseguiremo i passaggi necessari per configurare Core eDiscovery e 
  Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
 
 1. Accedere con le credenziali di amministratore.
-    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting), quindi selezionare **Avanti**.
+    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**. In questo modo si accede alla pagina dell'interfaccia di amministrazione di Microsoft 365.
