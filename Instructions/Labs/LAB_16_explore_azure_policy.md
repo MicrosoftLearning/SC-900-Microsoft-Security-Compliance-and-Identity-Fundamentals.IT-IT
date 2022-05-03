@@ -1,13 +1,13 @@
 ---
 lab:
   title: Esplorare Criteri di Azure
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893937"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614423"
 ---
 # <a name="lab-explore-azure-policy"></a>Laboratorio: Esplorare Criteri di Azure
 
@@ -33,7 +33,7 @@ Criteri di Azure è un servizio che consente di applicare gli standard aziendali
 
 1. In alto sulla pagina, sotto Essentials, si possono vedere nome, descrizione e altre informazioni essenziali.  Leggere la descrizione (far scorrere il mouse sopra la descrizione). NOTA: il campo della descrizione fa riferimento a Centro sicurezza di Azure che è stato ridenominato Microsoft Defender per il cloud.
 
-1. Notare che le informazioni fornite dal dashboard vengono aggiornate per riflettere l'elemento selezionato, la definizione dell'iniziativa ASC Default.  Si ricordi che la definizione di un'iniziativa è una raccolta di definizioni di criteri che mirano a raggiungere un singolo obiettivo generale. Le informazioni possono essere visualizzate per gruppi, criteri, risorse non conformi o eventi.
+1. Notare che le informazioni fornite dal dashboard vengono aggiornate in modo da riflettere l'elemento selezionato, Impostazione predefinita del Centro sicurezza di Azure. Impostazione predefinita del Centro sicurezza di Azure è la definizione dell'iniziativa Benchmark di Sicurezza di Azure.  Si ricordi che la definizione di un'iniziativa è una raccolta di definizioni di criteri che mirano a raggiungere un singolo obiettivo generale. Le informazioni possono essere visualizzate per gruppi, criteri, risorse non conformi o eventi.
 
 1. Uscire dalla pagina ASC e tornare alla home page dei criteri selezionando **X** nell'angolo in alto a destra della finestra.
 
@@ -69,7 +69,9 @@ Criteri di Azure è un servizio che consente di applicare gli standard aziendali
 
 1. Si noti il nome di assegnazione predefinito.  Mantenere il nome così com'è e dal fondo della pagina selezionare **Avanti**.
 
-1. Nel campo Nome tag, immettere **Ambiente**, quindi selezionare **Avanti**.  
+1. Nel campo Nome tag, immettere **Ambiente**, quindi selezionare **Avanti**. 
+
+1. Non modificare le impostazioni di correzione predefinite, quindi selezionare **Avanti**. 
 
 1. Nel messaggio di non conformità immettere **È richiesto un tag ambiente**, quindi selezionare **Avanti**. Nota: questo messaggio apparirà come motivo di non conformità per i gruppi di risorse che sono stati creati prima dell'assegnazione del criterio e non hanno un tag Ambiente.  La creazione di gruppi di risorse successiva alla creazione verrà negata in assenza di un tag ambiente.
 
@@ -97,11 +99,13 @@ Criteri di Azure è un servizio che consente di applicare gli standard aziendali
 
 1. Si vedrà un'indicazione di convalida riuscita (il nome e il valore del tag non sono campi obbligatori nella procedura guidata), quindi selezionare **Crea**.
 
-1. Comparirà un messaggio di errore nella parte superiore dello schermo, "Non è stato possibile creare il gruppo di risorse. Visualizza i dettagli dell'errore".  Selezionare **Visualizza dettagli errore**. La condizione che fa parte dei criteri di Azure non è stata soddisfatta, quindi la creazione del gruppo di risorse è stata bloccata per non conformità. Nota: se non viene visualizzato il messaggio di errore e il gruppo di risorse viene creato, significa che l'applicazione del criterio non è ancora avvenuta.  Accedere alla pagina dei criteri per il criterio creato nell'attività precedente e una volta che il criterio ha effetto si vedrà che la risorsa non è conforme.  La pagina dei dettagli includerà il messaggio di non conformità.
+1. Comparirà un messaggio di errore nella parte superiore dello schermo, "Non è stato possibile creare il gruppo di risorse. Visualizza i dettagli dell'errore".  Selezionare **Visualizza dettagli errore**. La condizione che fa parte dei criteri di Azure non è stata soddisfatta, quindi la creazione del gruppo di risorse è stata bloccata per non conformità. 
+
+    Nota: se non viene visualizzato il messaggio di errore e il gruppo di risorse viene creato, significa che l'applicazione del criterio non è ancora avvenuta.  Accedere alla pagina dei criteri per il criterio creato nell'attività precedente e una volta che il criterio ha effetto si vedrà che la risorsa non è conforme.  La pagina dei dettagli includerà il messaggio di non conformità. Se viene visualizzato l'errore, eseguire la procedura seguente per correggere la distribuzione.
 
 1. Il riepilogo dell'errore mostra il seguente tipo di errore, "La risorsa 'SC900-Labs' non è consentita dal criterio".  Chiudere questa finestra selezionando la **X** nell'angolo in alto a sinistra dello schermo.
 
-1. Dalla finestra Crea un gruppo di risorse selezionare **<Precedente**.
+1. Nella finestra Crea un gruppo di risorse selezionare **Precedente**.
 
 1. Si ritorna alla pagina Tag per la creazione di un gruppo di risorse.  Nel campo Nome immettere Ambiente e nel campo Valore immettere **SC900-Labs**, quindi selezionare **Avanti: Rivedi e crea >** .
 

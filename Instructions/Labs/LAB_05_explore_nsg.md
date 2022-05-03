@@ -2,12 +2,12 @@
 lab:
   title: Esplorazione dei gruppi di sicurezza di rete di Azure (NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 6921230c178c08c8a6868de49f2f0673a72127fc
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: b140c437202af133f02d8e615795a97f634aca96
+ms.sourcegitcommit: 89f5fbd1e9c70e30108daa8fbeb65ebd9947bf1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019272"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "141605425"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Laboratorio: Esplorazione dei Gruppi di sicurezza di rete (NSG) di Azure.
 
@@ -21,25 +21,26 @@ In questo lab, si esplorerà la funzione dei Gruppi di sicurezza di rete in Azur
 1.  Aprire Microsoft Edge.  Nella barra degli indirizzi immettere **portal.azure.com**.
 
 1. Accedere con le credenziali di amministratore.
-    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting), quindi selezionare **Avanti**.
+    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
 
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.
 1. Nell'angolo in alto a sinistra della schermata, accanto alla dicitura Microsoft Azure, selezionare l'icona Mostra menu Portale (le tre linee orizzontali, chiamata anche icona hamburger), quindi selezionare **Tutti i servizi**.  
 1. Nella finestra principale, sotto In primo piano, selezionare Macchine virtuali.  Se non vi sono macchine virtuali elencate, immetterla nella barra di ricerca, quindi selezionarla dai risultati della ricerca.
-1. Nella parte superiore sinistra della pagina, selezionare **+Crea**, quindi **+Macchina virtuale**.
+1. Nella parte superiore sinistra della pagina selezionare **+Crea**, quindi selezionare **Macchina virtuale di Azure**.
 1. Dalla scheda generale, compilare le seguenti informazioni (per eventuali voci non elencate, lasciare le impostazioni predefinite):
     1. Sottoscrizione: verificare che l'impostazione predefinita sia Azure Pass – Sponsorizzazione.
 
     1. Gruppo di risorse: selezionare **Crea nuovo**, quindi nel campo Nome immettere **LabsSC900-RG** e infine selezionare **OK**.
     1. Nome macchine virtuali: immettere **SC900-WinVM**.
-    1. Immagine: selezionare **Windows 10 Pro, Versione 20H2 – Gen 1** nell'elenco a discesa.
-    1. Dimensioni: selezionare **vedi tutte le dimensioni** nell'elenco a discesa e selezionare **B2s**, quindi fare clic su **Seleziona** nella parte inferiore della pagina.
-    1. Nome utente:  immettere il nome utente desiderato.  Prenderne nota, perché sarà necessario per accedere alla macchina virtuale.
-    1. Password:  immettere una password di propria scelta.  Prenderne nota, perché sarà necessario per accedere alla macchina virtuale.
-    1. Porte in ingresso pubbliche: selezionare **Nessuna**.
-    1. Licenze: selezionare **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights** (Confermo di avere una licenza idonea di Windows 10 con diritti di hosting multi-tenant), in modo che nella casella compaia un segno di spunta.
-    1. Selezionare **Avanti: Dischi**. 
+    1. Area: se questo campo non è precompilato, selezionare l'area più vicina alla propria posizione.
+    3. Immagine: selezionare **Windows 10 Pro, Versione 20H2 – Gen 1** nell'elenco a discesa.
+    4. Dimensioni: selezionare **vedi tutte le dimensioni** nell'elenco a discesa e selezionare **B2s**, quindi fare clic su **Seleziona** nella parte inferiore della pagina.
+    5. Nome utente:  immettere il nome utente desiderato.  Prenderne nota, perché sarà necessario per accedere alla macchina virtuale.
+    6. Password:  immettere una password di propria scelta.  Prenderne nota, perché sarà necessario per accedere alla macchina virtuale.
+    7. Porte in ingresso pubbliche: selezionare **Nessuna**.
+    8. Licenze: selezionare **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights** (Confermo di avere una licenza idonea di Windows 10 con diritti di hosting multi-tenant), in modo che nella casella compaia un segno di spunta.
+    9. Selezionare **Avanti: Dischi**. 
 1. Ora ci si trova nella scheda Dischi per la configurazione della macchina virtuale  Lasciare tutte le impostazioni sul valore predefinito, quindi selezionare **Avanti: Rete >** .
 1. Ora ci si trova nella scheda Rete per la configurazione della macchina virtuale.  Inserire le seguenti informazioni (per eventuali voci non elencate, lasciare le impostazioni predefinite):
     1. Gruppo di sicurezza di rete della scheda di interfaccia di rete: selezionare **Nessuno**.  Nota: il motivo per cui si seleziona Nessuno in questo passaggio è che si vuole eseguire la procedura di configurazione di un gruppo di sicurezza di rete da zero, come descritto nelle attività successive.

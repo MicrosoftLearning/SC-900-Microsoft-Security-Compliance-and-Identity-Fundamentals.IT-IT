@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Etichette di riservatezza in Microsoft 365
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894074"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614231"
 ---
 # <a name="demo-sensitivity-labels-in-microsoft-365"></a>Dimostrazione: Etichette di riservatezza in Microsoft 365
 
@@ -32,7 +32,7 @@ Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno e
 
 1. Dal riquadro di spostamento sinistro, sotto Soluzioni, selezionare **Information Protection**.
 
-1. Nel riquadro delle informazioni giallo viene indicato che l'organizzazione non ha abilitato la possibilità di elaborare il contenuto dei file online di Office che hanno etichette di riservatezza crittografate applicate e sono archiviati in OneDrive e SharePoint.  Selezionare Abilita ora.  Al termine, potrebbe esserci un ritardo nella propagazione delle impostazioni nel sistema.
+1. Il riquadro delle informazioni giallo indica che l'organizzazione non ha abilitato la possibilità di elaborare il contenuto dei file online di Office dotati di etichette di riservatezza crittografate e archiviati in OneDrive e SharePoint.  Selezionare Abilita ora.  Al termine, potrebbe esserci un ritardo nella propagazione delle impostazioni nel sistema.
 
 1. Verificare che la scheda **Etichette** sulla parte superiore della pagina sia selezionata (sottolineata).
 
