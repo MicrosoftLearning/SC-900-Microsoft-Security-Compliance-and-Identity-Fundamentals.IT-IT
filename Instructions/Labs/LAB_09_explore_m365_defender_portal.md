@@ -2,28 +2,30 @@
 lab:
   title: Esplorazione del portale di Microsoft 365 Defender
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c3b666c86b361f7d33c6ae7f3639b7b015d8fa30
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614411"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557147"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Laboratorio: Esplorazione del portale di Microsoft 365 Defender
 
 ## <a name="lab-scenario"></a>Scenario del lab
-In questo lab verrà esplorato il portale di Microsoft 365 Defender esaminando il contenuto visualizzato nella pagina di destinazione. Verranno inoltre esplorate le opzioni sul riquadro di spostamento che forniscono accesso rapido a funzionalità che fanno parte della soluzione Extended Detection and Response (XDR) di Microsoft: Microsoft Defender per endpoint e Microsoft Defender per Office 365 (e-mail e collaborazione).  Infine si esplorerà inoltre in che modo Microsoft Secure Score può aiutare un'organizzazione a migliorare il proprio profilo di sicurezza.
 
+In questo lab verrà esplorato il portale di Microsoft 365 Defender esaminando il contenuto visualizzato nella pagina di destinazione. Verranno inoltre esplorate le opzioni sul riquadro di spostamento che forniscono accesso rapido a funzionalità che fanno parte della soluzione Extended Detection and Response (XDR) di Microsoft: Microsoft Defender per endpoint e Microsoft Defender per Office 365 (e-mail e collaborazione).  Infine si esplorerà inoltre in che modo Microsoft Secure Score può aiutare un'organizzazione a migliorare il proprio profilo di sicurezza.
 
 **Tempo stimato**: 10-15 minuti
 
-#### <a name="task-1--explore-the-microsoft-365-defender-landing-page"></a>Attività 1:  Esplorazione della pagina di destinazione di Microsoft 365 Defender
+### <a name="task-1"></a>Attività 1
+
+Esplorazione della pagina di destinazione di Microsoft 365 Defender
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
 
 1. Accedere con le credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
-   
+
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**. In questo modo si accede alla pagina dell'interfaccia di amministrazione di Microsoft 365.
 
@@ -43,7 +45,9 @@ In questo lab verrà esplorato il portale di Microsoft 365 Defender esaminando i
 
 1. Selezionando il titolo di una scheda si accede a informazioni aggiuntive per quell'argomento. Questo passaggio sarà approfondito nell'attività successiva.  Tenere aperta la finestra del browser.
 
-#### <a name="task-2-in-this-task-you-will-explore-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Attività 2: In questa attività si esplorerà come Microsoft Secure Score può aiutare un'organizzazione a migliorare il proprio profilo di sicurezza.
+### <a name="task-2"></a>Attività 2
+
+In questa attività si esplorerà come Microsoft Secure Score può aiutare un'organizzazione a migliorare il proprio profilo di sicurezza.
 
 1. Dalla pagina di benvenuto del portale Microsoft 365 Defender, selezionare **Microsoft Secure Score**, dalla barra del titolo della scheda (il testo diventerà blu).  In alternativa, è possibile selezionare **Secure Score** dal riquadro di spostamento sinistro.
 
@@ -63,5 +67,6 @@ In questo lab verrà esplorato il portale di Microsoft 365 Defender esaminando i
 
 1. Chiudere la pagina del browser.
 
-#### <a name="review"></a>Verifica
+### <a name="review"></a>Verifica
+
 In questo lab è stato esplorato il portale di Microsoft 365 Defender esaminando il contenuto visualizzato nella pagina di destinazione, sono state esplorate le opzioni sul riquadro di spostamento che forniscono un rapido accesso alle funzionalità che fanno parte della soluzione Extended Detection and Response (XDR) di Microsoft, Microsoft Defender per endpoint e Microsoft Defender per Office 365 (e-mail e collaborazione).  Infine, è stato esplorato in che modo Microsoft Secure Score può aiutare un'organizzazione a migliorare il proprio profilo di sicurezza.

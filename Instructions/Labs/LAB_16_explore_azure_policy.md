@@ -2,28 +2,30 @@
 lab:
   title: Esplorare Criteri di Azure
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614423"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557519"
 ---
 # <a name="lab-explore-azure-policy"></a>Laboratorio: Esplorare Criteri di Azure
 
 ## <a name="lab-scenario"></a>Scenario del lab
-Criteri di Azure è un servizio che consente di applicare gli standard aziendali e di valutare la conformità su larga scala. Criteri di Azure valuta le risorse in Azure confrontando le proprietà di tali risorse con le regole business. In questo lab, lo studente inizierà esplorando la pagina di destinazione Criteri di Azure. Dopo aver esplorato la pagina Criteri di Azure, lo studente creerà un criterio ed esaminerà gli effetti del criterio creato.
 
+Criteri di Azure è un servizio che consente di applicare gli standard aziendali e di valutare la conformità su larga scala. Criteri di Azure valuta le risorse in Azure confrontando le proprietà di tali risorse con le regole business. In questo lab, lo studente inizierà esplorando la pagina di destinazione Criteri di Azure. Dopo aver esplorato la pagina Criteri di Azure, lo studente creerà un criterio ed esaminerà gli effetti del criterio creato.
 
 **Tempo stimato**: 20-25 minuti
 
-#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>Attività 1: Esplorare brevemente la pagina Criteri di Azure.
+### <a name="task-1"></a>Attività 1
+
+Esplorare brevemente la pagina Criteri di Azure.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.microsoft.com**.
 
 1. Accedere con le credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
-    
+
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.
 
@@ -53,7 +55,9 @@ Criteri di Azure è un servizio che consente di applicare gli standard aziendali
 
 1. Mantenere aperta questa scheda del browser (Criteri – Microsoft Azure) per la prossima attività.
 
-#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>Attività 2:  In questa attività verrà creata un'assegnazione di criteri base per richiedere un tag sui gruppi di risorse.
+### <a name="task-2"></a>Attività 2
+
+In questa attività verrà creata un'assegnazione di criteri base per richiedere un tag sui gruppi di risorse.
 
 1. Nel browser, aprire la scheda Criteri – Microsoft Azure.
 
@@ -69,9 +73,9 @@ Criteri di Azure è un servizio che consente di applicare gli standard aziendali
 
 1. Si noti il nome di assegnazione predefinito.  Mantenere il nome così com'è e dal fondo della pagina selezionare **Avanti**.
 
-1. Nel campo Nome tag, immettere **Ambiente**, quindi selezionare **Avanti**. 
+1. Nel campo Nome tag, immettere **Ambiente**, quindi selezionare **Avanti**.
 
-1. Non modificare le impostazioni di correzione predefinite, quindi selezionare **Avanti**. 
+1. Non modificare le impostazioni di correzione predefinite, quindi selezionare **Avanti**.
 
 1. Nel messaggio di non conformità immettere **È richiesto un tag ambiente**, quindi selezionare **Avanti**. Nota: questo messaggio apparirà come motivo di non conformità per i gruppi di risorse che sono stati creati prima dell'assegnazione del criterio e non hanno un tag Ambiente.  La creazione di gruppi di risorse successiva alla creazione verrà negata in assenza di un tag ambiente.
 
@@ -81,7 +85,9 @@ Criteri di Azure è un servizio che consente di applicare gli standard aziendali
 
 1. Ora ci si trova nella home page dei servizi di Azure.  Tenere questa pagina aperta, servirà per l'attività successiva.
 
-#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>Attività 3:  In questa attività si vedrà l'effetto dell'assegnazione dei criteri di Azure, tramite la creazione in Azure di un gruppo di risorse privo di un tag, quindi il gruppo di risorse verrà aggiornato per includere un tag.  Nota: L'applicazione del criterio creato durante la precedente attività potrebbe richiedere fino a 30 minuti, ma in genere l'applicazione avviene più rapidamente.
+### <a name="task-3"></a>Attività 3
+
+In questa attività si vedrà l'effetto dell'assegnazione dei criteri di Azure, tramite la creazione in Azure di un gruppo di risorse privo di un tag, quindi il gruppo di risorse verrà aggiornato per includere un tag.  Nota: L'applicazione del criterio creato durante la precedente attività potrebbe richiedere fino a 30 minuti, ma in genere l'applicazione avviene più rapidamente.
 
 1. Nel browser, aprire la scheda Home – Microsoft Azure.
 
@@ -99,7 +105,7 @@ Criteri di Azure è un servizio che consente di applicare gli standard aziendali
 
 1. Si vedrà un'indicazione di convalida riuscita (il nome e il valore del tag non sono campi obbligatori nella procedura guidata), quindi selezionare **Crea**.
 
-1. Comparirà un messaggio di errore nella parte superiore dello schermo, "Non è stato possibile creare il gruppo di risorse. Visualizza i dettagli dell'errore".  Selezionare **Visualizza dettagli errore**. La condizione che fa parte dei criteri di Azure non è stata soddisfatta, quindi la creazione del gruppo di risorse è stata bloccata per non conformità. 
+1. Comparirà un messaggio di errore nella parte superiore dello schermo, "Non è stato possibile creare il gruppo di risorse. Visualizza i dettagli dell'errore".  Selezionare **Visualizza dettagli errore**. La condizione che fa parte dei criteri di Azure non è stata soddisfatta, quindi la creazione del gruppo di risorse è stata bloccata per non conformità.
 
     Nota: se non viene visualizzato il messaggio di errore e il gruppo di risorse viene creato, significa che l'applicazione del criterio non è ancora avvenuta.  Accedere alla pagina dei criteri per il criterio creato nell'attività precedente e una volta che il criterio ha effetto si vedrà che la risorsa non è conforme.  La pagina dei dettagli includerà il messaggio di non conformità. Se viene visualizzato l'errore, eseguire la procedura seguente per correggere la distribuzione.
 
@@ -115,12 +121,11 @@ Criteri di Azure è un servizio che consente di applicare gli standard aziendali
 
 1. Prima di uscire, rimuovere il criterio di Azure.
     1. Nell'angolo in alto a sinistra sulla pagina, selezionare Home per ritornare alla home page di Azure.
-    
+
     1. Sotto la dicitura Servizi di Azure, selezionare Criteri di Azure.
     1. Nel mezzo della pagina, verranno visualizzate le assegnazioni di criteri/iniziative di Azure.  Selezionare i puntini di sospensione per l'assegnazione del criterio Richiedi un tag sui gruppi di risorse, quindi selezionare Elimina assegnazione.
     1. Verrà richiesto di confermare che si desidera eliminare l'assegnazione.  Selezionare Sì.
 
-
-#### <a name="review"></a>Verifica
+### <a name="review"></a>Verifica
 
 In questo lab, lo studente ha esplorato la pagina di destinazione Criteri di Azure. Dopo aver esplorato la pagina Criteri di Azure, lo studente ha eseguito la procedura per creare un criterio e ha potuto vedere gli effetti del criterio creato.

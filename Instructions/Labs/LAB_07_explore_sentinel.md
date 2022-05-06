@@ -2,21 +2,24 @@
 lab:
   title: Esplorare Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 28c73a721cd595b41e63a235498b00552acdac82
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614339"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557159"
 ---
-# <a name="lab-explore-microsoft-sentinel"></a>Laboratorio: Esplorare Microsoft Sentinel 
+# <a name="lab-explore-microsoft-sentinel"></a>Laboratorio: Esplorare Microsoft Sentinel
 
 ## <a name="lab-scenario"></a>Scenario del lab
+
 In questo lab verrà illustrato il processo di creazione di un'istanza di Microsoft Sentinel.  Verranno anche configurate le autorizzazioni per garantire l'accesso alle risorse che verranno distribuite per supportare Microsoft Sentinel.  Dopo aver completato questa configurazione di base, verranno illustrati i passaggi per connettere Microsoft Sentinel alle origini dati, per configurare una cartella di lavoro e verranno illustrate brevemente alcune delle funzionalità chiave disponibili in Microsoft Sentinel.  
 
 **Tempo stimato**: 45-60 minuti
 
-#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>Attività 1:  Creare un'istanza di Microsoft Sentinel
+### <a name="task-1"></a>Attività 1
+
+Creare un'istanza di Microsoft Sentinel
 
 1. Aprire la scheda del browser, **Home-Microsoft Azure**.  Se la scheda era stata chiusa in precedenza, aprire una pagina del browser e nella barra degli indirizzi inserire portal.azure.com e accedere di nuovo.
 
@@ -43,11 +46,13 @@ In questo lab verrà illustrato il processo di creazione di un'istanza di Micros
 
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
-#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>Attività 2:  Una volta creata l'istanza di Microsoft Sentinel, ci si assicurerà di disporre dell'accesso necessario alle risorse distribuite per il supporto di Microsoft Sentinel.  
+### <a name="task-2"></a>Attività 2
+
+Una volta creata l'istanza di Microsoft Sentinel, ci si assicurerà di disporre dell'accesso necessario alle risorse distribuite per il supporto di Microsoft Sentinel.
 
 1. Nella casella di ricerca, nella barra blu nella parte superiore della pagina accanto a Microsoft Azure, inserire **gruppi di risorse** quindi selezionare **Gruppi di risorse** dai risultati della ricerca. L'assegnazione del ruolo a livello di gruppo di risorse garantirà che il ruolo venga applicato a tutte le risorse distribuite per il supporto di Microsoft Sentinel.
 
-1. Nella pagina Gruppi di risorse selezionare il gruppo di risorse creato con Microsoft Sentinel, **SC900-Sentinel-RG**. 
+1. Nella pagina Gruppi di risorse selezionare il gruppo di risorse creato con Microsoft Sentinel, **SC900-Sentinel-RG**.
 
 1. Dalla pagina SC900-Sentinel-RG, selezionare **Controllo di accesso (IAM)** dal riquadro di spostamento sinistro.
 
@@ -55,14 +60,16 @@ In questo lab verrà illustrato il processo di creazione di un'istanza di Micros
 
     1. Dalla pagina Controllo di accesso selezionare **+Aggiungi**, quindi selezionare **Add role assignment** (Aggiungi assegnazione di ruolo).
 
-    1. Si apre la finestra Add role assignment (Aggiungi assegnazione di ruolo).  Nella casella di ricerca immettere **Microsoft Sentinel** per visualizzare i 4 ruoli associati a Microsoft Sentinel. 
+    1. Si apre la finestra Add role assignment (Aggiungi assegnazione di ruolo).  Nella casella di ricerca immettere **Microsoft Sentinel** per visualizzare i 4 ruoli associati a Microsoft Sentinel.
     1. Da uno dei ruoli elencati, selezionare **visualizza** per visualizzarne i dettagli.  Come procedura consigliata si dovrebbe assegnare il privilegio minimo richiesto per il ruolo.  
 
     1. Chiudere la finestra selezionando la **X** nell'angolo superiore destro della finestra.
 
 1. Nella pagina di controllo dell'accesso chiudere la finestra selezionando la **X** nell'angolo superiore destro della finestra.
 
-#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>Attività 3:  In questa attività si esaminerà il processo di connessione di Microsoft Sentinel all'origine dati per iniziare a raccogliere dati.
+### <a name="task-3"></a>Attività 3
+
+In questa attività si esaminerà il processo di connessione di Microsoft Sentinel all'origine dati per iniziare a raccogliere dati.
 
 1. Nella casella di ricerca, nella barra blu nella parte superiore della pagina accanto a Microsoft Azure, immettere **Microsoft Sentinel** e quindi selezionare **Microsoft Sentinel** dai risultati della ricerca.
 
@@ -84,7 +91,9 @@ In questo lab verrà illustrato il processo di creazione di un'istanza di Micros
 
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
-#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>Attività 4:  In questa attività verrà illustrato il processo di configurazione di una cartella di lavoro per Office 365, per visualizzare e monitorare i dati.
+### <a name="task-4"></a>Attività 4
+
+In questa attività verrà illustrato il processo di configurazione di una cartella di lavoro per Office 365, per visualizzare e monitorare i dati.
 
 1. Dal riquadro di spostamento sinistro, selezionare **Cartelle di lavoro**.
 
@@ -92,13 +101,15 @@ In questo lab verrà illustrato il processo di creazione di un'istanza di Micros
 
 1. Nella finestra che viene visualizzata sul lato destro della schermata esaminare la descrizione, selezionare **Salva** nella parte inferiore della schermata e quindi selezionare **OK** per salvare la cartella di lavoro nel percorso predefinito.  A questo punto selezionare **Visualizza la cartella di lavoro salvata**.
 
-1. Verrà visualizzata la pagina Cartelle di lavoro Office 365.  Selezionare la freccia a discesa accanto a **Operazioni: annulla impostazioni** e quindi selezionare **Tutte**.  Selezionare ora la freccia a discesa accanto a **Utenti: query in sospeso** e selezionare **Tutte**.  Selezionare l'**icona di salvataggio (disco).** Chiudere la finestra selezionando la **X** nell'angolo superiore destro della finestra. La visualizzazione dei dati nella cartella di lavoro può richiedere alcuni minuti. Si tornerà pertanto alle cartelle di lavoro in un secondo momento.
+1. Verrà visualizzata la pagina Cartelle di lavoro Office 365.  Selezionare la freccia a discesa accanto a **Operazioni: annulla impostazioni** e quindi selezionare **Tutto**.  Selezionare ora la freccia a discesa accanto a **Utenti: query in sospeso** e selezionare **Tutte**.  Selezionare l'**icona di salvataggio (disco).** Chiudere la finestra selezionando la **X** nell'angolo superiore destro della finestra. La visualizzazione dei dati nella cartella di lavoro può richiedere alcuni minuti. Si tornerà pertanto alle cartelle di lavoro in un secondo momento.
 
 1. Nell'angolo in alto a sinistra della pagina Cartelle di lavoro, sopra Cartelle di lavoro, selezionare **Microsoft Sentinel**. Verrà visualizzata la pagina di panoramica.
 
-#### <a name="task-5--in-this-task-you-will-walk-through-some-of-the-options-available-in-sentinel"></a>Attività 5:  In questa attività verranno illustrate alcune delle opzioni disponibili in Sentinel.
+### <a name="task-5"></a>Attività 5
 
-1. Dal riquadro di spostamento sinistro, selezionare **Ricerca**.  Nella scheda **Query**, che è selezionata (sottolineata), selezionare una query qualsiasi dall'elenco.  Dopo aver selezionato una query, prendere nota delle informazioni fornite su tale query, incluso il codice per la query, nonché l'opzione per eseguire la query e visualizzare i risultati.  Non selezionare nulla.
+In questa attività verranno illustrate alcune delle opzioni disponibili in Sentinel.
+
+1. Dal riquadro di spostamento sinistro selezionare **Ricerca**.  Nella scheda **Query**, che è selezionata (sottolineata), selezionare una query qualsiasi dall'elenco.  Dopo aver selezionato una query, prendere nota delle informazioni fornite su tale query, incluso il codice per la query, nonché l'opzione per eseguire la query e visualizzare i risultati.  Non selezionare nulla.
 
 1. Dal riquadro di spostamento sinistro, selezionare **MITRE ATT&CK**.  MITRE ATT&CK è una knowledge base pubblica di tattiche e tecniche comunemente usate dagli utenti malintenzionati. Con Microsoft Sentinel è possibile visualizzare i rilevamenti già attivi nell'area di lavoro e quelli disponibili per la configurazione, per comprendere la copertura della sicurezza dell'organizzazione, in base alle tattiche e alle tecniche del framework MITRE ATT&CK®.  Selezionare una cella della matrice e prendere nota delle informazioni disponibili sul lato destro della schermata.  
 
@@ -114,7 +125,9 @@ In questo lab verrà illustrato il processo di creazione di un'istanza di Micros
 
 1. Nell'angolo superiore sinistro della finestra, subito sotto la barra blu, selezionare **Home** per tornare alla home page del portale di Azure.
 
-#### <a name="task-6-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>Attività 6: Microsoft Sentinel viene fatturato in base al volume di dati inseriti per l'analisi in Microsoft Sentinel. Sebbene la quantità di dati inseriti come conseguenza di questo lab sia minima, è consigliabile eliminare il gruppo di risorse di Microsoft Sentinel una volta completata l'esplorazione delle funzionalità di Microsoft Sentinel.
+### <a name="task-6"></a>Attività 6
+
+Microsoft Sentinel viene fatturato in base al volume di dati inseriti per l'analisi in Microsoft Sentinel. Sebbene la quantità di dati inseriti come conseguenza di questo lab sia minima, è consigliabile eliminare il gruppo di risorse di Microsoft Sentinel una volta completata l'esplorazione delle funzionalità di Microsoft Sentinel.
 
 1. Nella pagina di Microsoft Sentinel, nell'angolo in alto a sinistra della pagina, sopra a dove è visualizzato Microsoft Sentinel, selezionare **Tutti i servizi**.
 
@@ -124,8 +137,8 @@ In questo lab verrà illustrato il processo di creazione di un'istanza di Micros
 
 4. Dalla parte centrale in alto della pagina, selezionare **Elimina gruppo di risorse**.  Esaminare l'avviso.  Immettere il nome del gruppo di risorse, **SC900-ResourceGroup**, quindi selezionare **Elimina** dalla parte inferiore della pagina.  L'eliminazione del gruppo di risorse impiegherà diversi minuti.
 
-5. Una volta verificato che il gruppo di risorse è stato eliminato, chiudere la pagina del browser. 
+5. Una volta verificato che il gruppo di risorse è stato eliminato, chiudere la pagina del browser.
 
-#### <a name="review"></a>Verifica
+### <a name="review"></a>Verifica
 
 In questa demo sono stati illustrati i passaggi per la connessione di Microsoft Sentinel alle origini dati, è stata impostata una cartella di lavoro e sono state descritte varie opzioni disponibili in Microsoft Sentinel.

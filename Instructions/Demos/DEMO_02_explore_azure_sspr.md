@@ -2,16 +2,16 @@
 Demo:
   title: Reimpostazione della password self-service di Azure Active Directory
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894147"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557219"
 ---
 # <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>Dimostrazione: Reimpostazione della password self-service (SSPR) di Azure Active Directory
 
-### <a name="demo-scenario"></a>Scenario demo
+## <a name="demo-scenario"></a>Scenario demo
 
 Questa demo illustra le varie impostazioni associate all'abilitazione della reimpostazione della password self-service.
 
@@ -40,7 +40,6 @@ Questa demo illustra le varie impostazioni associate all'abilitazione della reim
 
 1. Tenere aperta questa pagina del browser per la prossima demo.
 
-#### <a name="review"></a>Verifica
+### <a name="review"></a>Verifica
 
-Questa demo ha illustrato le impostazioni associate alla reimpostazione della password self-service. 
-
+Questa demo ha illustrato le impostazioni associate alla reimpostazione della password self-service.

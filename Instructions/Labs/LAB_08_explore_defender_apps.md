@@ -2,23 +2,26 @@
 lab:
   title: 'Esplorare Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: aa360b3d9e604e384cc5b040ef747425af76e13b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893995"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557575"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Laboratorio: Esplorare Microsoft Defender for Cloud Apps
 
 ## <a name="lab-scenario"></a>Scenario del lab
-In questo lab verranno esplorate le funzionalità di Microsoft Defender for Cloud Apps.  Verranno esaminate le informazioni disponibili sul dashboard Cloud Discovery nonché le funzionalità disponibili per indagare le scoperte e controllare l'impatto sulla propria organizzazione attraverso criteri.  Nota:  un'organizzazione deve avere una licenza per usare Microsoft Defender for Cloud Apps, che è un servizio con sottoscrizione basato sull'utente. 
+
+In questo lab verranno esplorate le funzionalità di Microsoft Defender for Cloud Apps.  Verranno esaminate le informazioni disponibili sul dashboard Cloud Discovery nonché le funzionalità disponibili per indagare le scoperte e controllare l'impatto sulla propria organizzazione attraverso criteri.  Nota:  un'organizzazione deve avere una licenza per usare Microsoft Defender for Cloud Apps, che è un servizio con sottoscrizione basato sull'utente.
 
 **Tempo stimato**: 15-20 minuti
 
-#### <a name="task-1-explore-cloud-discovery"></a>Attività 1: Esplorare Cloud Discovery.
+### <a name="task-1"></a>Attività 1
 
-1.  Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
+Esplorare Cloud Discovery.
+
+1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
 
 1. Accedere con le credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
@@ -50,7 +53,9 @@ In questo lab verranno esplorate le funzionalità di Microsoft Defender for Clou
 
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
-#### <a name="task-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Attività 2: Esplorare i modi in cui è possibile esaminare le attività registrate.
+### <a name="task-2"></a>Attività 2
+
+Esplorare i modi in cui è possibile esaminare le attività registrate.
 
 1. Dal riquadro di spostamento sinistro, sotto Esamina, selezionare **Log attività**.  Qui si ottiene la visibilità in tutte le attività dalle app connesse.   Poiché il connettore di Office 365 è già connesso, dovrebbero essere visibili alcuni dati. Dopo la connessione a un'app tramite il connettore app, Cloud App Security analizza tutte le attività eseguite (il periodo di retroattività dell'analisi varia a seconda dell'app) e quindi viene aggiornato con le nuove attività.  
 
@@ -66,14 +71,16 @@ In questo lab verranno esplorate le funzionalità di Microsoft Defender for Clou
 
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
+### <a name="task-3"></a>Attività 3
 
-#### <a name="task-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Attività 3: In questa attività si esploreranno le pagine dei criteri e degli avvisi in Microsoft Defender for Cloud Apps.
+In questa attività si esploreranno le pagine dei criteri e degli avvisi in Microsoft Defender for Cloud Apps.
 
-1. Nel pannello di spostamento a sinistra selezionare la freccia a discesa accanto a **Controllo** e quindi selezionare **Criteri**.  I criteri elencati offrono informazioni sul numero di avvisi generati dai criteri, la gravità e così via. Quando si seleziona una voce, come **Accesso a rischio**, viene offerta un'opzione per modificare il criterio. Selezionare **Annulla** nella parte inferiore della pagina. 
+1. Nel pannello di spostamento a sinistra selezionare la freccia a discesa accanto a **Controllo** e quindi selezionare **Criteri**.  I criteri elencati offrono informazioni sul numero di avvisi generati dai criteri, la gravità e così via. Quando si seleziona una voce, come **Accesso a rischio**, viene offerta un'opzione per modificare il criterio. Selezionare **Annulla** nella parte inferiore della pagina.
 
 1. Dal riquadro di spostamento sinistro, selezionare **Avvisi**.  Se sono elencati degli avvisi, selezionare una voce dall'elenco degli avvisi. Esaminare le informazioni fornite.  Dal lato superiore destro della finestra, selezionare **Chiudi avviso** per visualizzare le opzioni di chiusura dell'avviso.  
 
 1. Chiudere la finestra del browser.
 
-#### <a name="review"></a>Verifica
+### <a name="review"></a>Verifica
+
 In questo lab sono state esplorate le funzionalità di Microsoft Defender for Cloud Apps.  Sono state esaminate le informazioni disponibili sul dashboard Cloud Discovery nonché le funzionalità disponibili per analizzare le scoperte e controllare l'impatto sulla propria organizzazione attraverso criteri.

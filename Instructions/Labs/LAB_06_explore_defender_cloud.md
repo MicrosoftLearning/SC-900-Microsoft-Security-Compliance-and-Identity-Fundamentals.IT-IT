@@ -2,22 +2,26 @@
 lab:
   title: Esplorare Microsoft Defender per il cloud
   module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: 208e11a7e82497fbb900b4fa024fb6fb367d458e
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 580e84e726a6ba9c7d9109881710e08f059d0818
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893994"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557574"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>Laboratorio: Esplorare Microsoft Defender per il cloud
 
 ## <a name="lab-scenario"></a>Scenario del lab
+
 In questo lab verrà esplorato Microsoft Defender per il cloud e si apprenderà in che modo il punteggio di sicurezza di Azure può essere usato per migliorare la postura di sicurezza dell'organizzazione.
 
 **Tempo stimato**: 30 minuti
 
-#### <a name="task-1-in-this-task-you-will-take-a-brief-tour-of-microsoft-defender-for-cloud"></a>Attività 1: Questa attività include una breve presentazione di Microsoft Defender per il cloud.
-1.  Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com**.
+### <a name="task-1"></a>Attività 1
+
+Questa attività include una breve presentazione di Microsoft Defender per il cloud.
+
+1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com**.
 
 1. Accedere con le credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
@@ -48,35 +52,36 @@ In questo lab verrà esplorato Microsoft Defender per il cloud e si apprenderà 
 
 1. Dalla pagina principale, selezionare **Conformità alle normative**. La pagina della conformità alle normative offre un elenco di controlli di conformità.  Sotto ciascun controllo è riportata una serie di valutazioni che sono basate su Azure Security Benchmark che offre raccomandazioni su come proteggere le soluzioni cloud su Azure.
     1. Selezionare **IM. Gestione delle identità** e quindi selezionare **IM.6 Usare controlli di autenticazione avanzata**.  L'elenco mostra azioni di responsabilità che il cliente può intraprendere per migliorare il profilo di conformità.
-    1. Selezionare la **X** nell'angolo in alto a destra della schermata per chiudere la pagina e tornare alla pagina Panoramica di Microsoft Defender per il cloud. 
+    1. Selezionare la **X** nell'angolo in alto a destra della schermata per chiudere la pagina e tornare alla pagina Panoramica di Microsoft Defender per il cloud.
     1. Mantenere aperta la pagina Panoramica di Microsoft Defender per il cloud, che verrà usata nell'attività successiva.
 
+### <a name="task-2"></a>Attività 2
 
-#### <a name="task-2-in-this-task-you-will-navigate-to-azure-secure-score-and-explore-recommendations-that-can-improve-your-secure-score"></a>Attività 2: Con questa attività verranno esplorati Azure Secure Score e le raccomandazioni per migliorare il proprio punteggio di sicurezza. 
+Con questa attività verranno esplorati Azure Secure Score e le raccomandazioni per migliorare il proprio punteggio di sicurezza.
 
 1. Nella pagina Panoramica di Microsoft Defender per il cloud selezionare la scheda **Punteggio di sicurezza**.
 1. Selezionare **Azure Pass – Sponsorizzazione**.  Annotarsi il proprio punteggio di sicurezza.
 1. Nella pagina delle raccomandazioni selezionare **Implementa le procedure consigliate per la sicurezza** per espandere l'elenco. Si noti che lo stato di integrità delle risorse è visualizzato in rosso.
-1. Selezionare l'elemento **Devono essere presenti più proprietari assegnati alla propria sottoscrizione**, che mostra lo stato di integrità risorse in rosso. 
+1. Selezionare l'elemento **Devono essere presenti più proprietari assegnati alla propria sottoscrizione**, che mostra lo stato di integrità risorse in rosso.
 1. Sotto la voce **Risorse interessate** assicurarsi che l'opzione Risorse non integre sia selezionata o sottolineata, quindi selezionare la sottoscrizione di Azure elencata.
 1. Dalla parte superiore della pagina del Controllo di accesso (IAM), selezionare **+ Aggiungi**, quindi dal menu a discesa selezionare **Add role assignment** (Aggiungi assegnazione di ruolo).
     1. Sul lato sinistro della pagina selezionare **Proprietario** (dovrebbe essere il primo elemento elencato) in modo che la riga sia evidenziata in grigio, quindi selezionare **Avanti** nella parte inferiore della pagina.
-    1. Accanto a Membri selezionare **+ Selezionare i membri**. 
+    1. Accanto a Membri selezionare **+ Selezionare i membri**.
     1. Nella finestra Selezionare i membri visualizzata sul lato destro della schermata selezionare **Alex Wilber** e quindi fare clic su **Seleziona** nella parte inferiore della pagina.  
     1. Nella pagina Aggiungi assegnazione di ruolo verificare che Alex Willber sia elencato come membro e quindi selezionare **Avanti** e infine **Verifica e assegna**.
     1. L'aggiornamento dello stato potrebbe richiedere fino a 24 ore, dopodiché verrà aggiornato anche il punteggio di sicurezza in quanto tutti gli elementi nel gruppo Manage access and permissions (Gestisci accesso e autorizzazioni) sono soddisfatti.
     1. Nell'angolo superiore sinistro della pagina, sopra dove è indicato Azure Pass, selezionare **Microsoft Defender per il cloud** per tornare alla pagina Panoramica di Microsoft Defender per il cloud.
 1. Lasciare la pagina aperta per l'attività successiva.
 
+### <a name="task-3"></a>Attività 3
 
-#### <a name="task-3--recall-that-microsoft-defender-for-cloud-is-offered-in-two-modes-without-enhanced-security-features-free-and-with-enhanced-security-features-which-are-available-through-the-microsoft-defender-for-cloud-plans-in-this-task-you-discover-how-to-enabledisable-the-various-microsoft-defender-for-cloud-plans"></a>Attività 3:  Tenere presente che Microsoft Defender per il cloud è disponibile in due modalità: senza funzionalità di sicurezza avanzate (gratuito) e con funzionalità di sicurezza avanzate disponibili tramite i piani di Microsoft Defender per il cloud. Questa attività illustra come abilitare o disabilitare i vari piani di Microsoft Defender per il cloud.
+Tenere presente che Microsoft Defender per il cloud è disponibile in due modalità: senza funzionalità di sicurezza avanzate (gratuito) e con funzionalità di sicurezza avanzate disponibili tramite i piani di Microsoft Defender per il cloud. Questa attività illustra come abilitare o disabilitare i vari piani di Microsoft Defender per il cloud.
 
-1.  Nella pagina Panoramica di Microsoft Defender per il cloud selezionare **Impostazioni ambiente** nel pannello di spostamento a sinistra.
+1. Nella pagina Panoramica di Microsoft Defender per il cloud selezionare **Impostazioni ambiente** nel pannello di spostamento a sinistra.
 1. Selezionare il segno di maggiore di **>** accanto a Gruppo radice tenant per espanderlo (non selezionare direttamente Gruppo radice tenant perché si verrebbe reindirizzati a una pagina diversa), quindi selezionare **Azure Pass - Sponsorship**
-1.  Nella pagina dei piani di Defender notare che è possibile selezionare Abilita tutti o selezionare singoli piani di Defender. Lasciare le impostazioni così come sono con tutti i piani disattivati.
-1.  Ora è possibile chiudere la scheda del browser per uscire dal portale di Azure.
+1. Nella pagina dei piani di Defender notare che è possibile selezionare Abilita tutti o selezionare singoli piani di Defender. Lasciare le impostazioni così come sono con tutti i piani disattivati.
+1. Ora è possibile chiudere la scheda del browser per uscire dal portale di Azure.
 
+### <a name="review"></a>Verifica
 
-#### <a name="review"></a>Verifica
 In questo lab è stato esplorato Microsoft Defender per il cloud e si è appreso come è possibile usare il punteggio di sicurezza di Azure per migliorare il profilo di sicurezza dell'organizzazione.
-
