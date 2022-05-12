@@ -2,19 +2,22 @@
 Demo:
   title: Criteri di Azure
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614183"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557135"
 ---
 # <a name="demo-azure-policy"></a>Dimostrazione: Criteri di Azure
 
-### <a name="demo-scenario"></a>Scenario demo
+## <a name="demo-scenario"></a>Scenario demo
+
 Questa demo illustra il processo di configurazione di un criterio di Azure e l'impatto di tale criterio.
 
-#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>Demo Parte 1: Creare un criterio per richiedere un tag su un gruppo di risorse (mostra la procedura per creare un criterio da un modello)
+### <a name="demo-part-1"></a>Demo parte 1
+
+Creare un criterio per richiedere un tag su un gruppo di risorse (mostra la procedura per creare un criterio da un modello)
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.microsoft.com**.  L'accesso dovrebbe già essere stato effettuato, altrimenti è possibile accedere con le credenziali di amministratore.
 
@@ -46,7 +49,9 @@ Questa demo illustra il processo di configurazione di un criterio di Azure e l'i
 
 1. Ora ci si trova nella home page dei servizi di Azure.  Tenere questa pagina aperta, servirà per l'attività successiva.
 
-#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>Demo parte 2:  Mostrare l'impatto del criterio creando un gruppo di risorse senza un tag, poi sistemarlo in modo da avere un tag.
+### <a name="demo-part-2"></a>Demo parte 2
+
+Mostrare l'impatto del criterio creando un gruppo di risorse senza un tag, poi sistemarlo in modo da avere un tag.
 
 1. Dalla parte superiore della pagina, sotto Servizi di Azure, selezionare **Gruppi di risorse**. Se l'opzione non è elencata, inserire Gruppi di risorse nella barra di ricerca e selezionarla da lì.
 
@@ -74,6 +79,6 @@ Questa demo illustra il processo di configurazione di un criterio di Azure e l'i
 
 1. Si vedrà elencato il gruppo di risorse.  Poiché il tag è stato fornito nel gruppo di risorse, la condizione inclusa come parte del criterio di Azure è stata soddisfatta.  Il gruppo di risorse è conforme al criterio.
 
-#### <a name="review"></a>Verifica
+### <a name="review"></a>Verifica
 
 Questa demo ha illustrato il processo di configurazione di un criterio di Azure e l'impatto di tale criterio.

@@ -2,12 +2,12 @@
 lab:
   title: Esplorazione di Service Trust Portal
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: e26a0d4eaaaabba7027215db53c3ebd0ccb0ad6c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614195"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557207"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>Laboratorio: Esplorazione di Service Trust Portal
 
@@ -17,12 +17,13 @@ In questo lab, verranno esplorate le funzionalità e il contenuto disponibili da
 
 **Tempo stimato**: 10-15 minuti
 
+### <a name="task-1"></a>Attività 1
 
-#### <a name="task-1-in-this-task-you-will-explore-the-service-trust-portal-and-the-different-types-of-content-available-you-will-learn-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>Attività 1: In questa attività si esplorerà Service Trust Portal e i diversi tipi di contenuto disponibile, si apprenderà come accedere ai report e come salvarli nella raccolta. 
+In questa attività si esplorerà Service Trust Portal e i diversi tipi di contenuto disponibile, si apprenderà come accedere ai report e come salvarli nella raccolta.
 
 1. Aprire Microsoft Edge.
 
-1. Nella barra degli indirizzi immettere **https://aka.ms/STP** .  In questo modo, si passerà alla pagina di destinazione di Service Trust Portal. Service Trust Portal contiene i dettagli relativi all'implementazione di Microsoft dei controlli e dei processi che proteggono i servizi cloud e i dati dei clienti al loro interno. 
+1. Nella barra degli indirizzi immettere **aka.ms/STP**.  In questo modo, si passerà alla pagina di destinazione di Service Trust Portal. Service Trust Portal contiene i dettagli relativi all'implementazione di Microsoft dei controlli e dei processi che proteggono i servizi cloud e i dati dei clienti al loro interno.
 
 1. Per accedere ad alcune delle risorse in Service Trust Portal, è necessario accedere come utente autenticato con l'account di Microsoft Cloud Service e rivedere e accettare l'accordo di riservatezza di Microsoft per i materiali di conformità. Nell'angolo superiore destro della pagina di destinazione per Service Trust Portal verrà visualizzata l'opzione Accedi.  **Effettuare l'accesso** usando le credenziali di amministratore e, se richiesto, selezionare **Accetto** per accettare l'accordo di riservatezza di Microsoft per i materiali di conformità.
 
@@ -46,7 +47,9 @@ In questo lab, verranno esplorate le funzionalità e il contenuto disponibili da
 
 1. È possibile selezionare da diverse categorie,  tra cui Report di valutazione GRC, Guide alla conformità e altro ancora.  Così come per l'attività precedente, è possibile filtrare l'elenco di documenti visualizzati e selezionare i documenti da scaricare o salvare i documenti nella propria raccolta.
 
-#### <a name="task-2-in-this-task-you-will-visit-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>Attività 2: In questa attività si visiterà il Centro protezione e si esploreranno i sei principi chiave sulla privacy di Microsoft.
+### <a name="task-2"></a>Attività 2
+
+In questa attività si visiterà il Centro protezione e si esploreranno i sei principi chiave sulla privacy di Microsoft.
 
 1. In cima alla pagina Service Trust Portal, selezionare **Centro protezione**, quindi **Home**. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni su sicurezza, conformità e privacy in Microsoft Cloud.
 
@@ -60,6 +63,6 @@ In questo lab, verranno esplorate le funzionalità e il contenuto disponibili da
 
 1. Chiudere le finestre del browser per uscire da Service Trust Portal e dal Centro protezione.
 
-#### <a name="review"></a>Verifica
+### <a name="review"></a>Verifica
 
 In questo lab sono state esplorate alcune opzioni disponibili sotto Service Trust Portal, la modalità di accesso ai report e la modalità di utilizzo di Raccolta per salvare documenti per una verifica successiva.  Inoltre, si è visitato il Centro protezione per accedere e rivedere i principi di privacy di Microsoft.

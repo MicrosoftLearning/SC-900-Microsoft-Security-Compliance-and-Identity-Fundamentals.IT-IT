@@ -2,24 +2,26 @@
 Demo:
   title: Portale Service Trust
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 587f823b993a7ac3046af9494b90883f22a01c8a
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 79190b5422352e204adad1f0799789181d2d4408
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614399"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557489"
 ---
 # <a name="demo-service-trust-portal"></a>Dimostrazione: Portale Service Trust
 
-### <a name="demo-scenario"></a>Scenario demo
+## <a name="demo-scenario"></a>Scenario demo
 
 In questa dimostrazione, verranno mostrati le funzionalità e i contenuti disponibili in Service Trust Portal. Come opzione da visualizzare, sono inclusi inoltre i passaggi per accedere ai sei principi di privacy tramite il Centro protezione.
 
-#### <a name="demo-part-1-in-this-part-you-will-walk-the-learner-through-the-different-types-of-content-available-on-the-service-trust-portal-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>Demo Parte 1: In questa parte, si guiderà lo studente attraverso l'apprendimento dei diversi tipi di contenuti in Service Trust Portal, della modalità di accesso ai report e di salvataggio dei report nella propria raccolta. 
+### <a name="demo-part-1"></a>Demo parte 1
+
+In questa parte, si guiderà lo studente attraverso l'apprendimento dei diversi tipi di contenuti in Service Trust Portal, della modalità di accesso ai report e di salvataggio dei report nella propria raccolta.
 
 1. Aprire Microsoft Edge.
 
-1. Nella barra degli indirizzi immettere **https://aka.ms/STP** .  In questo modo, si passerà alla pagina di destinazione di Service Trust Portal. Service Trust Portal contiene i dettagli relativi all'implementazione di Microsoft dei controlli e dei processi che proteggono i servizi cloud e i dati dei clienti al loro interno. 
+1. Nella barra degli indirizzi immettere **aka.ms/STP**. In questo modo, si passerà alla pagina di destinazione di Service Trust Portal. Service Trust Portal contiene i dettagli relativi all'implementazione di Microsoft dei controlli e dei processi che proteggono i servizi cloud e i dati dei clienti al loro interno.
 
 1. Per accedere ad alcune delle risorse in Service Trust Portal, è necessario accedere come utente autenticato con l'account di Microsoft Cloud Service e rivedere e accettare l'accordo di riservatezza di Microsoft per i materiali di conformità. Nell'angolo superiore destro della pagina di destinazione per Service Trust Portal verrà visualizzata l'opzione Accedi.  **Effettuare l'accesso** usando le credenziali di amministratore e, se richiesto, selezionare **Accetto** per accettare l'accordo di riservatezza di Microsoft per i materiali di conformità.
 
@@ -43,7 +45,9 @@ In questa dimostrazione, verranno mostrati le funzionalità e i contenuti dispon
 
 1. È possibile selezionare da diverse categorie,  tra cui Report di valutazione GRC, Guide alla conformità e altro ancora.  Così come per l'attività precedente, è possibile filtrare l'elenco di documenti visualizzati e selezionare i documenti da scaricare o salvare i documenti nella propria raccolta.
 
-#### <a name="demo-part-2-optional-in-this-part-of-the-demo-you-will-show-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>Parte 2 demo (facoltativa): In questa parte della demo, si vedrà il Centro protezione e si navigherà ai sei principi di privacy fondamentali di Microsoft.
+### <a name="demo-part-2-optional"></a>Demo parte 2 (facoltativa)
+
+In questa parte della demo, si vedrà il Centro protezione e si navigherà ai sei principi di privacy fondamentali di Microsoft.
 
 1. In cima alla pagina Service Trust Portal, selezionare **Centro protezione**, quindi **Home**. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni su sicurezza, conformità e privacy in Microsoft Cloud.
 
@@ -57,6 +61,6 @@ In questa dimostrazione, verranno mostrati le funzionalità e i contenuti dispon
 
 1. Chiudere le finestre del browser per uscire da Service Trust Portal e dal Centro protezione.
 
-#### <a name="review"></a>Verifica
+### <a name="review"></a>Verifica
 
 In questa demo si sono esplorate alcune delle opzioni disponibili in Service Trust Portal, si è visto come accedere ai report di controllo per Microsoft Cloud Service e come usare la Raccolta personale per salvare documenti per una revisione futura.  Inoltre, si è visitato il Centro protezione per accedere e rivedere i principi di privacy di Microsoft.

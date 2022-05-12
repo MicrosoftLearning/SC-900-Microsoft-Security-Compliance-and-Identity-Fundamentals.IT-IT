@@ -1,21 +1,23 @@
 ---
 Demo:
-  title: Etichette di riservatezza in Microsoft 365
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Etichette di riservatezza in Microsoft Purview
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
+ms.openlocfilehash: 190ba104d08f47bf1bddfbd262b76c9e6aa8581c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614231"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557195"
 ---
-# <a name="demo-sensitivity-labels-in-microsoft-365"></a>Dimostrazione: Etichette di riservatezza in Microsoft 365
+# <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Dimostrazione: Etichette di riservatezza in Microsoft Purview
 
-### <a name="demo-scenario"></a>Scenario demo
+## <a name="demo-scenario"></a>Scenario demo
+
 Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno esaminate le impostazioni per le etichette di riservatezza esistenti che sono state create e il criterio corrispondente per pubblicare l'etichetta.   Quindi verrà illustrato come applicare un'etichetta e l'impatto della stessa dal punto di vista dell'utente.
 
+### <a name="demo-part-1"></a>Demo parte 1
 
-#### <a name="demo-part-1-in-this-demo-you-show-the-settings-for-an-existing-sensitivity-label-and-the-corresponding-policy-to-publish-the-label"></a>Demo Parte 1: Questa demo illustrerà le impostazioni per un'etichetta di riservatezza esistente e il criterio corrispondente per pubblicare l'etichetta.
+Questa demo illustrerà le impostazioni per un'etichetta di riservatezza esistente e il criterio corrispondente per pubblicare l'etichetta.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
 
@@ -26,15 +28,15 @@ Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno e
 
 1. Dal riquadro di spostamento sinistro dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
 
-1. In Interfacce di amministrazione selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del Centro conformità Microsoft 365.  
+1. In Interfacce di amministrazione selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del portale di conformità di Microsoft Purview.  
 
-1. Dal riquadro di spostamento sinistro del Centro conformità Microsoft 365 e poi selezionare **Mostra tutto**.
+1. Dal riquadro di spostamento sinistro del portale di conformità di Microsoft Purview selezionare **Mostra tutto**.
 
 1. Dal riquadro di spostamento sinistro, sotto Soluzioni, selezionare **Information Protection**.
 
-1. Il riquadro delle informazioni giallo indica che l'organizzazione non ha abilitato la possibilità di elaborare il contenuto dei file online di Office dotati di etichette di riservatezza crittografate e archiviati in OneDrive e SharePoint.  Selezionare Abilita ora.  Al termine, potrebbe esserci un ritardo nella propagazione delle impostazioni nel sistema.
+1. Il riquadro delle informazioni giallo indica che l'organizzazione non ha abilitato la possibilità di elaborare il contenuto dei file online di Office dotati di etichette di riservatezza crittografate e archiviati in OneDrive e SharePoint.  Selezionare **Attiva ora**.  Al termine, potrebbe esserci un ritardo nella propagazione delle impostazioni nel sistema.
 
-1. Verificare che la scheda **Etichette** sulla parte superiore della pagina sia selezionata (sottolineata).
+1. Verificare che la scheda **Etichette** nella parte superiore della pagina sia selezionata (sottolineata).
 
 1. Al centro della pagina sono presenti tre etichette già create.  Selezionare **Riservato - Finanza**.  Si apre una finestra contenente informazioni su questa etichetta.  Questa etichetta è impostata per supportare sia la crittografia che il contrassegno dei contenuti.  Selezionare **Modifica etichetta** nella parte superiore della pagina per visualizzare alcune delle impostazioni di configurazione di base.
 
@@ -50,9 +52,9 @@ Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno e
 
     1. Ora ci si trova nell'etichettatura automatica per la finestra di file e messaggi e-mail.  Leggere la descrizione dell'etichettatura automatica sulla parte alta della pagina e la casella delle informazioni sotto.  Si noti anche che questa etichetta è impostata per l'etichettatura automatica per condizioni specifiche. Non modificare alcuna impostazione.  Selezionare **Avanti** nella parte inferiore della pagina.
 
-    1. La prossima finestra definisce le impostazioni di protezione per i team, i gruppi e i siti a cui è applicata questa etichetta. Questa funzionalità non è abilitata, selezionare **Avanti** nella parte inferiore della pagina. 
+    1. La prossima finestra definisce le impostazioni di protezione per i team, i gruppi e i siti a cui è applicata questa etichetta. Questa funzionalità non è abilitata, selezionare **Avanti** nella parte inferiore della pagina.
 
-    1. La prossima finestra è una funzionalità di anteprima per applicare automaticamente questa etichetta alle colonne del database Azure (come SQL, Synapse e altro) che contengono i tipi di informazioni sensibili scelti.  Questa funzionalità non è abilitata. Selezionare **Annulla** in fondo alla pagina per uscire dalla configurazione guidata dell'etichetta e tornare alla pagina Information Protection. 
+    1. La prossima finestra è una funzionalità di anteprima per applicare automaticamente questa etichetta alle colonne del database Azure (come SQL, Synapse e altro) che contengono i tipi di informazioni sensibili scelti.  Questa funzionalità non è abilitata. Selezionare **Annulla** in fondo alla pagina per uscire dalla configurazione guidata dell'etichetta e tornare alla pagina Information Protection.
 
 1. Dalla parte superiore della pagina Information Protection, selezionare **Criteri delle etichette**.  È attraverso i criteri delle etichette che le etichette di riservatezza possono essere pubblicate.  
 
@@ -70,18 +72,19 @@ Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno e
 
 1. Dalla pagina Information Protection, selezionare Aggiunta automatica dell'etichetta.  Notare che non è stato configurato nessun criterio di aggiunta automatica dell'etichetta.  Non modificare alcuna impostazione.  Si noterà che non presente alcun criterio, dato che la configurazione dell'etichetta è impostata sull'aggiunta automatica dell'etichetta per i file e le e-mail; tornare ai passaggi di definizione delle impostazioni di configurazione dell'etichetta e riesaminare la descrizione e le caselle informative associate all'aggiunta automatica dell'etichetta per i file e le e-mail.  Suggerimento:  nella scheda dell'etichettatura automatica per il lab sulla riservatezza, viene mostrato un messaggio simile al seguente:  "Per applicare automaticamente questa etichetta ai file già salvati (in SharePoint e OneDrive) o alle e-mail già elaborate da Exchange, è necessario creare un criterio di aggiunta automatica dell'etichetta".
 
-1. Dal riquadro di spostamento sinistro, selezionare Home per tornare al Centro conformità Microsoft 365.
+1. Dal riquadro di spostamento sinistro selezionare Home per tornare alla pagina del portale di conformità di Microsoft Purview.
 
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
+### <a name="demo-part-2"></a>Demo parte 2
 
-#### <a name="demo-part-2--in-this-step-you-will-show-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>Demo parte 2:  Questo passaggio illustrerà il processo di applicazione di un'etichetta dalla prospettiva dell'utente (in questo caso l'utente è l'amministratore) e verrà mostrato il contrassegno dei contenuti che viene generato dall'etichetta.
+Questo passaggio illustrerà il processo di applicazione di un'etichetta dalla prospettiva dell'utente (in questo caso l'utente è l'amministratore) e verrà mostrato il contrassegno dei contenuti che viene generato dall'etichetta.
 
-1. Nella home page del Centro conformità Microsoft 365 selezionare l'**icona di avvio dell'app** accanto a Contoso Electronics. **Fare clic con il pulsante destro del mouse sull'icona di Word** e scegliere **Apri in una nuova scheda**.  
+1. Nella home page del portale di conformità di Microsoft Purview selezionare l'**icona di avvio dell'app** accanto a Contoso Electronics. **Fare clic con il pulsante destro del mouse sull'icona di Word** e scegliere **Apri in una nuova scheda**.  
 
 1. Selezionare **+ Nuovo documento vuoto**, quindi immettere il testo nella pagina.  Sulla barra blu nella parte superiore della pagina, selezionare la freccia verso il basso, accanto a DocumentoXX - Salvato, e nella casella Nome file immettere **Etichetta di test**.
 
-1. Dalla barra del menu in alto, selezionare **Riservatezza**, se l'opzione non è immediatamente disponibile, aggiornare la pagina. Dall'elenco a discesa, selezionare **Riservato - Finanza**. 
+1. Dalla barra del menu in alto, selezionare **Riservatezza**, se l'opzione non è immediatamente disponibile, aggiornare la pagina. Dall'elenco a discesa, selezionare **Riservato - Finanza**.
 
 1. Dalla barra dei menu in alto, selezionare **Visualizzazione**, poi selezionare **Visualizzazione di lettura**.
 
@@ -89,9 +92,11 @@ Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno e
 
 1. Chiudere le schede di Microsoft Word aperte sul browser per uscire da Word.
 
-#### <a name="demo-part-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view-or-any-documentemail-with-the-label-applied--in-this-section-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-or-your-microsoft-email-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>Demo Parte 3 (opzionale): Oltre al contrassegno dei contenuti, l'impostazione della protezione dell'etichetta è stata impostata per la crittografia. Secondo i permessi che sono stati configurati con questa etichetta, i membri del gruppo finanziario possono ave autorizzazioni di co-autore per i documenti con questa etichetta applicata e gli utenti del tenant Contoso possono visualizzare (o qualsiasi documento/e-mail con l'etichetta applicata).  In questa sezione verrà inviato questo documento a un indirizzo e-mail a cui si ha avete accesso (cioè, un indirizzo e-mail personale o la propria e-mail Microsoft) e che NON fa parte del dominio WWLxZZZZ.OnMicrosoft.com e si scoprirà cosa succede quando si prova ad aprire l'allegato.  
+### <a name="demo-part-3-optional"></a>Demo parte 3 (facoltativa)
 
-1. Nella home page del Centro conformità Microsoft 365 selezionare l'**icona di avvio dell'app** accanto a Contoso Electronics. **Fare clic con il pulsante destro del mouse sull'icona di Outlook** e scegliere **Apri in una nuova scheda**.
+Oltre al contrassegno dei contenuti, l'impostazione della protezione dell'etichetta è stata impostata per la crittografia. Secondo i permessi che sono stati configurati con questa etichetta, i membri del gruppo finanziario possono ave autorizzazioni di co-autore per i documenti con questa etichetta applicata e gli utenti del tenant Contoso possono visualizzare (o qualsiasi documento/e-mail con l'etichetta applicata).  In questa sezione verrà inviato questo documento a un indirizzo e-mail a cui si ha avete accesso (cioè, un indirizzo e-mail personale o la propria e-mail Microsoft) e che NON fa parte del dominio WWLxZZZZ.OnMicrosoft.com e si scoprirà cosa succede quando si prova ad aprire l'allegato.  
+
+1. Nella home page del portale di conformità di Microsoft Purview selezionare l'**icona di avvio dell'app** accanto a Contoso Electronics. **Fare clic con il pulsante destro del mouse sull'icona di Outlook** e scegliere **Apri in una nuova scheda**.
 
 1. Selezionare **Nuovo messaggio** dall'angolo in alto a sinistra dello schermo.  Inserire un indirizzo e-mail a cui si ha accesso e che non fa parte del dominio WWLxZZZZ.OnMicrosoft.com e immettere **Test** nell'oggetto.
 
@@ -105,6 +110,6 @@ Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno e
 
 1. Chiudere le schede del browser aperte.
 
+### <a name="review"></a>Verifica
 
-#### <a name="review"></a>Verifica
 Questa demo ha mostrato le capacità delle etichette di riservatezza.  Sono state esaminate le impostazioni per le etichette di riservatezza esistenti che erano già state create e il criterio corrispondente per pubblicare l'etichetta. Quindi è stato illustrato come applicare un'etichetta e l'impatto della stessa dal punto di vista dell'utente.

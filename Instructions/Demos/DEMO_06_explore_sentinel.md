@@ -2,19 +2,20 @@
 Demo:
   title: Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 15788d59891cea9ae5c3117e9c79c7bc60bc2806
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614435"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557327"
 ---
-# <a name="demo-microsoft-sentinel"></a>Dimostrazione: Microsoft Sentinel 
+# <a name="demo-microsoft-sentinel"></a>Dimostrazione: Microsoft Sentinel
 
-### <a name="demo-scenario"></a>Scenario demo
+## <a name="demo-scenario"></a>Scenario demo
+
 Questa demo illustrerà il processo di creazione di un'istanza di Microsoft Sentinel.  Verranno anche configurate le autorizzazioni per garantire l'accesso alle risorse che verranno distribuite per supportare Microsoft Sentinel.  Dopo aver completato questa configurazione di base, verranno illustrati i passaggi per connettere Microsoft Sentinel alle origini dati e creare una cartella di lavoro per monitorare e visualizzare i dati.  Infine, verranno visualizzate alcune altre opzioni disponibili, tra cui l'analisi integrata che consente di ricevere notifiche in merito a qualsiasi attività sospetta, la funzionalità di automazione e altro ancora.
 
-#### <a name="pre-demo-setup--create-an-microsoft-sentinel-instance"></a>Configurazione preliminare della demo:  Creare un'istanza di Microsoft Sentinel
+### <a name="pre-demo-setup--create-an-microsoft-sentinel-instance"></a>Configurazione preliminare della demo:  Creare un'istanza di Microsoft Sentinel
 
 1. Aprire la scheda del browser, **Home-Microsoft Azure**.  Se la scheda era stata chiusa in precedenza, aprire una pagina del browser e nella barra degli indirizzi inserire portal.azure.com e accedere di nuovo.
 
@@ -41,11 +42,13 @@ Questa demo illustrerà il processo di creazione di un'istanza di Microsoft Sent
 
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
-#### <a name="demo-part-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>Demo parte 2:  Una volta creata l'istanza di Microsoft Sentinel, ci si assicurerà di disporre dell'accesso necessario alle risorse distribuite per il supporto di Microsoft Sentinel.  
+### <a name="demo-part-2"></a>Demo parte 2
+
+Una volta creata l'istanza di Microsoft Sentinel, ci si assicurerà di disporre dell'accesso necessario alle risorse distribuite per il supporto di Microsoft Sentinel.  
 
 1. Nella casella di ricerca, nella barra blu nella parte superiore della pagina accanto a Microsoft Azure, inserire **gruppi di risorse** quindi selezionare **Gruppi di risorse** dai risultati della ricerca. L'assegnazione del ruolo a livello di gruppo di risorse garantirà che il ruolo venga applicato a tutte le risorse distribuite per il supporto di Microsoft Sentinel.
 
-1. Nella pagina Gruppi di risorse selezionare il gruppo di risorse creato con Microsoft Sentinel, **SC900-Sentinel-RG**. 
+1. Nella pagina Gruppi di risorse selezionare il gruppo di risorse creato con Microsoft Sentinel, **SC900-Sentinel-RG**.
 
 1. Dalla pagina SC900-Sentinel-RG, selezionare **Controllo di accesso (IAM)** dal riquadro di spostamento sinistro.
 
@@ -53,14 +56,16 @@ Questa demo illustrerà il processo di creazione di un'istanza di Microsoft Sent
 
     1. Dalla pagina Controllo di accesso selezionare **+Aggiungi**, quindi selezionare **Add role assignment** (Aggiungi assegnazione di ruolo).
 
-    1. Si apre la finestra Add role assignment (Aggiungi assegnazione di ruolo).  Nella casella di ricerca immettere **Microsoft Sentinel** per visualizzare i 4 ruoli associati a Microsoft Sentinel. 
+    1. Si apre la finestra Add role assignment (Aggiungi assegnazione di ruolo).  Nella casella di ricerca immettere **Microsoft Sentinel** per visualizzare i 4 ruoli associati a Microsoft Sentinel.
     1. Da uno dei ruoli elencati, selezionare **visualizza** per visualizzarne i dettagli.  Come procedura consigliata si dovrebbe assegnare il privilegio minimo richiesto per il ruolo.  
 
     1. Chiudere la finestra selezionando la **X** nell'angolo superiore destro della finestra.
 
 1. Nella pagina di controllo dell'accesso chiudere la finestra selezionando la **X** nell'angolo superiore destro della finestra.
 
-#### <a name="demo-part-3--in-this-part-of-the-demo-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>Demo parte 3:  Questa parte della demo illustrerà il processo di connessione di Microsoft Sentinel all'origine dati per iniziare a raccogliere dati.
+### <a name="demo-part-3"></a>Demo parte 3
+
+Questa parte della demo illustrerà il processo di connessione di Microsoft Sentinel all'origine dati per iniziare a raccogliere dati.
 
 1. Nella casella di ricerca, nella barra blu nella parte superiore della pagina accanto a Microsoft Azure, immettere **Microsoft Sentinel** e quindi selezionare **Microsoft Sentinel** dai risultati della ricerca.
 
@@ -82,7 +87,9 @@ Questa demo illustrerà il processo di creazione di un'istanza di Microsoft Sent
 
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
-#### <a name="demo-part-4--in-this-part-of-the-demo-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>Demo parte 4:  In questa parte della demo verrà illustrato il processo di configurazione di una cartella di lavoro per Office 365, per visualizzare e monitorare i dati.
+### <a name="demo-part-4"></a>Demo parte 4
+
+In questa parte della demo verrà illustrato il processo di configurazione di una cartella di lavoro per Office 365, per visualizzare e monitorare i dati.
 
 1. Dal riquadro di spostamento sinistro, selezionare **Cartelle di lavoro**.
 
@@ -94,7 +101,9 @@ Questa demo illustrerà il processo di creazione di un'istanza di Microsoft Sent
 
 1. Nell'angolo in alto a sinistra della pagina Cartelle di lavoro, sopra Cartelle di lavoro, selezionare **Microsoft Sentinel**. Verrà visualizzata la pagina di panoramica.
 
-#### <a name="demo-part-5--in-this-part-of-the-demo-you-will-show-some-of-the-options-available-in-sentinel"></a>Demo parte 5:  In questa parte della demo verranno illustrate alcun opzioni disponibili in Sentinel.
+### <a name="demo-part-5"></a>Demo parte 5
+
+In questa parte della demo verranno illustrate alcun opzioni disponibili in Sentinel.
 
 1. Dal riquadro di spostamento sinistro selezionare **Ricerca**.  Nella scheda **Query**, che è selezionata (sottolineata), selezionare una query qualsiasi dall'elenco.  Dopo aver selezionato una query, prendere nota delle informazioni fornite su tale query, incluso il codice per la query, nonché l'opzione per eseguire la query e visualizzare i risultati.  Non selezionare nulla.
 
@@ -112,7 +121,9 @@ Questa demo illustrerà il processo di creazione di un'istanza di Microsoft Sent
 
 1. Nell'angolo superiore sinistro della finestra, subito sotto la barra blu, selezionare **Home** per tornare alla home page del portale di Azure.
 
-#### <a name="task-6-post-course-delivery-tear-down-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-demo-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>Attività 6: Cancellare i dati alla fine del corso. Microsoft Sentinel viene fatturato in base al volume di dati inseriti per l'analisi in Microsoft Sentinel. Sebbene la quantità di dati inseriti come conseguenza di questa demo sia minima, è consigliabile eliminare il gruppo di risorse di Microsoft Sentinel una volta completata l'esplorazione delle funzionalità di Microsoft Sentinel.
+### <a name="task-6"></a>Attività 6
+
+Cancellare i dati alla fine del corso. Microsoft Sentinel viene fatturato in base al volume di dati inseriti per l'analisi in Microsoft Sentinel. Sebbene la quantità di dati inseriti come conseguenza di questa demo sia minima, è consigliabile eliminare il gruppo di risorse di Microsoft Sentinel una volta completata l'esplorazione delle funzionalità di Microsoft Sentinel.
 
 1. Nella pagina di Microsoft Sentinel, nell'angolo in alto a sinistra della pagina, sopra a dove è visualizzato Microsoft Sentinel, selezionare **Tutti i servizi**.
 
@@ -122,8 +133,8 @@ Questa demo illustrerà il processo di creazione di un'istanza di Microsoft Sent
 
 4. Dalla parte centrale in alto della pagina, selezionare **Elimina gruppo di risorse**.  Esaminare l'avviso.  Immettere il nome del gruppo di risorse, **SC900-ResourceGroup**, quindi selezionare **Elimina** dalla parte inferiore della pagina.  L'eliminazione del gruppo di risorse impiegherà diversi minuti.
 
-5. Una volta verificato che il gruppo di risorse è stato eliminato, chiudere la pagina del browser. 
+5. Una volta verificato che il gruppo di risorse è stato eliminato, chiudere la pagina del browser.
 
-#### <a name="review"></a>Verifica
+### <a name="review"></a>Verifica
 
 In questa demo sono stati illustrati i passaggi per la connessione di Microsoft Sentinel alle origini dati, è stata impostata una cartella di lavoro e sono state descritte varie opzioni disponibili in Microsoft Sentinel.

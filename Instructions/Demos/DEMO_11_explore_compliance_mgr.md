@@ -1,28 +1,29 @@
 ---
 Demo:
-  title: Esplorazione del Centro conformità Microsoft 365 e Compliance Manager
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
-ms.openlocfilehash: 32c4783d9a909bfd8099750b994ab5a05718c198
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Esplorare il portale di conformità di Microsoft Purview e Compliance Manager
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
+ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614207"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557243"
 ---
-# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Dimostrazione: Esplorazione del Centro conformità Microsoft 365 e Compliance Manager
+# <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Dimostrazione: Esplorare il portale di conformità di Microsoft Purview e Compliance Manager
 
 ## <a name="demo-scenario"></a>Scenario demo
-Questa demo illustrerà la home page del Centro conformità Microsoft 365 e i modi in cui le funzionalità di Compliance Manager possono aiutare le organizzazioni a migliorare la loro posizione di conformità.
 
-## <a name="instructions"></a>Istruzioni
+In questa demo verrà illustrata la home page del portale di conformità di Microsoft Purview e verranno presentati i modi in cui le funzionalità di Compliance Manager possono aiutare le organizzazioni a migliorare il proprio profilo di conformità.
 
-#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>Demo Parte 1: Mostra la home page del Centro conformità Microsoft 365 e come personalizzare la visualizzazione delle schede e il riquadro di spostamento.
+### <a name="demo-part-1"></a>Demo parte 1
+
+Mostrare la home page del portale di conformità di Microsoft Purview e come personalizzare la visualizzazione delle schede e il riquadro di spostamento.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**. Occorre aver già eseguito l'accesso come amministratore.  In caso contrario, accedere con le credenziali di amministratore.
 
 1. Dal riquadro di spostamento sinistro dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
 
-1. In Interfacce di amministrazione selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del Centro conformità Microsoft 365.  
+1. In Interfacce di amministrazione selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del portale di conformità di Microsoft Purview.  
 
 1. La sezione della scheda sulla home page mostra, a colpo d'occhio, la situazione dell'organizzazione in termini di posizione di conformità, quali soluzioni sono disponibili per l'organizzazione, e altro ancora.
 
@@ -34,7 +35,7 @@ Questa demo illustrerà la home page del Centro conformità Microsoft 365 e i mo
 
 1. È possibile aggiungere schede selezionando **+ Aggiungi schede**.  Si apre la finestra Aggiungi schede alla home page.  Posizionare il cursore del mouse sulla scheda Catalogo soluzioni mostrata in questa finestra e trascinarla nella posizione della schermata iniziale in cui si vuole che la scheda sia posizionata.
 
-1. Dal riquadro di spostamento sinistro della home page del Centro conformità Microsoft 365, notare le voci elencate sotto Soluzioni.  Se è visualizzato solo il Catalogo, dal riquadro di spostamento sinistro selezionare **...Mostra tutto**.  Osservare in che modo tutte le soluzioni aggiuntive vengono visualizzate sotto la sezione delle soluzioni.  
+1. Dal riquadro di spostamento sinistro della home page del portale di conformità di Microsoft Purview, notare le voci elencate sotto Soluzioni.  Se è visualizzato solo il Catalogo, dal riquadro di spostamento sinistro selezionare **...Mostra tutto**.  Osservare in che modo tutte le soluzioni aggiuntive vengono visualizzate sotto la sezione delle soluzioni.  
 
 1. In qualità di amministratore della conformità, può esserci un insieme di soluzioni da gestire per l'organizzazione e da avere sempre elencate nel riquadro di spostamento.  Per personalizzare le preferenze, selezionare **Personalizza navigazione**.  
 
@@ -42,9 +43,11 @@ Questa demo illustrerà la home page del Centro conformità Microsoft 365 e i mo
 
 1. Lasciare la scheda del browser aperta.
 
-#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>Demo parte 2: Scoprire la posizione di conformità dell'organizzazione attraverso Compliance Manager.
+### <a name="demo-part-2"></a>Demo parte 2
 
-1. Dal riquadro di spostamento sinistro del Centro conformità Microsoft 365, selezionare **Compliance Manager**.  In alternativa, è possibile selezionare Compliance Manager sulla barra del titolo della scheda Compliance Manager.
+Scoprire la posizione di conformità dell'organizzazione attraverso Compliance Manager.
+
+1. Dal riquadro di spostamento sinistro del portale di conformità di Microsoft Purview selezionare **Compliance Manager**.  In alternativa, è possibile selezionare Compliance Manager sulla barra del titolo della scheda Compliance Manager.
 
 1. Dalla parte superiore della pagina del Compliance Manager, assicurarsi che sia selezionato **Panoramica** (sottolineato). Scorrere verso il basso per vedere tutte le informazioni disponibili sulla pagina.  Le informazioni su questa pagina includono il punteggio di conformità, come percentuale e basato sui punti raggiunti e sui punti gestiti da Microsoft.   Verranno visualizzate le azioni di miglioramento chiave, le soluzioni che influiscono sul punteggio e la suddivisione del punteggio di conformità per categoria o valutazione.
 
@@ -66,7 +69,8 @@ Questa demo illustrerà la home page del Centro conformità Microsoft 365 e i mo
 
 1. Dall'elenco dei modelli inclusi, selezionare **ISO/IEC27001:2013**. Dalla parte superiore destra della pagina, selezionare **+ Create assessment** (Crea valutazione).  Notare sul lato sinistro dello schermo che ci sono solo due passaggi per creare una valutazione dal modello.  Selezionare Annulla dalla parte inferiore della pagina.
 
-1. Dal riquadro di spostamento sinistro, selezionare **Home** per tornare alla home page del Centro conformità Microsoft 365.  Tenere aperta questa pagina del browser per la prossima demo.
+1. Dal riquadro di spostamento sinistro, selezionare **Home** per tornare alla home page del portale di conformità di Microsoft Purview.  Tenere aperta questa pagina del browser per la prossima demo.
 
-#### <a name="review"></a>Verifica
-Questa demo ha illustrato la home page del Centro conformità Microsoft 365 e i modi in cui le funzionalità di Compliance Manager possono aiutare le organizzazioni a migliorare la loro posizione di conformità.
+### <a name="review"></a>Verifica
+
+In questa demo è stata illustrata la home page del portale di conformità di Microsoft Purview e sono stati presentati i modi in cui le funzionalità di Compliance Manager possono aiutare le organizzazioni a migliorare il proprio profilo di conformità.

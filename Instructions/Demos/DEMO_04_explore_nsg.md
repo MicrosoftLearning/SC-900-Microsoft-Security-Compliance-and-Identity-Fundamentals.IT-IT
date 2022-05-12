@@ -2,20 +2,21 @@
 Demo:
   title: Gruppi di sicurezza di rete (NSG) di Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 878316bb32c23e57550dddda1312af270a2fe078
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019284"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557530"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Dimostrazione: Gruppi di sicurezza di rete (NSG) di Azure
 
-### <a name="demo-scenario"></a>Scenario demo
+## <a name="demo-scenario"></a>Scenario demo
+
 Questa demo illustrerà le funzionalità di un gruppo di sicurezza di rete (NSG) in Azure.  Per farlo, verrà innanzitutto creata una macchina virtuale (VM) senza alcun NSG come parte della configurazione pre-demo. Verrà anche creato un NSG senza alcuna interfaccia o subnet associata.  Come parte della demo, verranno anche mostrare le regole in ingresso e in uscita predefinite per il NSG. Si esaminerà quindi il processo di assegnazione dell'interfaccia della VM al NSG.  Al termine della configurazione, si testerà la connessione alla VM usando le regole del NSG predefinite e anche le regole create.
   
+### <a name="pre-demo-setup-part-1"></a>Configurazione pre-demo parte 1
 
-#### <a name="pre-demo-setup-part-1"></a>Configurazione pre-demo parte 1
  Si raccomanda agli istruttori di farlo **PRIMA** della lezione poiché la creazione di una VM può richiedere diversi minuti. In questa configurazione verrà creata una macchina virtuale di Windows 10.
 
 1. Aprire la scheda **Home – Microsoft Azure** nel browser.  Se la scheda era stata chiusa in precedenza, aprire una pagina del browser e nella barra degli indirizzi inserire portal.azure.com e accedere di nuovo.
@@ -29,7 +30,7 @@ Questa demo illustrerà le funzionalità di un gruppo di sicurezza di rete (NSG)
     1. **Gruppo di risorse**: selezionare **Crea nuovo** quindi nel campo Nome inserire **LabsSC900-RG**, poi selezionare **OK**.
     1. **Nome macchine virtuali**: immettere **SC900-WinVM**.
     1. **Area**: lasciare il valore predefinito.
-    1. **Opzioni di disponibilità**: assicurarsi di selezionare **La ridondanza dell'infrastruttura non è richiesta**.  NOTA: è molto importante che le opzioni di disponibilità siano impostate su La ridondanza dell'infrastruttura non è richiesta, altrimenti la demo non funzionerà come previsto.  Avere un'opzione di disponibilità richiede un NSG e viene intenzionalmente creata la VM senza un NSG.
+    1. **Opzioni di disponibilità**: assicurarsi di selezionare **La ridondanza dell'infrastruttura non è richiesta**.  NOTA: è molto importante che le opzioni di disponibilità siano impostate su La ridondanza dell'infrastruttura non è richiesta, altrimenti la demo non funzionerà come previsto.  Avere un'opzione di disponibilità richiede un NSG e la macchina virtuale viene intenzionalmente creata senza un NSG.
     1. **Immagine**: selezionare **Windows 10 Pro, Versione 20H2 – Gen 1** nell'elenco a discesa.
     1. **Dimensioni**: selezionare **vedi tutte le dimensioni** nell'elenco a discesa e selezionare **B2s**, quindi fare clic su **Seleziona** nella parte inferiore della pagina.
     1. **Nome utente**:  immettere il nome utente desiderato.  Prenderne nota, perché sarà necessario per accedere alla macchina virtuale.
@@ -62,7 +63,8 @@ Questa demo illustrerà le funzionalità di un gruppo di sicurezza di rete (NSG)
 
 1. Ora si torna alla pagina SC900-WinVM del portale di Azure.  Lasciare aperta questa scheda del browser per l'attività successiva.
 
-#### <a name="pre-demo-setup-part-2"></a>Configurazione pre-demo parte 2
+### <a name="pre-demo-setup-part-2"></a>Configurazione pre-demo parte 2
+
 Creare un gruppo di sicurezza di rete ma NON assegnare l'interfaccia di rete della VM a quel NSG.  
 
 1. Aprire la scheda SC900-WinVM – Microsoft Azure nel browser.
@@ -80,7 +82,8 @@ Creare un gruppo di sicurezza di rete ma NON assegnare l'interfaccia di rete del
 
 1. Al termine della distribuzione, selezionare **Vai alla risorsa** e assicurarsi che tutte le impostazioni siano corrette.  Dovrebbero esserci 3 regole in ingresso predefinite, 3 regole in uscita predefinite e nessuna subnet e nessuna interfaccia associate al NSG.  Tornare alla pagina **Home** del portale di Azure.  
 
-#### <a name="demo"></a>Demo
+### <a name="demo"></a>Demo
+
 Esaminare le impostazioni per un NSG.  In questo caso si esaminerà un NSG (quello creato nella configurazione precedente) che non è ancora stato assegnato a un'interfaccia della VM. Verrà quindi illustrato il processo di associazione di un'interfaccia al NSG e il processo di creazione di regole in ingresso e in uscita.
 
 1. Aprire la scheda del browser, **Home-Microsoft Azure**.  Se la scheda era stata chiusa in precedenza, aprire una pagina del browser e nella barra degli indirizzi inserire portal.azure.com e accedere di nuovo.
@@ -143,13 +146,14 @@ Esaminare le impostazioni per un NSG.  In questo caso si esaminerà un NSG (quel
 
 1. Ora testare la regola del NSG in uscita
     1. Aprire il browser Edge nella VM.
-    1. Immettere **https://www.bing.com** . La pagina non dovrebbe essere visualizzata. Nota: se si riesce a connettersi a Internet e si è verificata la corretta impostazione di tutti i parametri della regola in uscita, è possibile che ciò avvenga perché la regola impiega alcuni minuti per diventare efficace. Attendere alcuni minuti e riprovare.
+    1. Immettere **www.bing.com**. La pagina non dovrebbe essere visualizzata. Nota: se si riesce a connettersi a Internet e si è verificata la corretta impostazione di tutti i parametri della regola in uscita, è possibile che ciò avvenga perché la regola impiega alcuni minuti per diventare efficace. Attendere alcuni minuti e riprovare.
 
 1. Chiudere la connessione al desktop remoto selezionando la **X** in alto al centro della pagina dove viene mostrato l'indirizzo IP. Una finestra pop-up indicherà "La sessione remota verrà disconnessa". Selezionare **OK**.
 
 1. Tornare alla Home page del portale Azure selezionando **Microsoft Azure** sulla barra blu sulla parte superiore della pagina.
 
-#### <a name="tear-down"></a>Eliminazione
+### <a name="tear-down"></a>Eliminazione
+
 **IMPORTANTE**: In questa attività si eliminerà il gruppo di risorse e tutte le risorse in esso contenute.   Questo è importante per evitare altri addebiti.
 
 1. Aprire la scheda SC900-WinVM – Microsoft Azure nel browser.

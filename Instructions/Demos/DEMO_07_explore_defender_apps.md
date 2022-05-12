@@ -2,19 +2,20 @@
 Demo:
   title: 'Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894091"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557172"
 ---
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>Dimostrazione: Microsoft Defender for Cloud Apps
 
-### <a name="demo-scenario"></a>Scenario demo
+## <a name="demo-scenario"></a>Scenario demo
+
 In questa demo verranno presentate le funzionalità di Microsoft Defender for Cloud Apps.  Lo studente verrà guidato attraverso le informazioni disponibili sul dashboard di Cloud Discovery, nonché le funzionalità disponibili per esaminare i risultati e controllare l'impatto sull'organizzazione attraverso i criteri.  Nota:  un'organizzazione deve avere una licenza per usare Microsoft Defender for Cloud Apps, che è un servizio con sottoscrizione basato sull'utente.  
 
-#### <a name="demo-part-1-explore-cloud-discovery"></a>Demo Parte 1: Esplorare Cloud Discovery.
+### <a name="demo-part-1-explore-cloud-discovery"></a>Demo Parte 1: Esplorare Cloud Discovery
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.  Occorre aver già eseguito l'accesso come amministratore.  In caso contrario, accedere con le credenziali di amministratore.
 
@@ -54,7 +55,9 @@ In questa demo verranno presentate le funzionalità di Microsoft Defender for Cl
 
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
-#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Demo parte 2: Esplorare i modi in cui è possibile esaminare le attività registrate.
+### <a name="demo-part-2"></a>Demo parte 2
+
+Esplorare i modi in cui è possibile esaminare le attività registrate.
 
 1. Dal riquadro di spostamento sinistro, sotto **Esamina**, selezionare **Log attività**.  Qui è possibile visualizzare tutte le attività delle app connesse.   Poiché il connettore di Office 365 è già connesso, dovrebbero essere visibili alcuni dati. Dopo la connessione a un'app tramite il connettore app, Cloud App Security analizza tutte le attività eseguite (il periodo di retroattività dell'analisi varia a seconda dell'app) e quindi viene aggiornato con le nuove attività.  
 
@@ -66,8 +69,9 @@ In questa demo verranno presentate le funzionalità di Microsoft Defender for Cl
 
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
+### <a name="demo-part-3"></a>Demo parte 3
 
-#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Demo parte 3: In questa attività si esploreranno le pagine dei criteri e degli avvisi in Microsoft Defender for Cloud Apps.
+In questa attività si esploreranno le pagine dei criteri e degli avvisi in Microsoft Defender for Cloud Apps
 
 1. Dal riquadro di spostamento a sinistra, sotto dove è visualizzato Controllo, selezionare **Criteri**.  I criteri elencati offrono informazioni sul numero di avvisi generati dai criteri, la gravità e così via. Selezionando qualsiasi elemento vengono visualizzate informazioni più dettagliate sul criterio. Selezionare una voce dall'elenco, ad esempio, **Accesso a rischio**.  
 
@@ -75,5 +79,6 @@ In questa demo verranno presentate le funzionalità di Microsoft Defender for Cl
 
 1. Chiudere la finestra del browser.
 
-#### <a name="review"></a>Verifica
+### <a name="review"></a>Verifica
+
 In questa demo sono state presentate le funzionalità di Microsoft Defender for Cloud Apps.  Sono state illustrate le informazioni disponibili sul dashboard di Cloud Discovery, nonché le funzionalità disponibili per esaminare i risultati e controllare l'impatto sull'organizzazione attraverso i criteri.
