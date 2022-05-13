@@ -2,12 +2,12 @@
 lab:
   title: Esplorazione dell'autenticazione di Azure AD con la reimpostazione della password self-service
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 7a9ae15dda8636c3323afacc0f92fc630485cc64
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ceaf7c5695abc9b7a7c179f6e5a1580b22af3016
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894018"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489272"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratorio: Esplorazione dell'autenticazione di Azure AD con la reimpostazione della password self-service
 
@@ -65,7 +65,7 @@ In questo lab, in qualità di amministratore, si apprenderà in modo dettagliato
 
 2. Dal riquadro di spostamento sinistro, selezionare **Reimpostazione della password**.  
 
-3. Vengono visualizzate le proprietà per la reimpostazione della password self-service.  Assicurarsi che **Reimpostazione della password self-service** sia **selezionata** per il gruppo elencato, **SSPRSecurityUsers**.  Posizionare il cursore sull'icona di informazioni accanto a "Seleziona gruppo" e notare la dicitura "Definisce il gruppo di utenti autorizzati a reimpostare le proprie password". Occorre includere gli utenti nel gruppo, non è possibile selezionare gli utenti individualmente.  Inoltre, se si cambia il gruppo, il gruppo selezionato sostituisce quello attualmente elencato.  Pertanto, si raccomanda di aggiungere semplicemente gli utenti al gruppo di reimpostazione della password self-service.  Infine, notare la casella blu di informazioni "Queste impostazioni si applicano solo agli utenti finali dell'organizzazione. Gli amministratori sono sempre abilitati per la reimpostazione della password self-service e devono usare due metodi di autenticazione per reimpostare la propria password".
+3. Vengono visualizzate le proprietà per la reimpostazione della password self-service.  Assicurarsi che **Reimpostazione della password self-service** sia **selezionata** per il gruppo elencato, **SSPRSecurityGroupUsers**.  Posizionare il cursore sull'icona di informazioni accanto a "Seleziona gruppo" e notare la dicitura "Definisce il gruppo di utenti autorizzati a reimpostare le proprie password". Occorre includere gli utenti nel gruppo, non è possibile selezionare gli utenti individualmente.  Inoltre, se si cambia il gruppo, il gruppo selezionato sostituisce quello attualmente elencato.  Pertanto, si raccomanda di aggiungere semplicemente gli utenti al gruppo di reimpostazione della password self-service.  Infine, notare la casella blu di informazioni "Queste impostazioni si applicano solo agli utenti finali dell'organizzazione. Gli amministratori sono sempre abilitati per la reimpostazione della password self-service e devono usare due metodi di autenticazione per reimpostare la propria password".
 
 5. Dal riquadro di spostamento sinistro di Reimpostazione della password, selezionare **Metodi di autenticazione**.
 
@@ -99,7 +99,7 @@ In questo lab, in qualità di amministratore, si apprenderà in modo dettagliato
 
 4. Poiché si tratta del primo accesso come Adele Vance, verrà richiesto di reimpostare la password.  Immettere la password precedente.  Come nuova password, immettere **SC900-Lab**. Immettere **SC-900-Lab** nel campo di conferma della password.  Fare clic su **Accedi**.  Nota: si sta usando questa password solo per comodità del lab. Come procedura consigliata, sarebbe opportuno immettere una password più sicura.
 
-5. Viene visualizzato un popup che segnala che sono necessarie altre informazioni.  Questo perché, come membro del gruppo SSPRSecurityUsers, la configurazione richiede che i propri membri si registrino quando effettuano l'accesso.  Selezionare il pulsante **Avanti**.  Nota:  un'alternativa alla registrazione da parte degli stessi utenti è rappresentata dalla configurazione dei metodi di autenticazione direttamente da parte degli amministratori al momento dell'aggiunta di un utente. Questo richiede che gli amministratori conoscano e impostino i numeri di telefono e gli indirizzi di posta elettronica usati dagli utenti per la reimpostazione della password self-service e che reimpostino la password di un utente.
+5. Viene visualizzato un popup che segnala che sono necessarie altre informazioni.  Questo perché, come membro del gruppo SSPRSecurityGroupUsers, la configurazione richiede che i propri membri si registrino quando effettuano l'accesso.  Selezionare il pulsante **Avanti**.  Nota:  un'alternativa alla registrazione da parte degli stessi utenti è rappresentata dalla configurazione dei metodi di autenticazione direttamente da parte degli amministratori al momento dell'aggiunta di un utente. Questo richiede che gli amministratori conoscano e impostino i numeri di telefono e gli indirizzi di posta elettronica usati dagli utenti per la reimpostazione della password self-service e che reimpostino la password di un utente.
 
 6. Si apre la pagina "Proteggi l'account".  La finestra che compare riguarda il metodo di autenticazione per il telefono; se non possiede un dispositivo mobile in grado di ricevere messaggi di testo, andare al passaggio successivo.  Viene richiesta l'immissione di un numero di telefono. Assicurarsi che l'opzione **Invia un SMS** sia abilitata.   Immettere il numero di telefono in cui è possibile ricevere un codice di testo e selezionare il pulsante **Avanti**.  Si apre una nuova finestra la quale indica che è stato appena inviato un codice al numero di telefono immesso.  Immettere il codice ricevuto e selezionare **Avanti**. Si apre una finestra che indica la corretta esecuzione e che mostra il metodo di accesso predefinito.  Selezionare **Fine**.  
 
