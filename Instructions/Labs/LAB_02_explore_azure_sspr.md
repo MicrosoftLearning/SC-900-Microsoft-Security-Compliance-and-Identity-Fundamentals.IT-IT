@@ -2,12 +2,12 @@
 lab:
   title: Esplorazione dell'autenticazione di Azure AD con la reimpostazione della password self-service
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: ceaf7c5695abc9b7a7c179f6e5a1580b22af3016
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489272"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557471"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratorio: Esplorazione dell'autenticazione di Azure AD con la reimpostazione della password self-service
 
@@ -17,8 +17,9 @@ In questo lab, in qualità di amministratore, si apprenderà in modo dettagliato
 
 **Tempo stimato**: 15-20 minuti
 
+### <a name="task-1"></a>Attività 1
 
-#### <a name="task-1--in-this-task-you-as-the-admin-will-add-an-existing-user-adele-vance-into-the-ssprsecurityusers-group--also-you-will-also-need-to-do-a-reset-of-the-users-password-so-that-you-can-do-a-first-time-login-as-the-user-and-register-for-sspr"></a>Attività 1:  In questa attività, in qualità di amministratore si aggiungerà un utente esistente, Adele Vance, al gruppo SSPRSecurityUsers.  Inoltre, sarà necessario reimpostare la password dell'utente in modo da poter effettuare il primo accesso, in qualità di utente, e la registrazione per la reimpostazione della password self-service.
+In questa attività, in qualità di amministratore si aggiungerà un utente esistente, Adele Vance, al gruppo SSPRSecurityUsers.  Inoltre, sarà necessario reimpostare la password dell'utente in modo da poter effettuare il primo accesso, in qualità di utente, e la registrazione per la reimpostazione della password self-service.
 
 1. Aprire Microsoft Edge.
 
@@ -59,35 +60,38 @@ In questo lab, in qualità di amministratore, si apprenderà in modo dettagliato
 
 18. Tenere aperta la finestra Panoramica Contoso poiché verrà usata nell'attività successiva.
 
-#### <a name="task-2-in-this-task-you-as-the-admin-will-learn-how-to-configure-password-reset-for-users-including-configuration-of-the-types-of-authentication-methods-to-use"></a>Attività 2: In questa attività, in qualità di amministratore, si apprenderà come configurare la reimpostazione della password, compresa la configurazione dei tipi di metodi di autenticazione da usare.
+### <a name="task-2"></a>Attività 2
+
+In questa attività, in qualità di amministratore, si apprenderà come configurare la reimpostazione della password per gli utenti, compresa la configurazione dei tipi di metodi di autenticazione da usare
 
 1. Passare alla scheda Contoso – Microsoft Azure aperta nel browser. Se la scheda era stata chiusa, aprire una pagina del browser e, nella barra degli indirizzi, inserire portal.azure.com e selezionare Azure Active Directory.  Occorre aver effettuato l'accesso come amministratore nel portale di Azure. In caso contrario, eseguire di nuovo l'accesso.
 
-2. Dal riquadro di spostamento sinistro, selezionare **Reimpostazione della password**.  
+1. Dal riquadro di spostamento sinistro, selezionare **Reimpostazione della password**.  
 
-3. Vengono visualizzate le proprietà per la reimpostazione della password self-service.  Assicurarsi che **Reimpostazione della password self-service** sia **selezionata** per il gruppo elencato, **SSPRSecurityGroupUsers**.  Posizionare il cursore sull'icona di informazioni accanto a "Seleziona gruppo" e notare la dicitura "Definisce il gruppo di utenti autorizzati a reimpostare le proprie password". Occorre includere gli utenti nel gruppo, non è possibile selezionare gli utenti individualmente.  Inoltre, se si cambia il gruppo, il gruppo selezionato sostituisce quello attualmente elencato.  Pertanto, si raccomanda di aggiungere semplicemente gli utenti al gruppo di reimpostazione della password self-service.  Infine, notare la casella blu di informazioni "Queste impostazioni si applicano solo agli utenti finali dell'organizzazione. Gli amministratori sono sempre abilitati per la reimpostazione della password self-service e devono usare due metodi di autenticazione per reimpostare la propria password".
+1. Vengono visualizzate le proprietà per la reimpostazione della password self-service.  Assicurarsi che **Reimpostazione della password self-service** sia **selezionata** per il gruppo elencato, **SSPRSecurityGroupUsers**.  Posizionare il cursore sull'icona di informazioni accanto a "Seleziona gruppo" e notare la dicitura "Definisce il gruppo di utenti autorizzati a reimpostare le proprie password". Occorre includere gli utenti nel gruppo, non è possibile selezionare gli utenti individualmente.  Inoltre, se si cambia il gruppo, il gruppo selezionato sostituisce quello attualmente elencato.  Pertanto, si raccomanda di aggiungere semplicemente gli utenti al gruppo di reimpostazione della password self-service.  Infine, notare la casella blu di informazioni "Queste impostazioni si applicano solo agli utenti finali dell'organizzazione. Gli amministratori sono sempre abilitati per la reimpostazione della password self-service e devono usare due metodi di autenticazione per reimpostare la propria password".
 
-5. Dal riquadro di spostamento sinistro di Reimpostazione della password, selezionare **Metodi di autenticazione**.
+1. Dal riquadro di spostamento sinistro di Reimpostazione della password, selezionare **Metodi di autenticazione**.
 
-6. In Numero di metodi da reimpostare, selezionare **1**. Notare la casella di informazioni nella schermata.
+1. In Numero di metodi da reimpostare, selezionare **1**. Notare la casella di informazioni nella schermata.
 
-7. Osservare i diversi metodi disponibili per gli utenti.  **E-mail** e **Cellulare (solo SMS)** dovrebbero essere già selezionati; in caso contrario, selezionarli.
+1. Osservare i diversi metodi disponibili per gli utenti.  **E-mail** e **Cellulare (solo SMS)** dovrebbero essere già selezionati; in caso contrario, selezionarli.
 
-8. Dal riquadro di spostamento sinistro di Reimpostazione della password, selezionare **Registrazione**.  
+1. Dal riquadro di spostamento sinistro di Reimpostazione della password, selezionare **Registrazione**.  
 
-9. Assicurarsi che l'opzione Richiedere agli utenti di registrarsi all'accesso sia impostata su **Sì**.  Lasciare l'opzione Numero di giorni prima che agli utenti venga chiesto di riconfermare le informazioni di autenticazione impostata sul valore predefinito di 180.   Notare la casella di informazioni nella pagina.
+1. Assicurarsi che l'opzione Richiedere agli utenti di registrarsi all'accesso sia impostata su **Sì**.  Lasciare l'opzione Numero di giorni prima che agli utenti venga chiesto di riconfermare le informazioni di autenticazione impostata sul valore predefinito di 180.   Notare la casella di informazioni nella pagina.
 
-10. Dal riquadro di spostamento sinistro di Reimpostazione della password, selezionare **Notifiche**.  
+1. Dal riquadro di spostamento sinistro di Reimpostazione della password, selezionare **Notifiche**.  
 
-11. Assicurarsi che l'opzione Notificare agli utenti le reimpostazioni delle password sia impostata su **Sì**.  Lasciare l'opzione Notificare agli amministratori quando altri amministratori reimpostano le proprie password impostata su No.
+1. Assicurarsi che l'opzione Notificare agli utenti le reimpostazioni delle password sia impostata su **Sì**.  Lasciare l'opzione Notificare agli amministratori quando altri amministratori reimpostano le proprie password impostata su No.
 
-12. Notare come il riquadro di spostamento di Reimpostazione della password include anche le opzioni per visualizzare i log di audit e l'utilizzo e le informazioni dettagliate.
+1. Notare come il riquadro di spostamento di Reimpostazione della password include anche le opzioni per visualizzare i log di audit e l'utilizzo e le informazioni dettagliate.
 
-13. **Disconnettersi** da tutte le schede del browser selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata. Quindi, chiudere tutte le finestre del browser.
+1. **Disconnettersi** da tutte le schede del browser selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata. Quindi, chiudere tutte le finestre del browser.
 
+### <a name="task-3"></a>Attività 3
 
-#### <a name="task-3--in-this-task-you-as-user-adele-vance-will-go-through-the-registration-process-for-self-service-password-reset--this-task-requires-that-you-have-access-to-a-mobile-device-where-you-can-receive-text-messages-or-a-personal-email-account-that-you-can-access"></a>Attività 3:  In questa attività, in qualità di Adele Vance, si seguirà il processo di registrazione per la reimpostazione della password self-service.  Questa attività richiede l'utilizzo di un dispositivo mobile su cui ricevere messaggi di testo o accedere a un account e-mail personale.
- 
+In questa attività, in qualità di Adele Vance, si seguirà il processo di registrazione per la reimpostazione della password self-service.  Questa attività richiede l'accesso a un dispositivo mobile su cui ricevere SMS o l'accesso a un account di posta elettronica personale
+
 1. Aprire Microsoft Edge.
 
 2. Nella barra degli indirizzi immettere **login.microsoftonline.com**.
@@ -107,23 +111,25 @@ In questo lab, in qualità di amministratore, si apprenderà in modo dettagliato
 
 8. È ora possibile completare l'accesso.  Si dovrebbe essere nella pagina di destinazione del portale di Azure.  Se si vede che il tempo per l'accesso è scaduto, immettere di nuovo la password, SC900-Lab.
 
-9. Disconnettersi dal portale di Azure e chiudere la finestra del browser. 
+9. Disconnettersi dal portale di Azure e chiudere la finestra del browser.
 
-#### <a name="task-4-optional-in-this-task-you-as-user-adele-vance-will-go-through-the-process-of-resetting-your-password"></a>Attività 4 (facoltativa). In questa attività, in qualità di Adele Vance, si seguirà il processo di reimpostazione della propria password.
+### <a name="task-4-optional"></a>Attività 4 (facoltativa)
+
+In questa attività, in qualità di Adele Vance, si seguirà il processo di reimpostazione della propria password
 
 1. Aprire Microsoft Edge.
 
-2. Nella barra degli indirizzi immettere login.microsoftonline.com.
+2. Nella barra degli indirizzi immettere **login.microsoftonline.com**.
 
 3. Accedere come Adele Vance immettendo l'indirizzo di posta elettronica **AdeleV@WWLxZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab), quindi selezionare il pulsante **Avanti**. In alternativa, potrebbe essere visualizzata una finestra aperta Selezionare un account. In questo caso, selezionare l'account per Adele Vance.
 
-4. Dalla finestra Immetti password, selezionare **Ho dimenticato la password**. 
+4. Dalla finestra Immetti password, selezionare **Ho dimenticato la password**.
 
 5. Si apre la finestra Ripristina l'accesso al tuo account.   Verificare che l'indirizzo di posta elettronica per Adele Vance, AdeleV@WWLxZZZZ.onmicrosoft.com, sia visualizzato nella casella dell'indirizzo di posta elettronica o del nome utente.  In caso contrario, immetterlo.  
 
 6. Nella casella vuota, immettere i caratteri visualizzati nell'immagine o le parole dell'audio. Una volta effettuata questa operazione, selezionare **Avanti**.
 
-7. La schermata mostra Ripristina l'accesso al tuo account e il passaggio di verifica 1 > scegliere una nuova password. Lasciare l'impostazione predefinita **Invia SMS sul telefono cellulare**.  Viene richiesta l'immissione del proprio numero di telefono cellulare.  Una volta effettuata questa operazione, selezionare il pulsante **SMS**.  Se durante la registrazione è stata selezionata l'e-mail, la finestra Ripristina l'accesso al tuo account indicherà Si riceverà un messaggio di posta elettronica contenente un codice di verifica all'indirizzo di posta elettronica alternativo.  Selezionare **E-mail**. 
+7. La schermata mostra Ripristina l'accesso al tuo account e il passaggio di verifica 1 > scegliere una nuova password. Lasciare l'impostazione predefinita **Invia SMS sul telefono cellulare**.  Viene richiesta l'immissione del proprio numero di telefono cellulare.  Una volta effettuata questa operazione, selezionare il pulsante **SMS**.  Se durante la registrazione è stata selezionata l'e-mail, la finestra Ripristina l'accesso al tuo account indicherà Si riceverà un messaggio di posta elettronica contenente un codice di verifica all'indirizzo di posta elettronica alternativo.  Selezionare **E-mail**.
 
 8. Immettere il codice di verifica, quindi premere **Avanti**.
 
@@ -137,11 +143,13 @@ In questo lab, in qualità di amministratore, si apprenderà in modo dettagliato
 
 13. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata, quindi **Disconnetti**. Infine, chiudere tutte le finestre del browser.
 
-#### <a name="task-5-optional--in-this-task-you-as-the-administrator-will-briefly-view-the-audit-logs-and-the-usage--insights-data-associated-with-password-reset"></a>Attività 5 (facoltativa):  In questa attività, in qualità di amministratore, si vedranno i log di controllo e i dati di Utilizzo e informazioni dettagliate associati alla reimpostazione della password.
+### <a name="task-5-optional"></a>Attività 5 (facoltativa)
+
+In questa attività, in qualità di amministratore, si vedranno i log di controllo e i dati di Utilizzo e informazioni dettagliate associati alla reimpostazione della password
 
 1. Aprire Microsoft Edge.
 
-2. Nella barra degli indirizzi immettere **portal.azure.com** 
+2. Nella barra degli indirizzi immettere **portal.azure.com**
 
 3. Accedere con le credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
@@ -164,6 +172,6 @@ In questo lab, in qualità di amministratore, si apprenderà in modo dettagliato
 
 11. Chiudere le schede del browser aperte.
 
+### <a name="review"></a>Verifica
 
-#### <a name="review"></a>Verifica
 In questo lab, in qualità di amministratore, si è appreso il processo di abilitazione della reimpostazione della password self-service. Dopo l'abilitazione della reimpostazione della password self-service, si è assunto quindi il ruolo di un utente e si è seguito il processo di registrazione per la reimpostazione della password self-service e anche di reimpostazione della password.  Infine, in qualità di amministratore, si è appreso dove accedere ai log di controllo e ai dati di utilizzo e le informazioni dettagliate per la reimpostazione della password self-service.
