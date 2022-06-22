@@ -2,18 +2,18 @@
 lab:
   title: Esplorazione di Service Trust Portal
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 45086cf1301ce1feb8983f22f05a6cc07e229c4c
+ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557207"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "146381229"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>Laboratorio: Esplorazione di Service Trust Portal
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
-In questo lab, verranno esplorate le funzionalità e il contenuto disponibili da Service Trust Portal. Verrà visitato il Centro protezione e si esploreranno i sei principi chiave sulla privacy.
+In questo lab, verranno esplorate le funzionalità e il contenuto disponibili da Service Trust Portal. Inoltre, si è visitato il Centro protezione per visualizzare le informazioni sulla privacy in Microsoft.
 
 **Tempo stimato**: 10-15 minuti
 
@@ -49,20 +49,14 @@ In questa attività si esplorerà Service Trust Portal e i diversi tipi di conte
 
 ### <a name="task-2"></a>Attività 2
 
-In questa attività si visiterà il Centro protezione e si esploreranno i sei principi chiave sulla privacy di Microsoft.
+In questa attività si visiterà il Centro protezione e si passerà alle informazioni che descrivono la privacy in Microsoft.
 
-1. In cima alla pagina Service Trust Portal, selezionare **Centro protezione**, quindi **Home**. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni su sicurezza, conformità e privacy in Microsoft Cloud.
+1. In cima alla pagina Service Trust Portal, selezionare **Centro protezione**, quindi **Home**. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni, incluse le informazioni sulla privacy e molto altro.  
 
-1. Dalla parte superiore della pagina, selezionare **Privacy**, quindi **Risorse**.
-
-1. Selezionare **Risorse privacy aggiuntive**.
-
-1. Selezionare **Privacy in Microsoft**.
-
-1. Esaminare i sei principi chiave sulla privacy.
+1. Verranno visualizzate informazioni sull'impegno di Microsoft nei confronti dell'utente.  Da qui selezionare **Altre informazioni sulla privacy di Microsoft**.  Scorrere la pagina ed esplorare i diversi collegamenti per altre informazioni sulla privacy in Microsoft.
 
 1. Chiudere le finestre del browser per uscire da Service Trust Portal e dal Centro protezione.
 
 ### <a name="review"></a>Verifica
 
-In questo lab sono state esplorate alcune opzioni disponibili sotto Service Trust Portal, la modalità di accesso ai report e la modalità di utilizzo di Raccolta per salvare documenti per una verifica successiva.  Inoltre, si è visitato il Centro protezione per accedere e rivedere i principi di privacy di Microsoft.
+In questo lab sono state esplorate alcune opzioni disponibili sotto Service Trust Portal, la modalità di accesso ai report e la modalità di utilizzo di Raccolta per salvare documenti per una verifica successiva.  Inoltre, si è visitato il Centro protezione per accedere e rivedere le informazioni sulla privacy in Microsoft.
