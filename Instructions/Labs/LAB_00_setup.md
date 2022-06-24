@@ -1,27 +1,28 @@
 ---
 lab:
   title: Eseguire la configurazione
-ms.openlocfilehash: 5e141b2b29f43e4de741a94e06ef10dbe6cd78e3
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: ccbb76933233296b92dabd0e03fc63a0b51bf139
+ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489248"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "146458313"
 ---
 # <a name="lab-setup"></a>Laboratorio: Eseguire la configurazione
 
-### <a name="lab-scenario"></a>Scenario del lab
+## <a name="lab-scenario"></a>Scenario del lab
 
-In questo lab, si riscatterà l'Azure Pass utilizzando le stesse credenziali del tenant Microsoft 365.  Questo garantirà la continuità nel passaggio tra Microsoft 365 e Azure. Come parte della configurazione, verrà inoltre abilitata la funzionalità del log di controllo nel tenant Microsoft 365, poiché la sua applicazione potrebbe richiedere del tempo. Microsoft 365 utilizza log di controllo per informazioni dettagliate e attività degli utenti identificate nei criteri e nelle informazioni dettagliate di analisi.
+Questo lab di configurazione è costituito da due attività distinte.  La prima attività viene applicata e consigliata solo se l'ambiente lab include l'uso di un Azure Pass. La seconda attività prevede l'abilitazione del log di controllo Microsoft e viene applicata e consigliata indipendentemente dal fatto che l'ambiente usi o meno un Azure Pass.
 
 **Tempo stimato**: 5-10 minuti
 
-#### <a name="setup-part-1---redeem-azure-pass"></a>Parte 1 della configurazione - Riscatto dell'Azure Pass
-In questa attività di configurazione, si riscatterà l'Azure Pass utilizzando le stesse credenziali del tenant Microsoft 365.  Questo garantirà una maggiore continuità nel passaggio tra Microsoft 365 e Azure.
+### <a name="setup-part-1---redeem-azure-pass"></a>Parte 1 della configurazione - Riscatto dell'Azure Pass
+
+Questa attività viene applicata e consigliata solo se l'ambiente lab in uso include un Azure Pass. In questa attività si riscatterà l'Azure Pass usando le stesse credenziali del tenant Microsoft 365.  Questo garantirà una maggiore continuità nel passaggio tra Microsoft 365 e Azure.
 
 1. Se sono presenti finestre del browser aperte, si consiglia di chiudere tutti i browser.
 
-1. Fare clic con il tasto destro del mouse sull'icona di Microsoft Edge e selezionare **Nuova finestra InPrivate** per aprire una nuova sessione privata del browser. Altro 
+1. Fare clic con il tasto destro del mouse sull'icona di Microsoft Edge e selezionare **Nuova finestra InPrivate** per aprire una nuova sessione privata del browser.
 
 1. Nella barra degli indirizzi immettere **www.microsoftazurepass.com**.  
 
@@ -38,7 +39,8 @@ In questa attività di configurazione, si riscatterà l'Azure Pass utilizzando l
 
 1. Lasciare aperta la scheda del browser per la home page del portale di Azure, poiché verrà utilizzata nella prossima demo.
 
-#### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Parte 2 della configurazione - Abilitazione del log di controllo di Microsoft 365
+### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Parte 2 della configurazione - Abilitazione del log di controllo di Microsoft 365
+
 In questa attività di configurazione, si abiliterà la funzionalità Log di controllo in Microsoft 365.  Sebbene la documentazione indichi che il log di controllo è attivato per impostazione predefinita, questa funzionalità non è abilitata per la maggior parte dei tenant dei lab e la sua attivazione potrebbe richiedere parecchie ore.  È vantaggioso abilitare questa funzionalità, poiché Microsoft 365 utilizza i log di controllo per informazioni dettagliate e attività degli utenti identificate nei criteri e nelle informazioni dettagliate di analisi.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
@@ -60,6 +62,6 @@ In questa attività di configurazione, si abiliterà la funzionalità Log di con
 
 1. Tornare alla home page del Centro conformità Microsoft 365 selezionando **Home** dal riquadro di spostamento a sinistra.
 
-#### <a name="review"></a>Verifica
+### <a name="review"></a>Verifica
 
 In questa di configurazione, è stato riscattato l'Azure Pass utilizzando le stesse credenziali del tenant Microsoft 365.  Inoltre, è stata abilitata la funzionalità Log di controllo in Microsoft 365.
