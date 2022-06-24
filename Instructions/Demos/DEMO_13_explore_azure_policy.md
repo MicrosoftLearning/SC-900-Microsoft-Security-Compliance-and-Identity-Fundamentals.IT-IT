@@ -2,12 +2,12 @@
 Demo:
   title: Criteri di Azure
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1916af2407c9f493b0c305828eb75d9810901859
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557135"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542676"
 ---
 # <a name="demo-azure-policy"></a>Dimostrazione: Criteri di Azure
 
@@ -19,7 +19,7 @@ Questa demo illustra il processo di configurazione di un criterio di Azure e l'i
 
 Creare un criterio per richiedere un tag su un gruppo di risorse (mostra la procedura per creare un criterio da un modello)
 
-1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.microsoft.com**.  L'accesso dovrebbe già essere stato effettuato, altrimenti è possibile accedere con le credenziali di amministratore.
+1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com**.  L'accesso dovrebbe già essere stato effettuato, altrimenti è possibile accedere con le credenziali di amministratore.
 
 1. Nella casella di ricerca, nella barra blu nella parte superiore della pagina accanto a Microsoft Azure, inserire **criteri**, quindi selezionare **Criteri** dai risultati della ricerca.
 

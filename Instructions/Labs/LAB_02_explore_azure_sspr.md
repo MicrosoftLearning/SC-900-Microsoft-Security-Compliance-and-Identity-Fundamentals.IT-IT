@@ -2,12 +2,12 @@
 lab:
   title: Esplorazione dell'autenticazione di Azure AD con la reimpostazione della password self-service
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: f1bd0a494cc5486e13a03cf1e8829d38a28451ab
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557471"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542652"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratorio: Esplorazione dell'autenticazione di Azure AD con la reimpostazione della password self-service
 
@@ -97,7 +97,7 @@ In questa attività, in qualità di Adele Vance, si seguirà il processo di regi
 2. Nella barra degli indirizzi immettere **login.microsoftonline.com**.
 
 3. Accedere come Adele Vance.
-    1. Nella finestra Accedi immettere **AdedleV@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Nella finestra Accedi immettere **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     1. Immettere la password annotata nell'attività precedente. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**
 
