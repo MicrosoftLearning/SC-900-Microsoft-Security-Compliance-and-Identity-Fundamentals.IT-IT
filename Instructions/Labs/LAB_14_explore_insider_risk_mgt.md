@@ -2,12 +2,12 @@
 lab:
   title: Esplorazione della gestione dei rischi Insider in Microsoft Purview
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557543"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542640"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Laboratorio: Esplorazione della gestione dei rischi Insider in Microsoft Purview
 
@@ -35,7 +35,7 @@ In questa attività, l'utente, in qualità di amministratore globale, abiliterà
 
 1. Dal riquadro di spostamento sinistro del portale di conformità di Microsoft Purview, selezionare **Autorizzazioni**.
 
-1. Dalla pagina Autorizzazioni e ruoli nel portale di conformità selezionare **Ruoli**.
+1. Nella pagina Autorizzazioni e ruoli, sotto il testo "Visualizzare e gestire i ruoli usati per eseguire attività specifiche della soluzione nel Centro conformità" selezionare **Ruoli**.
 
 1. Nella barra di ricerca immettere **Rischio Insider**, quindi selezionare l'icona di ricerca (lente di ingrandimento).  Si notino i numerosi ruoli visualizzati.  Ciascuno ha diversi livelli di accesso.  Selezionare **Gestione dei rischi Insider**.
 
