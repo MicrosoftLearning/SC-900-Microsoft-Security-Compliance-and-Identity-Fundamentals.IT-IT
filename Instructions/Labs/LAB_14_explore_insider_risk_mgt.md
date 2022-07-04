@@ -2,12 +2,12 @@
 lab:
   title: Esplorazione della gestione dei rischi Insider in Microsoft Purview
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b284151be19a0f9add77ef4c015520c7e4a7f363
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542640"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741880"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Laboratorio: Esplorazione della gestione dei rischi Insider in Microsoft Purview
 
@@ -115,6 +115,8 @@ In questa attività verrà spiegata la creazione di un criterio.
 1. Si è di nuovo nella scheda Criteri della pagina Gestione dei rischi Insider.  Il criterio appena creato sarà inserito nell'elenco.  
 
 1. Nel criterio appena creato, il campo "Utenti nell'ambito" rappresenta gli utenti a cui vengono correntemente assegnati punteggi di rischio dal criterio.  L'assegnazione di punteggi di rischio agli utenti si verifica quando il criterio è attivato, ed è il motivo per cui il valore indica 0.  Un amministratore può configurare un criterio per iniziare ad assegnare punteggi di rischio a utenti specifici, in base all'attività rilevata dai criteri selezionati, E che bypassa il requisito per cui un evento di attivazione è rilevato per primo.  A questo scopo, selezionare il cerchio vuoto accanto al nome del criterio per selezionare il criterio, quindi selezionare **Inizia calcolo punteggio attività per utenti**, che è mostrato sopra alla tabella dei criteri.  Compilare ogni campo, quindi selezionare **Inizia calcolo punteggio attività**.  Prima che gli utenti siano visualizzati nella scheda "Utenti" potrebbero trascorrere 24 ore. Dopodiché, è possibile selezionare gli utenti dalla scheda per esaminare le attività rilevate.  Selezionare **Chiudi** nella parte inferiore della finestra.
+
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 

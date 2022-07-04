@@ -2,12 +2,12 @@
 lab:
   title: Esplorare il flusso di lavoro di eDiscovery (Standard)
   module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: da37016799bb1343013c1ace901137646c0c856b
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542628"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649970"
 ---
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Laboratorio: Esplorare il flusso di lavoro di eDiscovery (Standard)
 
@@ -126,6 +126,8 @@ Una volta creato il blocco, occorre creare una query di ricerca.  Una volta comp
     1. Nel secondo campo, selezionare la posizione in cui si desidera archiviare il file dell'esportazione, quindi selezionare **Avvia**.  Una volta completato il download, selezionare **Chiudi** e chiudere questa scheda del browser.
     1. Si ritorna di nuovo alla finestra "Blocco di test - Ricerca vendite_Export".  Selezionare **Chiudi**.
     1. Controllare la posizione specificata per il download per verificare che il download sia stato completato correttamente.
+
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 

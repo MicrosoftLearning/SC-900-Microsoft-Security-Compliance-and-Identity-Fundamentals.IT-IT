@@ -2,12 +2,12 @@
 lab:
   title: Esplorare Criteri di Azure
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542592"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741916"
 ---
 # <a name="lab-explore-azure-policy"></a>Laboratorio: Esplorare Criteri di Azure
 
@@ -125,6 +125,8 @@ In questa attività si vedrà l'effetto dell'assegnazione dei criteri di Azure, 
     1. Sotto la dicitura Servizi di Azure, selezionare Criteri di Azure.
     1. Nel mezzo della pagina, verranno visualizzate le assegnazioni di criteri/iniziative di Azure.  Selezionare i puntini di sospensione per l'assegnazione del criterio Richiedi un tag sui gruppi di risorse, quindi selezionare Elimina assegnazione.
     1. Verrà richiesto di confermare che si desidera eliminare l'assegnazione.  Selezionare Sì.
+
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 

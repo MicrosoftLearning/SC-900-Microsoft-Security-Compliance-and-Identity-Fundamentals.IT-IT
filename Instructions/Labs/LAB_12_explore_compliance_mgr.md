@@ -2,12 +2,12 @@
 lab:
   title: Esplorare il portale di conformità di Microsoft Purview e Compliance Manager
   module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4745dddb860e82ddc05e7c88deb0e0644046e0b5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 4f0c9c57619e1dc8c44ce86b97e4ac9a5488e189
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557492"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741832"
 ---
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Laboratorio: Esplorare il portale di conformità di Microsoft Purview e Compliance Manager
 
@@ -69,7 +69,7 @@ Scoprire la posizione di conformità dell'organizzazione attraverso Compliance M
 
 1. Dall'elenco dei modelli inclusi, selezionare **ISO/IEC27001:2013**. Dalla parte superiore destra della pagina, selezionare **+ Create assessment** (Crea valutazione).  Notare sul lato sinistro dello schermo che ci sono solo due passaggi per creare una valutazione dal modello.  Selezionare Annulla dalla parte inferiore della pagina.
 
-1. Chiudere le schede del browser aperte.
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 

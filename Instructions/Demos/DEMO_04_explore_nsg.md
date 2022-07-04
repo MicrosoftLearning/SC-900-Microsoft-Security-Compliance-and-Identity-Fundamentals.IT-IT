@@ -2,12 +2,12 @@
 Demo:
   title: Gruppi di sicurezza di rete (NSG) di Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: a136022cd3458d513011b10c408827d33fbc8caa
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557530"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741856"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Dimostrazione: Gruppi di sicurezza di rete (NSG) di Azure
 
@@ -152,9 +152,9 @@ Esaminare le impostazioni per un NSG.  In questo caso si esaminerà un NSG (quel
 
 1. Tornare alla Home page del portale Azure selezionando **Microsoft Azure** sulla barra blu sulla parte superiore della pagina.
 
-### <a name="tear-down"></a>Eliminazione
+### <a name="post-course-delivery-tear-down"></a>Cancellare i dati alla fine del corso
 
-**IMPORTANTE**: In questa attività si eliminerà il gruppo di risorse e tutte le risorse in esso contenute.   Questo è importante per evitare altri addebiti.
+La macchina virtuale è una risorsa fatturabile e, anche se il costo di esecuzione delle macchine virtuali in questa demo è minimo, è consigliabile eliminare il gruppo di risorse contenente la macchina virtuale e le risorse associate alla fine del corso.
 
 1. Aprire la scheda SC900-WinVM – Microsoft Azure nel browser.
 
