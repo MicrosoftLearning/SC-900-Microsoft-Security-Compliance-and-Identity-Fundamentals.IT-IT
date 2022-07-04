@@ -2,12 +2,12 @@
 lab:
   title: Esplorazione di Service Trust Portal
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 45086cf1301ce1feb8983f22f05a6cc07e229c4c
-ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
+ms.openlocfilehash: e760110f587b385e4e16f6272443a35a65471774
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "146381229"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649946"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>Laboratorio: Esplorazione di Service Trust Portal
 
@@ -55,7 +55,7 @@ In questa attività si visiterà il Centro protezione e si passerà alle informa
 
 1. Verranno visualizzate informazioni sull'impegno di Microsoft nei confronti dell'utente.  Da qui selezionare **Altre informazioni sulla privacy di Microsoft**.  Scorrere la pagina ed esplorare i diversi collegamenti per altre informazioni sulla privacy in Microsoft.
 
-1. Chiudere le finestre del browser per uscire da Service Trust Portal e dal Centro protezione.
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 

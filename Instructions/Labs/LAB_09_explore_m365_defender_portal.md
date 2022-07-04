@@ -2,12 +2,12 @@
 lab:
   title: Esplorazione del portale di Microsoft 365 Defender
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 5accd8bc5c37450e40dfb73b5f2cf0bb8cb24525
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557147"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649982"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Laboratorio: Esplorazione del portale di Microsoft 365 Defender
 
@@ -65,7 +65,7 @@ In questa attività si esplorerà come Microsoft Secure Score può aiutare un'or
 
 1. Dalla parte superiore della pagina, selezionare **Metriche e tendenze**.  Consultare le informazioni disponibili.  Dall'angolo superiore destro della pagina, selezionare l'**icona del calendario**.  È possibile limitare la vista a un intervallo di date personalizzato.  Selezionando l'**icona del filtro** è possibile filtrare la vista per identità, dispositivi e/o app.  Chiudere la finestra e selezionare **Home** dal riquadro di spostamento sinistro per tornare alla home page di Microsoft 365 Defender.
 
-1. Chiudere la pagina del browser.
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 

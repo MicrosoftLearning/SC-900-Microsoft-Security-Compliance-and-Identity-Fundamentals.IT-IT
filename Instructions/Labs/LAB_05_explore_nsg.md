@@ -2,12 +2,12 @@
 lab:
   title: Esplorazione dei gruppi di sicurezza di rete di Azure (NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 2d5add9ca1efd99cf7e5268a1125f97f20910a07
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557507"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650090"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Laboratorio: Esplorazione dei gruppi di sicurezza di rete di Azure (NSG)
 
@@ -151,9 +151,9 @@ Le regola in uscita predefinite per il gruppo di sicurezza di rete consentono il
 1. Chiudere la connessione al desktop remoto selezionando la **X** in alto al centro della pagina dove viene mostrato l'indirizzo IP.  Una finestra pop-up indicherà "La sessione remota verrà disconnessa". Selezionare **OK**.
 1. In questa attività si è configurata una regola in uscita nel gruppo di sicurezza di rete per bloccare il traffico Internet in uscita.
 
-### <a name="task-5"></a>Attività 5
+### <a name="tear-down"></a>Eliminazione
 
-**IMPORTANTE**: In questa attività si eliminerà il gruppo di risorse e tutte le risorse in esso contenute.   Questo è importante per evitare altri addebiti.
+La macchina virtuale è una risorsa fatturabile e, anche se il costo di esecuzione delle macchine virtuali in questa demo è minimo, è consigliabile eliminare il gruppo di risorse contenente la macchina virtuale e le risorse associate alla fine del corso.
 
 1. Aprire la scheda SC900-WinVM – Microsoft Azure nel browser.
 
@@ -163,6 +163,7 @@ Le regola in uscita predefinite per il gruppo di sicurezza di rete consentono il
 1. Dalla parte superiore centrale della pagina LabsSC900, selezionare **Elimina gruppo di risorse**.
 1. Nella finestra che si apre, immettere il nome del gruppo di risorse, **LabsSC900**, per confermare l'eliminazione del gruppo di risorse e di tutte le relative risorse, quindi selezionare **Elimina** in fondo alla pagina.
 1. L'eliminazione di tutte le risorse e del gruppo di risorse può richiedere alcuni minuti.
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 
