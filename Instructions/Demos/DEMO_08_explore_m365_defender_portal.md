@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Il portale Microsoft 365 Defender
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 19e4de67b0c63d0afdd318d98fedb4e230675730
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 400cf70f7d8d305ad85c1697115e1861a0569a9c
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557313"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892404"
 ---
+<a name="---"></a><!---
+---
+Demo: Titolo: 'Portale di Microsoft 365 Defender' Modulo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365; Unità 7: Descrivere il portale di Microsoft 365 Defender'
+---
+--->
+
 # <a name="demo-the-microsoft-365-defender-portal"></a>Dimostrazione: Il portale Microsoft 365 Defender
+
+Questa demo corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft
+- Modulo: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365
+- Unità: Descrivere il portale di Microsoft 365 Defender
 
 ## <a name="demo-scenario"></a>Scenario demo
 

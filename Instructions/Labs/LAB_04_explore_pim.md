@@ -1,15 +1,24 @@
 ---
-lab:
-  title: "Esplorazione della governance dell'identità in Azure AD con Privileged Identity Management "
-  module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: bd50a2be33b8a9b6cf23831d9fce1c6761032484
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: e3ea450ebe43fa107a828166c32cfcac8d26e580
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557267"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892222"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare la governance delle identità in Azure AD con Privileged Identity Management. ' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 4: Descrivere le funzionalità di protezione delle identità e governance di Azure AD; Unità 4: Descrivere le funzionalità di Privileged Identity Management'
+---
+--->
+
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Laboratorio: Esplorazione della governance delle identità in Azure AD con Privileged Identity Management
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra
+- Descrivere le funzionalità di protezione delle identità e governance di Azure AD
+- Descrivere le funzionalità di Privileged Identity Management
 
 ## <a name="lab-scenario"></a>Scenario del lab
 

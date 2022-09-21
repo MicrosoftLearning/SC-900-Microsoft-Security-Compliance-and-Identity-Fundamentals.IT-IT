@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Gruppi di sicurezza di rete (NSG) di Azure
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 34a08ed5a6edd845087e4ed4b5d94d4f06bc8f89
-ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
+ms.openlocfilehash: ce07082f318bbb7b96e3eac0d8f549795bdf488d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "147695306"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892436"
 ---
+<a name="---"></a><!---
+---
+Demo: Titolo: 'Gruppi di sicurezza di rete di Azure (NSG)' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 1: Descrivere le funzionalità di sicurezza di base in Azure; Unità 6: Descrivere i gruppi di sicurezza di rete di Azure'
+---
+--->
+
 # <a name="demo-azure-network-security-groups-nsgs"></a>Dimostrazione: Gruppi di sicurezza di rete (NSG) di Azure
+
+Questa demo corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft
+- Modulo: Descrivere le funzionalità di sicurezza di base in Azure
+- Unità: Descrivere i gruppi di sicurezza di rete di Azure
 
 ## <a name="demo-scenario"></a>Scenario demo
 
@@ -46,7 +55,7 @@ Questa demo illustrerà le funzionalità di un gruppo di sicurezza di rete (NSG)
 1. Una volta completata la distribuzione della VM, selezionare **Vai alla risorsa**.
 1. Ora ci si trova nella pagina SC900-WinVM.
 1. Dalla parte superiore della pagina selezionare **Connetti**, quindi selezionare **RDP** dall'elenco a discesa.
-1. Si noti che il prerequisito della porta non è soddisfatto.  Per consentire di soddisfare il prerequisito, è necessario configurare una regola di sicurezza di rete in ingresso con la porta di destinazione 3389, usata da RDP.  Questa operazione verrà eseguita nell'attività successiva, quando si crea un gruppo di sicurezza di rete.
+1. Si noti che il prerequisito della porta non è soddisfatto.  Per soddisfare il prerequisito, è necessario configurare una regola di sicurezza di rete in ingresso con la porta di destinazione 3389, usata da RDP.  Questa operazione verrà eseguita nell'attività successiva, quando si crea un gruppo di sicurezza di rete.
 1. Lasciare aperta la scheda del browser.
 
 

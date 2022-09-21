@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Esplorazione del portale di Microsoft 365 Defender
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5accd8bc5c37450e40dfb73b5f2cf0bb8cb24525
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: c22aadb543f4501b74be9a6d12da3af3b63b632f
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649982"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892678"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare il portale di Microsoft 365 Defender' Modulo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365; Unità 7: Descrivere il portale di Microsoft 365 Defender'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Laboratorio: Esplorazione del portale di Microsoft 365 Defender
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft
+- Modulo: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365
+- Unità: Descrivere il portale di Microsoft 365 Defender
 
 ## <a name="lab-scenario"></a>Scenario del lab
 

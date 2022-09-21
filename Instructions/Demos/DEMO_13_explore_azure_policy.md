@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Criteri di Azure
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 1916af2407c9f493b0c305828eb75d9810901859
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 61ec82b1a7015371a60df61c5a6e5af39cdd9fd6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542676"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892210"
 ---
+<a name="---"></a><!---
+---
+Demo: Titolo: 'Criteri di Azure' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 6: Descrivere le funzionalità di governance delle risorse in Azure; Unità 2: Descrivere Criteri di Azure'
+---
+--->
+
 # <a name="demo-azure-policy"></a>Dimostrazione: Criteri di Azure
+
+Questa demo corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
+- Modulo: Descrivere le funzionalità di governance delle risorse in Azure
+- Unità: Descrivere Criteri di Azure
 
 ## <a name="demo-scenario"></a>Scenario demo
 

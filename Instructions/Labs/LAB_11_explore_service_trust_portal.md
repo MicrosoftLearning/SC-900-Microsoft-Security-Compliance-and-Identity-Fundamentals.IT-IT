@@ -1,15 +1,22 @@
 ---
-lab:
-  title: Esplorazione di Service Trust Portal
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: e760110f587b385e4e16f6272443a35a65471774
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649946"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892690"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare Service Trust Portal' Percorso di apprendimento: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 1: Descrivere le funzionalità di gestione della conformità in Microsoft; Unità 2: Esplorare Service Trust Portal'
+---
+--->
+
 # <a name="lab-explore-the-service-trust-portal"></a>Laboratorio: Esplorazione di Service Trust Portal
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft Modulo: Descrivere le funzionalità di gestione della conformità in Microsoft Unità: Esplorare Service Trust Portal
 
 ## <a name="lab-scenario"></a>Scenario del lab
 

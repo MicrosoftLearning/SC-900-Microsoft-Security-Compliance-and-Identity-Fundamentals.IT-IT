@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Esplorare il portale di conformità di Microsoft Purview e Compliance Manager
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4f0c9c57619e1dc8c44ce86b97e4ac9a5488e189
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 8d3268c28c1dc2335f0554caf801abe11b6ae0d2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741832"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892378"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare il portale di conformità di Microsoft Purview e Compliance Manager' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 2: Descrivere le funzionalità di gestione della conformità in Microsoft Purview; Unità 2: Descrivere il portale di conformità di Microsoft Purview'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Laboratorio: Esplorare il portale di conformità di Microsoft Purview e Compliance Manager
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
+- Modulo: Descrivere le funzionalità di gestione della conformità in Microsoft Purview
+- Unità: Descrivere il portale di conformità di Microsoft Purview
 
 ## <a name="lab-scenario"></a>Scenario del lab
 

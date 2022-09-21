@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Defender per il cloud'
-  module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: ff5145e967445c12dacd90ea50002fe0c3042efb
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: ecea12b9b90c6dc3917d0ee93edcdba0436ccd0d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741904"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892462"
 ---
+<a name="---"></a><!---
+---
+Demo: Titolo: 'Microsoft Defender per il cloud' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 2: Descrivere le funzionalità di gestione della sicurezza di Azure; Unità 3: Descrivere Microsoft Defender per il cloud'
+---
+--->
+
 # <a name="demo-microsoft-defender-for-cloud"></a>Dimostrazione: Microsoft Defender per il cloud
+
+Questa demo corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft
+- Modulo: Descrivere le funzionalità di gestione della sicurezza di Azure
+- Unità: Descrivere Microsoft Defender per il cloud
 
 ## <a name="demo-scenario"></a>Scenario demo
 

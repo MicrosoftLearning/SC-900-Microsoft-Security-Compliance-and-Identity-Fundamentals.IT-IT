@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Esplorare Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: dfa993671d905ed8bad138376c8cd71b1aa23d85
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741868"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892643"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare Microsoft Sentinel' Percorso di apprendimento/Modulo/Titolo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 3: Descrivere le funzionalità di sicurezza di Microsoft Sentinel; Unità 3: Descrivere la gestione integrata delle minacce offerta da Microsoft Sentinel'
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>Laboratorio: Esplorare Microsoft Sentinel
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft
+- Modulo: Descrivere le funzionalità di sicurezza di Microsoft Sentinel
+- Unità: Descrivere la gestione integrata delle minacce offerta da Microsoft Sentinel
 
 ## <a name="lab-scenario"></a>Scenario del lab
 

@@ -1,15 +1,20 @@
 ---
-Pre-Demo Setup:
-  title: Configurazione della demo
-ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
-ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "146458325"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892474"
 ---
+<a name="---"></a><!---
+---
+Configurazione pre-demo: Titolo: 'Configurazione della demo'
+---
+--->
+
 ## <a name="pre-demo-setup"></a>Configurazione pre-demo
-Questa configurazione è costituita da due attività distinte.  La prima attività viene applicata e consigliata solo se l'ambiente lab include l'uso di un Azure Pass. La seconda attività prevede l'abilitazione del log di controllo Microsoft e viene applicata e consigliata indipendentemente dal fatto che l'ambiente usi o meno un Azure Pass.
+
+Questa configurazione è costituita da due attività distinte.  La prima attività è applicabile e consigliata solo se l'ambiente della demo include l'uso di un Azure Pass. La seconda attività prevede l'abilitazione del log di controllo Microsoft e viene applicata e consigliata indipendentemente dal fatto che l'ambiente usi o meno un Azure Pass.
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Parte 1 della configurazione - Riscatto dell'Azure Pass
 

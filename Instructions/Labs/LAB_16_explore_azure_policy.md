@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Esplorare Criteri di Azure
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741916"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892150"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare Criteri di Azure' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 6: Descrivere le funzionalità di governance delle risorse in Azure; Unità 2: Descrivere Criteri di Azure'
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>Laboratorio: Esplorare Criteri di Azure
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
+- Modulo: Descrivere le funzionalità di governance delle risorse in Azure
+- Unità: Descrivere Criteri di Azure
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
