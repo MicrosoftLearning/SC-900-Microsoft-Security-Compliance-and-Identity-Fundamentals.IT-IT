@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 'Esplorare Microsoft Defender for Cloud Apps '
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ef5c993972dcff57836c8ac045a19903b8c15721
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557575"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892630"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare Microsoft Defender for Cloud Apps' Modulo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365; Unità 5: Descrivere Microsoft Defender for Cloud Apps'
+---
+--->
+
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Laboratorio: Esplorare Microsoft Defender for Cloud Apps
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft
+- Modulo: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365
+- Unità: Descrivere Microsoft Defender for Cloud Apps
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
@@ -79,7 +88,7 @@ In questa attività si esploreranno le pagine dei criteri e degli avvisi in Micr
 
 1. Dal riquadro di spostamento sinistro, selezionare **Avvisi**.  Se sono elencati degli avvisi, selezionare una voce dall'elenco degli avvisi. Esaminare le informazioni fornite.  Dal lato superiore destro della finestra, selezionare **Chiudi avviso** per visualizzare le opzioni di chiusura dell'avviso.  
 
-1. Chiudere la finestra del browser.
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 

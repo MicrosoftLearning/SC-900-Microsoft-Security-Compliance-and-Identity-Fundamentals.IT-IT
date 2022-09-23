@@ -1,23 +1,41 @@
 ---
-Demo:
-  title: Impostazioni utente di Azure Active Directory
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: eb1ffc50ce90922dced58726c39879edfc74fb5b
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c230a54bb7d4d9cd876aacd4e04185ce674a22db
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557182"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892186"
 ---
-# <a name="demo-azure-active-directory-user-settings"></a>Dimostrazione: Impostazioni utente di Azure Active Directory
+<a name="---"></a><!---
+---
+Demo: Titolo: 'Esplorare le impostazioni utente di Azure AD' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 1: Descrivere i servizi di base e i tipi di identità di Azure AD; Unità 4: Descrivere i tipi di identità di Azure AD'
+---
+--->
+
+# <a name="demo-azure-ad-user-settings"></a>Demo: Impostazioni utente di Azure AD
+
+Questa demo corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra
+- Modulo: Descrivere i servizi di base e i tipi di identità di Azure AD
+- Unità: Descrivere i tipi di identità di Azure AD
 
 ## <a name="demo-scenario"></a>Scenario demo
 
-In questa demo, si accederà ad Azure Active Directory e verranno illustrate le varie impostazioni per un utente esistente.
+In questa demo, si accederà ad Azure Active Directory e verranno illustrate le varie impostazioni per un utente esistente.  NOTA per il relatore:  questa demo accede ad Azure AD tramite il tenant di Microsoft 365. Un'opzione alternativa da mostrare agli studenti è l'accesso ad Azure AD tramite il portale di Azure. Lo scopo di passare dal portale di Microsoft 365 è quello di dimostrare che Microsoft 365 include l'accesso ad Azure AD.
 
-1. Accedere alla scheda **Home – Microsoft Azure** aperta nel browser.  Se la scheda era stata chiusa, aprire Microsoft Edge e nella barra degli indirizzi inserire portal.azure.com e accedere con le stesse credenziali di amministratore del tenant di Microsoft 365.
+1. Aprire Microsoft Edge.
 
-1. La pagina di destinazione del portale di Azure mostra i servizi Azure, selezionare **Azure Active Directory**. Se non è immediatamente visibile, allora dalla casella di ricerca accanto a Microsoft Azure, digitare Azure Active Directory.  Si potrebbe anche voler mostrare come accedere tramite l'icona del menu del portale (le tre linee orizzontali indicate anche come icona ad hamburger, nella barra blu nella parte superiore della pagina) a sinistra di Microsoft Azure.
+1. Nella barra degli indirizzi immettere **admin.microsoft.com** per accedere all'interfaccia di amministrazione di Microsoft 365.
+
+1. Accedere con le credenziali di amministratore.
+    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
+    1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.
+
+1. Dal riquadro di spostamento sinistro dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
+
+1. In Interfacce di amministrazione selezionare **Azure Active Directory** (potrebbe essere necessario scorrere verso il basso).  Si apre una nuova pagina del browser con la pagina Dashboard dell'interfaccia di amministrazione di Azure Active Directory. Nelle finestre principali del dashboard saranno visibili vari riquadri, compresi il riquadro Identità dell'organizzazione (Contoso, il tenant e l'edizione di Azure AD), un riquadro per gli utenti e i gruppi e altro ancora.
 
 1. Dal riquadro di spostamento sinistro, selezionare **Utenti**. Si ricorda che il tenant è già configurato con gli utenti.
 

@@ -1,19 +1,26 @@
 ---
-lab:
-  title: Esplorazione di Service Trust Portal
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557207"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892690"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare Service Trust Portal' Percorso di apprendimento: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 1: Descrivere le funzionalità di gestione della conformità in Microsoft; Unità 2: Esplorare Service Trust Portal'
+---
+--->
+
 # <a name="lab-explore-the-service-trust-portal"></a>Laboratorio: Esplorazione di Service Trust Portal
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft Modulo: Descrivere le funzionalità di gestione della conformità in Microsoft Unità: Esplorare Service Trust Portal
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
-In questo lab, verranno esplorate le funzionalità e il contenuto disponibili da Service Trust Portal. Verrà visitato il Centro protezione e si esploreranno i sei principi chiave sulla privacy.
+In questo lab, verranno esplorate le funzionalità e il contenuto disponibili da Service Trust Portal. Inoltre, si è visitato il Centro protezione per visualizzare le informazioni sulla privacy in Microsoft.
 
 **Tempo stimato**: 10-15 minuti
 
@@ -49,20 +56,14 @@ In questa attività si esplorerà Service Trust Portal e i diversi tipi di conte
 
 ### <a name="task-2"></a>Attività 2
 
-In questa attività si visiterà il Centro protezione e si esploreranno i sei principi chiave sulla privacy di Microsoft.
+In questa attività si visiterà il Centro protezione e si passerà alle informazioni che descrivono la privacy in Microsoft.
 
-1. In cima alla pagina Service Trust Portal, selezionare **Centro protezione**, quindi **Home**. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni su sicurezza, conformità e privacy in Microsoft Cloud.
+1. In cima alla pagina Service Trust Portal, selezionare **Centro protezione**, quindi **Home**. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni, incluse le informazioni sulla privacy e molto altro.  
 
-1. Dalla parte superiore della pagina, selezionare **Privacy**, quindi **Risorse**.
+1. Verranno visualizzate informazioni sull'impegno di Microsoft nei confronti dell'utente.  Da qui selezionare **Altre informazioni sulla privacy di Microsoft**.  Scorrere la pagina ed esplorare i diversi collegamenti per altre informazioni sulla privacy in Microsoft.
 
-1. Selezionare **Risorse privacy aggiuntive**.
-
-1. Selezionare **Privacy in Microsoft**.
-
-1. Esaminare i sei principi chiave sulla privacy.
-
-1. Chiudere le finestre del browser per uscire da Service Trust Portal e dal Centro protezione.
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 
-In questo lab sono state esplorate alcune opzioni disponibili sotto Service Trust Portal, la modalità di accesso ai report e la modalità di utilizzo di Raccolta per salvare documenti per una verifica successiva.  Inoltre, si è visitato il Centro protezione per accedere e rivedere i principi di privacy di Microsoft.
+In questo lab sono state esplorate alcune opzioni disponibili sotto Service Trust Portal, la modalità di accesso ai report e la modalità di utilizzo di Raccolta per salvare documenti per una verifica successiva.  Inoltre, si è visitato il Centro protezione per accedere e rivedere le informazioni sulla privacy in Microsoft.

@@ -1,18 +1,24 @@
 ---
-Pre-Demo Setup:
-  title: Configurazione della demo
-ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557255"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892474"
 ---
-# <a name="pre-demo-setup"></a>Configurazione pre-demo
+<a name="---"></a><!---
+---
+Configurazione pre-demo: Titolo: 'Configurazione della demo'
+---
+--->
 
-## <a name="setup-part-1---redeem-azure-pass"></a>Parte 1 della configurazione - Riscatto dell'Azure Pass
+## <a name="pre-demo-setup"></a>Configurazione pre-demo
 
-In questa attività di configurazione, si riscatterà l'Azure Pass utilizzando le stesse credenziali del tenant Microsoft 365.  Questo garantirà una maggiore continuità nel passaggio tra Microsoft 365 e Azure.
+Questa configurazione è costituita da due attività distinte.  La prima attività è applicabile e consigliata solo se l'ambiente della demo include l'uso di un Azure Pass. La seconda attività prevede l'abilitazione del log di controllo Microsoft e viene applicata e consigliata indipendentemente dal fatto che l'ambiente usi o meno un Azure Pass.
+
+### <a name="setup-part-1---redeem-azure-pass"></a>Parte 1 della configurazione - Riscatto dell'Azure Pass
+
+Questa attività viene applicata e consigliata solo se l'ambiente demo in uso include un Azure Pass. In questa attività si riscatterà l'Azure Pass usando le stesse credenziali del tenant Microsoft 365.  Questo garantirà una maggiore continuità nel passaggio tra Microsoft 365 e Azure.
 
 1. Se sono presenti finestre del browser aperte, si consiglia di chiudere tutti i browser.
 

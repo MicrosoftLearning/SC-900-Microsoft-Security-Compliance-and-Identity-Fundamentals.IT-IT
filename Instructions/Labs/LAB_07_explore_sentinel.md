@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Esplorare Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557159"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892643"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare Microsoft Sentinel' Percorso di apprendimento/Modulo/Titolo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 3: Descrivere le funzionalità di sicurezza di Microsoft Sentinel; Unità 3: Descrivere la gestione integrata delle minacce offerta da Microsoft Sentinel'
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>Laboratorio: Esplorare Microsoft Sentinel
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft
+- Modulo: Descrivere le funzionalità di sicurezza di Microsoft Sentinel
+- Unità: Descrivere la gestione integrata delle minacce offerta da Microsoft Sentinel
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
@@ -137,7 +146,7 @@ Microsoft Sentinel viene fatturato in base al volume di dati inseriti per l'anal
 
 4. Dalla parte centrale in alto della pagina, selezionare **Elimina gruppo di risorse**.  Esaminare l'avviso.  Immettere il nome del gruppo di risorse, **SC900-ResourceGroup**, quindi selezionare **Elimina** dalla parte inferiore della pagina.  L'eliminazione del gruppo di risorse impiegherà diversi minuti.
 
-5. Una volta verificato che il gruppo di risorse è stato eliminato, chiudere la pagina del browser.
+5. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 

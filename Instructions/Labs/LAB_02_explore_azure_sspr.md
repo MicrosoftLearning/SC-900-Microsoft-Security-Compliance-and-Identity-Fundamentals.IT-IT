@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Esplorazione dell'autenticazione di Azure AD con la reimpostazione della password self-service
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557471"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892174"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare l'autenticazione di Azure AD con la reimpostazione della password self-service' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 2: Descrivere le funzionalità di autenticazione di Azure AD; Unità 4: Descrivere la reimpostazione della password self-service in Azure AD'
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratorio: Esplorazione dell'autenticazione di Azure AD con la reimpostazione della password self-service
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra
+- Modulo: Descrivere le funzionalità di autenticazione di Azure AD
+- Unità: Descrivere la reimpostazione della password self-service in Azure AD
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
@@ -97,7 +106,7 @@ In questa attività, in qualità di Adele Vance, si seguirà il processo di regi
 2. Nella barra degli indirizzi immettere **login.microsoftonline.com**.
 
 3. Accedere come Adele Vance.
-    1. Nella finestra Accedi immettere **AdedleV@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Nella finestra Accedi immettere **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     1. Immettere la password annotata nell'attività precedente. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**
 

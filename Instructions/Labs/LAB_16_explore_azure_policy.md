@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Esplorare Criteri di Azure
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557519"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892150"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare Criteri di Azure' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 6: Descrivere le funzionalità di governance delle risorse in Azure; Unità 2: Descrivere Criteri di Azure'
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>Laboratorio: Esplorare Criteri di Azure
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
+- Modulo: Descrivere le funzionalità di governance delle risorse in Azure
+- Unità: Descrivere Criteri di Azure
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
@@ -21,7 +30,7 @@ Criteri di Azure è un servizio che consente di applicare gli standard aziendali
 
 Esplorare brevemente la pagina Criteri di Azure.
 
-1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.microsoft.com**.
+1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com**.
 
 1. Accedere con le credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
@@ -125,6 +134,8 @@ In questa attività si vedrà l'effetto dell'assegnazione dei criteri di Azure, 
     1. Sotto la dicitura Servizi di Azure, selezionare Criteri di Azure.
     1. Nel mezzo della pagina, verranno visualizzate le assegnazioni di criteri/iniziative di Azure.  Selezionare i puntini di sospensione per l'assegnazione del criterio Richiedi un tag sui gruppi di risorse, quindi selezionare Elimina assegnazione.
     1. Verrà richiesto di confermare che si desidera eliminare l'assegnazione.  Selezionare Sì.
+
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 

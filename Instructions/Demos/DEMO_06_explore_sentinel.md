@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d58cd38338d81136cf0b9b474137354269507e6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557327"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892390"
 ---
+<a name="---"></a><!---
+---
+Demo: Titolo: 'Microsoft Sentinel' Percorso di apprendimento/Modulo/Titolo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 3: Descrivere le funzionalità di sicurezza di Microsoft Sentinel; Unità 3: Descrivere la gestione integrata delle minacce offerta da Microsoft Sentinel'
+---
+--->
+
 # <a name="demo-microsoft-sentinel"></a>Dimostrazione: Microsoft Sentinel
+
+Questa demo corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft
+- Modulo: Descrivere le funzionalità di sicurezza di Microsoft Sentinel
+- Unità: Descrivere la gestione integrata delle minacce offerta da Microsoft Sentinel
 
 ## <a name="demo-scenario"></a>Scenario demo
 
@@ -121,9 +130,9 @@ In questa parte della demo verranno illustrate alcun opzioni disponibili in Sent
 
 1. Nell'angolo superiore sinistro della finestra, subito sotto la barra blu, selezionare **Home** per tornare alla home page del portale di Azure.
 
-### <a name="task-6"></a>Attività 6
+### <a name="post-course-delivery-tear-down"></a>Cancellare i dati alla fine del corso
 
-Cancellare i dati alla fine del corso. Microsoft Sentinel viene fatturato in base al volume di dati inseriti per l'analisi in Microsoft Sentinel. Sebbene la quantità di dati inseriti come conseguenza di questa demo sia minima, è consigliabile eliminare il gruppo di risorse di Microsoft Sentinel una volta completata l'esplorazione delle funzionalità di Microsoft Sentinel.
+Microsoft Sentinel viene fatturato in base al volume di dati inseriti per l'analisi in Microsoft Sentinel. Sebbene la quantità di dati inseriti come conseguenza di questa demo sia minima, è consigliabile eliminare il gruppo di risorse di Microsoft Sentinel alla fine del corso.
 
 1. Nella pagina di Microsoft Sentinel, nell'angolo in alto a sinistra della pagina, sopra a dove è visualizzato Microsoft Sentinel, selezionare **Tutti i servizi**.
 

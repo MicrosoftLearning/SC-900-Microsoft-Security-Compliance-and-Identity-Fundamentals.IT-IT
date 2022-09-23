@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Esplorazione delle etichette di riservatezza in Microsoft Purview
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1bae467c426cba5deb30035c3679409b384637e0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557591"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892653"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare le etichette di riservatezza in Microsoft Purview' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 3: Descrivere la protezione delle informazioni e la gestione del ciclo di vita dei dati in Microsoft Purview; Unità 4: Descrivere le etichette di riservatezza'
+---
+--->
+
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Laboratorio: Esplorazione delle etichette di riservatezza in Microsoft Purview
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
+- Modulo: Descrivere la protezione delle informazioni e la gestione del ciclo di vita dei dati in Microsoft Purview
+- Unità: Descrivere le etichette di riservatezza
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
@@ -88,7 +97,7 @@ In questa attività, verrà affrontato il processo per applicare un'etichetta da
 
 1. Selezionare **+ Nuovo documento vuoto**, quindi immettere il testo nella pagina.  Sulla barra blu nella parte superiore della pagina, selezionare la freccia verso il basso, accanto a DocumentoXX - Salvato, e nella casella Nome file immettere **Etichetta di test**.
 
-1. Dalla barra del menu in alto, selezionare **Riservatezza**, se l'opzione non è immediatamente disponibile, aggiornare la pagina. Dall'elenco a discesa, selezionare **Riservato - Finanza**.
+1. Dalla barra del menu in alto, selezionare **Riservatezza**, se l'opzione non è immediatamente disponibile, aggiornare la pagina. Dall'elenco a discesa, selezionare **Riservato - Finanza**.  NOTA:  pe la visualizzazione dell'opzione Riservatezza possono essere richiesti fino a 15 minuti.
 
 1. Dalla barra dei menu in alto, selezionare **Visualizzazione**, poi selezionare **Visualizzazione di lettura**.
 
@@ -112,7 +121,7 @@ Oltre al contrassegno dei contenuti, l'impostazione della protezione dell'etiche
 
 1. Usando il Web browser nella macchina virtuale del lab, accedere all'account di posta elettronica a cui è stato inviato il documento.  L'e-mail potrebbe essere finita nella cartella della posta indesiderata.  Quando si tenta di aprire il file Word allegato comparirà una notifica che informa l'utente che non ha il permesso di aprire il documento.
 
-1. Chiudere le schede del browser aperte.
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 

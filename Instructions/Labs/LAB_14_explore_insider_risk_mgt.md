@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Esplorazione della gestione dei rischi Insider in Microsoft Purview
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557543"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892702"
 ---
+<a name="---"></a><!--->
+---
+Lab: Titolo: 'Esplorare la gestione dei rischi Insider in Microsoft Purview' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 4: Descrivere le funzionalità per rischi Insider in Microsoft Purview; Unità 2: Descrivere la gestione dei rischi Insider'
+---
+--->
+
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Laboratorio: Esplorazione della gestione dei rischi Insider in Microsoft Purview
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
+- Modulo: Descrivere le funzionalità per rischi Insider in Microsoft Purview
+- Unità: Descrivere la gestione dei rischi Insider
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
@@ -35,7 +44,7 @@ In questa attività, l'utente, in qualità di amministratore globale, abiliterà
 
 1. Dal riquadro di spostamento sinistro del portale di conformità di Microsoft Purview, selezionare **Autorizzazioni**.
 
-1. Dalla pagina Autorizzazioni e ruoli nel portale di conformità selezionare **Ruoli**.
+1. Nella pagina Autorizzazioni e ruoli, sotto il testo "Visualizzare e gestire i ruoli usati per eseguire attività specifiche della soluzione nel Centro conformità" selezionare **Ruoli**.
 
 1. Nella barra di ricerca immettere **Rischio Insider**, quindi selezionare l'icona di ricerca (lente di ingrandimento).  Si notino i numerosi ruoli visualizzati.  Ciascuno ha diversi livelli di accesso.  Selezionare **Gestione dei rischi Insider**.
 
@@ -115,6 +124,8 @@ In questa attività verrà spiegata la creazione di un criterio.
 1. Si è di nuovo nella scheda Criteri della pagina Gestione dei rischi Insider.  Il criterio appena creato sarà inserito nell'elenco.  
 
 1. Nel criterio appena creato, il campo "Utenti nell'ambito" rappresenta gli utenti a cui vengono correntemente assegnati punteggi di rischio dal criterio.  L'assegnazione di punteggi di rischio agli utenti si verifica quando il criterio è attivato, ed è il motivo per cui il valore indica 0.  Un amministratore può configurare un criterio per iniziare ad assegnare punteggi di rischio a utenti specifici, in base all'attività rilevata dai criteri selezionati, E che bypassa il requisito per cui un evento di attivazione è rilevato per primo.  A questo scopo, selezionare il cerchio vuoto accanto al nome del criterio per selezionare il criterio, quindi selezionare **Inizia calcolo punteggio attività per utenti**, che è mostrato sopra alla tabella dei criteri.  Compilare ogni campo, quindi selezionare **Inizia calcolo punteggio attività**.  Prima che gli utenti siano visualizzati nella scheda "Utenti" potrebbero trascorrere 24 ore. Dopodiché, è possibile selezionare gli utenti dalla scheda per esaminare le attività rilevate.  Selezionare **Chiudi** nella parte inferiore della finestra.
+
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 

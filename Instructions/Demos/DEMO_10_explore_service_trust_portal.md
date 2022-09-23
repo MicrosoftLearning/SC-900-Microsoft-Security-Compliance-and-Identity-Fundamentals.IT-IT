@@ -1,19 +1,26 @@
 ---
-Demo:
-  title: Portale Service Trust
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 79190b5422352e204adad1f0799789181d2d4408
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 38537f333f690a8526c5a62de40ca86ab9335b48
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557489"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892450"
 ---
+<a name="---"></a><!---
+---
+Demo: Titolo: 'Service Trust Portal' Percorso di apprendimento: 'Percorso di apprendimento: Descrivere le funzionalità della conformità Microsoft; Modulo 1: Descrivere le funzionalità di gestione della conformità in Microsoft; Unità 2: Esplorare Service Trust Portal'
+---
+--->
+
 # <a name="demo-service-trust-portal"></a>Dimostrazione: Portale Service Trust
+
+Questa demo corrisponde al contenuto di Learn seguente:
+
+Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft Modulo: Descrivere le funzionalità di gestione della conformità in Microsoft Unità: Esplorare Service Trust Portal
 
 ## <a name="demo-scenario"></a>Scenario demo
 
-In questa dimostrazione, verranno mostrati le funzionalità e i contenuti disponibili in Service Trust Portal. Come opzione da visualizzare, sono inclusi inoltre i passaggi per accedere ai sei principi di privacy tramite il Centro protezione.
+In questa dimostrazione, verranno mostrati le funzionalità e i contenuti disponibili in Service Trust Portal. È anche incluso lo spostamento nel Centro protezione per visualizzare le informazioni sulla privacy in Microsoft.
 
 ### <a name="demo-part-1"></a>Demo parte 1
 
@@ -47,20 +54,14 @@ In questa parte, si guiderà lo studente attraverso l'apprendimento dei diversi 
 
 ### <a name="demo-part-2-optional"></a>Demo parte 2 (facoltativa)
 
-In questa parte della demo, si vedrà il Centro protezione e si navigherà ai sei principi di privacy fondamentali di Microsoft.
+In questa parte della demo verrà visualizzato il Centro protezione e si passerà alle informazioni che descrivono la privacy in Microsoft.
 
-1. In cima alla pagina Service Trust Portal, selezionare **Centro protezione**, quindi **Home**. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni su sicurezza, conformità e privacy in Microsoft Cloud.
+1. In cima alla pagina Service Trust Portal, selezionare **Centro protezione**, quindi **Home**. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni, incluse le informazioni sulla privacy e molto altro.  
 
-1. Dalla parte superiore della pagina, selezionare **Privacy**, quindi **Risorse**.
-
-1. Selezionare **Risorse privacy aggiuntive**.
-
-1. Selezionare **Privacy in Microsoft**.
-
-1. Esaminare i sei principi chiave sulla privacy.
+1. Verranno visualizzate informazioni sull'impegno di Microsoft nei confronti dell'utente.  Da qui selezionare **Altre informazioni sulla privacy di Microsoft**.  Scorrere la pagina ed esplorare i diversi collegamenti per altre informazioni sulla privacy in Microsoft.
 
 1. Chiudere le finestre del browser per uscire da Service Trust Portal e dal Centro protezione.
 
 ### <a name="review"></a>Verifica
 
-In questa demo si sono esplorate alcune delle opzioni disponibili in Service Trust Portal, si è visto come accedere ai report di controllo per Microsoft Cloud Service e come usare la Raccolta personale per salvare documenti per una revisione futura.  Inoltre, si è visitato il Centro protezione per accedere e rivedere i principi di privacy di Microsoft.
+In questa demo si sono esplorate alcune delle opzioni disponibili in Service Trust Portal, si è visto come accedere ai report di controllo per Microsoft Cloud Service e come usare la Raccolta personale per salvare documenti per una revisione futura.  Inoltre, si è visitato il Centro protezione per accedere e rivedere le informazioni sulla privacy in Microsoft.

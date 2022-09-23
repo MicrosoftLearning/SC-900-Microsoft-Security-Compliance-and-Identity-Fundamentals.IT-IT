@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Esplorare il flusso di lavoro di eDiscovery (Standard)
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557603"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892665"
 ---
+<a name="---"></a><!---
+---
+Lab: Titolo: 'Esplorare il flusso di lavoro di eDiscovery (Standard)' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 5: Descrivere le funzionalità eDiscovery e di controllo di Microsoft Purview; Unità 2: Descrivere le soluzioni eDiscovery in Microsoft 365'
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Laboratorio: Esplorare il flusso di lavoro di eDiscovery (Standard)
+
+Questo lab corrisponde al contenuto di Learn seguente:
+
+- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
+- Modulo: Descrivere le funzionalità eDiscovery e di controllo di Microsoft Purview
+- Unità: Descrivere le soluzioni eDiscovery in Microsoft 365
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
@@ -126,6 +135,8 @@ Una volta creato il blocco, occorre creare una query di ricerca.  Una volta comp
     1. Nel secondo campo, selezionare la posizione in cui si desidera archiviare il file dell'esportazione, quindi selezionare **Avvia**.  Una volta completato il download, selezionare **Chiudi** e chiudere questa scheda del browser.
     1. Si ritorna di nuovo alla finestra "Blocco di test - Ricerca vendite_Export".  Selezionare **Chiudi**.
     1. Controllare la posizione specificata per il download per verificare che il download sia stato completato correttamente.
+
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 
