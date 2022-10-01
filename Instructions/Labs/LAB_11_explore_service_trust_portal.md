@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 068a2177077367a2be9400316e9c5fddbcc739c7
+ms.sourcegitcommit: cf0e185a6bd333ae09116c87c1d8445a8c02c5a2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892690"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "147965817"
 ---
 <a name="---"></a><!---
 ---
@@ -16,7 +16,9 @@ Lab: Titolo: 'Esplorare Service Trust Portal' Percorso di apprendimento: 'Percor
 
 Questo lab corrisponde al contenuto di Learn seguente:
 
-Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft Modulo: Descrivere le funzionalità di gestione della conformità in Microsoft Unità: Esplorare Service Trust Portal
+- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
+- Modulo: Descrivere le funzionalità di gestione della conformità in Microsoft Purview
+- Esplorazione di Service Trust Portal
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
@@ -30,37 +32,37 @@ In questa attività si esplorerà Service Trust Portal e i diversi tipi di conte
 
 1. Aprire Microsoft Edge.
 
-1. Nella barra degli indirizzi immettere **aka.ms/STP**.  In questo modo, si passerà alla pagina di destinazione di Service Trust Portal. Service Trust Portal contiene i dettagli relativi all'implementazione di Microsoft dei controlli e dei processi che proteggono i servizi cloud e i dati dei clienti al loro interno.
+1. Nella barra degli indirizzi immettere **aka.ms/STP**. In questo modo, si passerà alla pagina di destinazione di Service Trust Portal. Service Trust Portal contiene i dettagli relativi all'implementazione di Microsoft dei controlli e dei processi che proteggono i servizi cloud e i dati dei clienti al loro interno.
 
 1. Per accedere ad alcune delle risorse in Service Trust Portal, è necessario accedere come utente autenticato con l'account di Microsoft Cloud Service e rivedere e accettare l'accordo di riservatezza di Microsoft per i materiali di conformità. Nell'angolo superiore destro della pagina di destinazione per Service Trust Portal verrà visualizzata l'opzione Accedi.  **Effettuare l'accesso** usando le credenziali di amministratore e, se richiesto, selezionare **Accetto** per accettare l'accordo di riservatezza di Microsoft per i materiali di conformità.
 
-1. Scorrere la pagina verso il basso e notare i collegamenti ai report di controllo, a documenti e risorse e altro ancora.  Selezionare **View all Audit Reports** (Visualizza tutti i report di controllo).
+1. Scorrere verso il basso nella pagina e notare le diverse categorie di informazioni disponibili. Nella categoria Certificazioni, Normative e Standard selezionare **ISO/IEC**.
 
-1. Scorrere verso il basso fino a metà pagina: verranno visualizzati i report di controllo nuovi e archiviati.  È possibile scegliere tra numerose categorie, comprese Guide alla conformità, Report e certificati di controllo ENS, Domande frequenti, White paper e tante altre.
+1. Prendere nota della descrizione nella parte superiore della pagina e dei documenti applicabili disponibili.  Selezionare i **puntini di sospensione** nell'intestazione Altre opzioni per il primo documento nell'elenco.  Si notino le diverse opzioni.
 
-1. Selezionare **Report ISO**.  Se l'opzione per i report ISO non viene visualizzata immediatamente, selezionare la freccia DESTRA fino a quando non verrà visualizzata l'opzione, quindi selezionarla.
+1. Selezionare i **puntini di sospensione (…) , quindi Salva nella raccolta**.  Verrà visualizzata una finestra in cui viene chiesto di ricevere notifiche. Selezionare **Sì**.
 
-1. Si vedrà un lungo elenco di report ISO disponibili, quindi sarà possibile applicare filtri in base all'intervallo di date, al tipo di documento, al servizio cloud e ai settori.  In questo caso, si stanno cercando report ISO disponibili per Azure DevOps.  Selezionare Servizio cloud, quindi Azure DevOps (ossia VSTS) dall'elenco a discesa.  Come risultato verranno restituiti due documenti.
+1. Per verificare che il documento sia stato salvato, scorrere verso l'alto fino alla parte superiore della pagina e selezionare **Raccolta personale**.  Per qualsiasi documento nella pagina Raccolta personale, selezionare i puntini di sospensione per visualizzare le opzioni disponibili.
 
-1. È possibile scaricare o salvare nella raccolta i singoli documenti o tutti.  In questo caso, si vuole salvare solo il primo documento.  Selezionare i **puntini di sospensione (…)** , quindi **Salva nella raccolta**.  Verrà richiesta la sottoscrizione del documento; selezionare **Conferma**.
+1. Nella parte superiore della pagina Raccolta personale selezionare **Service Trust Portal** per tornare alla home page di Service Trust Portal.
 
-1. Potrebbe comparire una finestra popup con l'opzione di ricevere notifiche tramite posta elettronica all'aggiornamento dei documenti salvati nella propria raccolta.  In questo caso, non occorrerà ricevere notifiche di aggiornamenti, quindi lasciare le impostazioni predefinite e selezionare **Salva**.  Il documento è ancora salvato nella propria raccolta.
+1. Dalla home page di Service Trust Portal scorrere verso il basso fino alla categoria **Settore e Risorse internazionali** .  Prendere nota dei riquadri disponibili.  Selezionare **Servizi finanziari**.  Scorrere verso il basso per visualizzare tutte le aree e i paesi disponibili.  Selezionare il riquadro per qualsiasi paese per visualizzare i documenti applicabili.
 
-1. Ora verificare che il documento si trovi effettivamente nella propria raccolta. Scorrere verso l'alto per tornare in cima alla pagina.  Dal pannello di navigazione in alto, selezionare **Raccolta personale**.  Se l'opzione Raccolta personale non viene visualizzata, selezionare Altro, quindi Raccolta personale.
+1. Per restituire la home page di Service Trust Portal, selezionare il collegamento **Service Trust Portal** nella parte superiore della pagina.
 
-1. In cima alla pagina Service Trust Portal, selezionare **Documenti sull'affidabilità** e notare le opzioni. Esplorare le informazioni disponibili per ciascuno dei collegamenti in Documenti sull'affidabilità. La selezione di Report di controllo indirizza alla stessa posizione esplorata nell'attività precedente.  Esplorare le informazioni disponibili per ciascun collegamento.
+1. Dalla home page di Service Trust Portal scorrere verso il basso fino alla categoria **Risorsa per l'organizzazione** . Selezionare **Risorse per l'organizzazione**.  Si noti che tutti i documenti elencati di seguito si basano sulla sottoscrizione e sulle autorizzazioni dell'organizzazione.
 
-1. Dalla parte superiore della pagina, selezionare **Settori e aree geografiche**.  Scegliere **Soluzioni area geografica**. Osservare le diverse aree geografiche elencate.  Selezionare **Regno Unito**.  
-
-1. È possibile selezionare da diverse categorie,  tra cui Report di valutazione GRC, Guide alla conformità e altro ancora.  Così come per l'attività precedente, è possibile filtrare l'elenco di documenti visualizzati e selezionare i documenti da scaricare o salvare i documenti nella propria raccolta.
+1. Per restituire la home page di Service Trust Portal, selezionare il collegamento **Service Trust Portal** nella parte superiore della pagina.
 
 ### <a name="task-2"></a>Attività 2
 
 In questa attività si visiterà il Centro protezione e si passerà alle informazioni che descrivono la privacy in Microsoft.
 
-1. In cima alla pagina Service Trust Portal, selezionare **Centro protezione**, quindi **Home**. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni, incluse le informazioni sulla privacy e molto altro.  
+1. Dalla home page di Service Trust Portal scorrere verso il basso fino alla categoria **Report, White paper e Artefatti** . Selezionare **Privacy e protezione dei dati**.  
 
-1. Verranno visualizzate informazioni sull'impegno di Microsoft nei confronti dell'utente.  Da qui selezionare **Altre informazioni sulla privacy di Microsoft**.  Scorrere la pagina ed esplorare i diversi collegamenti per altre informazioni sulla privacy in Microsoft.
+1. Oltre a elencare tutti i documenti applicabili, è disponibile una descrizione della categoria seguita da un collegamento a Altre informazioni.  Selezionare **ulteriori**
+
+1. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni, incluse le informazioni sulla privacy e molto altro. Esplorare il contenuto di questa pagina e spostarsi tra collegamenti diversi.
 
 1. Chiudere tutte le schede del browser aperte.
 

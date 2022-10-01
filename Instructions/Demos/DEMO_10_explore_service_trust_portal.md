@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 38537f333f690a8526c5a62de40ca86ab9335b48
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 4f9915c3de45245a26ddb2fc93a4c9a81b00faca
+ms.sourcegitcommit: cf0e185a6bd333ae09116c87c1d8445a8c02c5a2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892450"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "147965805"
 ---
 <a name="---"></a><!---
 ---
@@ -16,7 +16,9 @@ Demo: Titolo: 'Service Trust Portal' Percorso di apprendimento: 'Percorso di app
 
 Questa demo corrisponde al contenuto di Learn seguente:
 
-Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft Modulo: Descrivere le funzionalità di gestione della conformità in Microsoft Unità: Esplorare Service Trust Portal
+- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
+- Modulo: Descrivere le funzionalità di gestione della conformità in Microsoft Purview
+- Esplorazione di Service Trust Portal
 
 ## <a name="demo-scenario"></a>Scenario demo
 
@@ -32,36 +34,36 @@ In questa parte, si guiderà lo studente attraverso l'apprendimento dei diversi 
 
 1. Per accedere ad alcune delle risorse in Service Trust Portal, è necessario accedere come utente autenticato con l'account di Microsoft Cloud Service e rivedere e accettare l'accordo di riservatezza di Microsoft per i materiali di conformità. Nell'angolo superiore destro della pagina di destinazione per Service Trust Portal verrà visualizzata l'opzione Accedi.  **Effettuare l'accesso** usando le credenziali di amministratore e, se richiesto, selezionare **Accetto** per accettare l'accordo di riservatezza di Microsoft per i materiali di conformità.
 
-1. Scorrere la pagina verso il basso e notare i collegamenti ai report di controllo, a documenti e risorse e altro ancora.  Selezionare **View all Audit Reports** (Visualizza tutti i report di controllo).
+1. Scorrere verso il basso nella pagina e notare le diverse categorie di informazioni disponibili. Nella categoria Certificazioni, normative e standard selezionare **ISO/IEC**.
 
-1. Scorrere verso il basso fino a metà pagina: verranno visualizzati i report di controllo nuovi e archiviati.  È possibile scegliere tra numerose categorie, comprese Guide alla conformità, Report e certificati di controllo ENS, Domande frequenti, White paper e tante altre.
+1. Prendere nota della descrizione nella parte superiore della pagina e dei documenti applicabili disponibili.  Selezionare i **puntini di sospensione** nell'intestazione Altre opzioni per il primo documento nell'elenco.  Prendere nota delle diverse opzioni.
 
-1. Selezionare **Report ISO**.  Se l'opzione per i report ISO non viene visualizzata immediatamente, selezionare la freccia DESTRA fino a quando non verrà visualizzata l'opzione, quindi selezionarla.
+1. Selezionare i **puntini di sospensione (…) , quindi Salva nella raccolta**.  Verrà visualizzata una finestra che chiede di ricevere notifiche. Selezionare **Sì**.
 
-1. Si vedrà un lungo elenco di report ISO disponibili, quindi sarà possibile applicare filtri in base all'intervallo di date, al tipo di documento, al servizio cloud e ai settori.  In questo caso, si stanno cercando report ISO disponibili per Azure DevOps.  Selezionare Servizio cloud, quindi Azure DevOps (ossia VSTS) dall'elenco a discesa.  Come risultato verranno restituiti due documenti.
+1. Per verificare che il documento sia stato salvato, scorrere fino alla parte superiore della pagina e selezionare **Raccolta personale**.  Per qualsiasi documento nella pagina Raccolta risorse selezionare i puntini di sospensione per visualizzare le opzioni disponibili.
 
-1. È possibile scaricare o salvare nella raccolta i singoli documenti o tutti.  In questo caso, si vuole salvare solo il primo documento.  Selezionare i **puntini di sospensione (…)** , quindi **Salva nella raccolta**.  Verrà richiesta la sottoscrizione del documento; selezionare **Conferma**.
+1. Nella parte superiore della pagina Raccolta personale selezionare **Service Trust Portal** per tornare alla home page del portale di attendibilità del servizio.
 
-1. Potrebbe comparire una finestra popup con l'opzione di ricevere notifiche tramite posta elettronica all'aggiornamento dei documenti salvati nella propria raccolta.  In questo caso, non occorrerà ricevere notifiche di aggiornamenti, quindi lasciare le impostazioni predefinite e selezionare **Salva**.  Il documento è ancora salvato nella propria raccolta.
+1. Dalla home page del portale di trust del servizio scorrere verso il basso fino alla categoria **Risorse di settore e area** .  Si notino i riquadri disponibili.  Selezionare **Servizi finanziari**.  Scorrere verso il basso per visualizzare tutte le aree e i paesi disponibili.  Selezionare il riquadro per qualsiasi paese per visualizzare i documenti applicabili.
 
-1. Ora verificare che il documento si trovi effettivamente nella propria raccolta. Scorrere verso l'alto per tornare in cima alla pagina. Dal pannello di navigazione in alto, selezionare **Raccolta personale**.  Se l'opzione Raccolta personale non viene visualizzata, selezionare Altro, quindi Raccolta personale.
+1. Per restituire la home page del portale di trust del servizio, selezionare il collegamento **Portale di attendibilità del servizio** nella parte superiore della pagina.
 
-1. In cima alla pagina Service Trust Portal, selezionare **Documenti sull'affidabilità** e notare le opzioni. Esplorare le informazioni disponibili per ciascuno dei collegamenti in Documenti sull'affidabilità. La selezione di Report di controllo indirizza alla stessa posizione esplorata nei passaggi precedenti (diversi modi per raggiungere gli stessi contenuti).  
+1. Dalla home page del portale di trust del servizio scorrere verso il basso fino alla **risorsa per la categoria Organizzazione** . Selezionare **Risorse per l'organizzazione**.  Si noti che tutti i documenti elencati di seguito sono basati sulla sottoscrizione e sulle autorizzazioni dell'organizzazione.
 
-1. Dalla parte superiore della pagina, selezionare **Settori e aree geografiche**.  Scegliere **Soluzioni area geografica**. Osservare le diverse aree geografiche elencate.  Selezionare **Regno Unito**.  
-
-1. È possibile selezionare da diverse categorie,  tra cui Report di valutazione GRC, Guide alla conformità e altro ancora.  Così come per l'attività precedente, è possibile filtrare l'elenco di documenti visualizzati e selezionare i documenti da scaricare o salvare i documenti nella propria raccolta.
+1. Per restituire la home page del portale di trust del servizio, selezionare il collegamento **Portale di attendibilità del servizio** nella parte superiore della pagina.
 
 ### <a name="demo-part-2-optional"></a>Demo parte 2 (facoltativa)
 
 In questa parte della demo verrà visualizzato il Centro protezione e si passerà alle informazioni che descrivono la privacy in Microsoft.
 
-1. In cima alla pagina Service Trust Portal, selezionare **Centro protezione**, quindi **Home**. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni, incluse le informazioni sulla privacy e molto altro.  
+1. Dalla home page del portale di attendibilità del servizio scorrere verso il basso fino alla categoria **Report, Whitepapers e Artefatti** . Selezionare **Privacy e Protezione dei dati**.  
 
-1. Verranno visualizzate informazioni sull'impegno di Microsoft nei confronti dell'utente.  Da qui selezionare **Altre informazioni sulla privacy di Microsoft**.  Scorrere la pagina ed esplorare i diversi collegamenti per altre informazioni sulla privacy in Microsoft.
+1. Oltre a elencare tutti i documenti applicabili, è presente una descrizione della categoria seguita da un collegamento a Altre informazioni.  Selezionare **ulteriori**
 
-1. Chiudere le finestre del browser per uscire da Service Trust Portal e dal Centro protezione.
+1. In questo modo si aprirà una nuova scheda del browser che porta al Centro protezione, dove è possibile trovare altre informazioni, incluse le informazioni sulla privacy e molto altro. Esplorare il contenuto di questa pagina e spostarsi tra collegamenti diversi.
+
+1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 
-In questa demo si sono esplorate alcune delle opzioni disponibili in Service Trust Portal, si è visto come accedere ai report di controllo per Microsoft Cloud Service e come usare la Raccolta personale per salvare documenti per una revisione futura.  Inoltre, si è visitato il Centro protezione per accedere e rivedere le informazioni sulla privacy in Microsoft.
+In questo lab sono state esplorate alcune opzioni disponibili sotto Service Trust Portal, la modalità di accesso ai report e la modalità di utilizzo di Raccolta per salvare documenti per una verifica successiva.  Inoltre, si è visitato il Centro protezione per accedere e rivedere le informazioni sulla privacy in Microsoft.
