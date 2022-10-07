@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cb7b2598e10bff208634a8181ded25b46a0064c2
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 2c2c0be64f8f19dcae5ef6066bb7f8518057a6a3
+ms.sourcegitcommit: 7974f6f09e9b092b73c6f7aee26d636aaefe5bfa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892234"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "148010602"
 ---
 <a name="---"></a><!---
 ---
@@ -19,6 +19,8 @@ Lab: Titolo: 'Eseguire la configurazione'
 Questo lab di configurazione è costituito da due attività distinte.  La prima attività viene applicata e consigliata solo se l'ambiente lab include l'uso di un Azure Pass. La seconda attività prevede l'abilitazione del log di controllo Microsoft e viene applicata e consigliata indipendentemente dal fatto che l'ambiente usi o meno un Azure Pass.
 
 **Tempo stimato**: 5-10 minuti
+
+
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Parte 1 della configurazione - Riscatto dell'Azure Pass
 
