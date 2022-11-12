@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
+ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892174"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "148118961"
 ---
 <a name="---"></a><!---
 ---
@@ -110,7 +110,7 @@ In questa attività, in qualità di Adele Vance, si seguirà il processo di regi
     1. Immettere la password annotata nell'attività precedente. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**
 
-4. Poiché si tratta del primo accesso come Adele Vance, verrà richiesto di reimpostare la password.  Immettere la password precedente.  Come nuova password, immettere **SC900-Lab**. Immettere **SC-900-Lab** nel campo di conferma della password.  Fare clic su **Accedi**.  Nota: si sta usando questa password solo per comodità del lab. Come procedura consigliata, sarebbe opportuno immettere una password più sicura.
+4. Poiché si tratta del primo accesso come Adele Vance, verrà richiesto di reimpostare la password.  Immettere la password precedente.  Come nuova password, immettere **SC900-Lab**. Immettere **SC900-Lab** nel campo di conferma della password.  Fare clic su **Accedi**.  Nota: si sta usando questa password solo per comodità del lab. Come procedura consigliata, sarebbe opportuno immettere una password più sicura.
 
 5. Viene visualizzato un popup che segnala che sono necessarie altre informazioni.  Questo perché, come membro del gruppo SSPRSecurityGroupUsers, la configurazione richiede che i propri membri si registrino quando effettuano l'accesso.  Selezionare il pulsante **Avanti**.  Nota:  un'alternativa alla registrazione da parte degli stessi utenti è rappresentata dalla configurazione dei metodi di autenticazione direttamente da parte degli amministratori al momento dell'aggiunta di un utente. Questo richiede che gli amministratori conoscano e impostino i numeri di telefono e gli indirizzi di posta elettronica usati dagli utenti per la reimpostazione della password self-service e che reimpostino la password di un utente.
 
@@ -148,7 +148,7 @@ In questa attività, in qualità di Adele Vance, si seguirà il processo di reim
 
 11. Nella casella di informazioni Selezionare un account scegliere **AdeleV@WWLxZZZZZZ.onmicrosoft.com** , immettere la nuova password e quindi selezionare il pulsante **Accedi**.  Se viene richiesto se rimanere connessi, selezionare **No**.
 
-12. Ora ci si dovrebbe trovare nel portale di Azure.
+12. A questo punto ci si dovrebbe trovare nel portale di Office.
 
 13. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata, quindi **Disconnetti**. Infine, chiudere tutte le finestre del browser.
 
