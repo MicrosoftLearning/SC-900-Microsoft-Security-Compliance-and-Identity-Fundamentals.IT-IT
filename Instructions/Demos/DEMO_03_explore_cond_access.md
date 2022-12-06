@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: b9577dbed15e45986a20f4caf0f233c8e6fe4a4a
-ms.sourcegitcommit: e95df9b6b0cd4511c64832583e414ce7745cd29e
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "148022690"
----
 <a name="---"></a><!---
 ---
 Demo: Titolo: 'Accesso condizionale di Azure AD' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 3: Descrivere le funzionalità di gestione degli accessi di Azure AD; Unità 2: Descrivere l'accesso condizionale in Azure AD'
