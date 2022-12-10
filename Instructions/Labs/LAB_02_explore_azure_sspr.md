@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
-ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "148118961"
----
 <a name="---"></a><!---
 ---
 Lab: Titolo: 'Esplorare l'autenticazione di Azure AD con la reimpostazione della password self-service' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 2: Descrivere le funzionalità di autenticazione di Azure AD; Unità 4: Descrivere la reimpostazione della password self-service in Azure AD'
