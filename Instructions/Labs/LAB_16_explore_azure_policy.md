@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892150"
----
 <a name="---"></a><!---
 ---
 Lab: Titolo: 'Esplorare Criteri di Azure' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 6: Descrivere le funzionalità di governance delle risorse in Azure; Unità 2: Descrivere Criteri di Azure'
@@ -22,81 +14,48 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
-Criteri di Azure è un servizio che consente di applicare gli standard aziendali e di valutare la conformità su larga scala. Criteri di Azure valuta le risorse in Azure confrontando le proprietà di tali risorse con le regole business. In questo lab, lo studente inizierà esplorando la pagina di destinazione Criteri di Azure. Dopo aver esplorato la pagina Criteri di Azure, lo studente creerà un criterio ed esaminerà gli effetti del criterio creato.
+Criteri di Azure è un servizio che consente di applicare gli standard aziendali e di valutare la conformità su larga scala. Criteri di Azure valuta le risorse in Azure confrontando le proprietà di tali risorse con le regole business. In questo lab si creerà un criterio e si vedrà l'impatto di tale criterio.  Verranno anche esaminate le informazioni sulla conformità e la correzione disponibili nella pagina dei criteri.
 
-**Tempo stimato**: 20-25 minuti
+**Tempo stimato**: 15-20 minuti
 
 ### <a name="task-1"></a>Attività 1
 
-Esplorare brevemente la pagina Criteri di Azure.
+In questa attività verrà creata un'assegnazione di criteri di base per richiedere un tag per un gruppo di risorse.
+1.  Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com**.
 
-1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com**.
+1. Accedere con le credenziali di amministratore per la sottoscrizione di Azure. Queste credenziali di amministratore sono diverse dalle credenziali di amministratore di Microsoft 365.
+    1. Nella finestra Accedi immettere **User1-XXXXXXXX@LODSPRODMSLEARNMCA.onmicrosoft.com** (dove XXXXXXXX è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
 
-1. Accedere con le credenziali di amministratore.
-    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Immettere la password di amministratore fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
+    1. Se viene richiesto se si desidera rimanere connessi, selezionare **Sì**.
 
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
-    1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.
-
-1. Ora ci si trova nel portale di Azure.  Nella casella di ricerca, nella barra blu nella parte superiore della pagina accanto a Microsoft Azure, inserire **criteri**, quindi selezionare **Criteri** dai risultati della ricerca. Viene aperta la home page Criteri che fornisce una vista del dashboard.  L'ambito nel quale vengono visualizzate le informazioni è determinato dall'Azure Pass che si sta utilizzando, come parte di questo lab.   Notare le informazioni disponibili nel dashboard.
-
-1. È presente un elemento, denominato ASC Default (ASC è l'acronimo di Azure Security Center, ovvero Centro sicurezza di Azure ora denominato Microsoft Defender per il cloud) il cui ambito è Azure Pass - Sponsorship.   Selezionare **ASC Default**.
-
-1. In alto sulla pagina, sotto Essentials, si possono vedere nome, descrizione e altre informazioni essenziali.  Leggere la descrizione (far scorrere il mouse sopra la descrizione). NOTA: il campo della descrizione fa riferimento a Centro sicurezza di Azure che è stato ridenominato Microsoft Defender per il cloud.
-
-1. Notare che le informazioni fornite dal dashboard vengono aggiornate in modo da riflettere l'elemento selezionato, Impostazione predefinita del Centro sicurezza di Azure. Impostazione predefinita del Centro sicurezza di Azure è la definizione dell'iniziativa Benchmark di Sicurezza di Azure.  Si ricordi che la definizione di un'iniziativa è una raccolta di definizioni di criteri che mirano a raggiungere un singolo obiettivo generale. Le informazioni possono essere visualizzate per gruppi, criteri, risorse non conformi o eventi.
-
-1. Uscire dalla pagina ASC e tornare alla home page dei criteri selezionando **X** nell'angolo in alto a destra della finestra.
-
-1. Dal riquadro di spostamento sinistro, selezionare **Attività iniziali**.  Vengono visualizzare le varie opzioni disponibili, inclusa l'opzione per sfogliare i criteri integrati e assegnare i criteri su larga scala, e si possono creare definizioni di criteri personalizzate per il proprio ambiente, consigliare assegnazioni di criteri e molto altro ancora.
-
-1. Dal riquadro di spostamento sinistro, selezionare **Conformità**.  Come per la pagina della panoramica, in questa pagina è possibile visualizzare lo stato dei criteri e/o delle iniziative elencati.  Nella pagina Conformità dei criteri, si può anche assegnare un criterio o un'iniziativa (nella prossima attività assegneremo un criterio).
-
-1. Dal riquadro di spostamento sinistro, selezionare **Correzione**.  Questa pagina fornisce un elenco di criteri che hanno risorse non conformi.  Selezionando un criterio nella pagina Correzione, è possibile attivare la creazione di un'attività per correggere il criterio.  
-
-1. Dal riquadro di spostamento a sinistra, sotto Creazione, selezionare **Assegnazioni**.  In questa pagina, si possono vedere le attuali assegnazioni di criteri e/o iniziative ed è possibile creare assegnazioni di criteri o iniziative.  Ritorneremo in questa pagina nella prossima attività.  
-
-1. Dal riquadro di spostamento sinistro, selezionare **Definizioni**.  In questa pagina, selezionare **Controlla i computer con impostazioni di sicurezza delle password non sicure**.  Questa è la definizione di un'iniziativa che include molti criteri.  Per vedere come si presenta la definizione di un criterio, selezionare **Controlla i computer Windows in cui la validità massima della password non è impostata su 70 giorni**.  Quando si apre la pagina, viene visualizzata la definizione effettiva del criterio in una struttura JSON (Java Script Object Notation).   Come si può vedere nel testo in rosso, la definizione del criterio contiene elementi che definiscono il nome visualizzato, la descrizione. i parametri, le regole del criterio e altro ancora. NON MODIFICARE NULLA.  
-
-1. Uscire dalla pagina Definizione criteri, selezionando la **X** che si trova nell'angolo in alto a destra della pagina.
-
-1. Uscire dalla pagina Definizione dell'iniziativa, selezionando la **X** che si trova nell'angolo in alto a destra della pagina.
-
-1. Mantenere aperta questa scheda del browser (Criteri – Microsoft Azure) per la prossima attività.
-
-### <a name="task-2"></a>Attività 2
-
-In questa attività verrà creata un'assegnazione di criteri base per richiedere un tag sui gruppi di risorse.
-
-1. Nel browser, aprire la scheda Criteri – Microsoft Azure.
+1. Ci si trova ora nel portale di Azure.  Nella casella di ricerca, nella barra blu nella parte superiore della pagina accanto a Microsoft Azure, inserire **criteri**, quindi selezionare **Criteri** dai risultati della ricerca. Viene aperta la home page Criteri con una visualizzazione del dashboard.  L'ambito della visualizzazione Dashboard è la sottoscrizione di Azure fornita dal provider di servizi di hosting per i lab autorizzato. Verrà visualizzato un criterio creato dal provider di servizi di hosting per i lab autorizzato, per l'uso della sottoscrizione di Azure.
 
 1. Dal riquadro di spostamento sinistro, sotto Creazione, selezionare **Assegnazioni**.
 
-1. Dalla parte superiore della pagina selezionare **Assegna criterio**.
+1. Dalla parte superiore della pagina selezionare **Assegna criterio**. Si apre la procedura guidata di assegnazione dei criteri per guidare l'amministratore nel processo di assegnazione di un criterio.
 
-1. Si apre la procedura guidata di assegnazione dei criteri per guidare l'amministratore nel processo di assegnazione di un criterio.  Accanto al campo Definizione del criterio, selezionare le **ellissi**.  Viene fornito un elenco delle definizioni dei criteri disponibili.  
+1. Si inizia nella scheda Generale.
+    1. Per Ambito lasciare l'impostazione predefinita. In questo caso, l'ambito dei criteri è la sottoscrizione di Azure fornita dal provider di servizi di hosting per i lab autorizzato.
+    1. In Definizione criteri selezionare i **puntini di sospensione**.  Viene fornito un elenco delle definizioni dei criteri disponibili.  Nella barra di ricerca immettere **Richiedi un tag**. Dai risultati della ricerca, selezionare **Richiedi un tag su gruppo di risorse** (potrebbe essere necessario scorrere verso il basso), quindi premere **Seleziona**.  Nota: l'effetto di questo criterio è negare la creazione di qualunque gruppo di risorse che non soddisfa il requisito.  
+    1. Si noti il nome di assegnazione predefinito.  Mantenere il nome così com'è.
+    1. Assicurarsi che l'opzione Applicazione dei criteri sia impostata su **Abilitata** e selezionare **Avanti**.
 
-1. Nella barra di ricerca immettere **Tag**.
+1. Si è ora nella scheda Parametri. Nel campo Nome tag immettere **Ambiente** e quindi selezionare **Avanti**.
 
-1. Dai risultati della ricerca, selezionare **Richiedi un tag su gruppo di risorse** (potrebbe essere necessario scorrere verso il basso), quindi premere **Seleziona**.  Nota: l'effetto di questo criterio è negare la creazione di qualunque gruppo di risorse che non soddisfa il requisito.  
+1. Nella scheda Correzione non modificare le impostazioni predefinite e quindi selezionare **Avanti**.
 
-1. Si noti il nome di assegnazione predefinito.  Mantenere il nome così com'è e dal fondo della pagina selezionare **Avanti**.
+1. Si è ora nella scheda Messaggi di non conformità. Nel campo Messaggio di non conformità immettere **È obbligatorio un tag di ambiente** e quindi selezionare **Avanti**. Nota: questo messaggio apparirà come motivo di non conformità per i gruppi di risorse che sono stati creati prima dell'assegnazione del criterio e non hanno un tag Ambiente.
 
-1. Nel campo Nome tag, immettere **Ambiente**, quindi selezionare **Avanti**.
-
-1. Non modificare le impostazioni di correzione predefinite, quindi selezionare **Avanti**.
-
-1. Nel messaggio di non conformità immettere **È richiesto un tag ambiente**, quindi selezionare **Avanti**. Nota: questo messaggio apparirà come motivo di non conformità per i gruppi di risorse che sono stati creati prima dell'assegnazione del criterio e non hanno un tag Ambiente.  La creazione di gruppi di risorse successiva alla creazione verrà negata in assenza di un tag ambiente.
-
-1. Rivedere l'assegnazione dei criteri, quindi selezionare Crea.  Se non si vede immediatamente il criterio, selezionare **Aggiorna**. Nota: l'applicazione del criterio potrebbe richiedere fino a 30 minuti.
+1. Rivedere l'assegnazione dei criteri e quindi selezionare **Crea**.  Se non si vede immediatamente il criterio, selezionare **Aggiorna**. Nota: l'applicazione dei criteri potrebbe richiedere fino a 30 minuti, ma in genere avviene più rapidamente.
 
 1. Uscire dalla pagina di assegnazione dei criteri selezionando la **X** nell'angolo in alto a destra dello schermo.
 
 1. Ora ci si trova nella home page dei servizi di Azure.  Tenere questa pagina aperta, servirà per l'attività successiva.
 
-### <a name="task-3"></a>Attività 3
+### <a name="task-2"></a>Attività 2
 
-In questa attività si vedrà l'effetto dell'assegnazione dei criteri di Azure, tramite la creazione in Azure di un gruppo di risorse privo di un tag, quindi il gruppo di risorse verrà aggiornato per includere un tag.  Nota: L'applicazione del criterio creato durante la precedente attività potrebbe richiedere fino a 30 minuti, ma in genere l'applicazione avviene più rapidamente.
+In questa attività si vedrà l'impatto dell'assegnazione dei criteri di Azure tentando di creare un gruppo di risorse in Azure senza un tag.
 
 1. Nel browser, aprire la scheda Home – Microsoft Azure.
 
@@ -104,7 +63,7 @@ In questa attività si vedrà l'effetto dell'assegnazione dei criteri di Azure, 
 
 1. Dall'angolo superiore sinistro della pagina, selezionare **+ Crea**.
 
-1. Dalla scheda Generale di Crea un gruppo di risorse, lasciare il campo Sottoscrizione così come è, Azure Pass - Sponsorizzazione.
+1. Nella scheda Generale di Crea un gruppo di risorse lasciare il campo Sottoscrizione così come è.
 
 1. Nel campo Gruppo di risorse immettere **SC900-Labs**.
 
@@ -112,11 +71,9 @@ In questa attività si vedrà l'effetto dell'assegnazione dei criteri di Azure, 
 
 1. Lasciare vuoto il campo Nome e Valore del tag.  NON POPOLARE, quindi selezionare **Verifica + Crea**.
 
-1. Si vedrà un'indicazione di convalida riuscita (il nome e il valore del tag non sono campi obbligatori nella procedura guidata), quindi selezionare **Crea**.
+1. Verrà visualizzato un messaggio di convalida riuscita (il nome e il valore del tag non sono campi obbligatori nella procedura guidata), quindi selezionare **Crea**.
 
-1. Comparirà un messaggio di errore nella parte superiore dello schermo, "Non è stato possibile creare il gruppo di risorse. Visualizza i dettagli dell'errore".  Selezionare **Visualizza dettagli errore**. La condizione che fa parte dei criteri di Azure non è stata soddisfatta, quindi la creazione del gruppo di risorse è stata bloccata per non conformità.
-
-    Nota: se non viene visualizzato il messaggio di errore e il gruppo di risorse viene creato, significa che l'applicazione del criterio non è ancora avvenuta.  Accedere alla pagina dei criteri per il criterio creato nell'attività precedente e una volta che il criterio ha effetto si vedrà che la risorsa non è conforme.  La pagina dei dettagli includerà il messaggio di non conformità. Se viene visualizzato l'errore, eseguire la procedura seguente per correggere la distribuzione.
+1. Verrà visualizzato un messaggio di errore nella parte superiore dello schermo, "Non è stato possibile creare il gruppo di risorse". Selezionare **Visualizza dettagli errore**. La condizione che fa parte dei criteri di Azure non è stata soddisfatta, quindi la creazione del gruppo di risorse è stata bloccata per non conformità. Nota: se non viene visualizzato il messaggio di errore e il gruppo di risorse viene creato, significa che l'applicazione del criterio non è ancora avvenuta.  Passare alla pagina Criteri per i criteri creati nell'attività precedente e quando i criteri diventano effettivi si vedrà che la risorsa non è conforme.  La pagina dei dettagli includerà il messaggio di non conformità.
 
 1. Il riepilogo dell'errore mostra il seguente tipo di errore, "La risorsa 'SC900-Labs' non è consentita dal criterio".  Chiudere questa finestra selezionando la **X** nell'angolo in alto a sinistra dello schermo.
 
@@ -126,17 +83,33 @@ In questa attività si vedrà l'effetto dell'assegnazione dei criteri di Azure, 
 
 1. Verificare il tag e selezionare **Crea**.
 
-1. Si vedrà elencato il gruppo di risorse.  Poiché il tag è stato fornito nel gruppo di risorse, la condizione inclusa come parte del criterio di Azure è stata soddisfatta.  Il gruppo di risorse è conforme al criterio.
+1. Nel campo Nome immettere **Ambiente** e nel campo Valore immettere **Lab** (questo valore potrebbe essere qualsiasi cosa, il criterio richiede semplicemente un valore di tag), quindi selezionare **Avanti: Rivedi e crea >** e infine selezionare **Crea**.
 
-1. Prima di uscire, rimuovere il criterio di Azure.
-    1. Nell'angolo in alto a sinistra sulla pagina, selezionare Home per ritornare alla home page di Azure.
+1. Verrà elencato il gruppo di risorse.  
 
-    1. Sotto la dicitura Servizi di Azure, selezionare Criteri di Azure.
-    1. Nel mezzo della pagina, verranno visualizzate le assegnazioni di criteri/iniziative di Azure.  Selezionare i puntini di sospensione per l'assegnazione del criterio Richiedi un tag sui gruppi di risorse, quindi selezionare Elimina assegnazione.
-    1. Verrà richiesto di confermare che si desidera eliminare l'assegnazione.  Selezionare Sì.
+1. Selezionare **Home** nel percorso di navigazione nella parte superiore della pagina per tornare alla home page di Azure.
 
-1. Chiudere tutte le schede del browser aperte.
+1. Mantenere aperta la scheda del browser perché sarà necessaria per l'attività successiva.
+
+### <a name="task-3-optional"></a>Attività 3 (facoltativa)
+
+In questa attività verranno illustrati i passaggi per correggere un gruppo di risorse non conforme. NOTA: la sottoscrizione di Azure usata per il lab richiederà più tempo del normale per aggiornare lo stato di conformità di un gruppo di risorse corretto.
+
+1. Nella home page di Azure selezionare **criteri**. Viene aperta la home page Criteri con una visualizzazione del dashboard.  L'ambito della visualizzazione Dashboard è la sottoscrizione di Azure fornita dal provider di servizi di hosting per i lab autorizzato.  
+
+1. Verrà visualizzato il criterio creato in precedenza. Selezionarlo.
+
+1. In alto sulla pagina, sotto Essentials, si possono vedere nome, descrizione e altre informazioni essenziali.  Si noti che il criterio viene visualizzato come non conforme.  Selezionare il criterio per visualizzare altre informazioni sul motivo per cui il criterio non è conforme. Qui è possibile notare che una risorsa elencata come resourcegroup1 non è conforme.  Si tratta di un esempio di un gruppo di risorse creato prima della creazione del criterio. Selezionare **Dettagli** per altre informazioni.  Qui è possibile visualizzare il messaggio di conformità che indica che è richiesto il tag ambiente.  Selezionare la **X** in alto a destra per chiudere la finestra.
+
+1. Selezionare **resourcegroup1** e quindi nella parte superiore della pagina selezionare **Visualizza risorsa**.
+    1. Accanto a Tag selezionare **modifica**
+    1. Posizionare il puntatore del mouse nel campo Tag e selezionare **Ambiente**.
+    1. Posizionare il puntatore del mouse nel campo Valore e selezionare **Lab**, quindi selezionare **Salva**.
+
+1. Tornare ora alla pagina dei criteri.  Posizionare il puntatore del mouse nella casella di ricerca blu nella parte superiore della pagina e selezionare **Criteri**.
+
+1. Dal riquadro di spostamento sinistro, selezionare **Conformità**.  Come per la pagina della panoramica, in questa pagina è possibile visualizzare lo stato dei criteri e/o delle iniziative elencati.  NOTA: anche se il tag è stato aggiunto al gruppo di risorse, l'aggiornamento dello stato richiederà tempo.  Le sottoscrizioni di Azure usate per i lab possono riscontrare ritardi più lunghi del normale. Se si vuole attendere che lo stato di conformità della risorsa venga aggiornato, non terminare il lab. A seconda dell'ambiente lab, l'aggiornamento può richiedere un'ora o più.  
 
 ### <a name="review"></a>Verifica
 
-In questo lab, lo studente ha esplorato la pagina di destinazione Criteri di Azure. Dopo aver esplorato la pagina Criteri di Azure, lo studente ha eseguito la procedura per creare un criterio e ha potuto vedere gli effetti del criterio creato.
+In questo lab è stato presentato il processo di creazione di un'assegnazione di criteri di Azure ed è stato possibile vedere l'impatto di tale criterio.

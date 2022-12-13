@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: c230a54bb7d4d9cd876aacd4e04185ce674a22db
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892186"
----
 <a name="---"></a><!---
 ---
 Demo: Titolo: 'Esplorare le impostazioni utente di Azure AD' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 1: Descrivere i servizi di base e i tipi di identità di Azure AD; Unità 4: Descrivere i tipi di identità di Azure AD'
@@ -43,26 +35,26 @@ In questa demo, si accederà ad Azure Active Directory e verranno illustrate le 
 
 1. Notare che sul riquadro di spostamento sinistro è selezionato **Profilo**.  Mostrare/attestare le informazioni mostrate nella pagina del profilo.
 
-1. Dal riquadro di spostamento sinistro, selezionare **Ruoli assegnati**.  A questo utente non è assegnato nessun ruolo di amministratore.  Dalla parte superiore della pagina selezionare **+ Aggiungi assegnazione** per mostrare i tipi di ruoli di amministratore disponibili.  Non aggiungerne nessuno, basta chiudere la pagina selezionando la **X** nella parte superiore destra della pagina.
+1. Dal riquadro di spostamento sinistro, selezionare **Ruoli assegnati**.  A questo utente non è assegnato alcun ruolo di amministratore.  Dalla parte superiore della pagina selezionare **+ Aggiungi assegnazione** per mostrare i tipi di ruoli di amministratore disponibili.  Non aggiungerne nessuno, basta chiudere la pagina selezionando la **X** nella parte superiore destra della pagina.
 
-1. Dal riquadro di spostamento sinistro, selezionare **Gruppi**.  Attestare che l'utente è un membro di diversi gruppi.  Qui è possibile attestare i tipi di gruppi.  Per aggiungere questo utente ad altri gruppi, basta selezionare **+ Aggiungi appartenenze**.  Non aggiungere nuovi gruppi, basta attestare quanto è facile aggiungere un utente ai gruppi esistenti. Chiudere la finestra dei gruppi selezionando la **X** nell'angolo in alto a destra della pagina.
+1. Dal riquadro di spostamento sinistro, selezionare **Gruppi**.  Attestare che l'utente è un membro di diversi gruppi.  Qui è possibile attestare i tipi di gruppi.  Per aggiungere questo utente ad altri gruppi, occorre selezionare **+ Aggiungi appartenenze**.  Non aggiungere nuovi gruppi, è sufficiente sottolineare quanto sia facile aggiungere un utente ai gruppi esistenti. Chiudere la finestra dei gruppi selezionando la **X** nell'angolo in alto a destra della pagina.
 
-1. Dal riquadro di spostamento sinistro selezionare **Licenze**. Si ricorda che a questo utente sono assegnate le licenze Microsoft 365 E5 e la licenza EMS.  Per aggiungere una licenza, selezionare **+ Assegnazioni** dalla parte superiore della finestra principale.  Mostrare le licenze per questo utente. NON modificare nulla.  Chiudere questa finestra selezionando la **X** nell'angolo in alto a destra della pagina.
+1. Dal riquadro di spostamento sinistro, selezionare **Licenze**. Si ricorda che a questo utente sono assegnate le licenze Microsoft 365 E5 e la licenza EMS.  Per aggiungere una licenza, selezionare **+ Assegnazioni** dalla parte superiore della finestra principale.  Mostrare le licenze per questo utente. NON modificare nulla.  Chiudere questa finestra selezionando la **X** nell'angolo in alto a destra della pagina.
 
-1. Dal pannello di navigazione sinistro selezionare **Dispositivi**.  Non appare nulla, ma si può dire che se questo utente avesse dei dispositivi assegnati apparirebbero qui.
+1. Dal riquadro di spostamento sinistro selezionare **Dispositivi**.  Non appare nulla, ma si può dire che se questo utente avesse dei dispositivi assegnati apparirebbero qui.
 
 1. Dal riquadro di spostamento sinistro, selezionare **Assegnazioni di ruolo di Azure**.  Nota:
     1. questo è diverso dalla scheda dei ruoli assegnati mostrata prima, in quanto la scheda precedente serve per il controllo degli accessi in base al ruolo in Azure Active Directory (enfatizzare Active Directory).
     1. In questa scheda, è possibile visualizzare le assegnazioni di ruolo degli utenti per le risorse di Azure. Per esempio, se si dovesse creare un gruppo di risorse di Azure, e si assegnasse ad Adele un ruolo specifico, come proprietaria o collaboratrice del gruppo di risorse, si vedrebbe quel ruolo elencato qui. Questo fa parte del controllo degli accessi in base al ruolo di Azure (RBAC Azure). Questa assegnazione di ruolo è gestita come parte di quella specifica risorsa.
 
-1. Dal pannello di navigazione sinistro, selezionare **Metodi di autenticazione**.  Ricordare la descrizione che dice: "In questa pagina è possibile configurare i numeri di telefono e gli indirizzi di posta elettronica usati dagli utenti per eseguire Multi-Factor Authentication e la reimpostazione della password self-service e reimpostare la password di un utente". Se un utente è configurato per la reimpostazione della password self-service o è richiesto l'uso della MFA, e in qualità di amministratore si popola questo campo, allora saranno già registrati e non dovranno passare attraverso la procedura di registrazione per la reimpostazione della password self-service o MFA.  È comune che l'utente si registri autonomamente piuttosto che rivolgersi all'amministratore per farlo.
+1. Dal pannello di navigazione sinistro, selezionare **Metodi di autenticazione**.  Ricordare la descrizione che dice: "In questa pagina è possibile configurare i numeri di telefono e gli indirizzi di posta elettronica usati dagli utenti per eseguire Multi-Factor Authentication e la reimpostazione della password self-service e reimpostare la password di un utente". Se un utente è configurato per la reimpostazione della password self-service o è richiesto l'uso della MFA, e in qualità di amministratore si popola questo campo, allora saranno già registrati e non dovranno passare attraverso la procedura di registrazione per la reimpostazione della password self-service o MFA.  È comune che l'utente si registri autonomamente piuttosto che rivolgersi a un amministratore per farlo.
 
 1. Dal pannello di navigazione sinistro, selezionare **Accessi**.  Qui è riportata l'attività di accesso per questo utente.  Per questo utente potrebbe non essere riportate informazioni, dato che non ha ancora effettuato l'accesso.
 
-1. Selezionare la **X** nell'angolo in alto a destra della pagina. In questo modo si torna all'elenco degli utenti.  Prima di chiudere l'elenco degli utenti, è possibile evidenziare che la MFA è mostrata nella parte superiore della pagina.  Selezionare **Multi-Factor Authentication**.  Si aprirà una nuova finestra del browser.  Qui è possibile selezionare in blocco la MFA per gli utenti.  Questo è un modo per abilitare la MFA per gli utenti.  In realtà mostreremo di più sulla MFA nel contesto dell'Accesso condizionale che consente un controllo più granulare della MFA.  Chiudere la scheda del browser per l'Autenticazione a più fattori.
+1. Selezionare la **X** nell'angolo in alto a destra della pagina. In questo modo si torna all'elenco degli utenti.  Prima di chiudere l'elenco degli utenti, è possibile evidenziare che la MFA è mostrata nella parte superiore della pagina.  Selezionare **Multi-Factor Authentication**.  Si aprirà una nuova finestra del browser.  Qui è possibile selezionare in blocco la MFA per gli utenti.  Questo è un modo per abilitare la MFA per gli utenti.  Verranno presentate ulteriori informazioni sulla MFA nel contesto dell'accesso condizionale e su come questo tipo di accesso consenta un controllo più granulare della MFA.  Chiudere la scheda del browser per l'Autenticazione a più fattori.
 
 1. Selezionare la **X** nell'angolo in alto a destra della pagina. In questo modo si torna alla pagina principale per il tenant di Contoso.
 
 ### <a name="review"></a>Verifica
 
-Questa demo ha mostrato le impostazioni di un utente esistente, compresi i gruppi a cui l'utente può essere assegnato, la disponibilità dei ruoli e l'assegnazione delle licenze utente.
+In questa demo sono state presentate le impostazioni di un utente esistente, compresi i gruppi a cui l'utente può essere assegnato, la disponibilità dei ruoli e l'assegnazione delle licenze utente.
