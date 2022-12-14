@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892474"
----
 <a name="---"></a><!---
 ---
 Configurazione pre-demo: Titolo: 'Configurazione della demo'
@@ -14,34 +6,11 @@ Configurazione pre-demo: Titolo: 'Configurazione della demo'
 
 ## <a name="pre-demo-setup"></a>Configurazione pre-demo
 
-Questa configurazione è costituita da due attività distinte.  La prima attività è applicabile e consigliata solo se l'ambiente della demo include l'uso di un Azure Pass. La seconda attività prevede l'abilitazione del log di controllo Microsoft e viene applicata e consigliata indipendentemente dal fatto che l'ambiente usi o meno un Azure Pass.
+Questa configurazione include l'abilitazione del log di controllo Microsoft.
 
-### <a name="setup-part-1---redeem-azure-pass"></a>Parte 1 della configurazione - Riscatto dell'Azure Pass
+### <a name="setup---enable-microsoft-365-audit-log"></a>Eseguire la configurazione - Abilitare il log di controllo di Microsoft 365
 
-Questa attività viene applicata e consigliata solo se l'ambiente demo in uso include un Azure Pass. In questa attività si riscatterà l'Azure Pass usando le stesse credenziali del tenant Microsoft 365.  Questo garantirà una maggiore continuità nel passaggio tra Microsoft 365 e Azure.
-
-1. Se sono presenti finestre del browser aperte, si consiglia di chiudere tutti i browser.
-
-1. Fare clic con il tasto destro del mouse sull'icona di Microsoft Edge e selezionare **Nuova finestra InPrivate** per aprire una nuova sessione privata del browser.
-
-1. Nella barra degli indirizzi immettere **www.microsoftazurepass.com**.  
-
-1. Selezionare il pulsante **Accedi** per iniziare.
-
-    1. Nella finestra Accedi immettere l'indirizzo di posta elettronica **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.  Se viene richiesto se si desidera rimanere connessi, selezionare **Sì**.
-    1. Se viene elencato l'indirizzo e-mail corretto, selezionare **Conferma account Microsoft**.
-    1. Immettere il codice promo nella relativa casella e fare clic su **Claim Promo Code** (Codice promo di attestazione).  
-    1. Nella pagina del profilo personale lasciare tutte le informazioni predefinite, selezionare **Accetto il contratto di sottoscrizione, i dettagli dell'offerta e l'informativa sulla privacy** e quindi selezionare **Iscrizione**.
-    1. Se si apre una finestra di sondaggio, scegliere di chiuderla selezionando **X** o rispondere nel modo appropriato, quindi selezionare **Invia**.
-
-1. Per l'attivazione dell'account potrebbero essere necessari alcuni minuti.  Una volta attivato, si viene reindirizzati alla home page del portale di Azure. Si apre una finestra di benvenuto di Microsoft Azure; selezionare **Forse in seguito**. È possibile che venga visualizzata una finestra popup "Optimize your cloud workloads with personalized recommendations" (Ottimizzare i carichi di lavoro del cloud con consigli personalizzati); selezionare **X** nell'angolo in alto a destra della finestra.
-
-1. Lasciare aperta la scheda del browser per la home page del portale di Azure, poiché verrà utilizzata nella prossima demo.
-
-### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Parte 2 della configurazione - Abilitazione del log di controllo di Microsoft 365
-
-In questa attività di configurazione, si abiliterà la funzionalità Log di controllo in Microsoft 365.  Sebbene la documentazione indichi che il log di controllo è attivato per impostazione predefinita, questa funzionalità non è abilitata per la maggior parte dei tenant dei lab e la sua attivazione potrebbe richiedere parecchie ore.  È vantaggioso abilitare questa funzionalità, poiché Microsoft 365 utilizza i log di controllo per informazioni dettagliate e attività degli utenti identificate nei criteri e nelle informazioni dettagliate di analisi.
+In questa attività di configurazione si abiliterà la funzionalità Log di controllo in Microsoft 365.  Sebbene la documentazione indichi che il log di controllo è attivato per impostazione predefinita, questa funzionalità non è abilitata per la maggior parte dei tenant dei lab e la sua attivazione potrebbe richiedere parecchie ore.  È vantaggioso abilitare questa funzionalità, poiché Microsoft 365 usa i log di controllo per informazioni dettagliate e attività degli utenti identificate nei criteri e nelle informazioni dettagliate di analisi.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
 
@@ -52,18 +21,18 @@ In questa attività di configurazione, si abiliterà la funzionalità Log di con
 
 1. Dal riquadro di spostamento sinistro dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
 
-1. In Interfacce di amministrazione selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del Centro conformità Microsoft 365.  
+1. In Interfacce di amministrazione selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del portale di conformità di Microsoft Purview.  
 
-1. Dal riquadro di spostamento sinistro del Centro conformità Microsoft 365 e poi selezionare **Mostra tutto**.
+1. Dal riquadro di spostamento sinistro del portale di conformità di Microsoft Purview selezionare **Mostra tutto**.
 
 1. Dal riquadro di spostamento sinistro, sotto Soluzioni, selezionare **Controllo**.  Nota: la funzionalità di controllo è anche accessibile tramite la home page di Microsoft 365 Defender.
 
 1. Verificare che la scheda **Cerca** sia selezionata (sottolineata).
 
-1. Una volta arrivati nella pagina Controllo, attendere 2-3 minuti.  Se il controllo non è abilitato, verrà visualizzata una barra blu in cima alla pagina per avviare la registrazione delle attività di utenti e amministratori.  Selezionare **Avvia la registrazione delle attività di utenti e amministratori**.  Una volta abilitato il controllo, la barra blu scompare.  Se la barra blu non è presente, il controllo è già abilitato e non sono richieste ulteriori azioni.
+1. Una volta arrivati nella pagina Controllo, attendere 2-3 minuti.  Se il controllo NON è abilitato, verrà visualizzata una barra blu nella parte superiore della pagina con l'indicazione di avviare la registrazione delle attività di utenti e amministratori.  Selezionare **Avvia la registrazione delle attività di utenti e amministratori**.  Una volta abilitato il controllo, la barra blu scompare.  Se la barra blu non è presente, il controllo è già abilitato e non sono richieste ulteriori azioni.
 
-1. Tornare alla home page del Centro conformità Microsoft 365 selezionando **Home** dal riquadro di spostamento a sinistra.
+1. Tornare alla home page del portale di conformità di Microsoft Purview selezionando **Home** dal riquadro di spostamento sinistro.
 
 ### <a name="review"></a>Verifica
 
-In questa di configurazione, è stato riscattato l'Azure Pass utilizzando le stesse credenziali del tenant Microsoft 365.  Inoltre, è stata abilitata la funzionalità Log di controllo in Microsoft 365.
+In questa attività di configurazione è stata abilitata la funzionalità Log di controllo in Microsoft 365.

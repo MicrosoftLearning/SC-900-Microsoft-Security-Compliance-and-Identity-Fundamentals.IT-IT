@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892665"
----
 <a name="---"></a><!---
 ---
 Lab: Titolo: 'Esplorare il flusso di lavoro di eDiscovery (Standard)' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 5: Descrivere le funzionalità eDiscovery e di controllo di Microsoft Purview; Unità 2: Descrivere le soluzioni eDiscovery in Microsoft 365'
@@ -22,9 +14,9 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
-In questo lab eseguiremo i passaggi necessari per configurare eDiscovery e poi eseguiremo il flusso di lavoro di eDiscovery (Standard), creando un blocco di eDiscovery e una query di ricerca e infine esportando i risultati della ricerca.  Nota:  la licenza di eDiscovery (Standard) richiede che l'organizzazione disponga di un abbonamento appropriato e di licenze per ciascun utente. In caso di dubbi sulle licenze che supportano eDiscovery (Standard), vedere [Attività iniziali con eDiscovery (Standard) in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+In questo lab verranno illustrati i passaggi necessari per configurare eDiscovery, tra cui la configurazione delle autorizzazioni per i ruoli, la creazione di un caso di eDiscovery, la creazione di un blocco di eDiscovery e la creazione di una query di ricerca.  Nota:  la licenza di eDiscovery (Standard) richiede che l'organizzazione disponga di un abbonamento appropriato e di licenze per ciascun utente. In caso di dubbi sulle licenze che supportano eDiscovery (Standard), vedere [Attività iniziali con eDiscovery (Standard) in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
-**Tempo stimato**: 20-25 minuti
+**Tempo stimato**: 25-30 minuti
 
 ### <a name="task-1"></a>Attività 1
 
@@ -44,7 +36,7 @@ Per accedere a eDiscovery (Standard) o essere aggiunti come membro di un caso di
 
 1. Nel riquadro di spostamento sinistro selezionare **Autorizzazioni**.
 
-1. Dalla pagina Autorizzazioni e ruoli nel portale di conformità selezionare **Ruoli**.
+1. Nella pagina Autorizzazioni e ruoli, in Soluzioni Microsoft Purview selezionare **Ruoli**.
 
 1. Nel campo di ricerca immettere **eDiscovery** e quindi selezionare l'icona della ricerca (lente d'ingrandimento).  Selezionare **Manager di eDiscovery**.
 
@@ -54,9 +46,9 @@ Per accedere a eDiscovery (Standard) o essere aggiunti come membro di un caso di
 
 1. Selezionare **+ Aggiungi** dalla parte superiore della pagina.
 
-1. Dall'elenco dei nomi, selezionare **Amministratore MOD**, **Megan Bowen** quindi selezionare **Aggiungi** nella parte inferiore della pagina, quindi selezionare **Fatto** nella parte inferiore della pagina.
+1. Nell'elenco dei nomi, selezionare **Amministratore MOD** e **Megan Bowen**, quindi selezionare **Aggiungi** nella parte inferiore della pagina e infine selezionare **Fatto** nella parte inferiore della pagina.
 
-1. Verificare che i membri aggiunti siano corretti, quindi selezionare **Salva**.
+1. Verificare che i membri aggiunti siano corretti e quindi selezionare **Salva**.
 
 1. In basso sulla finestra di eDiscovery, selezionare **Chiudi**.
 
@@ -78,11 +70,11 @@ In questa attività, lo studente, in qualità di Amministratore di eDiscovery (l
 
 1. In quanto creatore del caso e in possesso dei privilegi di Amministratore di eDiscovery, lo studente può ora iniziare a lavorare su di esso.  
 
-1. Lasciare aperta questa scheda del browser, in quanto verrà riutilizzata per la successiva attività.
+1. Lasciare aperta questa scheda del browser, perché verrà usata nell'attività successiva.
 
 ### <a name="task-3"></a>Attività 3
 
-Ora che è stato creato un caso di eDiscovery (Standard), si può iniziare a lavorare su di esso.  In questa attività, lo studente creerà un blocco di eDiscovery per il caso appena creato.  Nello specifico, si dovrà creare un blocco per la cassetta postale di Exchange che appartiene ad Adele Vance.
+Ora che è stato creato un caso di eDiscovery (Standard), si può iniziare a lavorare su di esso.  In questa attività, lo studente creerà un blocco di eDiscovery per il caso creato.  Nello specifico, si dovrà creare un blocco per la cassetta postale di Exchange che appartiene ad Adele Vance.
 
 1. Aprire la scheda eDiscovery (Standard) nel browser.
 
@@ -90,25 +82,27 @@ Ora che è stato creato un caso di eDiscovery (Standard), si può iniziare a lav
 
 1. Dalla Home page del caso, selezionare la scheda **Blocco**, quindi selezionare **+Crea**.
 
-1. Nel campo del nome, immettere **Blocco di test**, quindi selezionare Avanti.
+1. Nel campo del nome immettere **Blocco di test** e quindi selezionare **Avanti**.
 
-1. Nella pagina Scegli posizioni, selezionare l'interruttore accanto a **Cassette postali Exchange** per impostare lo stato su **Attivata** e quindi selezionare **Scegli utenti, gruppi o team**.  Nella casella di ricerca, immettere **Adele**, quindi premere Invio sulla tastiera. Dai risultati della ricerca, selezionare **Adele Vance**, quindi selezionare Scegli e infine selezionare **Fatto**.
+1. Nella pagina Scegli posizioni, selezionare l'interruttore accanto a **Cassette postali Exchange** per impostare lo stato su **Attivata**.  
+
+1. Selezionare ora **Scegli utenti, gruppi o team**.  Nella casella di ricerca, immettere **Adele**, quindi premere Invio sulla tastiera. Nei risultati della ricerca selezionare **Adele Vance** e quindi selezionare **Fatto**.
 
 1. Nella pagina Scegli posizioni, selezionare **Avanti**.  Per non prolungare l'attività del lab, nel blocco non verranno incluse altre posizioni.
 
-1. La pagina Condizioni della Query permette di creare un blocco basato su specifiche parole chiave o condizioni che devono essere soddisfatte; selezionare **+Condizioni** per visualizzare le opzioni disponibili.  Selezionare **Avanti**. Se non si specificano condizioni, il blocco conserverà tutto il contenuto nella posizione specificata.
+1. La pagina Condizioni della query consente di creare un blocco basato su specifiche parole chiave o condizioni che devono essere soddisfatte. Selezionare **+ Aggiungi condizione** per visualizzare le opzioni disponibili.  Selezionare **Avanti**. Se non si specificano condizioni, il blocco conserverà tutto il contenuto nella posizione specificata.
 
 1. Verificare le impostazioni e selezionare **Invia**, l'invio potrebbe richiedere un minuto, quindi selezionare **Fatto**.  Il blocco di test ora dovrebbe comparire nell'elenco.  Se non viene visualizzata immediatamente, selezionare **Aggiorna**
 
-1. Lasciare aperta questa scheda del browser, in quanto verrà riutilizzata per la successiva attività.
+1. Lasciare aperta questa scheda del browser, perché verrà usata nell'attività successiva.
 
 ### <a name="task-4"></a>Attività 4
 
-Una volta creato il blocco, occorre creare una query di ricerca.  Una volta completata la ricerca, si dovranno esportare e scaricare i risultati per futura indagine.   Nota:  Le ricerche associate a un caso di eDiscovery (Standard) non sono elencate nella pagina Ricerca di contenuto del portale di conformità di Microsoft Purview. Queste ricerche sono elencate solo nella pagina Ricerche del caso di eDiscovery (Standard) associato.
+Una volta creato il blocco, occorre creare una query di ricerca.  Al termine della ricerca, eDiscovery supporta azioni, ad esempio l'esportazione e il download dei risultati per indagini successive.   Nota:  Le ricerche associate a un caso di eDiscovery (Standard) non sono elencate nella pagina Ricerca di contenuto del portale di conformità di Microsoft Purview. Queste ricerche sono elencate solo nella pagina Ricerche del caso di eDiscovery (Standard) associato.
 
 1. Aprire la scheda SC900 Caso di test nel browser.
 
-1. Nella pagina Blocchi relativa al caso, selezionare **Ricerche**.
+1. Nella pagina SC900 Caso di test selezionare **Ricerche**.
 
 1. Nella pagina Ricerca, selezionare **+ Nuova ricerca**.
 
@@ -120,24 +114,12 @@ Una volta creato il blocco, occorre creare una query di ricerca.  Una volta comp
 
 1. Verificare le impostazioni e selezionare **Invia**, l'invio potrebbe richiedere un minuto, quindi selezionare **Fatto**.  la ricerca ora dovrebbe comparire nell'elenco.  Se non viene visualizzata immediatamente, selezionare **Aggiorna**
 
-1. Nella finestra Ricerche, selezionare la ricerca appena creata, **Blocco di test - Ricerca vendite**.  Viene visualizzata una finestra con la scheda Riepilogo selezionata.  Una volta eseguita la ricerca, lo stato ne indica il completamento.  Viene visualizzata la scheda Statistiche ricerca (se la scheda Statistiche ricerca non compare, significa che la ricerca è in corso e richiede ancora qualche minuto per essere completata).  Selezionare la scheda **Statistiche ricerca** e selezionare l'elenco a discesa accanto a Contenuti ricerca.  Si possono visualizzare anche altre informazioni per Scheda condizione e Posizioni principali.  
+1. Nella finestra Ricerche selezionare la ricerca appena creata, **Blocco di test - Ricerca vendite**.  Viene visualizzata una finestra con la scheda Riepilogo selezionata.  Una volta eseguita la ricerca, lo stato ne indica il completamento.  Verrà visualizzata la scheda Statistiche ricerca (se la scheda Statistiche ricerca non compare, significa che la ricerca è in corso e richiede ancora qualche minuto per essere completata).  Selezionare la scheda **Statistiche ricerca** e selezionare l'elenco a discesa accanto a Contenuti ricerca.  Si possono visualizzare anche altre informazioni per Scheda condizione e Posizioni principali.  
 
-1. In basso sulla pagina, selezionare **Azioni**.  Vedere le opzioni disponibili, quindi selezionare **Esporta risultati**.
-
-    1. Nella finestra Esporta risultati, lasciare le impostazioni predefinite e selezionare **Esporta** in basso sulla pagina. Si ritornerà automaticamente alla finestra "Blocco di test - Ricerca vendite". Selezionare **Chiudi** in basso sulla pagina.
-
-    1. Nella pagina SC900-Caso di test, selezionare **Esportazioni** in alto sulla pagina.
-    1. Selezionare **Blocco di test - Ricerca vendite_Export**
-    1. Nella finestra visualizzata, "Blocco di test - Ricerca vendite_Export", è visibile una chiave di esportazione, selezionare **Copia negli appunti**.
-    1. In alto sulla finestra, selezionare **Scarica i risultati**. Viene aperta una nuova pagina del browser e viene visualizzata una finestra popup che chiede se si desidera aprire questo file, selezionare **Apri**.
-    1. Se questa è la prima volta che si esegue il download di una ricerca di contenuti, verrà richiesto di installare lo strumento di esportazione di eDiscovery di Microsoft Office 365.  Selezionare **Installa**.
-    1. Una volta completata l'installazione, viene aperta la finestra dello strumento di esportazione di eDiscovery.  Nel primo campo, incollare la chiave di esportazione copiata negli appunti, incollarla subito (Ctrl V sulla tastiera oppure fare doppio clic con il mouse e selezionare Incolla).
-    1. Nel secondo campo, selezionare la posizione in cui si desidera archiviare il file dell'esportazione, quindi selezionare **Avvia**.  Una volta completato il download, selezionare **Chiudi** e chiudere questa scheda del browser.
-    1. Si ritorna di nuovo alla finestra "Blocco di test - Ricerca vendite_Export".  Selezionare **Chiudi**.
-    1. Controllare la posizione specificata per il download per verificare che il download sia stato completato correttamente.
+1. In basso sulla pagina, selezionare **Azioni**.  Si notino le opzioni disponibili che includono le opzioni di esportazione (le opzioni di esportazione non possono essere selezionate dall'interno della piattaforma lab fornita dal provider di servizi di hosting per i lab autorizzato, ma sono disponibili in un ambiente di produzione e sono considerate parte del flusso di lavoro standard). Selezionare **Chiudi**.
 
 1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 
-In questo lab sono stati eseguiti i passaggi necessari per iniziare a usare eDiscovery (Standard), incluse l'impostazione delle autorizzazioni per i ruoli di eDiscovery e la creazione di un caso di eDiscovery.  Dopo aver creato il caso, è stato eseguito il flusso di lavoro di eDiscovery (Standard), creando un blocco di eDiscovery e una query di ricerca e poi esportando i risultati della ricerca da usare per ulteriori indagini.
+In questo lab sono stati eseguiti i passaggi necessari per iniziare a usare eDiscovery (Standard), incluse l'impostazione delle autorizzazioni per i ruoli di eDiscovery e la creazione di un caso di eDiscovery.  Dopo aver creato il caso sono stati presentati gli elementi del flusso di lavoro di eDiscovery (Standard), creando un blocco di eDiscovery e una query di ricerca.

@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: eeee584ece9bb3ec4edcba5fa2e76a13dd9459c4
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892606"
----
 <a name="---"></a><!---
 ---
 Lab: Titolo: 'Esplorare Microsoft Defender per il cloud' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 2: Descrivere le funzionalità di gestione della sicurezza di Azure; Unità 3: Descrivere Microsoft Defender per il cloud'
@@ -22,55 +14,42 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
-In questo lab verrà esplorato Microsoft Defender per il cloud e si apprenderà in che modo il punteggio di sicurezza di Azure può essere usato per migliorare la postura di sicurezza dell'organizzazione.  NOTA: questa procedura dettagliata dimostrativa presuppone che il relatore disponga delle autorizzazioni a livello di amministratore per la sottoscrizione di Azure tramite un pass di Azure.  Una sottoscrizione di Azure, ad esempio una sottoscrizione Cloudslice gestita dal provider di servizi di hosting per i lab autorizzato, limita l'accesso e le funzionalità, quindi alcuni dei passaggi seguenti potrebbero non essere disponibili o non visualizzare alcuna informazione.
+In questo lab si esplorerà Microsoft Defender per il cloud.  NOTA: la sottoscrizione di Azure fornita dal provider di servizi di hosting per i lab autorizzato limita l'accesso e si potrebbero riscontrare ritardi più lunghi del normale.
 
 **Tempo stimato**: 30 minuti
 
-### <a name="setup"></a>Installazione
+### <a name="task-1"></a>Attività 1
 
-In questa attività si eseguiranno operazioni di configurazione di base di Microsoft Defender per il cloud per preparare la sottoscrizione e abilitare e assegnare un criterio predefinito.
+In questa attività verranno presente a livello generale alcune delle funzionalità di Microsoft Defender per il cloud
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com**.
-
 1. Accedere con le credenziali di amministratore.
-    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+    1. Nella finestra Accedi immettere il nome utente fornito dal provider di hosting del lab e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.
 
-1. Nell'angolo superiore sinistro della schermata, accanto al punto in cui è indicato Microsoft Azure, selezionare l'icona Mostra menu portale (le tre linee orizzontali note anche come icona hamburger) e quindi nel pannello di spostamento a sinistra, in Preferiti, selezionare **Microsoft Defender per il cloud**.  Se non è elencato nei Preferiti, nella casella di ricerca immettere **Microsoft Defender per il cloud** e quindi nell'elenco dei risultati selezionare **Microsoft Defender per il cloud**.
+1. Nella barra di ricerca blu immettere **Microsoft Defender per il cloud** e quindi nell'elenco dei risultati selezionare **Microsoft Defender per il cloud**.
 
-1. Se questa è la prima volta che si accede a Microsoft Defender per il cloud con la propria sottoscrizione, potrebbe comparire la pagina introduttiva e potrebbe essere richiesto di eseguire l'aggiornamento.  Scorrere in fondo alla pagina e selezionare **salta**.  Verrà visualizzata la pagina Panoramica.
-    1. Nella parte superiore della pagina verrà visualizzata una casella di informazioni blu chiaro con l'indicazione "Preparazione della sottoscrizione. L'operazione potrebbe richiedere alcuni minuti..."
-    1. Quando la sottoscrizione è pronta, potrebbe essere visualizzata una nuova casella di informazioni con l'indicazione "Una sottoscrizione non ha il criterio predefinito assegnato. Per esaminare l'elenco delle sottoscrizioni, aprire la pagina Criteri di sicurezza."  Selezionare la freccia a destra alla fine della frase o selezionare **Impostazioni ambiente** nel riquadro di spostamento a sinistra.
-        1. Verrà visualizzata la pagina Impostazioni ambiente. Selezionare **Azure Pass – Sponsorizzazione**.  Nota:  se l'ambiente di Azure è basato su una sottoscrizione di Azure gestita dal provider di servizi di hosting per i lab autorizzato, invece di un Azure Pass, verrà visualizzato un riferimento a tale provider. Espandere l'opzione selezionando il segno di maggiore fino a quando non è più possibile espandere le opzioni e viene visualizzata la sottoscrizione.
-        1. Dal riquadro di spostamento sinistro selezionare **Criteri di sicurezza**.
-        1. Dalla pagina principale selezionare **Assegna criteri** sotto all'iniziativa predefinita.
-        1. Nella parte inferiore della pagina selezionare **Rivedi e crea**.
-        1. Nella parte inferiore della pagina selezionare **Salva**.  Azure Security Benchmark viene così assegnato come iniziativa relativa ai criteri predefinita.  Aggiornare la schermata (potrebbero essere necessari alcuni minuti prima che l'impostazione diventi effettiva).
-        1. Uscire dalla pagina delle impostazioni dell'ambiente selezionando la **X** nella pagina.  
-        1. Nella pagina dei servizi di Azure selezionare **Microsoft Defender per il cloud** per tornare alla pagina di panoramica.
+1. Se questa è la prima volta che si accede a Microsoft Defender per il cloud con la propria sottoscrizione, potrebbe comparire la pagina introduttiva e potrebbe essere richiesto di eseguire l'aggiornamento.  Scorrere fino in fondo alla pagina e selezionare **Ricordamelo più tardi** (o **Ignora**).  Verrà visualizzata la pagina Panoramica.
 
-### <a name="task-1"></a>Attività 1
-
-In questa attività si eseguirà una procedura dettagliata molto generale di alcune delle funzionalità di Microsoft Defender per il cloud
-
-1. Notare le informazioni disponibili nella pagina Panoramica di Microsoft Defender per il cloud.  Le informazioni nella parte superiore della pagina includono il numero di sottoscrizioni Azure, il numero di risorse valutate, il numero di raccomandazioni attive ed eventuali avvisi di sicurezza.  Il corpo principale della pagina contiene schede per Punteggio di sicurezza, Conformità con le normative, Informazioni dettagliate e altro.
+1. Notare le informazioni disponibili nella pagina Panoramica di Microsoft Defender per il cloud (se vengono visualizzate 0 risorse valutate e raccomandazioni attive, aggiornare la pagina del browser perché per la visualizzazione potrebbero essere richiesti alcuni minuti).  Le informazioni nella parte superiore della pagina includono il numero di sottoscrizioni Azure, il numero di risorse valutate, il numero di raccomandazioni attive ed eventuali avvisi di sicurezza.  Il corpo principale della pagina contiene schede per Postura di sicurezza, Conformità con le normative, Informazioni dettagliate e altro.  Nota: l'iniziativa di criteri predefinita di Microsoft Defender per il cloud, che normalmente deve essere assegnata dall'amministratore, è già stata assegnata come parte della configurazione della sottoscrizione di Azure. Il punteggio di sicurezza, tuttavia, mostrerà 0% perché possono essere richieste fino a 24 ore prima che Azure indichi un punteggio iniziale.
 
 1. Nella parte superiore della pagina selezionare **Assessed resources** (Risorse valutate).  (Si noti che questo equivale ad aver selezionato Inventario dal riquadro di spostamento sinistro della home page di Microsoft Defender per il cloud).
-    1. In questo modo si verrà reindirizzati alla pagina **Inventario** che mostra la sottoscrizione di Azure Pass.  Selezionare **Azure Pass – Sponsorizzazione**.
-    1. La pagina Integrità risorse offre un elenco di raccomandazioni.  Dall'elenco disponibile, selezionare **There should be more than one owner assigned to your subscription** (È consigliabile assegnare più di un proprietario all'abbonamento).
-    1. Selezionare la freccia a discesa accanto a Procedura di correzione. Osservare in che modo sono forniti i passaggi di correzione insieme all'opzione per intraprendere un'azione.  
-    1. Selezionare **Microsoft Defender per il cloud** nell'angolo superiore sinistro della schermata per tornare alla pagina Panoramica di Microsoft Defender per il cloud.
+    1. Verrà visualizzata la pagina **Inventario** che elenca le risorse correnti. Selezionare la risorsa macchina virtuale **sc900-winwm**. Questa risorsa è associata alla macchina virtuale usata nel lab precedente.
+    1. La pagina Integrità delle risorse per la macchina virtuale offre un elenco di raccomandazioni.  Nell'elenco disponibile selezionare qualsiasi elemento nell'elenco per cui è indicato lo stato **Non integro**.
+    1. Notare la descrizione dettagliata.  Selezionare la freccia a discesa accanto a Procedura di correzione. Si noti che vengono fornite istruzioni per la correzione (o collegamenti alle istruzioni) insieme all'opzione per intervenire.  Uscire dalla finestra senza eseguire alcuna azione.
+    1. Tornare alla pagina Panoramica di Microsoft Defender per il cloud selezionando **Microsoft Defender per il cloud | Panoramica** nella parte superiore della pagina, sopra a Integrità delle risorse.
 
-1. Dalla parte superiore della pagina selezionare **Raccomandazioni attive**.  (Si noti che questo equivale ad aver selezionato Raccomandazioni dal riquadro di spostamento sinistro della home page di Microsoft Defender per il cloud).
-    1. La pagina delle raccomandazioni mostra la Dashboard del punteggio di sicurezza.
-    1. Sotto alla Dashboard del punteggio di sicurezza è presente un elenco di controlli. Ciascun controllo di sicurezza rappresenta un rischio di sicurezza che deve essere mitigato e include anche informazioni sul punteggio massimo associato al rispettivo controllo, il punteggio attuale, il potenziale aumento del punteggio e lo stato di integrità della risorsa.  
-    1. Selezionare uno dei controlli, ad esempio **Implementa le procedure consigliate per la sicurezza**.  Selezionare uno degli elementi secondari, ad esempio **È consigliabile assegnare più di un proprietario alla sottoscrizione**.  Nella pagina che si apre saranno presenti una descrizione, la procedura di correzione e le risorse interessate. Uscire da questa pagina selezionando la **X** nell'angolo in alto a destra dello schermo.
+1. Dal riquadro di spostamento sinistro selezionare **Raccomandazioni**.  (Si noti che questo equivale alla selezione di Raccomandazioni attive nella parte superiore della pagina di panoramica di Microsoft Defender per il cloud).
+    1. Verificare che sia selezionata (sottolineata) la scheda **Tutte le raccomandazioni**.  Si noti la visualizzazione dashboard che mostra le raccomandazioni attive in base alla gravità, l'integrità delle risorse e altre informazioni.
+    1. Si noti che alcuni elementi vengono visualizzati come risorse non integre, come indicato dalla barra rossa a destra della riga.  Nell'elenco selezionare **Microsoft Defender per Resource Manager deve essere abilitato**.  Nella pagina che si apre saranno presenti una descrizione, la procedura di correzione e le risorse interessate. Uscire da questa pagina selezionando la **X** nell'angolo in alto a destra dello schermo.
     1. Uscire dalla pagina delle raccomandazioni selezionando la **X** nell'angolo in alto a destra dello schermo per tornare alla pagina della panoramica.
 
-1. Dalla pagina principale, selezionare **Conformità alle normative**. La pagina della conformità alle normative offre un elenco di controlli di conformità.  Sotto ciascun controllo è riportata una serie di valutazioni che sono basate su Azure Security Benchmark che offre raccomandazioni su come proteggere le soluzioni cloud su Azure.
-    1. Selezionare **IM. Gestione delle identità** e quindi selezionare **IM.6 Usare controlli di autenticazione avanzata**.  L'elenco mostra azioni di responsabilità che il cliente può intraprendere per migliorare il profilo di conformità.
-    1. Selezionare la **X** nell'angolo in alto a destra della schermata per chiudere la pagina e tornare alla pagina Panoramica di Microsoft Defender per il cloud.
+1. Dal riquadro di spostamento sinistro principale selezionare **Conformità con le normative**. La pagina di conformità alle normative fornisce un elenco di controlli di conformità basati sul benchmark di sicurezza del cloud Microsoft (verificare che la scheda Microsoft Cloud Security Benchmark sia selezionata/sottolineata). In ogni dominio di controllo è disponibile un subset di controlli e per ogni controllo sono presenti una o più valutazioni. Ogni valutazione fornisce informazioni, tra cui descrizione, correzione e risorse interessate.
+    1. Esaminiamo una delle aree dei domini di controllo. Selezionare (espandere) **SR. Sicurezza di rete**. Viene visualizzato un elenco di controlli correlati alla sicurezza di rete.
+    1. Selezionare **SR-10. Microsoft Defender per DNS deve essere abilitato**. Si noti l'elenco delle valutazioni automatizzate (che includono valutazioni automatizzate per AWS) e il modo in cui ogni elemento di valutazione fornisce informazioni, tra cui il tipo di risorsa, le risorse con errori e le stazioni di conformità. Selezionare le valutazioni elencate.  Verranno visualizzate informazioni che includono una descrizione, la procedura di correzione e le risorse interessate.
+    1. Selezionare la **X** nell'angolo in alto a destra della schermata per chiudere la pagina.
+    1. Selezionare **Panoramica** nel riquadro di spostamento sinistro per tornare alla pagina Panoramica di Microsoft Defender per il cloud.
     1. Mantenere aperta la pagina Panoramica di Microsoft Defender per il cloud, che verrà usata nell'attività successiva.
 
 ### <a name="task-2"></a>Attività 2
@@ -78,10 +57,12 @@ In questa attività si eseguirà una procedura dettagliata molto generale di alc
 Tenere presente che Microsoft Defender per il cloud è disponibile in due modalità: senza funzionalità di sicurezza avanzate (gratuito) e con funzionalità di sicurezza avanzate disponibili tramite i piani di Microsoft Defender per il cloud. Questa attività illustra come abilitare o disabilitare i vari piani di Microsoft Defender per il cloud.
 
 1. Nella pagina Panoramica di Microsoft Defender per il cloud selezionare **Impostazioni ambiente** nel pannello di spostamento a sinistra.
-1. Selezionare il segno di maggiore di **>** accanto a Gruppo radice tenant per espanderlo (non selezionare direttamente Gruppo radice tenant perché si verrebbe reindirizzati a una pagina diversa), quindi selezionare **Azure Pass - Sponsorship**
-1. Nella pagina dei piani di Defender notare che è possibile selezionare Abilita tutti o selezionare singoli piani di Defender. Lasciare le impostazioni così come sono con tutti i piani disattivati.
+1. Selezionare la casella **Espandi tutto** e quindi selezionare la sottoscrizione **MOC Subscription--lodXXXXXXXX** elencata accanto all'icona della chiave gialla.
+1. Nella pagina dei piani di Defender notare che è possibile selezionare Abilita tutti o selezionare singoli piani di Defender. 
+    1. Verificare che lo stato di CSPM sia impostato su **Attivato**. In caso contrario, impostarlo ora.  
+    1. Abilitare il piano per i server.  Selezionare **Attivato** per la riga Server e quindi selezionare **Salva** nella parte superiore della pagina.
 1. Chiudere tutte le schede del browser aperte.
 
 ### <a name="review"></a>Verifica
 
-In questo lab è stato esplorato Microsoft Defender per il cloud e si è appreso come è possibile usare il punteggio di sicurezza di Azure per migliorare il profilo di sicurezza dell'organizzazione.
+In questo lab è stato esplorato Microsoft Defender per il cloud.

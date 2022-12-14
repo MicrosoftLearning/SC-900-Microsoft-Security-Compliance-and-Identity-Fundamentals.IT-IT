@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 56e48510b5cca7dc77cc8b8f658e1ac50e44c7b8
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892138"
----
 <a name="---"></a><!---
 ---
 Demo: Titolo: 'Reimpostazione della password self-service di Azure AD' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 2: Descrivere le funzionalità di autenticazione di Azure AD; Unità 4: Descrivere la reimpostazione della password self-service in Azure AD'
@@ -30,7 +22,7 @@ Questa demo illustra le varie impostazioni associate all'abilitazione della reim
 
 1. Viene evidenziata la scheda delle proprietà.  Nella finestra Proprietà, si noti che la reimpostazione della password self-service può essere abilitata per Nessuno, Selezionati o Tutti.
     1. Posizionare il cursore sull'icona delle informazioni accanto a "Reimpostazione della password self-service abilitata" e ricordare che è possibile scegliere "Selezionati" per limitare la reimpostazione della password della password a un gruppo limitato di utenti, oppure selezionare Nessuno o Tutti.
-    1. Posizionare il cursore sull'icona delle informazioni accanto a "seleziona gruppo" e ricordare che è qui che si identifica il gruppo di utenti a cui è permesso resettare le proprie password.   Occorre includere gli utenti nel gruppo, non è possibile selezionare gli utenti individualmente.  Inoltre, se si cambia il gruppo, il gruppo selezionato sostituisce quello attualmente elencato.  Pertanto, si raccomanda di aggiungere semplicemente gli utenti al gruppo di reimpostazione della password self-service.
+    1. Posizionare il cursore sull'icona delle informazioni accanto a "seleziona gruppo" e ricordare che è qui che si identifica il gruppo di utenti a cui è permesso resettare le proprie password.   Occorre includere gli utenti nel gruppo, non è possibile selezionare gli utenti individualmente.  Inoltre, se si cambia il gruppo, il gruppo selezionato sostituisce quello attualmente elencato.  Pertanto, si raccomanda di aggiungere gli utenti al gruppo di reimpostazione della password self-service.
     1. Si noti il riquadro delle informazioni in azzurro e ricordarlo agli studenti. Queste impostazioni si applicano solo agli utenti finali dell'organizzazione. Gli amministratori sono sempre abilitati per la reimpostazione della password self-service e devono usare due metodi di autenticazione per reimpostare la propria password.
 
 1. Dal riquadro di spostamento sinistro di Reimpostazione della password, selezionare Metodi di autenticazione.

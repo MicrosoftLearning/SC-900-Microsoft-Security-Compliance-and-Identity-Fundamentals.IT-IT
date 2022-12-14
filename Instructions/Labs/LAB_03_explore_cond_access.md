@@ -1,18 +1,10 @@
----
-ms.openlocfilehash: 5d7767e0187f043004b0c9d17e7cd1d1915613cc
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892162"
----
 <a name="---"></a><!---
 ---
 Lab: Percorso di apprendimento: 'Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra' Modulo: 'Descrivere le funzionalità di gestione degli accessi di Azure AD' Unità: 'Descrivere l'accesso condizionale in Azure AD'
 ---
 --->
 
-# <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Laboratorio: Esplorazione della gestione degli accessi in Azure AD con accesso condizionale
+# <a name="lab-explore-access-management-in-azure-ad-with-conditional-access"></a>Lab: Esplorare la gestione degli accessi in Azure AD con l'accesso condizionale
 
 Questo lab corrisponde al contenuto di Learn seguente:
 
@@ -22,9 +14,9 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 ## <a name="lab-scenario"></a>Scenario del lab
 
-In questo lab, si esplorerà l'autenticazione a più fattori (MFA) degli accessi condizionali dal punto di vista di un amministratore e di un utente.  In qualità di amministratore, si creerà un criterio che richiederà a un utente di eseguire l'autenticazione a più fattori durante l'accesso a un'applicazione di gestione di Microsoft Azure basata su cloud.  Dal punto di vista di un utente, si vedrà l'impatto dei criteri di accesso condizionale, compreso il processo per la registrazione all'autenticazione a più fattori.
+In questo lab, si esplorerà l'autenticazione a più fattori (MFA) degli accessi condizionali dal punto di vista di un amministratore e di un utente.  In qualità di amministratore, si creerà un criterio che richiederà a un utente di eseguire l'autenticazione a più fattori durante l'accesso a un'applicazione di gestione di Microsoft Azure basata su cloud.  Dal punto di vista di un utente, si vedrà l'impatto dei criteri di accesso condizionale, compreso il processo di registrazione per l'autenticazione a più fattori.
 
-**Tempo stimato**: 10-15 minuti
+**Tempo stimato**: 30 minuti
 
 ### <a name="task-1"></a>Attività 1
 
@@ -39,19 +31,19 @@ In questa attività, in qualità di amministratore, si reimposterà la password 
 
 3. Nell'angolo superiore sinistro della schermata, accanto al punto in cui è indicato Microsoft Azure, selezionare l'icona Mostra menu portale (le tre linee orizzontali note anche come icona hamburger) e quindi nel pannello di spostamento a sinistra, in Preferiti selezionare Azure Active Directory. Se non è elencato nei Preferiti, nella casella di ricerca immettere Azure Active Directory, quindi nell'elenco dei risultati selezionare **Azure Active Directory**.
 
-4. Dal riquadro di spostamento a sinistra, selezionare **Utenti**.
+4. Dal riquadro di spostamento sinistro, selezionare **Utenti**.
 
 5. Selezionare **Debra Berger** dall'elenco degli utenti.
 
 6. Selezionare **Reimposta password** in cima alla pagina. Poiché non è stato effettuato l'accesso come Debra Berger in precedenza, non si conosce la sua password e sarà quindi necessario reimpostarla.
 
-7. All'apertura della finestra Reimposta password, selezionare **Reimposta password**.  IMPORTANTE: prendere nota della nuova password, poiché servirà in un'attività successiva per poter accedere come utente.
+7. All'apertura della finestra Reimposta password, selezionare **Reimposta password**.  IMPORTANTE: prendere nota della nuova password, perché servirà in un'attività successiva per poter accedere come utente.
 
-8. Chiudere la finestra di reimpostazione della password selezionando la **X** nell'angolo in alto a destra della pagina.
+8. Chiudere la finestra di reimpostazione della password selezionando la **X** nell'angolo in alto a destra della pagina, quindi chiudere la finestra Debra Berger selezionando la **X** nell'angolo in alto a destra della pagina.
 
 9. Chiudere la finestra Utenti selezionando la **X** nell'angolo in alto a destra della pagina.
 
-10. Tenere aperta questa finestra.
+10. Si è tornati alla pagina **Contoso | Panoramica**.  Tenere aperta questa finestra.
 
 ### <a name="task-2"></a>Attività 2
 
@@ -63,21 +55,21 @@ In questa attività, si seguirà il processo di creazione di criteri di accesso 
 
 3. Dal riquadro di spostamento sinistro, selezionare **Accesso condizionale**.
 
-4. Compare la schermata Criteri di accesso condizionale. Qualsiasi criterio di accesso condizionale esistente è elencato qui. Selezionare **Nuovo criterio**.
+4. Compare la schermata Criteri di accesso condizionale. Qualsiasi criterio di accesso condizionale esistente è elencato qui. Selezionare **+ Nuovi criteri**.
 
 5. Nel campo Nome, immettere **MFA Test Policy** (Criteri MFA di test).
 
-6. In Utenti e gruppi, selezionare **0 utenti e gruppi selezionati**.
+6. In Utenti o identità dei carichi di lavoro selezionare **0 utenti o identità dei carichi di lavoro selezionati**.
 
-7. Ora sarà visibile l'opzione per includere o escludere utenti o gruppi.  Assicurarsi che sia selezionato (sottolineato) **Includi**.
+7. Diventerà ora visibile l'opzione per includere o escludere utenti o gruppi.  Assicurarsi che sia selezionato (sottolineato) **Includi**.
 
 8. Scegliere l'opzione per **Seleziona utenti e gruppi**, quindi **Utenti e gruppi**.  Si apre la finestra Seleziona utenti e gruppi.  
 
-9. Nella barra di ricerca immettere **Debra**.  Selezionare **Debra Berger** da sotto la barra di ricerca, quindi premere il pulsante **Seleziona** in fondo alla pagina.  Notare che una prassi comune consiste nell'assegnare i criteri agli utenti di un gruppo.  Per comodità rispetto allo scopo di questo lab, i criteri saranno già stati assegnati a un utente specifico.
+9. Nella barra di ricerca immettere **Debra**.  Selezionare **Debra Berger** da sotto la barra di ricerca, quindi premere il pulsante **Seleziona** in fondo alla pagina.  Notare che una prassi comune consiste nell'assegnare i criteri agli utenti di un gruppo.  Per gli scopi di questo lab, i criteri verranno assegnati a un utente specifico.
 
-10. In Applicazioni cloud o azioni, selezionare **Nessuna app cloud o azione selezionata**.
+10. In Applicazioni cloud o azioni selezionare **Non è stato selezionato alcun contesto di autenticazione, app cloud o azione**.
 
-11. Ora sarà visibile l'opzione per includere o escludere app cloud o azioni di utenti.  Assicurarsi che **App cloud** sia evidenziato e che **Includi** sia selezionato (sottolineato), quindi scegliere **Selezionare le app**.  Si apre la finestra Select Cloud apps (Seleziona le app cloud).
+11. Sarà ora visibile l'opzione per includere o escludere app cloud o azioni di utenti.  Assicurarsi che sia indicata l'opzione **App cloud** nel campo Selezionare a cosa si applicano i criteri.  Se l'opzione non è già elencata, selezionarla nell'elenco a discesa. Assicurarsi che l'opzione **Includi** sia selezionata (sottolineata), quindi selezionare **Seleziona app** e infine selezionare **Nessuna**.  Si apre la finestra Select Cloud apps (Seleziona le app cloud).
 
 12. Nella barra di ricerca immettere **Azure**.  Dai risultati della ricerca che compaiono sotto la casella di ricerca, selezionare **Gestione di Microsoft Azure**, quindi premere **Seleziona** in fondo alla pagina.  Notare l'avviso.  
 
@@ -85,9 +77,9 @@ In questa attività, si seguirà il processo di creazione di criteri di accesso 
 
 14. Ora si imposteranno i controlli di accesso.  In Concedi, scegliere **0 controlli selezionati**.
 
-15. Si apre la finestra Concedi.  Assicurarsi che l'opzione **Concedi accesso** sia selezionata, quindi scegliere **Richiedi l'autenticazione a più fattori**.  Nella sezione Per più controlli, lasciare l'impostazione predefinita **Richiedi tutti i controlli selezionati**.  Premere **Seleziona** in fondo alla pagina.
+15. Si apre la finestra Concedi.  Assicurarsi che l'opzione **Concedi accesso** sia selezionata e quindi selezionare **Richiedi l'autenticazione a più fattori**. Scorrere verso il basso nella finestra destra e nella sezione Per più controlli lasciare l'impostazione predefinita **Richiedi tutti i controlli selezionati**.  Premere **Seleziona** in fondo alla pagina.
 
-16. Nella parte inferiore della pagina, in Abilita criterio, selezionare **Attivato**, quindi premere il pulsante **Crea**.
+16. Nella parte inferiore della pagina, in Abilita criterio, selezionare **Attivato** e quindi selezionare **Crea**.
 
 17. Dopo alcuni secondi, dovrebbero venire visualizzati i criteri pilota MFA nell'elenco dei criteri di accesso condizionale (se necessario, selezionare **Aggiorna** in cima alla pagina).
 
@@ -95,36 +87,29 @@ In questa attività, si seguirà il processo di creazione di criteri di accesso 
 
 ### <a name="task-3"></a>Attività 3
 
-In questa attività, si vedrà l'impatto dei criteri di accesso condizionale dal punto di vista dell'utente Debra Berger. Si inizierà effettuando l'accesso a un'applicazione non inclusa nei criteri di accesso condizionale.  Quindi, si ripeterà il processo per un'applicazione inclusa nei criteri di accesso condizionale.  È opportuno ricordare che i criteri richiedono che l'utente effettui l'autenticazione a più fattori al momento dell'accesso a una applicazione di gestione di Microsoft Azure.  Per utilizzare la MFA, l'utente deve innanzitutto registrare il metodo di autenticazione che verrà utilizzato per la MFA, ad esempio un codice inviato a un dispositivo mobile o un'app di autenticazione.
+In questa attività si vedrà l'impatto dei criteri di accesso condizionale dal punto di vista dell'utente Debra Berger. Si inizierà effettuando l'accesso a un'applicazione non inclusa nei criteri di accesso condizionale.  Quindi, si ripeterà il processo per un'applicazione inclusa nei criteri di accesso condizionale.  È opportuno ricordare che i criteri richiedono che l'utente effettui l'autenticazione a più fattori al momento dell'accesso a una applicazione di gestione di Microsoft Azure.  Per utilizzare la MFA, l'utente deve innanzitutto registrare il metodo di autenticazione che verrà utilizzato per la MFA, ad esempio un codice inviato a un dispositivo mobile o un'app di autenticazione.
 
-1. Aprire Microsoft Edge.  Nella barra degli indirizzi del browser, immettere **login.microsoftonline.com/** .
-
-1. Accedere come Debra Burger.
+1. Accedere come Debra Burger. 
     1. Nella finestra Accedi immettere **DebraB@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     1. Immettere la password annotata nell'attività precedente. Fare clic su **Accedi**.
-    1. Poiché la password fornita quando, in qualità di amministratore, è stata reimpostata è temporanea, sarà necessario aggiornare la password (questo non fa parte della MFA).  Immettere la password corrente, quindi per i campi Nuova password e Conferma password immettere **SC900-Lab**.
-    1. Quando compare la domanda se rimanere connessi, selezionare **Sì**
+    1. Poiché la password fornita quando, in qualità di amministratore, è stata reimpostata è temporanea, sarà necessario aggiornare la password (questo non fa parte dei criteri MFA). Immettere la password corrente, quindi immettere **SC900-Lab** per la nuova password e infine immettere di nuovo **SC900** per confermare la password.
+    1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.  Dovrebbe essere stato effettuato correttamente l'accesso al proprio account di Microsoft 365. La MFA non era richiesta per questa applicazione poiché non fa parte dei criteri.
 
-1. Dovrebbe essere stato effettuato correttamente l'accesso al proprio account di Microsoft 365.  La MFA non era richiesta per questa applicazione poiché non fa parte dei criteri.
+1. Ora si proverà a effettuare l'accesso a un'applicazione che soddisfa i criteri per la MFA. Aprire una nuova scheda nel portale. Passare a Microsoft Edge e nella barra degli indirizzi immettere **portal.azure.com**.
 
-1. Ora si proverà a effettuare l'accesso a un'applicazione che soddisfa i criteri per la MFA.  Aprire Microsoft Edge e, nella barra degli indirizzi, immettere **portal.azure.com**.
+1. Verrà visualizzata una finestra con l'indicazione Sono necessarie altre informazioni.  Selezionare **Avanti**.  Notare che in questo modo si avvierà il processo di registrazione MFA, poiché si tratta del primo accesso all'app cloud identificata nei criteri di accesso condizionale.  Questo processo di registrazione è richiesto una sola volta.   Un'alternativa all'esecuzione del processo di registrazione da parte dell'utente prevede che sia l'amministratore a configurare il metodo di autenticazione da utilizzare.
 
-1. Verrà visualizzata una finestra che indica Sono necessarie altre informazioni.  Selezionare **Avanti**.  Notare che in questo modo si avvierà il processo di registrazione MFA, poiché si tratta del primo accesso all'app cloud identificato nei criteri di accesso condizionale.  Questo processo di registrazione è richiesto una sola volta.   Un'alternativa all'esecuzione del processo di registrazione da parte dell'utente prevede che sia l'amministratore a configurare il metodo di autenticazione da utilizzare.
+1. Nella finestra Proteggi l'account, è possibile selezionare il metodo da utilizzare per la MFA.  Microsoft Authenticator è un'opzione. Per comodità, in questo esercizio del lab si sceglierà un metodo diverso.  Selezionare **Si vuole configurare un metodo diverso**.  Dalla finestra popup Scegliere un metodo diverso, selezionare **la freccia a discesa**, quindi **Telefono** e infine **Conferma**.
 
-1. Nella finestra Proteggi l'account, è possibile selezionare il metodo da utilizzare per la MFA.  Microsoft Authenticator è un'opzione. Per comodità, in questo esercizio del lab si selezionerà un metodo diverso.  Selezionare **Si vuole configurare un metodo diverso**.  Dalla finestra popup Scegliere un metodo diverso, selezionare **la freccia a discesa**, quindi **Telefono** e infine **Conferma**.
-
-1. Nella finestra che si apre, assicurarsi che sia selezionato il proprio paese, quindi immettere il numero di telefono cellulare da utilizzare, verificare che sia selezionato **Invia un SMS**, quindi premere **Avanti**.  Nella schermata comparirà "Verificato tramite SMS. Il telefono è stato registrato".  Selezionare **Avanti**. Selezionare quindi **Fine**.  In questo modo si completa il processo di registrazione da effettuare una sola volta.
-
-1. Probabilmente verrà visualizzato un messaggio il quale indica che l'accesso è scaduto.  Immettere solamente la password **SC900-Lab** e selezionare **Accedi**.
-
-1. Verrà visualizzata una finestra che richiede l'immissione del codice inviato al telefono.  Immettere il codice e selezionare **Avanti**.  Questo è ciò che l'utente Gerhard sperimenterà ogni volta che accederà all'applicazione cloud di gestione di Microsoft Azure, ad esempio il portale di Azure, conformemente ai criteri MFA.
-
-1. Verrà visualizzata una finestra che richiede l'immissione del codice inviato al telefono.  Immettere il codice e selezionare il pulsante **Verifica**.  Quando compare la domanda se rimanere connessi, selezionare **No**.
+1. Nella finestra che si apre assicurarsi che sia selezionato il proprio paese, quindi immettere il numero di telefono cellulare da usare.  Verificare che sia selezionato **Invia un SMS** e quindi selezionare **Avanti**.  Si riceverà un SMS nel telefono con un codice che sarà necessario immettere dove indicato.  Immettere il codice ricevuto e quindi selezionare **Avanti**.  Dopo la conferma, nella schermata comparirà "Verificato tramite SMS. Il telefono è stato registrato".  Selezionare **Avanti**. Selezionare quindi **Fine**.  In questo modo si completa il processo di registrazione da effettuare una sola volta.
 
 1. Ora si dovrebbe poter accedere al portale di Azure.  Il portale di Azure è un'applicazione di gestione di Microsoft Azure e pertanto richiede l'autenticazione a più fattori, conformemente ai criteri di accesso condizionale creati.  
+    1. Se viene visualizzato un messaggio che indica che l'accesso è scaduto, immettere la password **SC900-Lab** e selezionare **Accedi**. 
+    1. Verrà visualizzata una finestra che richiede di verificare l'identità.  Selezionare dove viene indicato Invia un SMS al numero =X XXXXXXX per ricevere un codice sul telefono cellulare, immettere il codice e selezionare **Verifica**.
+    1. Se viene richiesto se si vuole rimanere connessi, selezionare **No**.
 
-1. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata, quindi Disconnetti. Quindi, chiudere tutte le finestre del browser.
+1. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo di posta elettronica nell'angolo in alto a destra della schermata, quindi Disconnetti. Chiudere quindi tutte le finestre del browser.
 
 ### <a name="review"></a>Verifica
 
-In questo lab, si è seguito il processo di configurazione dei criteri di accesso condizionale, che richiede che gli utenti effettuino la MFA quando accedono all'applicazione cloud di gestione di Microsoft Azure.  Quindi, in qualità di utente, si è seguito il processo di registrazione per la MFA e si è visto l'impatto dei criteri di accesso condizionale che richiedono l'utilizzo della MFA quando si accede al portale di Azure.
+In questo lab è stato presentato il processo di configurazione dei criteri di accesso condizionale, che richiedono che gli utenti effettuino la MFA quando accedono all'applicazione cloud di gestione di Microsoft Azure.  Quindi, in qualità di utente, si è seguito il processo di registrazione per la MFA e si è visto l'impatto dei criteri di accesso condizionale che richiedono l'utilizzo della MFA quando si accede al portale di Azure.
