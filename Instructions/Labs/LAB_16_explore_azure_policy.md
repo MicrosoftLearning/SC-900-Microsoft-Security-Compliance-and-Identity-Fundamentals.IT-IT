@@ -37,9 +37,11 @@ In questa attività verrà creata un'assegnazione di criteri di base per richied
 
 1. Si inizia nella scheda Generale.
     1. Per Ambito lasciare l'impostazione predefinita. In questo caso, l'ambito dei criteri è la sottoscrizione di Azure fornita dal provider di servizi di hosting per i lab autorizzato.
-    1. In Definizione criteri selezionare i **puntini di sospensione**.  Viene fornito un elenco delle definizioni dei criteri disponibili.  Nella barra di ricerca immettere **Richiedi un tag**. Dai risultati della ricerca, selezionare **Richiedi un tag su gruppo di risorse** (potrebbe essere necessario scorrere verso il basso), quindi premere **Seleziona**.  Nota: l'effetto di questo criterio è negare la creazione di qualunque gruppo di risorse che non soddisfa il requisito.  
+    1. In Definizione criteri selezionare i **puntini di sospensione**.  Viene fornito un elenco delle definizioni dei criteri disponibili.  Nella barra di ricerca immettere **Richiedi un tag**. Nei risultati della ricerca selezionare **Richiedi un tag nel gruppo di risorse** (potrebbe essere necessario scorrere verso il basso), quindi premere **Aggiungi**.  Nota: l'effetto di questo criterio è negare la creazione di qualunque gruppo di risorse che non soddisfa il requisito.  
     1. Si noti il nome di assegnazione predefinito.  Mantenere il nome così com'è.
-    1. Assicurarsi che l'opzione Applicazione dei criteri sia impostata su **Abilitata** e selezionare **Avanti**.
+    1. Assicurarsi che l'applicazione dei criteri sia **impostata su Abilitato**
+
+1. Selezionare Avanti, quindi selezionare **Di** nuovo **avanti** per passare alla scheda Parametri (è anche possibile selezionare direttamente la scheda parametri).
 
 1. Si è ora nella scheda Parametri. Nel campo Nome tag immettere **Ambiente** e quindi selezionare **Avanti**.
 
