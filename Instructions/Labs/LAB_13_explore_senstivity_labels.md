@@ -84,9 +84,9 @@ In questa attività verrà affrontato il processo per applicare un'etichetta dal
 
 1. Nella home page del portale di conformità di Microsoft Purview selezionare l'**icona di avvio dell'app** accanto a Contoso Electronics. Selezionare l'**icona di Word**.  
 
-1. Selezionare **+ Nuovo documento vuoto**, quindi immettere il testo nella pagina.  Nella parte superiore della pagina selezionare la freccia in giù accanto a Documento - Salvato, nella casella Nome file immettere **Etichetta di test** e quindi premere **INVIO**.
+1. In Crea nuovo selezionare **Documento vuoto**, quindi immettere un testo nella pagina.  Nella parte superiore della pagina selezionare la freccia in giù accanto a Documento - Salvato, nella casella Nome file immettere **Etichetta di test** e quindi premere **INVIO**.
 
-1. Nella barra dei menu superiore selezionare **Icona Riservatezza** (icona a destra dell'icona del microfono). Se questa opzione non viene visualizzata immediatamente, aggiornare la pagina. Nell'elenco a discesa selezionare **Riservato - Finanza**.  
+1. Nella barra dei menu in alto selezionare **Icona Riservatezza, l'icona** a destra dell'icona del microfono (a seconda delle dimensioni dello schermo, potrebbe essere necessario selezionare i puntini di sospensione e quindi selezionare la sensibilità). Nell'elenco a discesa selezionare **Riservato - Finanza**.  NOTA: se non viene visualizzata immediatamente l'opzione Riservatezza, aggiornare la pagina, ma perché si tratta di un ambiente tenant del lab che si potrebbe riscontrare ritardi più lunghi dei normali (10-15 minuti).
 
 1. Dalla barra dei menu in alto, selezionare **Visualizzazione**, poi selezionare **Visualizzazione di lettura**.
 
@@ -100,13 +100,13 @@ Si ricordi dalla prima parte della demo che l'etichetta Riservato - Finanza è c
 
 1. Nella home page del portale di conformità di Microsoft Purview selezionare l'**icona di avvio dell'app** accanto a Contoso Electronics. Selezionare l'**icona di Outlook**.
 
-1. Selezionare **Nuovo messaggio** dall'angolo in alto a sinistra dello schermo.  Inserire un indirizzo e-mail a cui si ha accesso e che non fa parte del dominio WWLxZZZZ.OnMicrosoft.com e immettere **Test** nell'oggetto.
+1. Selezionare **Nuova posta** nell'angolo superiore sinistro della schermata.  Inserire un indirizzo e-mail a cui si ha accesso e che non fa parte del dominio WWLxZZZZ.OnMicrosoft.com e immettere **Test** nell'oggetto.
 
-1. Selezionare **Allega**.
+1. Selezionare **Associa** (icona del foglio).
 
-1. Selezionare **Cerca nei percorsi sul cloud**.
+1. Selezionare **OneDrive**.
 
-1. Dall'elenco che appare, selezionare il documento creato e al quale è stata applicata l'etichetta **Etichetta di test**. Selezionare **Avanti** e selezionare **Allega come copia**.  Fare clic su **Invia**.
+1. Assicurarsi che sia selezionata la scheda **Recenti** nel pannello di spostamento a sinistra.  Dall'elenco che appare, selezionare il documento creato e al quale è stata applicata l'etichetta **Etichetta di test**. Selezionare **Avanti** e selezionare **Allega come copia**.  Fare clic su **Invia**.
 
 1. Controllare l'e-mail a cui è stato inviato il documento.  L'e-mail potrebbe essere finita nella cartella della posta indesiderata.  Il messaggio di posta elettronica viene inviato correttamente, ma quando si tenta di aprire il file di Word allegato, che è stato originariamente etichettato come Riservato - Finanza, verrà visualizzata una notifica per segnalare che non si è autorizzati ad aprire il documento.
 
