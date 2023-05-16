@@ -1,6 +1,6 @@
 ---
 lab:
-  title: 'Esplorare l'autenticazione di Azure AD con la reimpostazione della password self-service'
+  title: 'Esplorare autenticazione di Azure AD con la reimpostazione della password self-service'
   module: 'Modulo 2: Descrivere le funzionalità di autenticazione di Azure AD'
 ---
 
