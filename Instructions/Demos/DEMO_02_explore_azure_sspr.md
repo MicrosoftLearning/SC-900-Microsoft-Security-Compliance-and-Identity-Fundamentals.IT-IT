@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demo: Titolo: 'Reimpostazione della password self-service di Azure AD' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 2: Descrivere le funzionalità di autenticazione di Azure AD; Unità 4: Descrivere la reimpostazione della password self-service in Azure AD'
+demo:
+  title: 'Reimpostazione della password self-service di Azure AD'
+  module: 'Modulo 2: Descrivere le funzionalità di autenticazione di Azure AD'
 ---
---->
+
 
 # <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demo: Reimpostazione della password self-service di Azure AD
 

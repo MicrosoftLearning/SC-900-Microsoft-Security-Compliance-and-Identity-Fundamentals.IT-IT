@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demo: Titolo: 'Gruppi di sicurezza di rete di Azure (NSG)' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 1: Descrivere le funzionalità di sicurezza di base in Azure; Unità 6: Descrivere i gruppi di sicurezza di rete di Azure'
+demo:
+  title: 'Gruppi di sicurezza di rete di Azure (NSG)'
+  module: 'Modulo 1: Descrivere le funzionalità di sicurezza di base in Azure'
 ---
---->
+
 
 # <a name="demo-azure-network-security-groups-nsgs"></a>Dimostrazione: Gruppi di sicurezza di rete (NSG) di Azure
 

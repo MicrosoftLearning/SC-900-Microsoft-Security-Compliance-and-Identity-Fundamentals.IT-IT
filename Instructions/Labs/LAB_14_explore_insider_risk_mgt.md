@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Lab: Titolo: 'Esplorare la gestione dei rischi Insider in Microsoft Purview' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 4: Descrivere le funzionalità per rischi Insider in Microsoft Purview; Unità 2: Descrivere la gestione dei rischi Insider'
+lab:
+  title: 'Esplorare la gestione dei rischi Insider in Microsoft Purview'
+  module: 'Modulo 4: Descrivere le funzionalità per rischi Insider in Microsoft Purview'
 ---
---->
+
+
 
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Laboratorio: Esplorazione della gestione dei rischi Insider in Microsoft Purview
 

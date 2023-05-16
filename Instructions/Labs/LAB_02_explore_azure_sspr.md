@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Titolo: 'Esplorare l'autenticazione di Azure AD con la reimpostazione della password self-service' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 2: Descrivere le funzionalità di autenticazione di Azure AD; Unità 4: Descrivere la reimpostazione della password self-service in Azure AD'
+lab:
+  title: 'Esplorare l'autenticazione di Azure AD con la reimpostazione della password self-service'
+  module: 'Modulo 2: Descrivere le funzionalità di autenticazione di Azure AD'
 ---
---->
+
 
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratorio: Esplorazione dell'autenticazione di Azure AD con la reimpostazione della password self-service
 

@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demo: Titolo: 'Accesso condizionale di Azure AD' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 3: Descrivere le funzionalità di gestione degli accessi di Azure AD; Unità 2: Descrivere l'accesso condizionale in Azure AD'
+demo:
+  title: 'Accesso condizionale di Azure AD'
+  module: 'Modulo 3: Descrivere le funzionalità di gestione degli accessi di Azure AD'
 ---
---->
+
 
 # <a name="demo-azure-ad-conditional-access"></a>Demo: Accesso condizionale di Azure AD
 

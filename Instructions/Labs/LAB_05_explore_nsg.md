@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Titolo: 'Esplorare i gruppi di sicurezza di rete di Azure (NSG)' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 1: Descrivere le funzionalità di sicurezza di base in Azure; Unità 6: Descrivere i gruppi di sicurezza di rete di Azure'
+lab:
+  title: 'Esplorare i gruppi di sicurezza di rete di Azure (NSG)'
+  module: 'Modulo 1: Descrivere le funzionalità di sicurezza di base in Azure'
 ---
---->
+
 
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Laboratorio: Esplorazione dei gruppi di sicurezza di rete di Azure (NSG)
 

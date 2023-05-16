@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Titolo: 'Esplorare le etichette di riservatezza in Microsoft Purview' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 3: Descrivere la protezione delle informazioni e la gestione del ciclo di vita dei dati in Microsoft Purview; Unità 4: Descrivere le etichette di riservatezza'
+lab:
+  title: 'Esplorare le etichette di riservatezza in Microsoft Purview'
+  module: 'Modulo 3: Descrivere la protezione delle informazioni e la gestione del ciclo di vita dei dati in Microsoft Purview'
 ---
---->
+
 
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Laboratorio: Esplorazione delle etichette di riservatezza in Microsoft Purview
 

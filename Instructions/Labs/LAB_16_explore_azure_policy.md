@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Titolo: 'Esplorare Criteri di Azure' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 6: Descrivere le funzionalità di governance delle risorse in Azure; Unità 2: Descrivere Criteri di Azure'
+lab:
+  title: 'Esplorare Criteri di Azure'
+  module: 'Modulo 6: Descrivere le funzionalità di governance delle risorse in Azure'
 ---
---->
+
 
 # <a name="lab-explore-azure-policy"></a>Laboratorio: Esplorare Criteri di Azure
 

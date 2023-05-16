@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Percorso di apprendimento: 'Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra' Modulo: 'Descrivere le funzionalità di gestione degli accessi di Azure AD' Unità: 'Descrivere l'accesso condizionale in Azure AD'
+lab:
+  title: 'Descrivere le funzionalità di gestione degli accessi di Azure AD'
+  module: 'Descrivere le funzionalità di gestione degli accessi di Azure AD'
 ---
---->
+
 
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional-access"></a>Lab: Esplorare la gestione degli accessi in Azure AD con l'accesso condizionale
 

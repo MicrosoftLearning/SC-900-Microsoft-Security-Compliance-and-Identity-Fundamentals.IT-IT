@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Demo: Titolo: 'Microsoft Defender per il cloud' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 2: Descrivere le funzionalità di gestione della sicurezza di Azure; Unità 3: Descrivere Microsoft Defender per il cloud'
+demo:
+  title: 'Microsoft Defender per il cloud'
+  module: 'Modulo 2: Descrivere le funzionalità di gestione della sicurezza di Azure'
 ---
---->
+
+
 
 # <a name="demo-microsoft-defender-for-cloud"></a>Dimostrazione: Microsoft Defender per il cloud
 
