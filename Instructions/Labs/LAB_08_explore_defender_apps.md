@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Esplorare Microsoft Defender for Cloud Apps'
-  module: 'Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365'
+Lab: Titolo: 'Esplorare Microsoft Defender for Cloud Apps' Modulo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365; Unità 5: Descrivere Microsoft Defender for Cloud Apps'
 ---
+--->
 
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Laboratorio: Esplorare Microsoft Defender for Cloud Apps
 

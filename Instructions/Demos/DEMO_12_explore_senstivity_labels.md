@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Etichette di riservatezza in Microsoft Purview'
-  module: 'Module 3: Descrivere la protezione delle informazioni e la gestione del ciclo di vita dei dati in Microsoft Purview'
+Demo: Titolo: 'Etichette di riservatezza in Microsoft Purview' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Module 3: Descrivere la protezione delle informazioni e la gestione del ciclo di vita dei dati in Microsoft Purview; Unità 4: Descrivere le etichette di riservatezza'
 ---
-
+--->
 
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Dimostrazione: Etichette di riservatezza in Microsoft Purview
 

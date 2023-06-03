@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Esplorare Microsoft Defender per il cloud'
-  module: 'Modulo 2: Descrivere le funzionalità di gestione della sicurezza di Azure'
+Lab: Titolo: 'Esplorare Microsoft Defender per il cloud' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 2: Descrivere le funzionalità di gestione della sicurezza di Azure; Unità 3: Descrivere Microsoft Defender per il cloud'
 ---
-
+--->
 
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>Laboratorio: Esplorare Microsoft Defender per il cloud
 

@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Service Trust Portal'
-  module: 'Modulo 1: Descrivere le funzionalità di gestione della conformità in Microsoft'
+Demo: Titolo: 'Service Trust Portal' Percorso di apprendimento: 'Percorso di apprendimento: Descrivere le funzionalità della conformità Microsoft; Modulo 1: Descrivere le funzionalità di gestione della conformità in Microsoft; Unità 2: Esplorare Service Trust Portal'
 ---
-
+--->
 
 # <a name="demo-service-trust-portal"></a>Dimostrazione: Portale Service Trust
 

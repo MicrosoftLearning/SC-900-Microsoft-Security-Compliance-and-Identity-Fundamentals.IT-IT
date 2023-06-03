@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Esplorare Azure Active Directory'
-  module: 'Modulo 1: Descrivere i servizi di base e i tipi di identità di Azure AD'
+Lab: Titolo: 'Esplorare Azure Active Directory' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 1: Descrivere i servizi di base e i tipi di identità di Azure AD; Unità 4: Descrivere i tipi di identità di Azure AD'
 ---
-
+--->
 
 # <a name="lab-explore-azure-active-directory"></a>Laboratorio: Esplorazione di Azure Active Directory
 

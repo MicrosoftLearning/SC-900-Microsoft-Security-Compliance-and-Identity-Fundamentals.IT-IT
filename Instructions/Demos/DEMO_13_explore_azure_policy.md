@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Criteri di Azure'
-  module: 'Modulo 6: Descrivere le funzionalità di governance delle risorse in Azure'
+Demo: Titolo: 'Criteri di Azure' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 6: Descrivere le funzionalità di governance delle risorse in Azure; Unità 2: Descrivere Criteri di Azure'
 ---
-
+--->
 
 # <a name="demo-azure-policy"></a>Dimostrazione: Criteri di Azure
 

@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Portale di Microsoft 365 Defender'
-  module: 'Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365'
+Demo: Titolo: 'Portale di Microsoft 365 Defender' Modulo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365; Unità 7: Descrivere il portale di Microsoft 365 Defender'
 ---
+--->
 
 # <a name="demo-the-microsoft-365-defender-portal"></a>Dimostrazione: Il portale Microsoft 365 Defender
 

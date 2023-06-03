@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Microsoft Sentinel'
-  module: 'Modulo 3: Descrivere le funzionalità di sicurezza di Microsoft Sentinel'
+Demo: Titolo: 'Microsoft Sentinel' Percorso di apprendimento/Modulo/Titolo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 3: Descrivere le funzionalità di sicurezza di Microsoft Sentinel; Unità 3: Descrivere la gestione integrata delle minacce offerta da Microsoft Sentinel'
 ---
-
+--->
 
 # <a name="demo-microsoft-sentinel"></a>Dimostrazione: Microsoft Sentinel
 

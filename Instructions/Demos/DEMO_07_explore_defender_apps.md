@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Microsoft Defender for Cloud Apps'
-  module: 'Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365'
+Demo: Titolo: 'Microsoft Defender for Cloud Apps' Modulo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365; Unità 5: Descrivere Microsoft Defender for Cloud Apps'
 ---
-
+--->
 
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>Dimostrazione: Microsoft Defender for Cloud Apps
 
