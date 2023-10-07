@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Lab: Titolo: 'Esplorare Criteri di Azure' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 6: Descrivere le funzionalità di governance delle risorse in Azure; Unità 2: Descrivere Criteri di Azure'
 ---
 --->
 
-# <a name="lab-explore-azure-policy"></a>Laboratorio: Esplorare Criteri di Azure
+# Laboratorio: Esplorare Criteri di Azure
 
 Questo lab corrisponde al contenuto di Learn seguente:
 
@@ -12,13 +12,13 @@ Questo lab corrisponde al contenuto di Learn seguente:
 - Modulo: Descrivere le funzionalità di governance delle risorse in Azure
 - Unità: Descrivere Criteri di Azure
 
-## <a name="lab-scenario"></a>Scenario del lab
+## Scenario del lab
 
 Criteri di Azure è un servizio che consente di applicare gli standard aziendali e di valutare la conformità su larga scala. Criteri di Azure valuta le risorse in Azure confrontando le proprietà di tali risorse con le regole business. In questo lab si creerà un criterio e si vedrà l'impatto di tale criterio.  Verranno anche esaminate le informazioni sulla conformità e la correzione disponibili nella pagina dei criteri.
 
 **Tempo stimato**: 15-20 minuti
 
-### <a name="task-1"></a>Attività 1
+### Attività 1
 
 In questa attività verrà creata un'assegnazione di criteri di base per richiedere un tag per un gruppo di risorse.
 1.  Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com**.
@@ -37,17 +37,17 @@ In questa attività verrà creata un'assegnazione di criteri di base per richied
 
 1. Si inizia nella scheda Generale.
     1. Per Ambito lasciare l'impostazione predefinita. In questo caso, l'ambito dei criteri è la sottoscrizione di Azure fornita dal provider di servizi di hosting per i lab autorizzato.
-    1. In Definizione criteri selezionare i **puntini di sospensione**.  Viene fornito un elenco delle definizioni dei criteri disponibili.  Nella barra di ricerca immettere **Richiedi un tag**. Nei risultati della ricerca selezionare **Richiedi un tag nel gruppo di risorse** (potrebbe essere necessario scorrere verso il basso), quindi premere **Aggiungi**.  Nota: l'effetto di questo criterio è negare la creazione di qualunque gruppo di risorse che non soddisfa il requisito.  
+    1. Per Definizione dei criteri selezionare i **puntini di sospensione**.  Viene fornito un elenco delle definizioni dei criteri disponibili.  Nella barra di ricerca immettere **Richiedi un tag**. Nei risultati della ricerca selezionare **Richiedi un tag nel gruppo di risorse** (potrebbe essere necessario scorrere verso il basso), quindi premere **Aggiungi**.  Nota: l'effetto di questo criterio consiste nel negare la creazione di un nuovo gruppo di risorse che non soddisfa il requisito.  
     1. Si noti il nome di assegnazione predefinito.  Mantenere il nome così com'è.
     1. Assicurarsi che l'applicazione dei criteri sia **impostata su Abilitato**
 
-1. Selezionare Avanti, quindi selezionare **Di** nuovo **avanti** per passare alla scheda Parametri (è anche possibile selezionare direttamente la scheda parametri).
+1. Selezionare **Avanti**, quindi selezionare di nuovo **Avanti** per passare alla scheda Parametri . È anche possibile selezionare direttamente la scheda parametri.
 
 1. Si è ora nella scheda Parametri. Nel campo Nome tag immettere **Ambiente** e quindi selezionare **Avanti**.
 
 1. Nella scheda Correzione non modificare le impostazioni predefinite e quindi selezionare **Avanti**.
 
-1. Si è ora nella scheda Messaggi di non conformità. Nel campo Messaggio di non conformità immettere **È obbligatorio un tag di ambiente** e quindi selezionare **Avanti**. Nota: questo messaggio apparirà come motivo di non conformità per i gruppi di risorse che sono stati creati prima dell'assegnazione del criterio e non hanno un tag Ambiente.
+1. Si è ora nella scheda Messaggi di non conformità. Nel campo Messaggio di non conformità immettere **È obbligatorio un tag di ambiente** e quindi selezionare **Avanti**. Nota: questo messaggio verrà visualizzato come motivo della mancata conformità per i gruppi di risorse creati prima dell'assegnazione dei criteri e che non hanno un tag Environment.
 
 1. Rivedere l'assegnazione dei criteri e quindi selezionare **Crea**.  Se non si vede immediatamente il criterio, selezionare **Aggiorna**. Nota: l'applicazione dei criteri potrebbe richiedere fino a 30 minuti, ma in genere avviene più rapidamente.
 
@@ -55,7 +55,7 @@ In questa attività verrà creata un'assegnazione di criteri di base per richied
 
 1. Ora ci si trova nella home page dei servizi di Azure.  Tenere questa pagina aperta, servirà per l'attività successiva.
 
-### <a name="task-2"></a>Attività 2
+### Attività 2
 
 In questa attività si vedrà l'impatto dell'assegnazione dei criteri di Azure tentando di creare un gruppo di risorse in Azure senza un tag.
 
@@ -93,9 +93,9 @@ In questa attività si vedrà l'impatto dell'assegnazione dei criteri di Azure t
 
 1. Mantenere aperta la scheda del browser perché sarà necessaria per l'attività successiva.
 
-### <a name="task-3-optional"></a>Attività 3 (facoltativa)
+### Attività 3 (facoltativa)
 
-In questa attività verranno illustrati i passaggi per correggere un gruppo di risorse non conforme. NOTA: la sottoscrizione di Azure usata per il lab richiederà più tempo del normale per aggiornare lo stato di conformità di un gruppo di risorse corretto.
+In questa attività verranno illustrati i passaggi per correggere un gruppo di risorse non conforme. NOTA: la sottoscrizione di Azure usata per il lab avrà più tempo del normale ritardo per aggiornare lo stato di conformità di un gruppo di risorse corretto.
 
 1. Nella home page di Azure selezionare **criteri**. Viene aperta la home page Criteri con una visualizzazione del dashboard.  L'ambito della visualizzazione Dashboard è la sottoscrizione di Azure fornita dal provider di servizi di hosting per i lab autorizzato.  
 
@@ -112,6 +112,7 @@ In questa attività verranno illustrati i passaggi per correggere un gruppo di r
 
 1. Dal riquadro di spostamento sinistro, selezionare **Conformità**.  Come per la pagina della panoramica, in questa pagina è possibile visualizzare lo stato dei criteri e/o delle iniziative elencati.  NOTA: anche se il tag è stato aggiunto al gruppo di risorse, l'aggiornamento dello stato richiederà tempo.  Le sottoscrizioni di Azure usate per i lab possono riscontrare ritardi più lunghi del normale. Se si vuole attendere che lo stato di conformità della risorsa venga aggiornato, non terminare il lab. A seconda dell'ambiente lab, l'aggiornamento può richiedere un'ora o più.  
 
-### <a name="review"></a>Verifica
+### Verifica
 
 In questo lab è stato presentato il processo di creazione di un'assegnazione di criteri di Azure ed è stato possibile vedere l'impatto di tale criterio.
+
