@@ -1,38 +1,38 @@
-<a name="---"></a><!---
+<!---
 ---
-Demo: Titolo: 'Accesso condizionale di Azure AD' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 3: Descrivere le funzionalità di gestione degli accessi di Azure AD; Unità 2: Descrivere l'accesso condizionale in Azure AD'
+Demo: Titolo: "Accesso condizionale di Azure AD" Percorso di apprendimento/Modulo/Unità: "Percorso di apprendimento: Descrivere le funzionalità di Microsoft Entra; Modulo 3: Descrivere le funzionalità di gestione degli accessi di Microsoft Entra ID; Unità 2: Descrivere l'accesso condizionale'
 ---
 --->
 
-# <a name="demo-azure-ad-conditional-access"></a>Demo: Accesso condizionale di Azure AD
+# Demo: accesso condizionale Microsoft Entra
 
 Questa demo corrisponde al contenuto di Learn seguente:
 
-- Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra
-- Modulo: Descrivere le funzionalità di gestione degli accessi di Azure AD
-- Unità: Descrivere l'accesso condizionale in Azure AD
+- Percorso di apprendimento: Descrivere le funzionalità di Microsoft Entra
+- Modulo: Descrivere le funzionalità di gestione degli accessi di Microsoft Entra ID
+- Unità: Descrivere l'accesso condizionale
 
-## <a name="demo-scenario"></a>Scenario demo
+## Scenario demo
 
 Questa demo presenterà le varie opzioni disponibili per i criteri di accesso condizionale.
 
-1. Passare alla scheda **Contoso – Microsoft Azure** aperta nel browser. Se la scheda era stata chiusa, aprire una pagina del browser e, nella barra degli indirizzi, inserire portal.azure.com e selezionare Azure Active Directory. Occorre aver effettuato l'accesso come amministratore nel portale di Azure. In caso contrario, eseguire di nuovo l'accesso.
+1. Tornare alla scheda open browser denominata "Home-Microsoft Entra admin center".  Se in precedenza è stata chiusa la scheda del browser, aprire Microsoft Edge e accedere a **[entra.microsoft.com](https://entra.microsoft.com)** con le credenziali di amministratore di Microsoft 365.
 
-1. Dal riquadro di spostamento sinistro, selezionare **Sicurezza**.
+1. Nel riquadro di spostamento a sinistra espandere **Protezione** e quindi selezionare **Accesso condizionale**.
 
-1. Dal riquadro di spostamento sinistro, selezionare **Accesso condizionale**.
+1. Viene visualizzata la pagina Panoramica dell'accesso condizionale.  Qui verranno visualizzati i riquadri che mostrano il riepilogo dei criteri e gli avvisi generali.  Nel pannello di spostamento a sinistra selezionare **Criteri**.
 
 1. Compare la schermata Criteri di accesso condizionale. Qualsiasi criterio di accesso condizionale esistente è elencato qui. Per mostrare le impostazioni associate all'accesso condizionale, selezionare **+ Nuovo criterio**.
 
 1. Nel campo **Nome** immettere un nome per il criterio.
 
 1. Sotto **Assegnazioni** sono disponibili diverse opzioni.  Poiché i criteri di accesso condizionale sono come le istruzioni if/then, le impostazioni di assegnazione sono come le istruzioni "if".
-    1. **Utenti e gruppi** - Passare il mouse sull'icona delle informazioni accanto a "Utenti e gruppi". Qui è dove è possibile impostare gli utenti e i gruppi nella directory a cui si applica il criterio. Selezionare **0 utenti e gruppi selezionati**.  Diventerà ora visibile l'opzione per includere o escludere utenti o gruppi. Selezionare le impostazioni disponibili per la scheda **Includi** e selezionare le impostazioni disponibili per la scheda **Escludi**.
-    1. **App o azioni del cloud** - Passare il mouse sull'icona delle informazioni accanto ad "App o azioni del cloud". Qui è dove è possibile impostare le applicazioni usate o le azioni eseguite dall'utente per i criteri di accesso condizionale.  Selezionare **Non è stato selezionato alcun contesto di autenticazione, app cloud o azione**.
-        1. Selezionare la freccia a discesa nella casella sotto a **Selezionare a cosa si applica questo criterio** e notare le opzioni.  Lasciare l'impostazione predefinita "App cloud".
-        1. Selezionare e richiamare le impostazioni disponibili per la scheda Includi. Sotto la scheda **Includi**, scegliere **Seleziona app**.  Notare la finestra visualizzata in cui è possibile scegliere tra un elenco di applicazioni.  Non selezionare nulla, chiudere la finestra selezionando la **X** nell'angolo in alto a destra della finestra. Tornare indietro per scegliere **Nessuna** per rimuovere l'errore.
-        1. Selezionare le impostazioni disponibili per la **scheda Escludi**.  Di nuovo, qui è possibile selezionare le app specifiche da escludere.
-    1. **Condizioni** - Passare il mouse sull'icona delle informazioni accanto a "Condizioni", che stabiliscono quando si applica il criterio. Selezionare **0 condizioni selezionate**. Considerare i diversi "segnali" elencati.   Selezionare alcune delle opzioni selezionando prima l'icona delle informazioni per definire cos'è e poi selezionando **Non configurato** per la voce specifica per mostrare le varie opzioni.
+    1. **Utenti** : passare il mouse sull'icona delle informazioni accanto a dove si dice "Utenti" e chiamare che questa è la posizione in cui si selezionano le identità nella directory a cui si applicano i criteri, inclusi gli utenti, i gruppi e le entità servizio. Selezionare **0 utenti e gruppi selezionati**.  Diventerà ora visibile l'opzione per includere o escludere utenti o gruppi. Selezionare le impostazioni disponibili per la scheda **Includi** e selezionare le impostazioni disponibili per la scheda **Escludi**.
+    1. **Risorse di destinazione** : selezionare **Risorse di destinazione**.  In questo caso si controlla l'accesso in base a tutto o a un traffico di accesso di rete specifico, alle app o alle azioni cloud.  Espandere il campo sotto dove si dice selezionare a quale criterio si applica questo criterio.  Qui è possibile selezionare se il criterio si applica alle app cloud, alle azioni utente o al contesto di autenticazione.  
+        1. Selezionare **App cloud** e quindi nella scheda Includi selezionare l'opzione **Seleziona app** e quindi sotto dove si dice **Seleziona**, selezionare **Nessuna**, verrà aperta una finestra per selezionare una o più app per cui verrà applicato il criterio.
+        1. Chiudere la finestra Seleziona app cloud selezionando **X** nell'angolo superiore destro della finestra.
+        1. Quando il tempo consente di scegliere di passare attraverso le altre opzioni (azioni utente e contesto di autenticazione) per visualizzare le opzioni di configurazione per ognuna.
+    1. **Condizioni** : passare il mouse sull'icona delle informazioni accanto a dove si dice "Condizioni" e chiamare che queste condizioni definiscono quando verranno applicati i criteri. Ad esempio, 'posizione. Selezionare **0 condizioni selezionate**. Considerare i diversi "segnali" elencati.   Selezionare alcune delle opzioni selezionando prima l'icona delle informazioni per definire cos'è e poi selezionando **Non configurato** per la voce specifica per mostrare le varie opzioni.
         1. **Rischio utente** - Un rischio utente rappresenta la probabilità che una data identità o account siano compromessi. Questi rischi vengono calcolati offline usando le origini di intelligence sulle minacce interne ed esterne di Microsoft.
         1. **Rischio di accesso** - Un rischio di accesso rappresenta la probabilità che una data richiesta di autenticazione non sia autorizzata dal proprietario dell'identità. Gli esempi possono includere se l'accesso è da un indirizzo IP anonimo o uno spostamento fisico atipico, ecc.
         1. **Piattaforma del dispositivo** - Piattaforma da cui l'utente sta effettuando l'accesso. Ad esempio, "iOS".
@@ -46,10 +46,10 @@ Questa demo presenterà le varie opzioni disponibili per i criteri di accesso co
 
 1. Una volta configurato un criterio, è possibile attivare un criterio selezionando **Attiva**, quindi premere il pulsante **Crea** per creare un criterio.
 
-1. Selezionare la **X** nell'angolo in alto a destra della pagina per chiudere il criterio, quindi selezionare Microsoft Azure sulla barra blu nella parte superiore della pagina per tornare alla home page del portale di Azure.
+1. Selezionare **la X** nell'angolo superiore destro della pagina per chiudere il criterio.
 
-1. Tenere aperta questa pagina del browser per la prossima demo.
+1. Chiudere le schede del browser aperte.
 
-### <a name="review"></a>Verifica
+### Verifica
 
 In questa demo sono state presentate le varie opzioni disponibili per un criterio di accesso condizionale.

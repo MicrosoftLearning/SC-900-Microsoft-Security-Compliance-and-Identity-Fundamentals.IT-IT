@@ -1,22 +1,22 @@
-<a name="---"></a><!---
+<!---
 ---
-Demo: Titolo: 'Service Trust Portal' Percorso di apprendimento: 'Percorso di apprendimento: Descrivere le funzionalità della conformità Microsoft; Modulo 1: Descrivere le funzionalità di gestione della conformità in Microsoft; Unità 2: Esplorare Service Trust Portal'
+Demo: Title: 'Service Trust Portal' Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Modulo 1: Descrivere le funzionalità del portale service trust e della privacy di Microsoft; Unità 2: Esplorare Service Trust Portal'
 ---
 --->
 
-# <a name="demo-service-trust-portal"></a>Dimostrazione: Portale Service Trust
+# Dimostrazione: Portale Service Trust
 
 Questa demo corrisponde al contenuto di Learn seguente:
 
 - Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
-- Modulo: Descrivere le funzionalità di gestione della conformità in Microsoft
+- Modulo: Descrivere le funzionalità del portale service trust e della privacy di Microsoft
 - Unità: Esplorare Service Trust Portal
 
-## <a name="demo-scenario"></a>Scenario demo
+## Scenario demo
 
 In questa demo verranno illustrati le funzionalità e i contenuti disponibili in Service Trust Portal. È anche incluso lo spostamento nel Centro protezione per visualizzare le informazioni sulla privacy in Microsoft.
 
-### <a name="demo-part-1"></a>Demo parte 1
+### Demo parte 1
 
 In questa parte, si guiderà lo studente attraverso l'apprendimento dei diversi tipi di contenuti in Service Trust Portal, della modalità di accesso ai report e di salvataggio dei report nella raccolta personale.
 
@@ -40,11 +40,11 @@ In questa parte, si guiderà lo studente attraverso l'apprendimento dei diversi 
 
 1. Per tornare alla home page di Service Trust Portal, selezionare il collegamento **Service Trust Portal**  nella parte superiore della pagina.
 
-1. Dalla home page di Service Trust Portal scorrere verso il basso fino alla categoria **Risorse per l'organizzazione**. Selezionare **Risorse per l'organizzazione**.  Notare che tutti i documenti elencati in questa sezione sono basati sulla sottoscrizione e sulle autorizzazioni dell'organizzazione.
+1. Dalla home page di Service Trust Portal scorrere verso il basso fino alla categoria **Risorse per l'organizzazione** . Selezionare **Risorse per l'organizzazione**.  Notare che tutti i documenti elencati in questa sezione sono basati sulla sottoscrizione e sulle autorizzazioni dell'organizzazione.
 
 1. Per tornare alla home page di Service Trust Portal, selezionare il collegamento **Service Trust Portal**  nella parte superiore della pagina.
 
-### <a name="demo-part-2-optional"></a>Demo parte 2 (facoltativa)
+### Demo parte 2 (facoltativa)
 
 In questa parte della demo verrà presentato il Centro protezione e verranno esplorate le informazioni che descrivono la privacy in Microsoft.
 
@@ -54,8 +54,8 @@ In questa parte della demo verrà presentato il Centro protezione e verranno esp
 
 1. Verrà aperta una nuova pagina del browser per il Centro protezione, dove è possibile trovare altre informazioni, incluse informazioni sulla privacy e molto altro. Esplorare il contenuto di questa pagina e i diversi collegamenti.
 
-1. Chiudere tutte le schede del browser aperte.
+1. Chiudere le schede del browser aperte per Service Trust Portal e il Centro protezione.
 
-### <a name="review"></a>Verifica
+### Verifica
 
 In questa demo sono state esplorate alcune delle opzioni disponibili in Service Trust Portal e la modalità di utilizzo della funzionalità Raccolta personale per salvare documenti per una lettura successiva.  Inoltre, si è visitato il Centro protezione per accedere e rivedere le informazioni sulla privacy in Microsoft.

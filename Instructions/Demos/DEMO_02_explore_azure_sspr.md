@@ -1,24 +1,24 @@
-<a name="---"></a><!---
+<!---
 ---
-Demo: Titolo: 'Reimpostazione della password self-service di Azure AD' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra; Modulo 2: Descrivere le funzionalità di autenticazione di Azure AD; Unità 4: Descrivere la reimpostazione della password self-service in Azure AD'
+Demo: Titolo: 'Microsoft Entra reimpostazione password self-service (SSPR)' Percorso di apprendimento/Modulo/Unità: "Percorso di apprendimento: Descrivere le funzionalità di Microsoft Entra; Modulo 2: Descrivere le funzionalità di autenticazione di Microsoft Entra ID; Unità 4: Descrivere la reimpostazione della password self-service'
 ---
 --->
 
-# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demo: Reimpostazione della password self-service di Azure AD
+# Demo: Microsoft Entra reimpostazione della password self-service (SSPR)
 
 Questa demo corrisponde al contenuto di Learn seguente:
 
-- Percorso di apprendimento: Descrivere le funzionalità di Azure Active Directory (Azure AD), parte di Microsoft Entra
-- Modulo: Descrivere le funzionalità di autenticazione di Azure AD
-- Unità: Descrivere la reimpostazione della password self-service in Azure AD
+- Percorso di apprendimento: descrivere le funzionalità di Microsoft Entra
+- Modulo: Descrivere le funzionalità di autenticazione di Microsoft Entra ID
+- Unità: Descrivere la reimpostazione della password self-service
 
-## <a name="demo-scenario"></a>Scenario demo
+## Scenario demo
 
 Questa demo illustra le varie impostazioni associate all'abilitazione della reimpostazione della password self-service.
 
-1. Passare alla scheda Contoso – Microsoft Azure aperta nel browser. Se la scheda era stata chiusa, aprire una pagina del browser e, nella barra degli indirizzi, inserire portal.azure.com e selezionare Azure Active Directory. Occorre aver effettuato l'accesso come amministratore nel portale di Azure. In caso contrario, eseguire di nuovo l'accesso.
+1. Tornare alla scheda open browser denominata "Home-Microsoft Entra admin center".  Se in precedenza è stata chiusa la scheda del browser, aprire Microsoft Edge e accedere a **[entra.microsoft.com](https://entra.microsoft.com)** con le credenziali di amministratore di Microsoft 365.
 
-1. Dal riquadro di spostamento sinistro, selezionare Reimpostazione della password.
+1. Nel riquadro di spostamento a sinistra espandere **Protezione** e quindi selezionare **Reimpostazione password**.
 
 1. Viene evidenziata la scheda delle proprietà.  Nella finestra Proprietà, si noti che la reimpostazione della password self-service può essere abilitata per Nessuno, Selezionati o Tutti.
     1. Posizionare il cursore sull'icona delle informazioni accanto a "Reimpostazione della password self-service abilitata" e ricordare che è possibile scegliere "Selezionati" per limitare la reimpostazione della password della password a un gruppo limitato di utenti, oppure selezionare Nessuno o Tutti.
@@ -41,6 +41,6 @@ Questa demo illustra le varie impostazioni associate all'abilitazione della reim
 
 1. Tenere aperta questa pagina del browser per la prossima demo.
 
-### <a name="review"></a>Verifica
+### Verifica
 
 Questa demo ha illustrato le impostazioni associate alla reimpostazione della password self-service.

@@ -1,18 +1,25 @@
-<a name="---"></a><!---
+<!---
 ---
 Lab: Titolo: 'Eseguire la configurazione'
 ---
 --->
 
-# <a name="lab-setup"></a>Laboratorio: Eseguire la configurazione
+# Laboratorio: Eseguire la configurazione
 
-## <a name="lab-scenario"></a>Scenario del lab
+## Tenant WWL - Condizioni per l'uso
+Se viene fornito un tenant come parte di un recapito di training guidato dall'insegnante, si noti che il tenant viene reso disponibile per supportare i lab pratici nel training guidato dall'insegnante.
+
+I tenant non devono essere condivisi o usati per scopi esterni ai lab pratici. Il tenant usato in questo corso è un tenant di valutazione e non può essere usato o accessibile dopo che la classe è finita e non sono idonei per l'estensione.
+
+I tenant non devono essere convertiti in una sottoscrizione a pagamento. I tenant ottenuti come parte di questo corso rimangono la proprietà di Microsoft Corporation e si riserva il diritto di ottenere l'accesso e la repossess in qualsiasi momento.
+
+## Scenario del lab
 
 Questo lab sulla configurazione illustra come abilitare il log di controllo Microsoft.
 
 **Tempo stimato**: 5-10 minuti
 
-### <a name="setup---enable-microsoft-365-audit-log"></a>Eseguire la configurazione - Abilitare il log di controllo di Microsoft 365
+### Eseguire la configurazione - Abilitare il log di controllo di Microsoft 365
 
 In questa attività di configurazione, si abiliterà la funzionalità Log di controllo in Microsoft 365.  Sebbene la documentazione indichi che il log di controllo è attivato per impostazione predefinita, questa funzionalità non è abilitata per la maggior parte dei tenant dei lab e la sua attivazione potrebbe richiedere parecchie ore.  È vantaggioso abilitare questa funzionalità, poiché Microsoft 365 utilizza i log di controllo per informazioni dettagliate e attività degli utenti identificate nei criteri e nelle informazioni dettagliate di analisi.
 
@@ -35,6 +42,6 @@ In questa attività di configurazione, si abiliterà la funzionalità Log di con
 
 1. Tornare alla home page del portale di conformità di Microsoft Purview selezionando **Home** dal riquadro di spostamento sinistro per disconnettersi da Microsoft 365. Per disconnettersi, selezionare l'icona nell'angolo superiore destro della finestra di Microsoft 365 visualizzata come cerchio con le lettere MA (accanto all'icona del punto interrogativo) e quindi selezionare **Disconnetti**. Chiudere il browser.
 
-### <a name="review"></a>Verifica
+### Verifica
 
 In questa attività di configurazione è stata abilitata la funzionalità Log di controllo in Microsoft 365.

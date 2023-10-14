@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Lab: Titolo: 'Esplorare Microsoft Defender for Cloud Apps' Modulo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365; Unità 5: Descrivere Microsoft Defender for Cloud Apps'
 ---
 --->
 
-# <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Laboratorio: Esplorare Microsoft Defender for Cloud Apps
+# Laboratorio: Esplorare Microsoft Defender for Cloud Apps
 
 Questo lab corrisponde al contenuto di Learn seguente:
 
@@ -12,19 +12,19 @@ Questo lab corrisponde al contenuto di Learn seguente:
 - Modulo: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365
 - Unità: Descrivere Microsoft Defender for Cloud Apps
 
-## <a name="lab-scenario"></a>Scenario del lab
+## Scenario del lab
 
 In questo lab verranno esplorate le funzionalità di Microsoft Defender for Cloud Apps.  Verranno presentate le informazioni disponibili nel dashboard di Cloud Discovery, il catalogo delle app cloud, le funzionalità disponibili per esaminare i risultati e i modi a disposizione per controllare l'impatto sull'organizzazione attraverso i criteri. Nota: un'organizzazione deve avere una licenza per usare Microsoft Defender for Cloud Apps, che è un servizio in abbonamento basato sull'utente.
 
 **Tempo stimato**: 15-20 minuti
 
-### <a name="task-1---explore-cloud-discovery"></a>Attività 1 - Esplorare Cloud Discovery
+### Attività 1 - Esplorare Cloud Discovery
 
 Esplorare Cloud Discovery.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
 
-1. Accedere con le credenziali di amministratore.
+1. Accedere con le credenziali di amministratore per il tenant di Microsoft 365.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**. In questo modo si accede alla pagina dell'interfaccia di amministrazione di Microsoft 365.
@@ -45,17 +45,18 @@ Esplorare Cloud Discovery.
 
 1. Le informazioni nella pagina Cloud Discovery e nelle schede correlate si basano su report snapshot dai log del traffico caricati manualmente da firewall e proxy o da report continui che analizzano tutti i log che vengono inoltrati dalla rete usando Cloud App Security.  Per vedere dove si configurano questi report, selezionare **Azioni** nell'angolo in alto a destra della pagina.
     1. Selezionare la prima opzione, **Crea report snapshot di Cloud Discovery** e quindi selezionare **Avanti**. Qui si compilano i dettagli richiesti e si caricano i registri del traffico per generare e caricare un report.  Selezionare **Esci** e, se richiesto di confermare, selezionare di nuovo **Esci**.  I dati visualizzati per il tenant del lab provengono da un report snapshot. Queste informazioni sono riportate in alto nella finestra di Cloud Discovery.
-    1. Per vedere l'opzione per i report continui, selezionare **Azioni** nell'angolo in alto a destra della pagina e dal menu a discesa selezionare **Configurare il caricamento automatico**.  Non ci sono origini dati collegate, ma è qui che si può aggiungere un'origine dati. Selezionare **Aggiungi origine dati**, quindi selezionare la freccia a discesa nel campo **Selezionare l'appliance** per visualizzare i tipi di appliance che è possibile connettere come origine dati.  Selezionare **Annulla** per uscire. 
+    1. Per vedere l'opzione per i report continui, selezionare **Azioni** nell'angolo in alto a destra della pagina e dal menu a discesa selezionare **Configurare il caricamento automatico**.  Non ci sono origini dati collegate, ma è qui che si può aggiungere un'origine dati. Selezionare **Aggiungi origine dati**, quindi selezionare la freccia a discesa nel campo **Selezionare l'appliance** per visualizzare i tipi di appliance che è possibile connettere come origine dati.  Selezionare **Annulla** per uscire.
     1. Dal riquadro di spostamento sinistro selezionare **Cloud Discovery** per tornare alla pagina di Cloud Discovery.
 
-1. È possibile connettersi alle app direttamente impostando i connettori delle app che offriranno una maggiore visibilità e controllo delle app cloud. Nell'angolo in alto a destra della schermata selezionare **Azioni** e quindi **Impostazioni di Cloud Discovery**.  Dal lato sinistro della schermata, in App connesse, selezionare **Connettori app**.  
+1. È possibile connettersi alle app direttamente impostando i connettori delle app che offriranno una maggiore visibilità e controllo delle app cloud. Nell'angolo superiore destro della schermata selezionare **Azioni** e quindi **Impostazioni di Cloud Discovery**.  Dal lato sinistro della schermata, in App connesse, selezionare **Connettori app**.  
 
-    1. Nella pagina App connesse selezionare *Office 365** nell'elenco per visualizzare informazioni dettagliate. Se Office 365 mostra un errore di connessione, molto probabilmente è perché la funzionalità Controllo non è attivata.  Se il controllo è abilitato, passare ai puntini di sospensione verticali sul lato destro dell'elemento e selezionare **Modifica impostazioni**.  Per riconnettersi, selezionare **Connetti Office 365** nella parte inferiore della pagina. La pagina dovrebbe ora indicare che Office 365 è connesso. Selezionare **Fine**.  Lo stato verrà ora visualizzato con un segnale di avviso giallo, che indica che non è presente alcuno stato recente.  L'aggiornamento dello stato richiederà tempo, perché il periodo di tempo per l'analisi retroattiva differisce per ogni app e i tenant del lab potrebbero riscontrare ritardi più lunghi rispetto al normale.
-    1. A questo punto si configurerà un nuovo connettore app.  Selezionare **+Connetti un'app** e dal menu a discesa selezionare **Microsoft Azure**.  Nella finestra popup di Microsoft Azure selezionare **Connetti Microsoft Azure** e quindi selezionare **Fine**.  Verranno visualizzati lo stato connesso (se non viene visualizzato, aggiornare il browser) e informazioni sull'analisi di utenti, dati e attività.  Tornare al dashboard di Cloud Discovery selezionando **Cloud Discovery** nel riquadro di spostamento più a sinistra.
+    1. Nella pagina App connesse selezionare **Office 365** dall'elenco per visualizzare le informazioni dettagliate disponibili e quindi selezionare i puntini di sospensione verticali sul lato destro della schermata e selezionare **Visualizza impostazioni connettore** app per tornare alla pagina Connettori app. Se Office 365 mostra un errore di connessione, molto probabilmente è perché la funzionalità Controllo non è attivata.  Se il controllo è abilitato, passare ai puntini di sospensione verticali sul lato destro dell'elemento della riga e selezionare **Modifica impostazioni**.  Per riconnettersi, selezionare **Connetti Office 365** nella parte inferiore della pagina. La pagina dovrebbe ora indicare che Office 365 è connesso. Selezionare **Fine**.  Lo stato verrà ora visualizzato con un segnale di avviso giallo, che indica che non è presente alcuno stato recente.  L'aggiornamento dello stato richiederà tempo, perché il periodo di tempo per l'analisi retroattiva differisce per ogni app e i tenant del lab potrebbero riscontrare ritardi più lunghi rispetto al normale.
+
+    1. A questo punto si configurerà un nuovo connettore app. Selezionare **+Connetti un'app** e dal menu a discesa selezionare **Microsoft Azure**.  Nella finestra popup di Microsoft Azure selezionare **Connetti Microsoft Azure** e quindi selezionare **Fine**.  Verrà visualizzato uno stato connesso (se non viene visualizzato, aggiornare il browser). Selezionare **Microsoft Azure** per visualizzare le informazioni dettagliate sull'analisi di utenti, dati e attività.  Tornare al dashboard di Cloud Discovery selezionando **Cloud Discovery** in App cloud nel pannello di spostamento più a sinistra.
 
 1. Tenere aperta la pagina perché verrà usata nell'attività successiva.
 
-### <a name="task-part-2---explore-the-cloud-app-catalog"></a>Attività parte 2 - Esplorare il catalogo delle app cloud
+### Attività 2 - Esplorare il catalogo delle app cloud
 
 Cloud Discovery consente di analizzare i log del traffico in base al catalogo delle app cloud di Microsoft Defender for Cloud Apps, che include oltre 31.000 app cloud. Le app cloud, classificate e con punteggi assegnati in base a più di 80 fattori di rischio, offrono visibilità continua sull'uso di cloud, shadow IT e sul rischio di shadow IT per l'organizzazione.  In questa attività verranno esaminate le funzionalità del catalogo delle app cloud.
 
@@ -63,34 +64,34 @@ Cloud Discovery consente di analizzare i log del traffico in base al catalogo de
 
 1. Il catalogo delle app cloud consente di scegliere le app che soddisfano i requisiti di sicurezza dell'organizzazione. Gli amministratori possono applicare filtri semplici alle app, come illustrato nella parte superiore della pagina, specificando le app con approvazione, senza approvazione o senza tag, il punteggio di rischio, il fattore di rischio della conformità e il fattore di rischio della sicurezza.  Ad esempio, filtrare l'elenco in base al fattore di rischio della conformità consente di cercare standard, certificazioni e conformità specifici per l'app, ad esempio HIPAA, ISO 27001, SOC 2 e PCI-DSS. Selezionare **Fattore di rischio della conformità** per visualizzare le opzioni disponibili.  È possibile filtrare ulteriormente le app in base al punteggio di rischio spostando i dispositivi di scorrimento per il punteggio di rischio nella parte superiore della pagina. Se si sposta il dispositivo di scorrimento, assicurarsi di impostarlo in modo che l'intervallo sia compreso tra 0 e 10.
 
-1. Gli amministratori possono anche cercare le app in base alla categoria.  Ad esempio, nel campo Cercare una categoria immettere **Social network** e quindi selezionare **Social network**.  Selezionare **Yammer** per una visualizzazione dettagliata.  Passando il puntatore del mouse su qualsiasi argomento per una determinata categoria, verrà visualizzata un'icona di informazioni che è possibile selezionare per ottenere altre informazioni su tale argomento.
+1. Gli amministratori possono anche cercare le app in base alla categoria.  Ad esempio, nel campo Cercare una categoria immettere **Social network** e quindi selezionare **Social network**.  Selezionare un elemento dall'elenco per una visualizzazione dettagliata.  Passando il puntatore del mouse su qualsiasi argomento per una determinata categoria, verrà visualizzata un'icona di informazioni che è possibile selezionare per ottenere altre informazioni su tale argomento.
 
 1. Tenere aperta la pagina perché verrà usata nell'attività successiva.
 
-### <a name="task-3---explore-the-activity-log-and-files"></a>Attività 3 - Esplorare il log attività e i file
+### Attività 3 - Esplorare il log attività e i file
 
 Esplorare i modi in cui è possibile analizzare le attività registrate con il log attività e i file.
 
-1. Nel riquadro di spostamento a sinistra selezionare ed esplorare l'opzione **File** e notare le opzioni per filtrare i dati in base all'app, al proprietario, al livello di accesso, al tipo di file e ai criteri corrispondenti. Si noti anche l'opzione per creare un nuovo criterio dalla ricerca e per l'esportazione dei dati.
-    1. Selezionare **+Nuovo criterio dalla ricerca**.  È possibile creare un criterio basato su un modello, selezionare una gravità e una categoria del criterio, creare filtri per il criterio, creare avvisi e persino inviare gli avvisi a Power Automate.  Selezionare **Annulla** per uscire dalla finestra di creazione del criterio e quindi selezionare **Esci dalla pagina**.
-
 1. Dal riquadro di spostamento sinistro selezionare **Log attività**. Qui è possibile visualizzare tutte le attività delle app connesse. È possibile che non vengano visualizzati dati perché possono essere necessarie diverse ore per eseguire analisi retroattive dopo l'abilitazione del controllo e i tenant del lab potrebbero riscontrare ritardi più lunghi del normale. Notare le opzioni di filtro disponibili e l'opzione per creare un nuovo criterio dalla ricerca.
+
+1. Per garantire la protezione dei dati, Microsoft Defender for Cloud Apps offre visibilità su tutti i file delle app connesse, ad esempio tutti i file archiviati in SharePoint e Salesforce. Nel riquadro di spostamento a sinistra selezionare ed esplorare l'opzione **File** .
+    1. La possibilità di analizzare i file deve essere abilitata come parte delle impostazioni di Protezione delle informazioni delle app cloud di Microsoft 365.  Selezionare **Abilita monitoraggio file** e selezionare la casella accanto a dove è indicato **Abilita monitoraggio file** e quindi selezionare **Salva**.  
+    1. Tornare ai file selezionando **File**, elencato in App cloud, nel pannello di spostamento a sinistra. Come indicato, la visualizzazione dei file può richiedere diversi giorni, una volta abilitato il monitoraggio dei file, è opportuno notare che una volta elencati i file, è possibile filtrare i dati in base a app, proprietario, livello di accesso, tipo di file e criteri corrispondenti. È anche possibile creare un nuovo criterio dalla ricerca e dall'esportazione dei dati.
 
 1. Tenere aperta la pagina perché verrà usata nell'attività successiva.
 
-### <a name="task-4---explore-policies"></a>Attività 4 - Esplorare i criteri
+### Attività 4 - Esplorare i criteri
 
 In questa attività si esploreranno i criteri in Microsoft Defender for Cloud Apps.
 
-1. Dal riquadro di spostamento sinistro selezionare **Criteri** e quindi **Gestione dei criteri**.  I criteri elencati offrono informazioni sul numero di avvisi generati dai criteri, la gravità e così via. Selezionando qualsiasi elemento vengono visualizzate informazioni più dettagliate sul criterio. Selezionare una voce dall'elenco, ad esempio, **Accesso a rischio**.
-
+1. Dal riquadro di spostamento sinistro selezionare **Criteri** e quindi **Gestione dei criteri**.  I criteri elencati offrono informazioni sul numero di avvisi generati dai criteri, la gravità e così via. Selezionando qualsiasi elemento vengono visualizzate informazioni più dettagliate sul criterio.
     1. Si noti che è anche possibile creare un criterio. Selezionare **+ Crea criteri** per visualizzare i tipi di criteri che è possibile creare.  Selezionare **Criteri attività** per visualizzare le diverse opzioni disponibili per la creazione del criterio.  Selezionare **Annulla** per uscire dalla finestra di configurazione.
     1. Si noti che è anche disponibile un'opzione per esportare le informazioni sui criteri.
 
-1. Dal riquadro di spostamento sinistro selezionare **Modelli del criterio**. Per creare un criterio da uno dei modelli disponibili, selezionare il **+** sul lato sinistro della riga del modello.  Visualizzare le diverse opzioni di configurazione per i criteri.  Selezionare **Annulla** per uscire dalla pagina.
+1. Dal riquadro di spostamento sinistro selezionare **Modelli del criterio**. Per creare un criterio da uno dei modelli disponibili, selezionare il **+** sul lato destro di una voce di modello.  Visualizzare le diverse opzioni di configurazione per i criteri.  Selezionare **Annulla** per uscire dalla pagina.
 
 1. Chiudere la finestra del browser.
 
-### <a name="review"></a>Verifica
+### Verifica
 
 In questo lab sono state esplorate le funzionalità di Microsoft Defender for Cloud Apps.  Sono state presentate le informazioni disponibili nel dashboard di Cloud Discovery, il catalogo delle app cloud, le funzionalità disponibili per esaminare i risultati e i modi a disposizione per controllare l'impatto sull'organizzazione attraverso i criteri.
