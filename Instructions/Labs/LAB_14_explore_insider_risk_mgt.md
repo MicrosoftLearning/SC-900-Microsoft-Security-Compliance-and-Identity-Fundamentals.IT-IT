@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Lab: Titolo: 'Esplorare la gestione dei rischi Insider in Microsoft Purview' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 4: Descrivere le funzionalità per rischi Insider in Microsoft Purview; Unità 2: Descrivere la gestione dei rischi Insider'
 ---
 --->
 
-# <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Laboratorio: Esplorazione della gestione dei rischi Insider in Microsoft Purview
+# Laboratorio: Esplorazione della gestione dei rischi Insider in Microsoft Purview
 
 Questo lab corrisponde al contenuto di Learn seguente:
 
@@ -12,39 +12,29 @@ Questo lab corrisponde al contenuto di Learn seguente:
 - Modulo: Descrivere le funzionalità per rischi Insider in Microsoft Purview
 - Unità: Descrivere la gestione dei rischi Insider
 
-## <a name="lab-scenario"></a>Scenario del lab
+## Scenario del lab
 
 In questo lab, verrà descritto il processo di impostazione di un criterio di rischio Insider, insieme ai prerequisiti di base per configurare e usare i criteri di gestione dei rischi Insider.  Nota: questo lab fornirà soltanto visibilità degli elementi richiesti per impostare la gestione dei rischi Insider e le opzioni associate alla creazione di un criterio.  Questo lab non include un'attività per attivare il criterio, in quanto il numero di eventi necessari per attivare un criterio e il tempo necessario non rientrano nell'ambito di questo esercizio.
 
 **Tempo stimato**: 45-60 minuti
 
-### <a name="task-1"></a>Attività 1
+### Attività 1
 
 In questa attività, l'utente, in qualità di amministratore globale, abiliterà le autorizzazioni per Gestione del rischio Insider.  Nello specifico, verranno aggiunti utenti al gruppo di ruoli Gestione dei rischi Insider per assicurare che gli utenti designati possano accedere e gestire le funzionalità di gestione dei rischi Insider.  L'applicazione delle autorizzazioni del gruppo di ruoli agli utenti nell'organizzazione potrebbe impiegare fino a 30 minuti.
 
-1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
+1. Aprire la scheda browser per la home page di Microsoft Purview.  Se è stata chiusa in precedenza, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito dall'hoster del lab autorizzato (ALH). Nel riquadro di spostamento a sinistra della interfaccia di amministrazione di Microsoft 365 selezionare **Mostra tutto** e quindi selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del portale di conformità di Microsoft Purview.  
 
-1. Accedere con le credenziali di amministratore.
-    1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
+1. Nel pannello di spostamento a sinistra espandere **Ruoli & ambiti** e quindi selezionare **Autorizzazioni**.
 
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
-    1. Quando compare la domanda se rimanere connessi, selezionare **Sì**. In questo modo si accede alla pagina dell'interfaccia di amministrazione di Microsoft 365.
+1. In Soluzioni Microsoft Purview selezionare **Ruoli**.
 
-1. Dal riquadro di spostamento sinistro dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
-
-1. In Interfacce di amministrazione selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del portale di conformità di Microsoft Purview.  
-
-1. Dal riquadro di spostamento sinistro del portale di conformità di Microsoft Purview, selezionare **Autorizzazioni**.
-
-1. Nella pagina Autorizzazioni e ruoli, in "Soluzioni Microsoft Purview" selezionare **Ruoli**.
-
-1. Nella barra di ricerca immettere **Rischio Insider**, quindi selezionare l'icona di ricerca (lente di ingrandimento).  Si notino i numerosi ruoli visualizzati.  Ciascuno ha diversi livelli di accesso.  Selezionare **Gestione dei rischi Insider** e rivedere la descrizione.  Scorrere verso il basso fino a Membri e notare che sono elencati l'amministratore MOD e Megan Bowen. Selezionare **Chiudi** nella parte inferiore della finestra.
+1. Nel campo di ricerca digitare **rischio Insider** e quindi premere Invio sulla tastiera.  Si notino i numerosi ruoli visualizzati.  Ciascuno ha diversi livelli di accesso.  Selezionare **Gestione dei rischi Insider** e rivedere la descrizione.  Scorrere verso il basso fino a Membri e notare che sono elencati l'amministratore MOD e Megan Bowen. Chiudere la finestra selezionando la **X** in alto a destra della finestra.
 
 1. Dal riquadro di spostamento sinistro selezionare **Home** per tornare alla pagina del portale di conformità di Microsoft Purview.
 
 1. Mantenere questa scheda del browser aperta, perché servirà per un'attività successiva.
 
-### <a name="task-2-skip-if-you-did-the-setup-lab-task-to-enable-the-audit-log"></a>Attività 2 (IGNORARE se è stata eseguita l'attività del lab di impostazione per abilitare il log di controllo)
+### Attività 2 (NOTA: IGNORARe l'attività 2 se è stata eseguita l'attività lab di installazione per abilitare il log di controllo).
 
 Gestione dei rischi Insider usa i log di controllo Microsoft 365 per informazioni dettagliate e attività dell'utente identificate in criteri e informazioni dettagliate delle analisi. In questa attività, verrà abilitata la funzione di ricerca nel log di controllo. Nota:  dopo l'attivazione della ricerca nel log di controllo, la restituzione di risultati quando si esegue la ricerca nel log di controllo potrebbe richiedere diverse ore.  Sebbene possa impiegare diverse ore prima di poter eseguire la ricerca nel log di controllo, non avrà un impatto sulla capacità di completare altre attività in questo lab.
 
@@ -52,7 +42,7 @@ Gestione dei rischi Insider usa i log di controllo Microsoft 365 per informazion
 
 1. Dal riquadro di spostamento sinistro, sotto Soluzioni, selezionare **Controllo**.
 
-1. Verificare che la scheda **Cerca** sia selezionata (sottolineata).
+1. Verificare che la scheda **Nuova ricerca**sia selezionata (sottolineata).
 
 1. Una volta arrivati nella pagina Controllo, attendere 2-3 minuti.  Se il controllo NON è abilitato, verrà visualizzata una barra blu nella parte superiore della pagina con l'indicazione di avviare la registrazione delle attività di utenti e amministratori.  Selezionare **Avvia la registrazione delle attività di utenti e amministratori**.  Una volta abilitato il controllo, la barra blu scompare.  Se la barra blu non è presente, il controllo è già abilitato e non sono richieste ulteriori azioni.
 
@@ -60,7 +50,7 @@ Gestione dei rischi Insider usa i log di controllo Microsoft 365 per informazion
 
 1. Mantenere la scheda del browser aperta perché verrà usata nell'attività successiva.
 
-### <a name="task-3"></a>Attività 3
+### Attività 3
 
 In questa attività verranno esaminate le impostazioni associate alla soluzione Gestione dei rischi Insider.  Le impostazioni di Gestione dei rischi Insider si applicano a tutti i criteri di gestione dei rischi Insider, indipendentemente dal modello scelto durante la creazione di un criterio.
 
@@ -79,7 +69,7 @@ In questa attività verranno esaminate le impostazioni associate alla soluzione 
 
 1. Mantenere la scheda del browser aperta perché verrà usata nell'attività successiva.
 
-### <a name="task-4"></a>Attività 4
+### Attività 4
 
 In questa attività verranno esaminate le impostazioni per la creazione di un criterio.  L'obiettivo è semplicemente quello di farsi un'idea delle varie opzioni e della flessibilità associate alla creazione di un criterio.
 
@@ -91,19 +81,21 @@ In questa attività verranno esaminate le impostazioni per la creazione di un cr
     1. Nome e descrizione: immettere il nome **SC900-InsiderRiskPolicy**, quindi selezionare **Avanti**.
     1. Utenti e gruppi:  esaminare la casella delle informazioni.  Lasciare l'impostazione predefinita, **Includi tutti gli utenti e i gruppi**.  Selezionare **Avanti**.
     1. Contenuti a cui dare priorità: per ogni descrizione, i punteggi di rischio vengono aumentati per qualsiasi attività contenente contenuto prioritario, che a sua volta aumenta la possibilità di generare un avviso di gravità elevata. Per semplicità, selezionare **Non assegnare priorità al contenuto in questo momento** e quindi selezionare **Avanti**.
-    1. Decidere se assegnare un punteggio solo all'attività con contenuto prioritario: lasciare l'impostazione predefinita **Recupera avvisi per tutte le attività** e quindi selezionare **Avanti**.
     1. Trigger: l'evento di attivazione determina quando un criterio inizierà ad assegnare punteggi di rischio all'attività di un utente.  È possibile scegliere un criterio DLP esistente o se l'utente esegue un'attività di esfiltrazione. Selezionare **Corrispondenza dell'utente con un criterio di prevenzione della perdita dei dati (DLP)** e quindi nell'elenco a discesa selezionare **Dati finanziari USA**. Selezionare **Avanti**.
     1. Indicatori: si noti che tutti gli indicatori di Office selezionati nell'attività precedente sono selezionati (è possibile verificarlo selezionando il tasto freccia in giù accanto agli indicatori di Office), quindi selezionare **Avanti**.
     1. Nella pagina Opzioni di rilevamento lasciare tutte le impostazioni predefinite, ma leggere la descrizione associata alle varie opzioni e passare il puntatore del mouse sull'icona delle informazioni per ottenere informazioni più dettagliate su un'impostazione specifica.  Selezionare **Avanti**.
     1. Nella pagina per decidere se usare le soglie predefinite o le soglie degli indicatori del cliente lasciare l'impostazione predefinita **Soglie predefinite** e quindi selezionare **Avanti**.
-    1. Fine: esaminare le impostazioni, selezionare **Invia**, quindi selezionare **Fatto**.
+    1. Fine: esaminare le impostazioni, selezionare **Invia**.
+    1. Esaminare la descrizione di ciò che accade successivamente e quindi selezionare **Fine**.
 
 1. Si è di nuovo nella scheda Criteri della pagina Gestione dei rischi Insider.  Il criterio creato sarà incluso nell'elenco.  Se non è visualizzato, selezionare l'icona **Aggiorna**.
 
 1. Gli amministratori possono iniziare immediatamente ad assegnare punteggi di rischio agli utenti in base all'attività rilevata dai criteri selezionati. In questo modo viene ignorato il requisito che prevede che venga prima rilevato un evento di attivazione, ad esempio una corrispondenza con criteri DLP.  A questo scopo, un amministratore dovrà selezionare il quadratino vuoto accanto al nome del criterio per selezionarlo e quindi selezionare l'opzione **Inizia calcolo punteggio attività per utenti**, disponibile sopra alla tabella dei criteri.  Verrà visualizzata una nuova finestra che richiede all'amministratore di popolare i campi disponibili. Lasciare vuoti i campi perché questa opzione non verrà configurata. Per altre informazioni sul motivo per cui un amministratore potrebbe voler eseguire questa operazione, selezionare **Perché eseguire questa operazione?** .  Chiudere la finestra selezionando la **X** nell'angolo in alto a destra della finestra.
 
-1. Chiudere tutte le schede del browser aperte.
+1. Nel pannello di spostamento a sinistra selezionare **Home** per tornare alla pagina di destinazione del Portale di conformità di Microsoft Purview.
 
-### <a name="review"></a>Verifica
+1. Mantenere aperta la scheda del browser.
+
+### Verifica
 
 In questo lab, è stato spiegato il processo di impostazione di un criterio di rischio Insider, insieme ai prerequisiti di base per configurare e usare i criteri di gestione di rischi Insider.
