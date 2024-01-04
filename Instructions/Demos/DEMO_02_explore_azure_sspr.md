@@ -1,46 +1,46 @@
 <!---
 ---
-Demo: Titolo: 'Microsoft Entra reimpostazione password self-service (SSPR)' Percorso di apprendimento/Modulo/Unità: "Percorso di apprendimento: Descrivere le funzionalità di Microsoft Entra; Modulo 2: Descrivere le funzionalità di autenticazione di Microsoft Entra ID; Unità 4: Descrivere la reimpostazione della password self-service'
+Demo: tiolo: "Reimpostazione della password self-service Microsoft Entra (SSPR)" Percorso di apprendimento/Modulo/Unità: Percorso di apprendimento: Descrivere le funzionalità di Microsoft Entra; Modulo 2: Descrivere le funzionalità di autenticazione di Microsoft Entra ID; Unità 4: Descrivere la reimpostazione della password self-service"
 ---
 --->
 
-# Demo: Microsoft Entra reimpostazione della password self-service (SSPR)
+# Demo: Reimpostazione della password self-service di Microsoft Entra (SSPR)
 
 Questa demo corrisponde al contenuto di Learn seguente:
 
-- Percorso di apprendimento: descrivere le funzionalità di Microsoft Entra
+- Percorso di apprendimento: Descrivere le funzionalità di Microsoft Entra
 - Modulo: Descrivere le funzionalità di autenticazione di Microsoft Entra ID
 - Unità: Descrivere la reimpostazione della password self-service
 
-## Scenario demo
+## Scenario dimostrativo
 
 Questa demo illustra le varie impostazioni associate all'abilitazione della reimpostazione della password self-service.
 
-1. Tornare alla scheda open browser denominata "Home-Microsoft Entra admin center".  Se in precedenza è stata chiusa la scheda del browser, aprire Microsoft Edge e accedere a **[entra.microsoft.com](https://entra.microsoft.com)** con le credenziali di amministratore di Microsoft 365.
+1. Tornare alla scheda del browser aperta denominata "Interfaccia di amministrazione Home Microsoft Entra."  Se in precedenza è stata chiusa questa scheda del browser, aprire Microsoft Edge e accedere a**[entra.microsoft.com](https://entra.microsoft.com)** con le credenziali di amministratore Microsoft 365.
 
-1. Nel riquadro di spostamento a sinistra espandere **Protezione** e quindi selezionare **Reimpostazione password**.
+1. Nel riquadro di spostamento a sinistra, espandere **Protezione** e selezionare **Reimpostazione della password**.
 
-1. Viene evidenziata la scheda delle proprietà.  Nella finestra Proprietà, si noti che la reimpostazione della password self-service può essere abilitata per Nessuno, Selezionati o Tutti.
-    1. Posizionare il cursore sull'icona delle informazioni accanto a "Reimpostazione della password self-service abilitata" e ricordare che è possibile scegliere "Selezionati" per limitare la reimpostazione della password della password a un gruppo limitato di utenti, oppure selezionare Nessuno o Tutti.
-    1. Posizionare il cursore sull'icona delle informazioni accanto a "seleziona gruppo" e ricordare che è qui che si identifica il gruppo di utenti a cui è permesso resettare le proprie password.   Occorre includere gli utenti nel gruppo, non è possibile selezionare gli utenti individualmente.  Inoltre, se si cambia il gruppo, il gruppo selezionato sostituisce quello attualmente elencato.  Pertanto, si raccomanda di aggiungere gli utenti al gruppo di reimpostazione della password self-service.
-    1. Si noti il riquadro delle informazioni in azzurro e ricordarlo agli studenti. Queste impostazioni si applicano solo agli utenti finali dell'organizzazione. Gli amministratori sono sempre abilitati per la reimpostazione della password self-service e devono usare due metodi di autenticazione per reimpostare la propria password.
+1. La scheda Proprietà è evidenziata.  Nella finestra Proprietà, notare che la reimpostazione della password self-service può essere abilitata per Nessuno, Selezionati o Tutti.
+    1. Posizionare il cursore sull'icona delle informazioni accanto alla dicitura "Ripristino password self-service abilitato" e illustrare che è possibile scegliere "Selezionati" per limitare la reimpostazione della password a un gruppo di utenti, oppure selezionare Nessuno o Tutti.
+    1. Posizionare il cursore sull'icona delle informazioni accanto alla dicitura "seleziona gruppo" e illustrare che in questa posizione viene identificato il gruppo di utenti a cui è consentito reimpostare la password.   È necessario includere gli utenti nel gruppo, non è possibile selezionarli individualmente.  Inoltre, se si modifica il gruppo, il gruppo selezionato sostituisce quello attualmente elencato.  Pertanto, si raccomanda di aggiungere gli utenti al gruppo di reimpostazione della password self-service.
+    1. Prendere nota del riquadro azzurro delle informazioni e illustrarlo agli studenti: queste impostazioni si applicano solo agli utenti finali dell'organizzazione. Gli amministratori sono sempre abilitati per la reimpostazione della password self-service e devono usare due metodi di autenticazione per reimpostare la propria password.
 
-1. Dal riquadro di spostamento sinistro di Reimpostazione della password, selezionare Metodi di autenticazione.
-    1. Posizionare il cursore sull'icona delle informazioni accanto a "Numero di metodi richiesti per la reimpostazione".  Ricordare che in questo modo si imposta il numero di metodi di identificazione alternativi che un utente in questa directory deve avere per reimpostare la propria password.   Non modificare l'impostazione.
-    1. Ricordare i diversi "metodi a disposizione degli utenti", compreso il fatto che la reimpostazione della password self-service supporta le domande di sicurezza. Selezionare Domande di sicurezza per mostrare le opzioni per usare le domande di sicurezza. Dopo aver finito di parlare delle opzioni, tornare indietro e selezionare Domande di sicurezza per rimuovere il segno di spunta.
+1. Dal riquadro di spostamento a sinistra di Reimpostazione della password, selezionare Metodi di autenticazione.
+    1. Posizionare il cursore sull'icona delle informazioni accanto alla dicitura "Numero di metodi richiesti per il ripristino".  Illustrare che questo parametro stabilisce il numero di metodi alternativi di identificazione che un utente della directory deve avere per reimpostare la propria password.   Non modificare l'impostazione.
+    1. Illustrare i diversi "metodi disponibili per gli utenti", compreso il punto secondo cui la reimpostazione della password self-service supporta le domande di sicurezza. Selezionare Domande di sicurezza per visualizzare le opzioni d'utilizzo delle domande di sicurezza. Dopo aver finito di parlare delle opzioni, tornare indietro e selezionare Domande di sicurezza per rimuovere il segno di spunta.
 
-1. Dal riquadro di spostamento sinistro di Reimpostazione della password, selezionare Registrazione.
-    1. Passare il mouse sull'icona delle informazioni accanto a "Richiedi agli utenti di registrarsi all'accesso".   Ricordarlo agli utenti.  
-    1. Passare il mouse sull'icona delle informazioni accanto a: "Numero di giorni prima che all'utente venga chiesto di riconfermare le informazioni di autenticazione".   Ricordarlo agli utenti.  
+1. Dal riquadro di spostamento a sinistra di Reimpostazione della password, selezionare Registrazione.
+    1. Passare con il puntatore del mouse sull'icona delle informazioni accanto alla dicitura "Richiedi agli utenti di registrarsi al momento dell'accesso".   Illustrarlo agli utenti.  
+    1. Passare il mouse sull'icona delle informazioni accanto a: "Numero di giorni prima che all'utente venga chiesto di riconfermare le informazioni di autenticazione".   Illustrarlo agli utenti.  
 
-1. Dal riquadro di spostamento sinistro di Reimpostazione della password, selezionare Notifiche.  Ricordare le due impostazioni: passare il mouse sopra l'icona delle informazioni per la descrizione.
+1. Dal riquadro di spostamento a sinistra di Reimpostazione della password, selezionare Notifiche.  Illustrare le due impostazioni: passare con il puntatore del mouse sull'icona delle informazioni per visualizzare la descrizione.
 
-1. Notare come il riquadro di spostamento di Reimpostazione della password include anche le opzioni per visualizzare i log di audit e l'utilizzo e le informazioni dettagliate.
+1. Notare che il riquadro di spostamento Reimpostazione password include anche opzioni per visualizzare i log di controllo e di utilizzo e le informazioni dettagliate.
 
-1. Selezionare la X nell'angolo in alto a destra della pagina. In questo modo si torna alla pagina principale per il tenant di Contoso.
+1. Selezionare la X nell'angolo in alto a destra della pagina. Questo consente di ritornare alla pagina principale del tenant Contoso.
 
 1. Tenere aperta questa pagina del browser per la prossima demo.
 
-### Verifica
+### Revisione
 
-Questa demo ha illustrato le impostazioni associate alla reimpostazione della password self-service.
+In questa demo sono state mostrate le impostazioni associate alla reimpostazione della password self-service.
