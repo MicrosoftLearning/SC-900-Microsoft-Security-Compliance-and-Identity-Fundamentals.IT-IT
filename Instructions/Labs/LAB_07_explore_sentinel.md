@@ -39,7 +39,7 @@ Creare un'istanza di Microsoft Sentinel
     1. Verificare le informazioni immesse in precedenza e quindi selezionare **Crea**.
     1. Elencare le aree di lavoro potrebbe richiedere qualche minuto. Se l'elenco non viene ancora visualizzato, selezionare **Aggiorna**, quindi selezionare **Aggiungi**.
 
-1. Dopo aver aggiunto la nuova area di lavoro, verrà visualizzata la pagina Microsoft Sentinel | Novità e guide che indica che la versione di valutazione gratuita di Microsoft Sentinel è attivata.  Selezionare **OK**.  Notare i tre passaggi elencati nella pagina Attività iniziali.
+1. Dopo aver aggiunto la nuova area di lavoro, verrà visualizzata la pagina Microsoft Sentinel | Novità e guide che indica che la versione di valutazione gratuita di Microsoft Sentinel è attivata.  Seleziona **OK**.  Notare i tre passaggi elencati nella pagina Attività iniziali.
 
 1. Tenere aperta la pagina perché verrà usata nell'attività successiva.
 
@@ -78,7 +78,7 @@ Lo scopo di questa attività è quello di illustrare i passaggi necessari necess
 
 1. Selezionare la casella accanto a dove è indicato Microsoft Defender per il cloud.  Sul lato destro della pagina verrà visualizzata una finestra.  Selezionare **Apri la pagina del connettore**.
 
-1. Notare le istruzioni di configurazione.  Selezionare la casella accanto al nome della sottoscrizione e quindi selezionare **Connetti**.  Potrebbe essere visualizzata una finestra popup a indicare che solo le sottoscrizioni per cui si dispone del ruolo con autorizzazioni di lettura per la sicurezza inizieranno a trasmettere avvisi di Microsoft Defender per il cloud.  Selezionare **OK**.  Lo stato passerà a Connesso.  Il connettore ora è abilitato, anche se la visualizzazione del connettore nella pagina Connettori dati potrebbe richiedere del tempo.  
+1. Notare le istruzioni di configurazione.  Selezionare la casella accanto al nome della sottoscrizione e quindi selezionare **Connetti**.  Potrebbe essere visualizzata una finestra popup a indicare che solo le sottoscrizioni per cui si dispone del ruolo con autorizzazioni di lettura per la sicurezza inizieranno a trasmettere avvisi di Microsoft Defender per il cloud.  Seleziona **OK**.  Lo stato passerà a Connesso.  Il connettore ora è abilitato, anche se la visualizzazione del connettore nella pagina Connettori dati potrebbe richiedere del tempo.  
 
 1. Visualizzare ora le informazioni relative alla regola di analisi.  Nella parte superiore della pagina (nella barra di navigazione) selezionare **Microsoft Defender per il cloud**. Deselezionare la casella accanto alla posizione in cui è indicato Microsoft Defender per il cloud, poiché il connettore è stato già configurato (l'icona di avviso potrebbe richiedere del tempo per scomparire). Selezionare la casella accanto a dove è indicato **Rileva attività di eliminazione coreBackUp da avvisi di sicurezza correlati**. Nella finestra visualizzata, sarà possibile visualizzare le informazioni relative alla regola e alla sua applicabilità.  
     1. Sebbene i dettagli della logica della regola non rientrino nell'ambito dei concetti fondamentali, effettuare i passaggi per configurare la regola al fine di visualizzare il tipo di informazioni configurabili come parte della regola. Seleziona **Configurazione**.

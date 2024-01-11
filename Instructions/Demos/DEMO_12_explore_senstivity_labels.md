@@ -42,7 +42,7 @@ Questa demo illustrerà le impostazioni per un'etichetta di riservatezza esisten
 
 1. Selezionare **Modifica criterio** nella parte superiore della finestra.  Qui verranno illustrate le impostazioni senza modificare nulla.
     1. Esaminare la descrizione per "Scegliere le etichette di riservatezza da pubblicare".  Notare l'etichetta presente nell'elenco.  Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
-    1. Esaminare la descrizione per "Assegnare le unità di amministrazione". Le unità di Amministrazione sono impostate sulla directory completa, non modificare le impostazioni. Selezionare **Avanti**.  
+    1. Esaminare la descrizione per "Assegnare le unità di amministrazione". Le unità di Amministrazione sono impostate sulla directory completa, non modificare le impostazioni. Seleziona **Avanti**.  
     1. Esaminare la descrizione per "Pubblicare in utenti e gruppi".  Notare che questa etichetta è disponibile per tutti gli utenti.  Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
     1. Esaminare le impostazioni dei criteri. Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
     1. Esaminare la descrizione per "Applicare un'etichetta predefinita ai documenti". Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
@@ -54,7 +54,7 @@ Questa demo illustrerà le impostazioni per un'etichetta di riservatezza esisten
 
 1. Nella pagina Protezione delle informazioni, selezionare Etichettatura automatica. Esaminare la descrizione. Tenere presente la creazione di criteri di etichettatura automatica per applicare automaticamente etichette di riservatezza ai messaggi di posta elettronica o ai file di OneDrive e SharePoint, che contengono informazioni riservate. Se sono configurati criteri di etichettatura automatica, selezionarne uno e rivedere le informazioni sui criteri nel riquadro Dettagli.  Se non è elencato alcun criterio, è possibile eseguire la procedura dettagliata per crearne uno, se il tempo lo consente.
 
-1. Dal riquadro di spostamento sinistro selezionare Home per tornare alla pagina del portale di conformità di Microsoft Purview.
+1. Dal riquadro di spostamento a sinistra, selezionare Home per tornare al portale di conformità Microsoft Purview.
 
 1. Mantenere aperta la scheda del browser.
 

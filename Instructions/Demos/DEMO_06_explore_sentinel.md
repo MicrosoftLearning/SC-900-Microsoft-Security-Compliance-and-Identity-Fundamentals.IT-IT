@@ -35,7 +35,7 @@ Un'istanza di Microsoft Sentinel dovrebbe essere già stata creata come parte de
         1. Selezionare **Rivedi e crea** (non verranno configurati tag).
         1. Verificare le informazioni immesse in precedenza e quindi selezionare **Crea**.
         1. Elencare le aree di lavoro potrebbe richiedere qualche minuto. Se l'elenco non viene ancora visualizzato, selezionare **Aggiorna**, quindi selezionare **Aggiungi**.
-        1. Dopo aver aggiunto la nuova area di lavoro, verrà visualizzata la pagina Microsoft Sentinel | Novità e guide che indica che la versione di valutazione gratuita di Microsoft Sentinel è attivata.  Selezionare **OK**.
+        1. Dopo aver aggiunto la nuova area di lavoro, verrà visualizzata la pagina Microsoft Sentinel | Novità e guide che indica che la versione di valutazione gratuita di Microsoft Sentinel è attivata.  Seleziona **OK**.
 
 1. Tenere aperta questa pagina, perché verrà usata in un'attività successiva.
 

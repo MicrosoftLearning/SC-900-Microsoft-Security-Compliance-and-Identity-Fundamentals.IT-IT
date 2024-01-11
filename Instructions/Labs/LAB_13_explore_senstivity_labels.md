@@ -45,7 +45,7 @@ In questa attività, verrà acquisita una comprensione delle funzioni delle etic
 
 1. Selezionare **Modifica criterio** nella parte superiore della finestra.  Qui verranno illustrate le impostazioni senza modificare nulla.
     1. Esaminare la descrizione per "Scegliere le etichette di riservatezza da pubblicare".  Notare l'etichetta presente nell'elenco.  Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
-    1. Esaminare la descrizione per "Assegnare le unità di amministrazione". Le unità di Amministrazione sono impostate sulla directory completa, non modificare le impostazioni. Selezionare **Avanti**.  
+    1. Esaminare la descrizione per "Assegnare le unità di amministrazione". Le unità di Amministrazione sono impostate sulla directory completa, non modificare le impostazioni. Seleziona **Avanti**.  
     1. Esaminare la descrizione per "Pubblicare in utenti e gruppi".  Notare che questa etichetta è disponibile per tutti gli utenti.  Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
     1. Esaminare le impostazioni dei criteri. Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
     1. Esaminare la descrizione per "Applicare un'etichetta predefinita ai documenti". Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
@@ -56,13 +56,13 @@ In questa attività, verrà acquisita una comprensione delle funzioni delle etic
     1. Esaminare le impostazioni dei criteri. Selezionare **Annulla** per rimuovere le modifiche e tornare alla pagina Criteri delle etichette.
 
 1. Nella pagina Protezione delle informazioni, selezionare Etichettatura automatica. Esaminare la descrizione. Tenere presente la creazione di criteri di etichettatura automatica per applicare automaticamente etichette di riservatezza ai messaggi di posta elettronica o ai file di OneDrive e SharePoint, che contengono informazioni riservate. Nessun criterio di etichettatura automatica è stato preconfigurato nel tenant. Per creare un nuovo criterio di etichettatura automatica, selezionare **Crea criterio di etichettatura automatica**.  In questa sezione vengono illustrati i passaggi per la creazione di un nuovo criterio.
-    1. Per iniziare, scegliere le informazioni a cui applicare l'etichetta.  Notare le le opzioni disponibili.  Selezionare **Medici e integrità**, quindi selezionare uno dei modelli disponibili.  Selezionare **Avanti**.
-    1. È possibile assegnare un nome al criterio di etichettatura automatica o usare il nome predefinito.  Selezionare **Avanti**.
+    1. Per iniziare, scegliere le informazioni a cui applicare l'etichetta.  Notare le le opzioni disponibili.  Selezionare **Medici e integrità**, quindi selezionare uno dei modelli disponibili.  Seleziona **Avanti**.
+    1. È possibile assegnare un nome al criterio di etichettatura automatica o usare il nome predefinito.  Seleziona **Avanti**.
     1. È possibile assegnare le unità di amministrazione a cui si applica questo criterio.  Mantenere le impostazioni predefinite sull'elenco completo, quindi selezionare **Avanti**.
     1. Notare le posizioni disponibili in cui si desidera applicare l'etichetta.  Mantenere le impostazioni predefinite e selezionare **Avanti**.
     1. È possibile configurare regole comuni o avanzate che definiscono il contenuto a cui viene applicata l'etichetta.  Mantenere le impostazioni sulle Regole comuni quindi selezionare **Avanti**.
     1. È possibile definire regole per contenuti in tutte le posizioni.  L'etichetta verrà applicata al contenuto che corrisponde alle regole definite in questa pagina.  Per il modello selezionato, verrà visualizzata una voce. Espanderlo per visualizzare le condizioni che si applicano.  Mantenere le impostazioni predefinite e selezionare **Avanti**.
-    1. Scegliere un'etichetta da applicare automaticamente, selezionando **Scegli etichetta**.  Scegliere un'etichetta e quindi selezionare **Aggiungi**. Selezionare **Avanti**.
+    1. Scegliere un'etichetta da applicare automaticamente, selezionando **Scegli etichetta**.  Scegliere un'etichetta e quindi selezionare **Aggiungi**. Seleziona **Avanti**.
     1. È possibile configurare impostazioni aggiuntive per i messaggi di posta elettronica. Mantenere le impostazioni predefinite e selezionare **Avanti**.
     1. È possibile testare il criterio ora o in un secondo momento.  Selezionare **Mantieni criterio disattivato** e quindi selezionare **Avanti**.
     1. Rivedere le impostazioni e selezionare **Crea criterio**, quindi selezionare **Fine**.

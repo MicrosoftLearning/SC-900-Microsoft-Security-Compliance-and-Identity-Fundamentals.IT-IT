@@ -105,7 +105,7 @@ In questa parte verranno mostrate le regole correnti del gruppo di sicurezza di 
 
 1. Dal riquadro di spostamento sinistro selezionare **Rete**.
 
-1. Selezionare la scheda **Regole porta in uscita**. Verranno visualizzate le regole in uscita predefinite.  Notare la regola predefinita "AllowInternetOutBound". Questa regola consente tutto il traffico Internet in uscita. Non è possibile rimuovere la regola predefinita, ma è possibile eseguirne l'override creando una regola con priorità più alta. Nella parte destra della pagina, selezionare **Aggiungi regola porta in uscita**.
+1. Selezionare la scheda **Regole porta in uscita**. Verranno visualizzate le regole in uscita predefinite.  Notare la regola predefinita "AllowInternetOutBound". Questa regola consente tutto il traffico Internet in uscita. Non è possibile rimuovere la regola predefinita, ma è possibile sostituirla creando una regola con priorità più alta. Nella parte destra della pagina, selezionare **Aggiungi regola porta in uscita**.
 
 1. Nella pagina Aggiungi regola di sicurezza in uscita, specificare le seguenti impostazioni:
     1. Origine: **qualsiasi**
@@ -126,7 +126,7 @@ In questa parte verranno mostrate le regole correnti del gruppo di sicurezza di 
 
 1. Aprire il browser Edge nella propria macchina virtuale e immettere **www.bing.com**. La pagina non dovrà essere visualizzata.  Nota: se si riesce a connettersi a Internet e si è verificata la corretta impostazione di tutti i parametri della regola in uscita, è possibile che ciò avvenga perché la regola impiega alcuni minuti per diventare attiva.  Chiudere il browser, attendere qualche minuto e riprovare.  Nota: le sottoscrizioni di Azure nell'ambiente lab potrebbero riscontrare ritardi più lunghi del normale.
 
-1. Chiudere Connessione Desktop remoto, selezionando la **X** in alto al centro della pagina dove è indicato l'indirizzo IP.  Viene visualizzata una finestra popup che indica che la sessione remota verrà disconnessa. Selezionare **OK**.
+1. Chiudere Connessione Desktop remoto, selezionando la **X** in alto al centro della pagina dove è indicato l'indirizzo IP.  Viene visualizzata una finestra popup che indica che la sessione remota verrà disconnessa. Seleziona **OK**.
 
 1. Mantenere aperta la scheda Azure nel browser per visualizzare la demo di Azure successiva.
 
