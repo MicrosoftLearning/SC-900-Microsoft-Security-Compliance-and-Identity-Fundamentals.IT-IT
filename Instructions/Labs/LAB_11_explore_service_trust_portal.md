@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Lab: Titolo: 'Esplorare Service Trust Portal' Percorso di apprendimento: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 1: Descrivere le funzionalità di gestione della conformità in Microsoft; Unità 2: Esplorare Service Trust Portal'
 ---
 --->
 
-# <a name="lab-explore-the-service-trust-portal"></a>Laboratorio: Esplorazione di Service Trust Portal
+# Lab: Esplorare Service Trust Portal
 
 Questo lab corrisponde al contenuto di Learn seguente:
 
@@ -12,19 +12,19 @@ Questo lab corrisponde al contenuto di Learn seguente:
 - Modulo: Descrivere le funzionalità di gestione della conformità in Microsoft
 - Unità: Esplorare Service Trust Portal
 
-## <a name="lab-scenario"></a>Scenario del lab
+## Scenario laboratorio
 
 In questo lab, verranno esplorate le funzionalità e il contenuto disponibili da Service Trust Portal. Inoltre, si visiterà il Centro protezione per visualizzare le informazioni sulla privacy in Microsoft.
 
 **Tempo stimato**: 10-15 minuti
 
-### <a name="task-1"></a>Attività 1
+### Attività 1
 
 In questa attività si esploreranno Service Trust Portal e i diversi tipi di contenuto disponibile, si apprenderà come accedere ai report e come salvarli nella raccolta.
 
 1. Aprire Microsoft Edge.
 
-1. Nella barra degli indirizzi immettere **aka.ms/STP**. In questo modo, si passerà alla pagina di destinazione di Service Trust Portal. Service Trust Portal contiene i dettagli relativi all'implementazione di Microsoft dei controlli e dei processi che proteggono i servizi cloud e i dati dei clienti al loro interno.
+1. Nella barra degli indirizzi immettere **aka.ms/STP**. Verrà visualizzata la pagina di destinazione per Service Trust Portal. Service Trust Portal contiene i dettagli relativi all'implementazione di Microsoft dei controlli e dei processi che proteggono i servizi cloud e i dati dei clienti al loro interno.
 
 1. Per accedere ad alcune delle risorse in Service Trust Portal, è necessario accedere come utente autenticato con l'account dei servizi cloud Microsoft e leggere e accettare l'accordo di non divulgazione di Microsoft per i materiali relativi alla conformità. Nell'angolo superiore destro della pagina di destinazione per Service Trust Portal verrà visualizzata l'opzione Accedi.  **Effettuare l'accesso** usando le credenziali di amministratore e, se richiesto, selezionare **Accetto** per accettare l'accordo di riservatezza di Microsoft per i materiali di conformità.
 
@@ -32,7 +32,7 @@ In questa attività si esploreranno Service Trust Portal e i diversi tipi di con
 
 1. Notare la descrizione nella parte superiore della pagina e i documenti applicabili disponibili.  Selezionare i **puntini di sospensione** nell'intestazione Altre opzioni per il primo documento nell'elenco.  Notare le diverse opzioni.
 
-1. Selezionare **Salva nella raccolta**.  Verrà visualizzata una finestra popup in cui viene richiesto se si vuole sottoscrivere questo documento.  Selezionare **Sì**. Verrà visualizzata una finestra popup per le impostazioni di notifica. Notare le diverse impostazioni. Selezionare **Salva**.
+1. Selezionare **Salva nella raccolta**.  Verrà visualizzata una finestra popup in cui viene richiesto se si vuole sottoscrivere questo documento.  Selezionare **Sì**. Verrà visualizzata una finestra popup per le impostazioni di notifica. Notare le diverse impostazioni. Seleziona **Salva**.
 
 1. Per verificare che il documento sia stato salvato, scorrere fino alla parte superiore della pagina e selezionare **Raccolta personale**.  Per qualsiasi documento nella pagina Raccolta risorse selezionare i puntini di sospensione per visualizzare le opzioni disponibili.
 
@@ -40,13 +40,13 @@ In questa attività si esploreranno Service Trust Portal e i diversi tipi di con
 
 1. Nella home page di Service Trust Portal scorrere verso il basso fino alla categoria **Settore e risorse regionali**.  Si notino i riquadri disponibili.  Selezionare **Servizi finanziari**.  Scorrere verso il basso per visualizzare tutte le aree e i paesi disponibili.  Selezionare il riquadro per qualsiasi paese per visualizzare i documenti applicabili.
 
-1. Per tornare alla home page di Service Trust Portal, selezionare il collegamento **Service Trust Portal**  nella parte superiore della pagina.
+1. Per tornare alla home page di Service Trust Portal, selezionare il collegamento **Service Trust Portal ** nella parte superiore della pagina.
 
 1. Dalla home page di Service Trust Portal scorrere verso il basso fino alla categoria **Risorse per l'organizzazione**. Selezionare **Risorse per l'organizzazione**.  Notare che tutti i documenti elencati in questa sezione sono basati sulla sottoscrizione e sulle autorizzazioni dell'organizzazione.
 
-1. Per tornare alla home page di Service Trust Portal, selezionare il collegamento **Service Trust Portal**  nella parte superiore della pagina.
+1. Per tornare alla home page di Service Trust Portal, selezionare il collegamento **Service Trust Portal ** nella parte superiore della pagina.
 
-### <a name="task-2"></a>Attività 2
+### Attività 2
 
 In questa attività si visiterà il Centro protezione e si passerà alle informazioni che descrivono la privacy in Microsoft.
 
@@ -58,6 +58,6 @@ In questa attività si visiterà il Centro protezione e si passerà alle informa
 
 1. Chiudere tutte le schede del browser aperte.
 
-### <a name="review"></a>Verifica
+### Revisione
 
 In questo lab sono state esplorate alcune opzioni disponibili in Service Trust Portal, la modalità di accesso ai report come usare la funzionalità Raccolta personale per salvare documenti da esaminare in seguito.  Inoltre, si è visitato il Centro protezione per accedere e rivedere le informazioni sulla privacy in Microsoft.
