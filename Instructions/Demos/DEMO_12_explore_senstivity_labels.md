@@ -27,7 +27,7 @@ Questa demo illustrerà le impostazioni per un'etichetta di riservatezza esisten
 
 1. Dal riquadro di spostamento a sinistra, selezionare **Etichette**.
 
-1. Alcune etichette sono state preconfigurate nel tenant del lab di Microsoft 365, per praticità. Selezionare l'etichetta denominata **Riservato - Finanza**.  Verrà visualizzata una finestra che fornisce informazioni su questa etichetta.  Notare le impostazioni per questa etichetta.  Selezionare l'**icona a forma di matita** nella parte superiore della pagina per visualizzare alcune delle impostazioni di configurazione di base. Se l'icona a forma di matita non viene visualizzata, selezionare i puntini di sospensione.
+1. Alcune etichette sono state preconfigurate nel tenant del lab di Microsoft 365, per praticità. Selezionare l'etichetta denominata **Riservato - Finanza**.  Verrà visualizzata una finestra che fornisce informazioni su questa etichetta.  Notare le impostazioni per questa etichetta.  Selezionare **Modifica etichetta** (può anche essere visualizzata come icona a forma di matita) nella parte superiore della pagina per visualizzare alcune delle impostazioni di configurazione di base. Se questa opzione non viene visualizzata, selezionare i puntini di sospensione.
     1. La configurazione inizia specificando un nome e una descrizione per l'etichetta.  Non modificare nulla.  Nella parte inferiore della pagina, selezionare **Avanti**.
     1. Esaminare l'ambito per questa etichetta. Non modificare nulla.  Nella parte inferiore della pagina, selezionare **Avanti**.
     1. Questa schermata successiva consente di scegliere le impostazioni di protezione per gli elementi etichettati. Questa etichetta è configurata per supportare il contrassegno del contenuto. Non modificare nulla.  Nella parte inferiore della pagina, selezionare **Avanti**.
@@ -38,9 +38,7 @@ Questa demo illustrerà le impostazioni per un'etichetta di riservatezza esisten
 
 1. Dal riquadro di spostamento a sinistra, selezionare **Criteri etichette**   Si tratta di criteri che consentono la pubblicazione di etichette di riservatezza.  Il tenant di Microsoft 365 è stato configurato con alcuni criteri delle etichette, per praticità.
 
-1. Selezionare **Riservato - Criterio finanza**.  Verrà visualizzata una finestra che fornisce informazioni sui criteri. 
-
-1. Selezionare **Modifica criterio** nella parte superiore della finestra.  Qui verranno illustrate le impostazioni senza modificare nulla.
+1. Selezionare **Riservato - Criterio finanza**.  Verrà visualizzata una finestra che fornisce informazioni sui criteri. Selezionare **Modifica criterio** nella parte superiore della finestra.  Qui verranno illustrate le impostazioni senza modificare nulla.
     1. Esaminare la descrizione per "Scegliere le etichette di riservatezza da pubblicare".  Notare l'etichetta presente nell'elenco.  Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
     1. Esaminare la descrizione per "Assegnare le unità di amministrazione". Le unità di Amministrazione sono impostate sulla directory completa, non modificare le impostazioni. Seleziona **Avanti**.  
     1. Esaminare la descrizione per "Pubblicare in utenti e gruppi".  Notare che questa etichetta è disponibile per tutti gli utenti.  Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
@@ -52,7 +50,7 @@ Questa demo illustrerà le impostazioni per un'etichetta di riservatezza esisten
     1. L'ultima opzione di configurazione consiste nell'assegnare un nome al criterio.  Poiché si sta modificando il criterio, il campo del nome è disattivato. Selezionare **Avanti** nella parte inferiore della pagina.
     1. Esaminare le impostazioni dei criteri. Selezionare **Annulla** per rimuovere le modifiche e tornare alla pagina Criteri delle etichette.
 
-1. Nella pagina Protezione delle informazioni, selezionare Etichettatura automatica. Esaminare la descrizione. Tenere presente la creazione di criteri di etichettatura automatica per applicare automaticamente etichette di riservatezza ai messaggi di posta elettronica o ai file di OneDrive e SharePoint, che contengono informazioni riservate. Se sono configurati criteri di etichettatura automatica, selezionarne uno e rivedere le informazioni sui criteri nel riquadro Dettagli.  Se non è elencato alcun criterio, è possibile eseguire la procedura dettagliata per crearne uno, se il tempo lo consente.
+1. Nel pannello di spostamento a sinistra, in Protezione delle informazioni, selezionare Etichettatura automatica. Esaminare la descrizione. Tenere presente la creazione di criteri di etichettatura automatica per applicare automaticamente etichette di riservatezza ai messaggi di posta elettronica o ai file di OneDrive e SharePoint, che contengono informazioni riservate. Se sono configurati criteri di etichettatura automatica, selezionarne uno e rivedere le informazioni sui criteri nel riquadro Dettagli.  Se non è elencato alcun criterio, è possibile eseguire la procedura dettagliata per crearne uno, se il tempo lo consente.
 
 1. Dal riquadro di spostamento a sinistra, selezionare Home per tornare al portale di conformità Microsoft Purview.
 
@@ -66,8 +64,8 @@ Questo passaggio illustrerà il processo di applicazione di un'etichetta dal pun
 
 1. Selezionare **Documento vuoto**, quindi immettere il testo nella pagina.  Nella barra blu nella parte superiore della pagina selezionare la freccia in giù accanto a Documento - Salvato, nella casella Nome file immettere **Etichetta di test** e quindi premere **INVIO**.
 
-1. Nella barra dei menu superiore selezionare **Icona Riservatezza** (icona a destra dell'icona del microfono). Se questa opzione non viene visualizzata immediatamente, aggiornare la pagina. Nell'elenco a discesa selezionare **Riservato - Finanza**.   NOTA: se non viene visualizzata immediatamente l'opzione Riservatezza, aggiornare la pagina; tuttavia, poiché si tratta di un ambiente lab tenant, è possibile che si verifichino ritardi più lunghi del normale (10-15 minuti).
-1. 
+1. All'estrema destra della barra dei menu superiore (detta anche barra multifunzione) è presente una freccia giù, selezionarla e quindi selezionare Barra multifunzione **** classica.  In questo modo sarà più semplice identificare l'icona di riservatezza. Selezionare **Riservatezza**, accanto all'icona del microfono. Dal menu a discesa selezionare **Confidential-Finance**.  
+
 1. Nella barra dei menu superiore, selezionare **Visualizza**, quindi selezionare **Visualizzazione di lettura**.
 
 1. Notare che il documento include la filigrana.  
