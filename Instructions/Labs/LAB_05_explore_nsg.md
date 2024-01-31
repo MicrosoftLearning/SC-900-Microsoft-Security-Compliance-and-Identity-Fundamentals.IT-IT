@@ -35,25 +35,19 @@ In questa attività verranno visualizzati alcuni parametri associati alla macchi
 
 1. Ora ci si trova nella pagina SC900-WinVM.  Notare alcune informazioni di base sulla macchina virtuale.
 
-1. Nella parte superiore della pagina, selezionare **Connetti**,  Selezionare l'opzione **Verifica l'accesso**, elencata sotto l'indirizzo IP.  Questa verifica verrà effettuata utilizzando la porta 3389, ovvero la porta per la connettività RDP.  Verrà visualizzato il messaggio "Impossibile verificare".  Nella casella RDP nativa, fare clic su **Seleziona**.  Nella finestra visualizzata, in "1 Configurare i prerequisiti per RDP nativo", verrà visualizzato "Azure deve configurare alcune funzionalità per connettersi alla macchina virtuale".  Nella prossima attività, verrà impostato un NSG per consentire esplicitamente la connessione RDP.
+1. Nel pannello di spostamento a sinistra selezionare **Rete Impostazioni**.  Le sezioni essenziali della finestra principale illustrano l'interfaccia di rete per la macchina virtuale.  Si noti che non è presente alcun elemento elencato accanto al gruppo di sicurezza di rete, perché non esiste un gruppo di sicurezza di rete assegnato all'interfaccia.
 
-
-1. Dal riquadro di spostamento sinistro selezionare **Rete**.  
-    1. La visualizzazione predefinita è per le regole della porta in ingresso.  Si noti che non ci sono gruppi di sicurezza di rete configurati per questa macchina virtuale.  Lo stesso vale se si selezionano regole di porta in uscita.
-    1. Selezionare **Regole di sicurezza valide** accanto a Interfaccia di rete.  Notare il messaggio "All'interfaccia di rete non sono associati gruppi di sicurezza di rete o gruppi di sicurezza delle applicazioni".
-
-1. Lasciare aperta la scheda del browser.
-
+1. Mantenere aperta questa scheda.
 
 ### Attività 2
 
 In questa attività si creerà un gruppo di sicurezza di rete, si assegnerà l'interfaccia di rete della macchina virtuale a tale gruppo di sicurezza di rete e si creerà una nuova regola in ingresso per il traffico RDP.
 
-1. Dalla scheda NSG aperta, *fare clic con il tasto destro del mouse* sul collegamento **Home** nella parte superiore della pagina e selezionare **Apri link in una nuova scheda** per aprire un'altra pagina dei servizi di Azure.
+1. Nella scheda *Apri Azure fare clic con il pulsante destro del **mouse* sul collegamento Home** nella parte superiore della pagina e scegliere **Apri collegamento nella nuova scheda** per aprire un'altra pagina per i servizi di Azure.
 
 1. Nella barra di ricerca di colore blu nella parte superiore della pagina, immettere **Gruppi di sicurezza di rete** e, tra i risultati, selezionare **Gruppi di sicurezza di rete**. Non selezionare *Gruppi di sicurezza di rete (versione classica)*.
 
-1. Nella parte superiore della pagina Gruppi di sicurezza di rete, selezionare **+ Crea**.
+1. Nel centro della pagina selezionare il pulsante blu Con l'etichetta **Crea gruppo** di sicurezza di rete.  In alternativa, è possibile selezionare **+ Crea** nella parte superiore della pagina Gruppi di sicurezza di rete.
 
 1. Nella scheda Informazioni di base della pagina Crea gruppo di sicurezza di rete, specificare le impostazioni seguenti:
     1. Sottoscrizione: lasciare il valore predefinito (si tratta della sottoscrizione di Azure fornita dal provider di servizi di hosting per i lab autorizzato)
@@ -64,15 +58,19 @@ In questa attività si creerà un gruppo di sicurezza di rete, si assegnerà l'i
 
 1. Una volta completata la distribuzione, selezionare **Vai alla risorsa**.
 
-1. Nella parte superiore della pagina, sotto a Informazioni di base, verranno visualizzate alcune informazioni di base sul gruppo di sicurezza di rete creato.  Due punti da notare sono che non sono presenti regole di sicurezza personalizzate e non sono presenti subnet né interfacce di rete associate a questo gruppo di sicurezza di rete.  Anche se non sono presenti regole di sicurezza personalizzate, esistono regole predefinite in ingresso e in uscita incluse in ogni gruppo di sicurezza di rete, come illustrato nella pagina.  Esaminare sia le regole in ingresso che quelle in uscita. Le regole in ingresso predefinite negano tutto il traffico in ingresso che non proviene da una rete virtuale o da un servizio di bilanciamento del carico di Azure.  Le regole in uscita negano tutto il traffico in uscita, ad eccezione del traffico tra reti virtuali e del traffico in uscita verso Internet.
+1. Si dovrebbe essere nella pagina di panoramica per il gruppo di sicurezza di rete appena creato.  In caso contrario, nel pannello di spostamento a sinistra selezionare **Panoramica**. Nella parte superiore della pagina, sotto a Informazioni di base, verranno visualizzate alcune informazioni di base sul gruppo di sicurezza di rete creato.  Due punti da notare sono che non sono presenti regole di sicurezza personalizzate e non sono presenti subnet né interfacce di rete associate a questo gruppo di sicurezza di rete.  Anche se non sono presenti regole di sicurezza personalizzate, esistono regole predefinite in ingresso e in uscita incluse in ogni gruppo di sicurezza di rete, come illustrato nella pagina.  Esaminare sia le regole in ingresso che quelle in uscita. Le regole in ingresso predefinite negano tutto il traffico in ingresso che non proviene da una rete virtuale o da un servizio di bilanciamento del carico di Azure.  Le regole in uscita negano tutto il traffico in uscita, ad eccezione del traffico tra reti virtuali e del traffico in uscita verso Internet.
 
 1. Dal riquadro di spostamento a sinistra nella pagina NSG-SC900, selezionare Impostazioni, quindi **Interfacce di rete**.
     1. Selezionare **Associa**.
-    2. Nel campo per le associazioni di interfaccia di rete, selezionare la **freccia giù**, selezionare **sc900-winvmXXX** e quindi selezionare **OK** nella parte inferiore della finestra. Una volta che l'interfaccia è associata al NSG, verrà visualizzata nell'elenco.
+    2. Nel campo per le associazioni di interfaccia di rete, selezionare la **freccia giù**, selezionare **sc900-winvmXXX** e quindi selezionare **OK** nella parte inferiore della finestra. Una volta che l'interfaccia è associata al NSG, verrà visualizzata nell'elenco.  Il gruppo di sicurezza di rete è ora assegnato all'interfaccia di rete della macchina virtuale.
 
-1. Dal riquadro di spostamento sinistro selezionare **Regole di sicurezza in ingresso**.
+1. Tornare alla **scheda SC900-WinWM - Microsoft Azure** nel browser.  Aggiorna la pagina. Accanto a dove è indicato il gruppo di sicurezza di rete, uou dovrebbe ora visualizzare il nome del gruppo di sicurezza di rete appena creato.  Se ancora non viene visualizzata, attendere un altro minuto e quindi aggiornare di nuovo la pagina.
 
-1. Le regole in ingresso predefinite negano tutto il traffico in ingresso che non proviene da una rete virtuale o da un servizio di bilanciamento del carico di Azure, quindi è necessario configurare una regola per consentire il traffico RDP in ingresso (traffico sulla porta 3389). Tenere presente che non è possibile rimuovere le regole predefinite, ma è possibile sostituirle creando regole con priorità più alte.
+1. Nel pannello di spostamento a sinistra selezionare **Connessione**. Nella finestra principale accanto a dove viene visualizzato il numero di porta 3389 selezionare **Controlla accesso**. La funzione di controllo dell'accesso invia segnali (traffico) alla porta RDP predefinita 3389 della macchina virtuale per verificare se è accessibile. L'operazione potrebbe richiedere un minuto, ma non sarà accessibile.  Questo è previsto, perché la regola DenyAllInBound NSG nega tutto il traffico in ingresso alla macchina virtuale.
+
+1. Tornare alla **scheda NSG-SC900 - Microsoft Azure** nel browser.
+
+1. Dal riquadro di spostamento sinistro selezionare **Regole di sicurezza in ingresso**. Le regole in ingresso predefinite negano tutto il traffico in ingresso che non proviene da una rete virtuale o da un servizio di bilanciamento del carico di Azure, quindi è necessario configurare una regola per consentire il traffico RDP in ingresso (traffico sulla porta 3389). Tenere presente che non è possibile rimuovere le regole predefinite, ma è possibile sostituirle creando regole con priorità più alte.
 
 1. Nella parte superiore della pagina selezionare **Aggiungi**. Nella finestra Aggiungi regola di sicurezza in ingresso specificare le impostazioni seguenti:
     1. Origine: **qualsiasi**
@@ -93,7 +91,7 @@ In questa attività si creerà un gruppo di sicurezza di rete, si assegnerà l'i
 
 In questa attività si testerà la regola del gruppo di sicurezza di rete in ingresso appena creata per verificare che sia possibile stabilire una connessione Desktop remoto (RDP) alla macchina virtuale.  Una volta all'interno della macchina virtuale, si dovrà verificare la connettività in uscita verso Internet dalla macchina virtuale.
 
-1. Aprire la scheda SC900-WinVM – Microsoft Azure nel browser. Se in precedenza è stata chiusa la scheda del browser, aprire una nuova scheda del browser, immettere **https://portal.azure.com** e selezionare **Macchine virtuali**, quindi selezionare la macchina virtuale **SC900-WinVM**.
+1. Aprire la scheda SC900-WinVM – Microsoft Azure nel browser.
 
 1. Dal riquadro di spostamento a sinistra, selezionare **Connetti**.
 
@@ -145,7 +143,6 @@ Nell'attività precedente è stata confermata la possibilità di stabilire una c
 1. Tornare alla macchina virtuale (l'icona RDP della macchina virtuale dovrebbe essere visualizzata sulla barra delle applicazioni nella parte inferiore della pagina).
 
 1. Aprire il browser Edge nella propria macchina virtuale e immettere **www.bing.com**. La pagina non dovrà essere visualizzata. Se si riesce a connettersi a Internet e si è verificata la corretta impostazione di tutti i parametri della regola in uscita, è possibile che ciò avvenga perché la regola impiega alcuni minuti per diventare attiva.  Chiudere il browser, attendere qualche minuto e riprovare. Le sottoscrizioni di Azure nell'ambiente lab potrebbero riscontrare ritardi più lunghi del normale.
-
 
 1. Chiudere Connessione Desktop remoto, selezionando la **X** in alto al centro della pagina dove è indicato l'indirizzo IP.  Viene visualizzata una finestra popup che indica che la sessione remota verrà disconnessa. Seleziona **OK**.
 
