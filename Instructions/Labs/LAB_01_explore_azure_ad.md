@@ -1,10 +1,10 @@
-<!---
 ---
-Lab: Titolo: "Esplorare le impostazioni utente Microsoft Entra ID" Percorso di apprendimento/Modulo/Unità: "Percorso di apprendimento: Descrivere le funzionalità di Microsoft Entra; Modulo 1: Descrivere la funzione e i tipi di identità di Microsoft Entra ID; Unità 3: Descrivere i tipi di identità di Microsoft Entra"
+lab:
+  title: Esplorare l'Impostazioni utente di Microsoft Entra ID
+  module: Describe the function and identity types of Microsoft Entra ID
 ---
---->
 
-# Lab: Esplorare Microsoft Entra ID
+# Lab: Esplorare l'utente di Microsoft Entra ID Impostazioni
 
 Questo lab corrisponde al contenuto di Learn seguente:
 

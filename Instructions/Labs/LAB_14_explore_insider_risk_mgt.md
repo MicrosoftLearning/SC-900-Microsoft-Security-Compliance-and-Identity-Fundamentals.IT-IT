@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Titolo: 'Esplorare la gestione dei rischi Insider in Microsoft Purview' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 4: Descrivere le funzionalità per rischi Insider in Microsoft Purview; Unità 2: Descrivere la gestione dei rischi Insider'
+lab:
+  title: Esplorare la gestione dei rischi Insider in Microsoft Purview
+  module: Describe the insider risk capabilities in Microsoft Purview
 ---
---->
 
 # Lab: Esplorare la gestione dei rischi Insider in Microsoft Purview
 
@@ -77,13 +77,13 @@ In questa attività verranno esaminate le impostazioni per la creazione di un cr
 
 1. Dalla pagina di panoramica di Gestione dei rischi Insider selezionare la scheda **Criteri**, quindi selezionare **+ Crea criterio**.  Configurare ciascuna delle seguenti schede di criteri.
 
-    1. Modello di criterio: nella categoria Perdite di dati selezionare **Perdite di dati**.  Leggere i dettagli associati a questo modello. Nei prerequisiti, i criteri DLP vengono visualizzati con un segno di spunta in un cerchio verde per indicare che il prerequisito è soddisfatto.  È disponibile un criterio di prevenzione della perdita dei dati preconfigurato per questo tenant del lab. Seleziona **Avanti**. 
+    1. Modello di criterio: nella categoria Perdite di dati selezionare **Perdite di dati**.  Leggere i dettagli associati a questo modello. Nei prerequisiti, i criteri DLP vengono visualizzati con un segno di spunta in un cerchio verde per indicare che il prerequisito è soddisfatto.  È disponibile un criterio di prevenzione della perdita dei dati preconfigurato per questo tenant del lab. Selezionare **Avanti**. 
     1. Nome e descrizione: immettere il nome **SC900-InsiderRiskPolicy**, quindi selezionare **Avanti**.
-    1. Utenti e gruppi: esaminare la casella informazioni.  Lasciare l'impostazione predefinita, **Includi tutti gli utenti e i gruppi**.  Seleziona **Avanti**.
+    1. Utenti e gruppi: esaminare la casella informazioni.  Lasciare l'impostazione predefinita, **Includi tutti gli utenti e i gruppi**.  Selezionare **Avanti**.
     1. Contenuti a cui dare priorità: per ogni descrizione, i punteggi di rischio vengono aumentati per qualsiasi attività contenente contenuto prioritario, che a sua volta aumenta la possibilità di generare un avviso di gravità elevata. Per semplicità, selezionare **Non assegnare priorità al contenuto in questo momento** e quindi selezionare **Avanti**.
-    1. Trigger: l'evento di attivazione determina quando un criterio inizierà ad assegnare punteggi di rischio all'attività di un utente.  È possibile scegliere un criterio DLP esistente o se l'utente esegue un'attività di esfiltrazione. Selezionare **Corrispondenza dell'utente con un criterio di prevenzione della perdita dei dati (DLP)** e quindi nell'elenco a discesa selezionare **Dati finanziari USA**. Seleziona **Avanti**.
+    1. Trigger: l'evento di attivazione determina quando un criterio inizierà ad assegnare punteggi di rischio all'attività di un utente.  È possibile scegliere un criterio DLP esistente o se l'utente esegue un'attività di esfiltrazione. Selezionare **Corrispondenza dell'utente con un criterio di prevenzione della perdita dei dati (DLP)** e quindi nell'elenco a discesa selezionare **Dati finanziari USA**. Selezionare **Avanti**.
     1. Indicatori: si noti che tutti gli indicatori di Office selezionati nell'attività precedente sono selezionati (è possibile verificarlo selezionando il tasto freccia in giù accanto agli indicatori di Office), quindi selezionare **Avanti**.
-    1. Nella pagina Opzioni di rilevamento lasciare tutte le impostazioni predefinite, ma leggere la descrizione associata alle varie opzioni e passare il puntatore del mouse sull'icona delle informazioni per ottenere informazioni più dettagliate su un'impostazione specifica.  Seleziona **Avanti**.
+    1. Nella pagina Opzioni di rilevamento lasciare tutte le impostazioni predefinite, ma leggere la descrizione associata alle varie opzioni e passare il puntatore del mouse sull'icona delle informazioni per ottenere informazioni più dettagliate su un'impostazione specifica.  Selezionare **Avanti**.
     1. Nella pagina decidere se usare le soglie predefinite o degli indicatori dei clienti lasciare l'impostazione **predefinita Applica soglie fornite da Microsoft**, quindi selezionare **Avanti**.
     1. Termine: esaminare le impostazioni, selezionare **Invia**.
     1. Esaminare la descrizione di ciò che accade successivamente, quindi selezionare **Fine**.

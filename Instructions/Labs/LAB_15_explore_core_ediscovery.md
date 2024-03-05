@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Titolo: 'Esplorare il flusso di lavoro di eDiscovery (Standard)' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 5: Descrivere le funzionalità eDiscovery e di controllo di Microsoft Purview; Unità 2: Descrivere le soluzioni eDiscovery in Microsoft 365'
+lab:
+  title: Esplorare il flusso di lavoro di eDiscovery (Standard)
+  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
 ---
---->
 
 # Lab: Esplorare il flusso di lavoro di eDiscovery (Standard)
 
@@ -31,7 +31,7 @@ Per accedere a eDiscovery (Standard) o essere aggiunti come membro di un caso di
 
 1. Nel campo della ricerca, immettere **eDiscovery** e premere INVIO sulla tastiera.  Selezionare **Manager di eDiscovery**.
 
-1. Seleziona **Modifica**.  Notare che ci sono due sottogruppi, Manager di eDiscovery e Amministratore di eDiscovery.  
+1. Seleziona **Modifica**  Notare che ci sono due sottogruppi, Manager di eDiscovery e Amministratore di eDiscovery.  
     1. La pagina "Gestisci Manager di eDiscovery" consente di aggiungere utenti al ruolo di Manager di eDiscovery. Per questo lab, verranno aggiunti membri al sottogruppo Amministratore di eDiscovery, quindi selezionare **Avanti**.
     1. Nella pagina "Gestisci Amministratore di eDiscovery", selezionare **Scegli utenti**. Cercare e selezionare **Amministratore MOD** e **Megan Bowen**, quindi premere **Seleziona** nella parte inferiore della pagina, quindi selezionare **Avanti** e **Salva**.
     1. Nella pagina "Il gruppo di ruoli è stato aggiornato correttamente", selezionare **Fine**.
@@ -74,7 +74,7 @@ Ora che è stato creato un caso di eDiscovery (Standard), si può iniziare a lav
 
 1. Nella pagina Scegli posizioni, selezionare **Avanti**.  Per motivi di praticità con il lab, non saranno incluse altre posizioni in questo blocco.
 
-1. La pagina Condizioni della query consente di creare un blocco basato su specifiche parole chiave o condizioni che devono essere soddisfatte. Selezionare **+ Aggiungi condizione** per visualizzare le opzioni disponibili.  Seleziona **Avanti**. Senza alcuna condizione, il blocco conserva tutti i contenuti nella posizione specificata.
+1. La pagina Condizioni della query consente di creare un blocco basato su specifiche parole chiave o condizioni che devono essere soddisfatte. Selezionare **+ Aggiungi condizione** per visualizzare le opzioni disponibili.  Selezionare **Avanti**. Senza alcuna condizione, il blocco conserva tutti i contenuti nella posizione specificata.
 
 1. Esaminare le impostazioni e selezionare **Invia**; potrebbe essere necessario qualche minuto, quindi selezionare **Fine**.  Il blocco della prova dovrebbe apparire nell'elenco.  Se non viene visualizzato immediatamente, selezionare **Aggiorna**.
 
