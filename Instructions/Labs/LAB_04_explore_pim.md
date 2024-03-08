@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Titolo: "Esplorare Privileged Identity Management. " Percorso di apprendimento/Modulo/Unità: "Percorso di apprendimento: Descrivere le funzionalità di Microsoft Entra; Modulo 4: Descrivere le funzionalità di governance e di protezione delle identità di Microsoft Entra; Unità 4: Descrivere le funzionalità di Privileged Identity Management"
+lab:
+  title: Esplorare Privileged Identity Management
+  module: Describe the identity protection and governance capabilities of Microsoft Entra
 ---
---->
 
 # Lab: Esplorare Privileged Identity Management
 

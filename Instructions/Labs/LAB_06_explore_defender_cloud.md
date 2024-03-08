@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Titolo: "Esplorare Microsoft Defender per il cloud" Percorso di apprendimento/Modulo/Unità: "Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 2: Descrivere le funzionalità di gestione della sicurezza di Azure; Unità 3: Descrivere Cloud Security Posture Management"
+lab:
+  title: Esplorare Microsoft Defender per il cloud
+  module: Describe the security management capabilities of Azure
 ---
---->
 
 # Lab: Esplorare Microsoft Defender per il cloud
 
