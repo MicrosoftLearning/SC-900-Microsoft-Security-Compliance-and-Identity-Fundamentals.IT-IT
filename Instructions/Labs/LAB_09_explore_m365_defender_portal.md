@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Titolo: 'Esplorare il portale di Microsoft 365 Defender' Modulo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365; Unità 7: Descrivere il portale di Microsoft 365 Defender'
+lab:
+  title: Esplorare il portale di Microsoft 365 Defender
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # Lab: esplorare il portale di Microsoft 365 Defender
 

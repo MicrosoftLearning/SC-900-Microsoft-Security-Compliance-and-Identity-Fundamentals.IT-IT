@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Titolo: "Esplorare Microsoft Sentinel" Percorso di apprendimento/Modulo/Titolo: "Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 3: Descrivere le funzionalità di sicurezza di Microsoft Sentinel; Unità 3: Descrivere le funzionalità di mitigazione e di rilevamento delle minacce in Microsoft Sentinel"
+lab:
+  title: Esplorare Microsoft Sentinel
+  module: Describe the security capabilities of Microsoft Sentinel
 ---
---->
 
 # Lab: Esplorare Microsoft Sentinel
 
@@ -14,7 +14,7 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 ## Scenario laboratorio
 
-Verrà illustrato il processo di creazione di un'istanza di Microsoft Sentinel.  Verranno anche configurate le autorizzazioni per garantire l'accesso alle risorse che verranno distribuite per supportare Microsoft Sentinel.  Dopo aver completato questa configurazione di base, verranno illustrati i passaggi per connettere Microsoft Sentinel alle origini dati, per configurare una cartella di lavoro e verranno illustrate brevemente alcune delle funzionalità chiave disponibili in Microsoft Sentinel.
+In questo lab verrà illustrato il processo di creazione di un'istanza di Microsoft Sentinel.  Verranno anche configurate le autorizzazioni per garantire l'accesso alle risorse che verranno distribuite per supportare Microsoft Sentinel.  Dopo aver completato questa configurazione di base, verranno illustrati i passaggi per connettere Microsoft Sentinel alle origini dati, per configurare una cartella di lavoro e verranno illustrate brevemente alcune delle funzionalità chiave disponibili in Microsoft Sentinel.
 
 **Tempo stimato:** 45-60 minuti
 

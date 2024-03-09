@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Titolo: 'Esplorare il portale di conformità di Microsoft Purview e Compliance Manager' Percorso di apprendimento/Modulo/Unità: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 2: Descrivere le funzionalità di gestione della conformità in Microsoft Purview; Unità 2: Descrivere il portale di conformità di Microsoft Purview'
+lab:
+  title: Esplorare il portale di conformità di Microsoft Purview e Compliance Manager
+  module: Describe the compliance management capabilities in Microsoft Purview
 ---
---->
 
 # Lab: Esplorare il portale di conformità di Microsoft Purview e Compliance Manager
 

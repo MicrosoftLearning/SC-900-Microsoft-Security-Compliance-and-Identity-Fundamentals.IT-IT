@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Titolo: 'Esplorare Service Trust Portal' Percorso di apprendimento: 'Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 1: Descrivere le funzionalità di gestione della conformità in Microsoft; Unità 2: Esplorare Service Trust Portal'
+lab:
+  title: Esplorare Service Trust Portal
+  module: Describe the compliance management capabilities at Microsoft
 ---
---->
 
 # Lab: Esplorare Service Trust Portal
 
