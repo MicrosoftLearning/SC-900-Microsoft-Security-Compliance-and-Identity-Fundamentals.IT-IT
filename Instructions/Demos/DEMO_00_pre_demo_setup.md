@@ -5,6 +5,7 @@ Configurazione pre-demo: Titolo: 'Configurazione della demo'
 --->
 
 ## Tenant WWL: condizioni per l'utilizzo
+
 Se, nell'ambito di una consegna di un corso con istruttore, viene fornito un tenant, tenere presente che il tenant viene messo a disposizione per supportare i lab pratici di tale corso.
 
 I tenant non devono essere condivisi o usati per scopi diversi dai lab pratici. Il tenant utilizzato in questo corso è un tenant di valutazione e non può essere utilizzato o reso accessibile dopo il termine della lezione e non è idoneo per l'estensione.
