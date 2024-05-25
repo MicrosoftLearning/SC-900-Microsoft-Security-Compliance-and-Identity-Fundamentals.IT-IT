@@ -24,7 +24,7 @@ Gli abbonati a Microsoft 365 usano già Microsoft Entra ID (noto in precedenza c
 
 1. Apri il browser Microsoft Edge. Nella barra degli indirizzi immettere **[admin.microsoft.com](https://admin.microsoft.com)** e accedere con le credenziali di Microsoft 365 fornite dal provider di servizi di hosting per lab autorizzato (ALH).
     1. Nella finestra Accedi, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio ALH) e quindi selezionare **Avanti**.
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.
 
 1. In Interfacce di amministrazione, selezionare **Identità** (potrebbe essere necessario selezionare **Mostra tutto** e scorrere verso il basso).  Verrà visualizzata una nuova pagina del browser della pagina panoramica dell'Interfaccia di amministrazione di Microsoft Entra. Qui si potranno visualizzare informazioni di base sul tenant Contoso. Scorrendo verso il basso nella finestra principale, si potranno visualizzare anche informazioni su avvisi, feed, funzionalità in evidenza e altro ancora.
@@ -112,4 +112,4 @@ In questa attività, si effettuerà l'accesso come Sara Perez per la prima volta
 
 ### Revisione
 
-In questo lab è stata avviata l'esplorazione iniziale di Azure AD. Poiché gli abbonati a Microsoft 365 usano automaticamente Azure AD, si scoprirà di poter accedere alle funzionalità e ai servizi di Azure AD tramite il portale di amministrazione di Microsoft 365 o tramite il portale di Azure.  Qualunque approccio si preferisca si arriva alla stessa posizione.  Sono stati anche illustrati in modo dettagliato il processo di creazione di un nuovo utente e le diverse impostazioni configurabili, inclusi i gruppi a cui è possibile assegnare l'utente, la disponibilità dei ruoli e l'assegnazione di licenze utente.
+In questo lab è stata avviata l'esplorazione iniziale di Microsoft Entra ID. Poiché gli abbonati a Microsoft 365 usano automaticamente Microsoft Entra ID, si è scoperto che si accede alle funzionalità e ai servizi di Microsoft Entra ID tramite il portale di amministrazione di Microsoft 365 o tramite il portale di Azure.  Qualunque approccio si preferisca si arriva alla stessa posizione.  Sono stati anche illustrati in modo dettagliato il processo di creazione di un nuovo utente e le diverse impostazioni configurabili, inclusi i gruppi a cui è possibile assegnare l'utente, la disponibilità dei ruoli e l'assegnazione di licenze utente.
