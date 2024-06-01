@@ -25,7 +25,7 @@ Esplorare la home page del portale di conformità di Microsoft Purview e imparar
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
 1. Accedere utilizzando le credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**. Verrà visualizzata la pagina dell'interfaccia di amministrazione di Microsoft 365.
 
 1. Dal riquadro di spostamento a sinistra dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
