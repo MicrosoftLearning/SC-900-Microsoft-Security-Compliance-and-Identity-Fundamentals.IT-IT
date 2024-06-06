@@ -30,7 +30,7 @@ In questa attività, l'utente, in qualità di amministratore, esaminerà alcune 
 
 1. Apri il browser Microsoft Edge. Nella barra degli indirizzi, inserire **https://entra.microsoft.com** e accedere con le credenziali di amministratore di Microsoft 365 fornite dall'ALH (provider di servizi di hosting per i lab autorizzato)
     1. Nella finestra Accedi, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio ALH) e quindi selezionare **Avanti**.
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.
 
 1. Nel riquadro di spostamento a sinistra, espandere l'opzione **Protezione**, quindi selezionare **Reimpostazione della password**.  

@@ -6,7 +6,7 @@
 | **Numero** | **Nome del lab** | **Collegamento** |
 |------|---------|----|
 | 00 | Attrezzaggio | [LAB_00_setup](LAB_00_setup.md) |
-| 01 | Esplorare l'Impostazioni utente di Microsoft Entra ID | [LAB_01_explore_azure_ad](LAB_01_explore_azure_ad.md) |
+| 01 | Esplorare Microsoft Entra ID Impostazioni utente | [LAB_01_explore_azure_ad](LAB_01_explore_azure_ad.md) |
 | 02 | Reimpostazione della password self-service di Microsoft Entra | [LAB_02_explore_azure_sspr](LAB_02_explore_azure_sspr.md) |
 | 03 | Accesso condizionale Microsoft Entra | [LAB_03_explore_cond_access](LAB_03_explore_cond_access.md) |
 | 04 | Esplorare Privileged Identity Management | [LAB_04_explore_pim](LAB_04_explore_pim.md) |

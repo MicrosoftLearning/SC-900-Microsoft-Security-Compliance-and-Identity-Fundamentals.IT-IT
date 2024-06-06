@@ -43,7 +43,7 @@ In questa attività, l'amministratore dovrà reimpostare la password dell'utente
 
 ### Attività 2
 
-In questa attività verrà illustrato il processo di creazione di criteri di accesso condizionale in Microsoft Entra ID.
+In questa attività, si seguirà il processo di creazione di criteri di accesso condizionale in Microsoft Entra ID.
 
 1. Aprire la scheda del browser con la pagina iniziale dell'interfaccia di amministrazione di Microsoft Entra.   Se la scheda del browser è stata chiusa in precedenza, aprire Microsoft Edge e nella barra degli indirizzi digitare **https://entra.microsoft.com** e accedere con le credenziali di amministrazione di Microsoft 365 fornite dall'ALH.
 

@@ -1,10 +1,10 @@
 ---
 lab:
-  title: Esplorare l'Impostazioni utente di Microsoft Entra ID
+  title: Esplorare le impostazioni utente di Microsoft Entra ID
   module: Describe the function and identity types of Microsoft Entra ID
 ---
 
-# Lab: Esplorare l'utente di Microsoft Entra ID Impostazioni
+# Laboratorio: Esplorare le impostazioni utente di Microsoft Entra ID
 
 Questo lab corrisponde al contenuto di Learn seguente:
 
@@ -112,4 +112,4 @@ In questa attività, si effettuerà l'accesso come Sara Perez per la prima volta
 
 ### Revisione
 
-In questo lab è stata avviata l'esplorazione iniziale di Microsoft Entra ID. Poiché gli abbonati a Microsoft 365 usano automaticamente Microsoft Entra ID, si è scoperto che si accede alle funzionalità e ai servizi di Microsoft Entra ID tramite il portale di amministrazione di Microsoft 365 o tramite il portale di Azure.  Qualunque approccio si preferisca si arriva alla stessa posizione.  Sono stati anche illustrati in modo dettagliato il processo di creazione di un nuovo utente e le diverse impostazioni configurabili, inclusi i gruppi a cui è possibile assegnare l'utente, la disponibilità dei ruoli e l'assegnazione di licenze utente.
+In questo lab è stata avviata l'esplorazione iniziale di Microsoft Entra ID. Poiché gli abbonati di Microsoft 365 accedono automaticamente utilizzando Microsoft Entra ID, si è scoperto che è possibile accedere alle funzionalità e ai servizi di Microsoft Entra ID tramite il portale di amministrazione Microsoft 365 o il portale di Azure.  Qualunque approccio si preferisca si arriva alla stessa posizione.  Sono stati anche illustrati in modo dettagliato il processo di creazione di un nuovo utente e le diverse impostazioni configurabili, inclusi i gruppi a cui è possibile assegnare l'utente, la disponibilità dei ruoli e l'assegnazione di licenze utente.
