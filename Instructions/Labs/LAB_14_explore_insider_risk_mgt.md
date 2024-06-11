@@ -84,7 +84,7 @@ In questa attività verranno esaminate le impostazioni per la creazione di un cr
     1. Trigger: l'evento di attivazione determina quando un criterio inizierà ad assegnare punteggi di rischio all'attività di un utente.  È possibile scegliere un criterio DLP esistente o se l'utente esegue un'attività di esfiltrazione. Selezionare **Corrispondenza dell'utente con un criterio di prevenzione della perdita dei dati (DLP)** e quindi nell'elenco a discesa selezionare **Dati finanziari USA**. Selezionare **Avanti**.
     1. Indicatori: si noti che tutti gli indicatori di Office selezionati nell'attività precedente sono selezionati (è possibile verificarlo selezionando il tasto freccia in giù accanto agli indicatori di Office), quindi selezionare **Avanti**.
     1. Nella pagina Opzioni di rilevamento lasciare tutte le impostazioni predefinite, ma leggere la descrizione associata alle varie opzioni e passare il puntatore del mouse sull'icona delle informazioni per ottenere informazioni più dettagliate su un'impostazione specifica.  Selezionare **Avanti**.
-    1. Nella pagina decidere se usare le soglie predefinite o degli indicatori dei clienti lasciare l'impostazione **predefinita Applica soglie fornite da Microsoft**, quindi selezionare **Avanti**.
+    1. Nella pagina Decidere se usare le soglie predefinite o degli indicatori dei clienti lasciare l'impostazione predefinita **Applica soglie fornite da Microsoft**, quindi selezionare **Avanti**.
     1. Termine: esaminare le impostazioni, selezionare **Invia**.
     1. Esaminare la descrizione di ciò che accade successivamente, quindi selezionare **Fine**.
 

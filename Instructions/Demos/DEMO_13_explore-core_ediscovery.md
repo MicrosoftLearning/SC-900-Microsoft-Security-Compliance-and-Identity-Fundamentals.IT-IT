@@ -28,7 +28,7 @@ Per accedere a eDiscovery (Standard) o essere aggiunti come membro di un caso di
 
 1. Nel campo di ricerca immettere **eDiscovery** e quindi selezionare l'icona della ricerca (lente d'ingrandimento).  Selezionare **Manager di eDiscovery**.  Notare i ruoli nel gruppo di ruoli.
 
-1. Seleziona **Modifica**.  Notare che ci sono due sottogruppi, Manager di eDiscovery e Amministratore di eDiscovery.  
+1. Seleziona **Modifica**  Notare che ci sono due sottogruppi, Manager di eDiscovery e Amministratore di eDiscovery.  
     1. La pagina "Gestisci Manager di eDiscovery" consente di aggiungere utenti al ruolo di Manager di eDiscovery. Per questa prima demo, verranno aggiunti membri al sottogruppo Amministratore di eDiscovery, quindi selezionare **Avanti**.
     1. Nella pagina "Gestisci Amministratore di eDiscovery", selezionare **Scegli utenti**. Cercare e selezionare **Amministratore MOD** e **Megan Bowen**, quindi premere **Seleziona** nella parte inferiore della pagina, quindi selezionare **Avanti** e **Salva**.
     1. Nella pagina "Il gruppo di ruoli è stato aggiornato correttamente", selezionare **Fine**.
@@ -67,7 +67,7 @@ Ora che è stato creato un caso di eDiscovery (Standard), si può iniziare a lav
 
 1. Nella pagina Scegli posizioni, selezionare **Avanti**.  Per motivi di praticità con la demo, non saranno incluse altre posizioni in questo blocco.
 
-1. La pagina Condizioni della query consente di creare un blocco basato su specifiche parole chiave o condizioni che devono essere soddisfatte. Selezionare **+ Aggiungi condizione** per visualizzare le opzioni disponibili.  Seleziona **Avanti**. Senza alcuna condizione, il blocco conserva tutti i contenuti nella posizione specificata.
+1. La pagina Condizioni della query consente di creare un blocco basato su specifiche parole chiave o condizioni che devono essere soddisfatte. Selezionare **+ Aggiungi condizione** per visualizzare le opzioni disponibili.  Selezionare **Avanti**. Senza alcuna condizione, il blocco conserva tutti i contenuti nella posizione specificata.
 
 1. Esaminare le impostazioni e selezionare **Invia**; potrebbe essere necessario qualche minuto, quindi selezionare **Fine**.  Il blocco della prova dovrebbe apparire nell'elenco.  Se non viene visualizzato immediatamente, selezionare **Aggiorna**.
 

@@ -53,7 +53,7 @@ In questa attività, verrà acquisita una comprensione delle funzioni delle etic
     1. L'ultima opzione di configurazione consiste nell'assegnare un nome al criterio.  Poiché si sta modificando il criterio, il campo del nome è disattivato. Selezionare **Avanti** nella parte inferiore della pagina.
     1. Esaminare le impostazioni dei criteri. Selezionare **Annulla** per rimuovere le modifiche e tornare alla pagina Criteri delle etichette.
 
-1. Nel pannello di spostamento a sinistra, in Protezione delle informazioni, selezionare Etichettatura automatica. Esaminare la descrizione. Tenere presente la creazione di criteri di etichettatura automatica per applicare automaticamente etichette di riservatezza ai messaggi di posta elettronica o ai file di OneDrive e SharePoint, che contengono informazioni riservate. Nessun criterio di etichettatura automatica è stato preconfigurato nel tenant. Per creare un nuovo criterio di etichettatura automatica, selezionare **Crea criterio di etichettatura automatica**.  In questa sezione vengono illustrati i passaggi per la creazione di un nuovo criterio.
+1. Nel riquadro di spostamento a sinistra, in Protezione delle informazioni, selezionare Etichettatura automatica. Esaminare la descrizione. Tenere presente la creazione di criteri di etichettatura automatica per applicare automaticamente etichette di riservatezza ai messaggi di posta elettronica o ai file di OneDrive e SharePoint, che contengono informazioni riservate. Nessun criterio di etichettatura automatica è stato preconfigurato nel tenant. Per creare un nuovo criterio di etichettatura automatica, selezionare **Crea criterio di etichettatura automatica**.  In questa sezione vengono illustrati i passaggi per la creazione di un nuovo criterio.
     1. Per iniziare, scegliere le informazioni a cui applicare l'etichetta.  Notare le le opzioni disponibili.  Selezionare **Medici e integrità**, quindi selezionare uno dei modelli disponibili.  Selezionare **Avanti**.
     1. È possibile assegnare un nome al criterio di etichettatura automatica o usare il nome predefinito.  Selezionare **Avanti**.
     1. È possibile assegnare le unità di amministrazione a cui si applica questo criterio.  Mantenere le impostazioni predefinite sull'elenco completo, quindi selezionare **Avanti**.
@@ -77,7 +77,7 @@ In questa attività, verrà eseguito il processo di applicazione di un'etichetta
 
 1. In Crea nuovo, selezionare **Documento vuoto**, quindi immettere del testo nella pagina.  Nella parte superiore della pagina selezionare la freccia in giù accanto a Documento - Salvato, nella casella Nome file immettere **Etichetta di test** e quindi premere **INVIO**.
 
-1. All'estrema destra della barra dei menu superiore (detta anche barra multifunzione) è presente una freccia giù, selezionarla e quindi selezionare Barra multifunzione **** classica.  In questo modo sarà più semplice identificare l'icona di riservatezza. Selezionare **Riservatezza**, accanto all'icona del microfono. Dal menu a discesa selezionare **Confidential-Finance**.  
+1. All'estrema destra della barra del menu superiore (detta anche barra multifunzione) è presente una freccia verso il basso, selezionarla, quindi selezionare **Barra multifunzione classica**.  In questo modo sarà più semplice identificare l'icona di riservatezza. Selezionare **Riservatezza**, accanto all'icona del microfono. Nel menu a discesa selezionare **Riservato-Finanza**.  
 
 1. Nella barra dei menu superiore, selezionare **Visualizza**, quindi selezionare **Visualizzazione di lettura**.
 

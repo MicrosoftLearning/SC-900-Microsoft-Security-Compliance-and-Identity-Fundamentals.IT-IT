@@ -24,7 +24,7 @@ In questa attività, l'amministratore dovrà reimpostare la password dell'utente
 
 1. Aprire Microsoft Edge.  Nella barra degli indirizzi, immettere **https://entra.microsoft.com** e accedere con le proprie credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
-    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
+    1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.
 
 1. Nel riquadro di spostamento a sinistra, espandere **Identità**, **Utenti**, quindi selezionare **Tutti gli utenti**.
@@ -43,7 +43,7 @@ In questa attività, l'amministratore dovrà reimpostare la password dell'utente
 
 ### Attività 2
 
-In questa attività, si seguirà il processo di creazione di criteri di accesso condizionale in Azure AD.
+In questa attività, si seguirà il processo di creazione di criteri di accesso condizionale in Microsoft Entra ID.
 
 1. Aprire la scheda del browser con la pagina iniziale dell'interfaccia di amministrazione di Microsoft Entra.   Se la scheda del browser è stata chiusa in precedenza, aprire Microsoft Edge e nella barra degli indirizzi digitare **https://entra.microsoft.com** e accedere con le credenziali di amministrazione di Microsoft 365 fornite dall'ALH.
 
@@ -87,7 +87,7 @@ In questa attività si vedrà l'impatto dei criteri di accesso condizionale dal 
 
 1. Aprire Microsoft Edge.  Nella barra degli indirizzi, immettere **https://login.microsoftonline.com**.
     1. Accedere come **DebraB@WWLxZZZZZZ.onmicrosoft.com**, dove ZZZZZZ è l'ID del tenant univoco fornito dal provider di hosting del lab, quindi selezionare **Avanti**.
-    1. Immettere la password annotata nell'attività precedente. Selezionare **Accedi**.
+    1. Immettere la password annotata nell'attività precedente. Fare clic su **Accedi**.
     1. Poiché la password fornita quando, in qualità di amministratore, è stata reimpostata è temporanea, sarà necessario aggiornare la password (questo non fa parte dei criteri MFA). Immettere la password attuale, quindi immettere una nuova password e confermarla.  Annotare la nuova password, poiché sarà necessaria per completare l'attività.
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.  L'accesso all'account Microsoft 365 dovrebbe essere completato. L'autenticazione MFA non è richiesta per questa applicazione, in quanto non fa parte del criterio.
 
