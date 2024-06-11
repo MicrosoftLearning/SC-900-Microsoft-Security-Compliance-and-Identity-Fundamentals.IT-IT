@@ -43,7 +43,7 @@ In questa attività, in qualità di amministratore, reimpostare la password per 
 
 ### Attività 2
 
-In questa attività l'utente, in qualità di amministratore, assegnerà a Diego un ruolo in Azure AD in Privileged Identity Management.
+In questa attività, in qualità di amministratore, assegnerà a Diego un ruolo di ID Entra Microsoft in Privileged Identity Management.
 
 1. Aprire la scheda del browser per raggiungere la home page dell'interfaccia di amministrazione di Microsoft Entra.
 
@@ -108,9 +108,9 @@ In questa attività, l'utente, in qualità di Diego Siciliani, effettuerà l'acc
 1. Viene richiesto se si vuole rimanere connessi.  Selezionare **Sì**.
 1. Verrà visualizzata la finestra Attiva amministratore utente.  È necessario immettere un motivo per l'attivazione.  Nella casella visualizzata, inserire il motivo desiderato (massimo 500 caratteri), quindi selezionare **Attiva**.
 1. Durante l'elaborazione dell'attivazione verrà visualizzato il relativo stato (3 stadi di avanzamento).
-1. Al termine dell'attivazione, viene nuovamente visualizzata la pagina Ruoli personali | Ruoli di Azure AD, dove sarà visibile una notifica indicante che è stato attivato un ruolo.  Selezionare **Fai clic qui** per visualizzare i ruoli attivi.  Se si nota che l'ora di fine è diversa da quella originariamente configurata, selezionare il pulsante di aggiornamento nella parte superiore della pagina (l'aggiornamento potrebbe richiedere alcuni minuti).
+1. Una volta completata l'attivazione, si torna ai ruoli personali | Pagina dei ruoli ID di Microsoft Entra, in cui verrà visualizzata una notifica che informa che è stato attivato un ruolo.  Selezionare **Fai clic qui** per visualizzare i ruoli attivi.  Se si nota che l'ora di fine è diversa da quella originariamente configurata, selezionare il pulsante di aggiornamento nella parte superiore della pagina (l'aggiornamento potrebbe richiedere alcuni minuti).
 1. Tornare alla pagina iniziale dell'interfaccia di amministrazione di Microsoft Entra selezionando **Home** dal riquadro di spostamento a sinistra. 
-1. In qualità di Amministratore utenti di Azure AD, è possibile creare utenti e gruppi, gestire licenze e altro ancora. Nel riquadro di spostamento a sinistra, espandere **Identità**, selezionare **Utenti**, quindi selezionare **Tutti gli utenti**.
+1. In qualità di amministratore utente di Microsoft Entra ID, è possibile creare utenti e gruppi, gestire licenze e altro ancora. Nel riquadro di spostamento a sinistra, espandere **Identità**, selezionare **Utenti**, quindi selezionare **Tutti gli utenti**.
 1. Dall'elenco degli utenti, selezionare **Bianca Pisani**.
 1. Dal riquadro di spostamento a sinistra, selezionare **Licenze**.
 1. Notate che Bianca non ha alcuna licenza assegnata.  Nella parte superiore della pagina, selezionare **+ Assegnazioni**.
@@ -122,4 +122,4 @@ In questa attività, l'utente, in qualità di Diego Siciliani, effettuerà l'acc
 
 ### Revisione
 
-In questo lab, si è esplorato PIM.  L'utente, in qualità di amministratore, ha configurato Diego con i privilegi di amministratore utente per un determinato periodo di tempo.  Quindi l'utente, come Diego, ha seguito il processo di abilitazione dei privilegi di amministrazione dell'utente e della relativa configurazione delle impostazioni.  Tenere presente che PIM richiede la licenza di Azure AD Premium P2.
+In questo lab, si è esplorato PIM.  L'utente, in qualità di amministratore, ha configurato Diego con i privilegi di amministratore utente per un determinato periodo di tempo.  Quindi l'utente, come Diego, ha seguito il processo di abilitazione dei privilegi di amministrazione dell'utente e della relativa configurazione delle impostazioni.  Tenere presente che PIM richiede licenze Microsoft Entra ID Premium P2.
