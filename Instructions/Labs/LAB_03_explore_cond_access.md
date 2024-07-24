@@ -67,7 +67,7 @@ In questa attività, si seguirà il processo di creazione di criteri di accesso 
 
 1. Nel campo sotto la dicitura **Seleziona a cosa si applica questo criterio**, selezionare la freccia giù e prendere nota delle opzioni disponibili.  Mantenere l'impostazione predefinita, **App cloud**.  Assicurarsi che la scheda **Includi** sia sottolineata.  Selezionare **Seleziona app**, quindi sotto la casella **Seleziona**, selezionare **Nessuna**.  Viene visualizzata la finestra Seleziona app cloud.
 
-1. Nella barra di ricerca, immettere **Azure**.  Dai risultati della ricerca visualizzati nella casella di ricerca, selezionare **Portali di amministrazione di Microsoft**, quindi selezionare **Seleziona** nella parte inferiore della pagina.  Notare l'avviso.  
+1. Selezionare **Portali** di amministrazione Microsoft, quindi premere **Seleziona** nella parte inferiore della pagina.  Notare l'avviso.  
 
 1. In Condizioni, selezionare **0 condizioni selezionate**.  Notare le diverse opzioni che si possono configurare.  Attraverso il criterio, è possibile controllare l'accesso degli utenti in base a segnali provenienti da condizioni quali: rischio utente, rischio accesso, piattaforma dispositivo, posizione, app client o filtro per dispositivi.  Esplorare queste opzioni configurabili, ma non impostare alcuna condizione.
 
