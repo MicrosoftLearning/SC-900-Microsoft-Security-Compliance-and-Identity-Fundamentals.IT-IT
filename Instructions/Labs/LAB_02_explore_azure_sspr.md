@@ -77,7 +77,7 @@ In questa attività, l'utente, in qualità di amministratore, aggiungerà al gru
 
 ### Attività 3
 
-In questa attività, l'utente Sara Perez dovrà eseguire il processo di registrazione per la reimpostazione della password self-service.  Questa attività richiede l'accesso a un dispositivo mobile su cui ricevere SMS o l'accesso a un account di posta elettronica personale
+In questa attività, l'utente Sara Perez dovrà eseguire il processo di registrazione per la reimpostazione della password self-service.  Questa attività richiede l'accesso a un dispositivo mobile in cui è possibile ricevere sms.
 
 1. Aprire Microsoft Edge e nella barra degli indirizzi, immettere **https://login.microsoft.com**.
 
@@ -85,8 +85,10 @@ In questa attività, l'utente Sara Perez dovrà eseguire il processo di registra
 
 1. Verrà visualizzato un messaggio popup in cui è indicato che sono necessarie ulteriori informazioni.  Questo perché, come membro del gruppo SSPRSecurityGroupUsers, la configurazione richiede che i propri membri si registrino quando effettuano l'accesso.  Seleziona il pulsante **Avanti**.  Nota: un'alternativa alla registrazione degli utenti è la configurazione diretta dei metodi di autenticazione da parte degli amministratori quando aggiungono un utente. Questo richiede che gli amministratori conoscano e impostino i numeri di telefono e gli indirizzi di posta elettronica usati dagli utenti per la reimpostazione della password self-service e che reimpostino la password di un utente.
 
-1. Viene visualizzata la pagina "Proteggi l'account".  La finestra visualizzata è relativa al metodo di autenticazione Telefono; se non si dispone di un dispositivo mobile in grado di ricevere messaggi di testo, andare al passaggio successivo.  Viene richiesta l'immissione di un numero di telefono. Assicurarsi che l'opzione **Invia un SMS** sia attivata.   Immettere il numero di telefono dove è possibile ricevere un SMS e selezionare il **pulsante Avanti**.  Si apre una nuova finestra, la quale indica che è stato inviato un codice al numero di telefono immesso.  Immettere il codice ricevuto e selezionare **Avanti**. Viene visualizzata una finestra che indica l'esito positivo dell'operazione mostrando il metodo di accesso predefinito.  Selezionare **Fatto**.  
-    1. In alternativa, è possibile configurare un metodo diverso, come illustrato in basso a sinistra nella finestra.  Se si sceglie di configurare un metodo diverso, selezionare **Si vuole configurare un metodo diverso**. Viene visualizzata una finestra popup con la domanda Specificare il metodo da usare.  Nell'elenco a discesa, selezionare il metodo preferito, **Posta elettronica** e quindi selezionare il pulsante **Conferma**.  Immettere l'e-mail che si desidera utilizzare, quindi selezionare **Avanti**.  Si apre una nuova finestra, la quale indica che è stato inviato un codice all'indirizzo di posta elettronica immesso.  Accedere all'e-mail inserita per ottenere il codice.  Immettere il codice ricevuto e selezionare **Avanti**. Viene visualizzata una finestra che indica l'esito positivo dell'operazione mostrando il metodo di accesso predefinito.  Selezionare **Fatto**.
+1. Viene visualizzata la pagina "Proteggi l'account".  La finestra visualizzata è per il metodo Microsoft Authenticator che richiede l'app di autenticazione.  Per questo lab si userà un metodo diverso per evitare il passaggio di dover scaricare l'applicazione.  Selezionare **Voglio usare un metodo** diverso.
+    1. Nella finestra popup visualizzata selezionare la freccia a discesa e selezionare **Telefono**, quindi conferma****.
+    1. Viene richiesta l'immissione di un numero di telefono. Verificare che l'opzione **Ricevi un codice** sia abilitata.   Immettere il numero di telefono in cui è possibile ricevere il codice e selezionare **Avanti**.  
+    1. Si apre una nuova finestra, la quale indica che è stato inviato un codice al numero di telefono immesso.  Immettere il codice ricevuto e selezionare **Avanti**. Viene visualizzata una finestra che indica che il codice è stato vierified. Selezionare ****Avanti** e quindi Fine**.  
 
 1. È ora possibile completare l'accesso. Se si nota che il tempo per l'accesso è scaduto, immettere nuovamente la password.
 
@@ -108,7 +110,7 @@ In questa attività, l'utente Sara Perez dovrà eseguire il processo di reimpost
 
 1. Nella casella vuota, immettere i caratteri visualizzati nell'immagine o le parole dell'audio. Una volta effettuata questa operazione, selezionare **Avanti**.
 
-1. Viene visualizzata la schermata Recupera l'accesso al tuo account che mostra il passaggio di verifica 1 > scegli una nuova password. Lasciare l'impostazione predefinita **Invia SMS sul telefono cellulare**.  Viene richiesta l'immissione del proprio numero di telefono cellulare.  Una volta effettuata questa operazione, selezionare il **pulsante SMS**.  Se durante la registrazione è stata selezionata la posta elettronica come metodo, nella finestra Ripristina l'accesso al tuo account verrà indicato che si riceverà un messaggio di posta elettronica contenente un codice di verifica all'indirizzo di posta elettronica alternativo.  Seleziona **E-mail**.
+1. Viene visualizzata la schermata Recupera l'accesso al tuo account che mostra il passaggio di verifica 1 > scegli una nuova password. Lasciare l'impostazione predefinita **Invia SMS sul telefono cellulare**.  Viene richiesta l'immissione del proprio numero di telefono cellulare.  Una volta effettuata questa operazione, selezionare il **pulsante SMS**. 
 
 1. Immettere il codice di verifica e quindi selezionare **Avanti**.
 
@@ -118,7 +120,7 @@ In questa attività, l'utente Sara Perez dovrà eseguire il processo di reimpost
 
 1. Nella casella di informazioni Selezionare un account scegliere **sara@WWLxZZZZZZ.onmicrosoft.com**, immettere la nuova password e quindi selezionare il pulsante **Accedi**.  Se viene richiesto se si vuole rimanere connessi, selezionare **No**.
 
-1. A questo punto ci si dovrebbe trovare nel portale di Office.
+1. A questo momento si dovrebbe accedere all'account Microsoft di Sara.
 
 1. Disconnettersi selezionando l'icona utente accanto all'indirizzo e-mail nell'angolo in alto a destra dello schermo e selezionando **Esci**. Chiudere quindi tutte le finestre del browser
 

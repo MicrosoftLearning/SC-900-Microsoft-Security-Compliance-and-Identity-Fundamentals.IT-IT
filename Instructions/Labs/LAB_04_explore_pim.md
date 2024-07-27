@@ -114,7 +114,7 @@ In questa attività, l'utente, in qualità di Diego Siciliani, effettuerà l'acc
 1. Dall'elenco degli utenti, selezionare **Bianca Pisani**.
 1. Dal riquadro di spostamento a sinistra, selezionare **Licenze**.
 1. Notate che Bianca non ha alcuna licenza assegnata.  Nella parte superiore della pagina, selezionare **+ Assegnazioni**.
-1. Dall'elenco delle licenze selezionate, selezionare **Office 365 E3** e **Windows 10 Enterprise E3**.
+1. Nell'elenco seleziona licenze selezionare **Microsoft Power Apps for Developer** e **Microsoft Power Automate Gratuito**.
 1. Nella parte inferiore della pagina, selezionare **Salva**.  In alto a destra nella pagina verrà visualizzata una breve notifica che indica che le licenze sono state assegnate.
 1. Chiudere la pagina di assegnazione delle licenze aggiornate, selezionando la **X** nell'angolo superiore destro della pagina.
 1. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo e-mail nell'angolo in alto a destra della schermata, quindi **Disconnetti**. Chiudere quindi tutte le finestre del browser.

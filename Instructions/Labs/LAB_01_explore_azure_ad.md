@@ -79,7 +79,7 @@ Gli abbonati a Microsoft 365 usano già Microsoft Entra ID (noto in precedenza c
 
     1. Per aggiungere una licenza, selezionare **+ Assegnazioni** nella parte superiore della finestra principale.
 
-    1. In Selezionare le licenze scegliere **Office 365 E3** e **Windows 10/11 Enterprise E3**, quindi selezionare il pulsante **Salva** in fondo alla pagina. Una notifica nell'angolo superiore a destra della schermata dovrebbe indicare che le assegnazioni di licenza sono state eseguite correttamente.
+    1. In Seleziona licenze selezionare **Microsoft Power Apps for Developer** e **Microsoft Power Automate Free** e quindi selezionare il **pulsante Salva** nella parte inferiore della schermata. Una notifica nell'angolo superiore a destra della schermata dovrebbe indicare che le assegnazioni di licenza sono state eseguite correttamente.
 
     1. Selezionare la **X** in alto a destra della schermata per chiudere la finestra Assegnazioni di licenza.
 
@@ -106,7 +106,7 @@ In questa attività, si effettuerà l'accesso come Sara Perez per la prima volta
 
 6. Nel campo Nuova password immettere una nuova password, confermarla e quindi selezionare **Accedi**.  Prendere nota della nuova password perché sarà necessaria per l'esercizio del lab successivo sulla reimpostazione della password self-service.
 
-7. Dovrebbe essere stato effettuato l'accesso a Microsoft 365.
+7. A questo momento dovrebbe essere eseguito l'accesso all'account Microsoft di Sara.  Si noti che le licenze di Sara assegnate nell'attività precedente erano limitate solo a Power Automate Gratuito e Power Apps for Developer e non includevano le licenze E5.
 
 8. Per disconnettersi, selezionare l'icona nell'angolo superiore destro della finestra di Microsoft 365 visualizzata come cerchio con le lettere SP (accanto all'icona del punto interrogativo), quindi selezionare **Disconnetti** e infine chiudere il browser.
 
