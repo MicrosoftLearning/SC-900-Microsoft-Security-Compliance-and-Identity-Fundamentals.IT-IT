@@ -41,15 +41,15 @@ In questa attività, l'utente, in qualità di amministratore, esaminerà alcune 
 
 1. In Numero di metodi richiesti per la reimpostazione, selezionare **1**. Notare la casella di informazioni sullo schermo.
 
-1. Notare i diversi metodi a disposizione degli utenti.  **E-mail** e **Telefono cellulare (solo SMS)** dovrebbero essere già selezionati; in caso contrario, selezionarli.
+1. Notare i diversi metodi a disposizione degli utenti.  **La posta elettronica** e **il telefono** cellulare devono essere già controllati; in caso contrario, selezionarli.
 
 1. Nel riquadro di spostamento a sinistra di Reimpostazione della password, selezionare **Registrazione**.  
 
-1. Assicurarsi che l'impostazione "Richiedi agli utenti di registrarsi all'accesso" sia impostata su **Sì**.  Lasciare l'opzione Numero di giorni prima che agli utenti venga chiesto di riconfermare le informazioni di autenticazione impostata sul valore predefinito 180.   Notare la casella di informazioni sulla pagina.
+1. Assicurarsi che l'impostazione "Richiedi agli utenti di registrarsi all'accesso" sia impostata su **Sì**.  Lasciare il valore predefinito **180** per il numero di giorni prima che agli utenti venga chiesto di riconfermare le informazioni di autenticazione.   Notare la casella di informazioni sulla pagina.
 
 1. Dal riquadro di spostamento a sinistra di Reimpostazione della password, selezionare **Notifiche**.  
 
-1. Assicurarsi che l'impostazione "Inviare notifiche agli utenti al momento della reimpostazione della password" sia impostata su **Sì**.  Lasciare l'impostazione "Notificare agli amministratori quando altri amministratori reimpostano le proprie password" su No.
+1. Assicurarsi che l'impostazione "Inviare notifiche agli utenti al momento della reimpostazione della password" sia impostata su **Sì**.  Lasciare l'impostazione Invia una notifica a tutti gli amministratori quando altri amministratori reimpostano la password su **No**.
 
 1. Notare che il riquadro di spostamento Reimpostazione password include anche opzioni per visualizzare i log di controllo e di utilizzo e le informazioni dettagliate.
 
@@ -85,10 +85,10 @@ In questa attività, l'utente Sara Perez dovrà eseguire il processo di registra
 
 1. Verrà visualizzato un messaggio popup in cui è indicato che sono necessarie ulteriori informazioni.  Questo perché, come membro del gruppo SSPRSecurityGroupUsers, la configurazione richiede che i propri membri si registrino quando effettuano l'accesso.  Seleziona il pulsante **Avanti**.  Nota: un'alternativa alla registrazione degli utenti è la configurazione diretta dei metodi di autenticazione da parte degli amministratori quando aggiungono un utente. Questo richiede che gli amministratori conoscano e impostino i numeri di telefono e gli indirizzi di posta elettronica usati dagli utenti per la reimpostazione della password self-service e che reimpostino la password di un utente.
 
-1. Viene visualizzata la pagina "Proteggi l'account".  La finestra visualizzata è per il metodo Microsoft Authenticator che richiede l'app di autenticazione.  Per questo lab si userà un metodo diverso per evitare il passaggio di dover scaricare l'applicazione.  Selezionare **Voglio usare un metodo** diverso.
-    1. Nella finestra popup visualizzata selezionare la freccia a discesa e selezionare **Telefono**, quindi conferma****.
+1. Viene visualizzata la pagina "Proteggi l'account".  La finestra visualizzata è per il metodo Phone.
     1. Viene richiesta l'immissione di un numero di telefono. Verificare che l'opzione **Ricevi un codice** sia abilitata.   Immettere il numero di telefono in cui è possibile ricevere il codice e selezionare **Avanti**.  
-    1. Si apre una nuova finestra, la quale indica che è stato inviato un codice al numero di telefono immesso.  Immettere il codice ricevuto e selezionare **Avanti**. Viene visualizzata una finestra che indica che il codice è stato vierified. Selezionare ****Avanti** e quindi Fine**.  
+    1. Si apre una nuova finestra, la quale indica che è stato inviato un codice al numero di telefono immesso.  Immettere il codice ricevuto e selezionare **Avanti**. Viene visualizzata una finestra che indica che il telefono è stato registrato. Selezionare ****Avanti** e quindi Fine**.  
+    1. Se invece si vuole usare la posta elettronica, selezionare Desidero configurare **un metodo** diverso e seguire la procedura. 
 
 1. È ora possibile completare l'accesso. Se si nota che il tempo per l'accesso è scaduto, immettere nuovamente la password.
 
