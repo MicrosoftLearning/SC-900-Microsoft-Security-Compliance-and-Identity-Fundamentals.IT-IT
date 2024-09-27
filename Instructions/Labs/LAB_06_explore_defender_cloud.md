@@ -31,7 +31,7 @@ In questa attività verranno presente a livello generale alcune delle funzionali
 1. Notare le informazioni disponibili nella pagina Panoramica di Microsoft Defender per il cloud (se vengono visualizzate 0 risorse valutate e raccomandazioni attive, aggiornare la pagina del browser perché per la visualizzazione potrebbero essere richiesti alcuni minuti).  Le informazioni nella parte superiore della pagina includono il numero di sottoscrizioni di Azure, il numero di risorse valutate, il numero di raccomandazioni attive ed eventuali avvisi di sicurezza.  Il corpo principale della pagina contiene schede per Postura di sicurezza, Conformità con le normative, Informazioni dettagliate e altro.  Nota: l'iniziativa di criteri predefinita di Microsoft Defender per il cloud, che normalmente deve essere assegnata dall'amministratore, è già stata assegnata come parte della configurazione della sottoscrizione di Azure. Il punteggio di sicurezza, tuttavia, mostrerà 0% perché possono essere richieste fino a 24 ore prima che Azure indichi un punteggio iniziale.
 
 1. Selezionare **Risorse valutate** nella parte superiore della pagina. 
-    1. Verrà visualizzata la pagina **Inventario** che elenca le risorse correnti. Selezionare la risorsa macchina virtuale **sc900-winwm**. Questa risorsa è associata alla macchina virtuale usata nel lab precedente.
+    1. Verrà visualizzata la pagina **Inventario** che elenca le risorse correnti. Selezionare la risorsa macchina virtuale sc900-winvm****. Questa risorsa è associata alla macchina virtuale usata nel lab precedente.
     1. La pagina Integrità delle risorse per la macchina virtuale offre un elenco di raccomandazioni.  Nell'elenco disponibile selezionare qualsiasi elemento nell'elenco per cui è indicato lo stato **Non integro**.
     1. Notare la descrizione dettagliata.  Selezionare la freccia a discesa accanto a Passaggi per la correzione. Si noti che vengono fornite istruzioni per la correzione (o collegamenti alle istruzioni) insieme all'opzione per intervenire.  Uscire dalla finestra senza eseguire alcuna azione.
     1. Tornare alla pagina Panoramica di Microsoft Defender per il cloud selezionando **Microsoft Defender per il cloud | Panoramica** nella parte superiore della pagina, sopra a Integrità delle risorse.
@@ -52,7 +52,7 @@ In questa attività verranno presente a livello generale alcune delle funzionali
 
 Tenere presente che Microsoft Defender per il cloud è disponibile in due modalità: senza funzionalità di sicurezza avanzate (gratuito) e con funzionalità di sicurezza avanzate disponibili tramite i piani di Microsoft Defender per il cloud. Questa attività illustra come abilitare o disabilitare i vari piani di Microsoft Defender per il cloud.
 
-1. Nella pagina Panoramica di Microsoft Defender per il cloud selezionare **Impostazioni ambiente** nel pannello di spostamento a sinistra.
+1. Nella pagina di panoramica Microsoft Defender per il cloud espandere **Gestione** e selezionare **Impostazioni ambiente** nel pannello di spostamento a sinistra.
 1. Selezionare la casella **Espandi tutto** e quindi selezionare la sottoscrizione **MOC Subscription--lodXXXXXXXX** elencata accanto all'icona della chiave gialla.
 1. Nella pagina dei piani di Defender notare che è possibile selezionare Abilita tutti o selezionare singoli piani di Defender. 
     1. Verificare che lo stato di CSPM sia impostato su **Attivato**. In caso contrario, impostarlo ora.  

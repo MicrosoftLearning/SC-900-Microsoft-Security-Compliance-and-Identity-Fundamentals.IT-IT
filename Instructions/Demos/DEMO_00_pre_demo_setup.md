@@ -14,9 +14,9 @@ I tenant non devono essere convertiti in un abbonamento a pagamento. I tenant ot
 
 ## Configurazione pre-demo del tenant Microsoft 365
 
-### Abilitare log di controllo di Microsoft 365
+### Abilitare il log di controllo e il monitoraggio dei file di Microsoft 365
 
-In questa attività di configurazione si abiliterà la funzionalità Log di controllo in Microsoft 365.  Sebbene la documentazione indichi che il log di controllo è attivato per impostazione predefinita, questa funzionalità non è abilitata per la maggior parte dei tenant dei lab e la sua attivazione potrebbe richiedere parecchie ore.  È vantaggioso abilitare questa funzionalità, poiché Microsoft 365 usa i log di controllo per informazioni dettagliate e attività degli utenti identificate nei criteri e nelle informazioni dettagliate di analisi.
+In questa attività di installazione si abiliteranno le funzionalità di monitoraggio dei log di controllo e dei file in Microsoft 365.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **https://admin.microsoft.com**.
 
@@ -24,31 +24,33 @@ In questa attività di configurazione si abiliterà la funzionalità Log di cont
 
 1. Dal riquadro di spostamento a sinistra dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
 
-1. In Interfacce di amministrazione selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del portale di conformità di Microsoft Purview.  
+1. In Interfacce di amministrazione selezionare **Sicurezza**.  Verrà visualizzata una nuova pagina del browser nella pagina iniziale di Microsoft Defender.  
 
 1. Dal riquadro di spostamento sinistro del portale di conformità di Microsoft Purview selezionare **Mostra tutto**.
 
-1. Nel riquadro di spostamento a sinistra, sotto Soluzioni, selezionare **Controllo**.  Nota: la funzionalità di controllo è accessibile anche tramite la home page di Microsoft 365 Defender.
+1. Nel pannello di spostamento sinistro scorrere verso il basso ed espandere **Sistema**.  Nell'elenco espanso selezionare **Controlla**.  Nota: la funzionalità di controllo è accessibile anche tramite il portale di Microsoft Purview.
 
-1. Verificare che la scheda **Ricerca** sia selezionata (sottolineata).
+1. Una volta atterrato nella pagina Controllo, attendere 1-2 minuti.  Se il controllo NON è abilitato, verrà visualizzata una barra blu nella parte superiore della pagina con l'indicazione di avviare la registrazione delle attività di utenti e amministratori.  Selezionare **Avvia la registrazione delle attività di utenti e amministratori**.  Una volta abilitato il controllo, la barra blu scompare.  Se la barra blu non è presente, il controllo è già abilitato e non sono richieste ulteriori azioni.
 
-1. Una volta visualizzata la pagina Controllo, attendere 2-3 minuti.  Se il controllo NON è abilitato, verrà visualizzata una barra blu nella parte superiore della pagina con l'indicazione di avviare la registrazione delle attività di utenti e amministratori.  Selezionare **Avvia la registrazione delle attività di utenti e amministratori**.  Una volta abilitato il controllo, la barra blu scompare.  Se la barra blu non è presente, il controllo è già abilitato e non sono richieste ulteriori azioni.
+1. Nel pannello di spostamento a sinistra, in Sistema, selezionare **Impostazioni**.
 
-1. Tornare alla home page del portale di conformità di Microsoft Purview selezionando **Home** dal riquadro di spostamento sinistro.
+1. Nella pagina delle impostazioni selezionare **App cloud**.   Scorrere verso il basso, quindi in Information Protection selezionare **File**.
 
-### Monitoraggio file di Microsoft Defender for Cloud Apps
+1. Se non è già abilitato, selezionare la casella accanto a dove è indicato **Abilita monitoraggio** file e quindi selezionare **Salva**.  
 
-In questa attività di configurazione, sarà abilitato il monitoraggio dei file in Microsoft Defender for Cloud Apps.
+### Configurare il ruolo amministratore di conformità
 
-1. Aprire la scheda del browser con l'interfaccia di amministrazione di Microsoft 365.  Se è stata chiusa in precedenza, aprire una nuova scheda del browser, nella barra degli indirizzi digitare **https://admin.microsoft.com** e dal riquadro di spostamento a sinistra dell'interfaccia di amministrazione di Microsoft 365 selezionare **Mostra tutto**.
+In questa attività di configurazione, si aggiungerà se stessi, come amministratore MOD, al gruppo di ruoli Amministratore conformità.
 
-1. In Interfacce di amministrazione selezionare **Sicurezza**.  Viene visualizzata una nuova pagina del browser con la pagina di benvenuto del portale Microsoft 365 Defender.  
-
-1. Nel riquadro di spostamento a sinistra, selezionare **File**, elencato tra le app cloud.
-
-1. Se non già abilitato, è necessario selezionare **Abilita il monitoraggio dei file** e la casella accanto alla dicitura **Abilita il monitoraggio dei file**, quindi selezionare **Salva**.  
-
-1. Nel riquadro di spostamento a sinistra, sotto app cloud, selezionare **File** per tornare alla pagina dei file.  Se il monitoraggio dei file è stato attivato correttamente, le opzioni di filtro dovrebbero essere visualizzate nella parte superiore della pagina.  La visualizzazione dei file del tenant del lab preconfigurato potrebbe richiedere un determinato periodo di tempo.
+1. Aprire una nuova scheda del browser Microsoft Edge. Nella barra degli indirizzi immettere **https://purview.microsoft.com**. Per accedere al nuovo portale di Microsoft Purview, selezionare la casella accanto alla posizione in cui è indicato, **accetto le condizioni per la divulgazione del flusso di dati e le informative** sulla privacy, quindi selezionare **Inizia**.  
+1. Nel pannello di spostamento a sinistra selezionare **Impostazioni**.
+1. Nel pannello di spostamento visualizzato selezionare **Ruoli e con ambito** per espandere l'opzione e quindi selezionare **Gruppi di ruoli**.
+1. Nella casella di ricerca sul lato destro della schermata cercare il termine **Conformità**.  Selezionare **Amministratore** conformità.
+    1. Seleziona **Modifica**
+    1. Selezionare **Scegli utenti**.
+    1. Cercare Amministratore MOD, selezionare la casella accanto a **Amministratore MOD** e quindi selezionare il **pulsante Seleziona** nella parte inferiore della pagina.
+    1. Selezionare Avanti e quindi Salva** e infine Fine****.** ****
+1. In questo modo si conclude la configurazione per il tenant di Microsoft 365, è possibile chiudere le schede del browser.
 
 ## Configurazione pre-demo della sottoscrizione di Azure Cloud Slice
 
@@ -66,6 +68,7 @@ Verificare che la macchina virtuale sia già stata creata. In caso contrario, co
     1. Gruppo di risorse: selezionare **Crea nuovo** e immettere **LabsSC900**, quindi selezionare **OK**.
     1. Nome macchina virtuale: immettere **SC900-WinVM**.
     1. Opzioni di disponibilità: nell'elenco a discesa, selezionare **La ridondanza dell'infrastruttura non è richiesta**.
+    1. Tipo di sicurezza: nell'elenco a discesa selezionare **Standard**.
     1. Immagine: nell'elenco a discesa, selezionare **Windows 11 Pro, versione 22H2 - x64 Gen2** (o qualsiasi immagine di Windows 10 o Window 11 elencata).
     1. Dimensione: selezionare **Visualizza tutte le dimensioni** e selezionare **Standard_B1s**, quindi selezionare **Seleziona** nella parte inferiore della pagina.
     1. Nome utente: immettere **SC900-VM-User**

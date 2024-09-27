@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Titolo: "Esplorare il flusso di lavoro di eDiscovery (Standard)" Percorso di apprendimento/Modulo/Unità: "Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft; Modulo 5: Descrivere le funzionalità eDiscovery e di controllo di Microsoft Purview; Unità 2: Descrivere le soluzioni eDiscovery in Microsoft 365"
+Demo: Title: 'Explore the eDiscovery workflow' Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview; Modulo 3: Descrivere le soluzioni di conformità dei dati di Microsoft Purview; Unità 2: Descrivere eDiscovery'
 ---
 --->
 
@@ -8,38 +8,34 @@ Demo: Titolo: "Esplorare il flusso di lavoro di eDiscovery (Standard)" Percorso 
 
 Questa demo corrisponde al contenuto di Learn seguente:
 
-- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
-- Modulo: Descrivere le funzionalità eDiscovery e di controllo di Microsoft Purview
-- Unità: Descrivere le soluzioni eDiscovery in Microsoft Purview
+- Percorso di apprendimento: Descrivere le funzionalità di Microsoft Priva e Microsoft Purview
+- Modulo: Descrivere le soluzioni di conformità dei dati di Microsoft Purview
+- Unità: Descrivere eDiscovery
 
 ## Scenario dimostrativo
 
-In questa demo verranno illustrati i passaggi necessari per configurare eDiscovery, tra cui la configurazione delle autorizzazioni per i ruoli, la creazione di un caso di eDiscovery, la creazione di un blocco di eDiscovery e la creazione di una query di ricerca.  Le licenze per eDiscovery (Standard) richiedono un abbonamento dell'organizzazione appropriata e licenze per utente. In caso di dubbi sulle licenze che supportano eDiscovery (Standard), vedere [Attività iniziali con eDiscovery (Standard) in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+In questa demo verranno illustrati i passaggi necessari per configurare eDiscovery, tra cui la configurazione delle autorizzazioni per i ruoli, la creazione di un caso di eDiscovery, la creazione di un blocco di eDiscovery e la creazione di una query di ricerca.  NOTA: gli aggiornamenti dell'interfaccia utente vengono eseguiti gradualmente nel portale di Microsoft Purview. Alcuni tenant lab/demo potrebbero non visualizzare ancora l'interfaccia utente più recente, quindi tutti i passaggi del lab vengono visualizzati usando l'interfaccia utente classica di eDiscovery.
 
 ### Demo parte 1
 
 Per accedere a eDiscovery (Standard) o essere aggiunti come membro di un caso di eDiscovery, a un utente devono essere assegnate le autorizzazioni appropriate. In questa parte della demo, l'amministratore globale illustrerà il processo di aggiunta di utenti specifici come membri del gruppo di ruoli di eDiscovery Manager.
 
-1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH). Dal riquadro di spostamento dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**, quindi selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del portale di conformità di Microsoft Purview.  
-
-1. Nel riquadro di spostamento a sinistra, espandere (selezionando la freccia in giù) **Ruoli e ambiti** e selezionare **Autorizzazioni**.
-
-1. Sotto le soluzioni Microsoft Purview, selezionare **Ruoli**.
-
-1. Nel campo di ricerca immettere **eDiscovery** e quindi selezionare l'icona della ricerca (lente d'ingrandimento).  Selezionare **Manager di eDiscovery**.  Notare i ruoli nel gruppo di ruoli.
-
-1. Seleziona **Modifica**  Notare che ci sono due sottogruppi, Manager di eDiscovery e Amministratore di eDiscovery.  
-    1. La pagina "Gestisci Manager di eDiscovery" consente di aggiungere utenti al ruolo di Manager di eDiscovery. Per questa prima demo, verranno aggiunti membri al sottogruppo Amministratore di eDiscovery, quindi selezionare **Avanti**.
-    1. Nella pagina "Gestisci Amministratore di eDiscovery", selezionare **Scegli utenti**. Cercare e selezionare **Amministratore MOD** e **Megan Bowen**, quindi premere **Seleziona** nella parte inferiore della pagina, quindi selezionare **Avanti** e **Salva**.
-    1. Nella pagina "Il gruppo di ruoli è stato aggiornato correttamente", selezionare **Fine**.
+1. Aprire la scheda del browser per **Microsoft Purview**. Se è stata chiusa in precedenza, aprire una scheda del browser e nella barra degli indirizzi immettere **https://purview.microsoft.com**. Per accedere al nuovo portale di Microsoft Purview, selezionare la casella accanto alla posizione in cui è indicato, **accetto le condizioni per la divulgazione del flusso di dati e le informative** sulla privacy, quindi selezionare **Inizia**.  
+1. Nel pannello di spostamento a sinistra selezionare **Impostazioni**.
+1. Nel pannello di spostamento visualizzato selezionare **Ruoli e con ambito** per espandere l'opzione e quindi selezionare **Gruppi di ruoli**.
+1. Nella casella di ricerca sul lato destro della schermata cercare il termine **eDiscovery**.  Selezionare **Manager di eDiscovery**.
+    1. Seleziona **Modifica**
+    1. Selezionare **Scegli utenti**.
+    1. Cercare Amministratore MOD, selezionare la casella accanto a **Amministratore MOD** e quindi selezionare il **pulsante Seleziona** nella parte inferiore della pagina.
+    1. Selezionare Avanti e quindi Salva** e infine Fine****.** ****
 
 1. Mantenere aperta la scheda del browser.
 
 ### Demo parte 2
 
-In questa parte, lo studente, in qualità di Amministratore di eDiscovery (l'amministratore MOD è un amministratore di eDiscovery), creerà un caso per iniziare a utilizzare eDiscovery (Standard).
+In questa parte verrà creato un caso per iniziare a usare eDiscovery (Standard).
 
-1. Dovrebbe essere ancora visualizzata la pagina Ruoli del portale di conformità. Dal riquadro di spostamento a sinistra, in Soluzioni, selezionare **eDiscovery** e quindi selezionare **Standard**.
+1. Nel pannello di spostamento a sinistra selezionare **Soluzioni**, selezionare **eDiscovery** e quindi Casi **standard**.
 
 1. Nella parte superiore della pagina eDiscovery (Standard), selezionare **+ Crea un caso**.
 
@@ -83,7 +79,7 @@ Una volta creato il blocco, occorre creare una query di ricerca.  Al termine del
 
 1. Nel campo Nome, immettere **Blocco test – Ricerca vendite** e quindi selezionare **Avanti** nella parte inferiore della pagina.
 
-1. Nella pagina Scegli posizioni selezionare **Posizioni con blocco** e deselezionare **Aggiungi il contenuto delle app per gli utenti locali**, perché l'ambiente lab non ha utenti locali, quindi selezionare **Avanti**.
+1. Nella pagina Scegli posizioni selezionare **le posizioni in attesa** e deselezionare **Aggiungi contenuto app per gli utenti** locali, in quanto l'ambiente lab non ha utenti locali, quindi selezionare **Avanti**.
 
 1. La pagina Condizioni query consente di creare una ricerca, in base a parole chiave o condizioni specifiche soddisfatte. Nel campo parola chiave immettere **Vendite** e selezionare **Avanti**.
 
