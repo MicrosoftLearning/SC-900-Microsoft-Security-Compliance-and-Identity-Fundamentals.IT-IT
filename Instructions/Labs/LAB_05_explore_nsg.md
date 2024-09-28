@@ -64,7 +64,7 @@ In questa attività si creerà un gruppo di sicurezza di rete, si assegnerà l'i
     1. Selezionare **Associa**.
     2. Nel campo per le associazioni di interfaccia di rete, selezionare la **freccia giù**, selezionare **sc900-winvmXXX** e quindi selezionare **OK** nella parte inferiore della finestra. Una volta che l'interfaccia è associata al NSG, verrà visualizzata nell'elenco.  Ora il gruppo di sicurezza di rete è assegnato all'interfaccia di rete della VM.
 
-1. Nel browser, tornare alla scheda **SC900-WinWM - Microsoft Azure**.  Aggiorna la pagina. Accanto a dove è indicato Gruppo di sicurezza di rete, dovrebbe essere possibile visualizzare il nome del gruppo di sicurezza di rete appena creato.  Se ancora non è visualizzato, attendere un altro minuto e quindi aggiornare di nuovo la pagina.
+1. Tornare alla **scheda SC900-WinVM - Microsoft Azure** nel browser.  Aggiorna la pagina. Accanto a dove è indicato Gruppo di sicurezza di rete, dovrebbe essere possibile visualizzare il nome del gruppo di sicurezza di rete appena creato.  Se ancora non è visualizzato, attendere un altro minuto e quindi aggiornare di nuovo la pagina.
 
 1. Selezionare **Connetti** nel pannello di navigazione a sinistra. Nella finestra principale, accanto a dove viene visualizzato il numero di porta 3389, selezionare **Controlla accesso**. La funzione di controllo dell'accesso invia i segnali (di traffico) alla porta RDP predefinita 3389 della macchina virtuale, per verificare se è accessibile. L'operazione potrebbe richiedere un minuto, ma non sarà visualizzato Non accessibile.  Questo è previsto, perché la regola DenyAllInBound NSG nega il traffico in ingresso alla macchina virtuale.
 

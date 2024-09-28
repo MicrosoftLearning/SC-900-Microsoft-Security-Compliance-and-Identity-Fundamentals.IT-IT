@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Titolo: 'Microsoft Defender for Cloud Apps' Modulo: 'Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft; Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365; Unità 5: Descrivere Microsoft Defender for Cloud Apps'
+Demo: Title: Microsoft Defender per il cloud Apps ' Module: 'Learning Path: Describe the capabilities of Microsoft security solutions; Modulo 4: Descrivere le funzionalità di protezione dalle minacce di Microsoft Defender XDR; Unità 5: Descrivere le app Microsoft Defender per il cloud
 ---
 --->
 
@@ -9,7 +9,7 @@ Demo: Titolo: 'Microsoft Defender for Cloud Apps' Modulo: 'Percorso di apprendim
 Questa demo corrisponde al contenuto di Learn seguente:
 
 - Percorso di apprendimento: Descrivere le funzionalità delle soluzioni di sicurezza Microsoft
-- Modulo: Descrivere le funzionalità di protezione dalle minacce di Microsoft 365
+- Modulo: Descrivere le funzionalità di protezione dalle minacce di Microsoft Defender XDR
 - Unità: Descrivere Microsoft Defender for Cloud Apps
 
 ## Scenario dimostrativo
@@ -22,9 +22,9 @@ In questa demo verranno presentate le funzionalità di Microsoft Defender for Cl
 
 1. Dal riquadro di spostamento a sinistra dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
 
-1. In Interfacce di amministrazione selezionare **Sicurezza**.  Verrà visualizzata una nuova pagina del browser con la pagina di benvenuto del portale Microsoft 365 Defender.  
+1. In Interfacce di amministrazione selezionare **Sicurezza**.  Viene aperta una nuova pagina del browser nella pagina iniziale del portale di Microsoft Defender.  
 
-1. Se è la prima volta che si visita il portale di Microsoft 365 Defender, è possibile che venga visualizzata una finestra a comparsa per una breve presentazione.
+1. Se questa è la prima volta che si visita il portale di Microsoft Defender, è possibile che venga visualizzata una finestra popup per un rapido tour.
 
 1. Dal riquadro di spostamento sinistro selezionare **App cloud** per espandere l'elenco e quindi selezionare **Cloud Discovery**. Verrà aperta la visualizzazione Dashboard.  Presentare le informazioni disponibili nel dashboard. Nella visualizzazione del dashboard è possibile selezionare schede diverse nella parte superiore della pagina.  Presentare ogni scheda nella parte superiore della pagina.
 
@@ -39,7 +39,7 @@ In questa demo verranno presentate le funzionalità di Microsoft Defender for Cl
     1. Per vedere l'opzione per i report continui, selezionare **Azioni** nell'angolo in alto a destra della pagina e dal menu a discesa selezionare **Configurare il caricamento automatico**.  Non sono presenti origini dati connesse, ma è qui che si potrebbe aggiunge un'origine dati. Selezionare **Aggiungi origine dati**, quindi selezionare la freccia a discesa nel campo **Selezionare l'appliance** per visualizzare i tipi di appliance che è possibile connettere come origine dati.  Seleziona **Annulla** per uscire.
     1. Dal riquadro di spostamento sinistro selezionare **Cloud Discovery** per tornare alla pagina di Cloud Discovery.
 
-1. Con Microsoft 365 Defender for Cloud Apps è possibile connettersi alle app direttamente configurando connettori delle app che offriranno una maggiore visibilità e controllo per le app cloud. Nell'angolo in alto a destra della schermata selezionare **Azioni** e quindi **Impostazioni di Cloud Discovery**.  Notare le impostazioni disponibili.
+1. Con Microsoft Defender per il cloud app, è possibile connettersi direttamente alle app configurando connettori app che offrono maggiore visibilità e controllo sulle app cloud. Nell'angolo in alto a destra della schermata selezionare **Azioni** e quindi **Impostazioni di Cloud Discovery**.  Notare le impostazioni disponibili.
     1. Dal pannello di navigazione a sinistra della finestra delle impostazioni delle app cloud, selezionare **Connettori app** (potrebbe essere necessario scorrere verso il basso).
     1. Nella pagina Connettori app si possono visualizzare i connettori app già impostati e aggiungere un connettore app.
     1. Nell'elenco è possibile visualizzare anche Microsoft 365. Se viene visualizzato un errore di connessione, passare ai puntini di sospensione verticali a destra dell'elemento della riga e selezionare **Modifica impostazioni**.  Per riconnettersi, selezionare **Connetti Office 365** nella parte inferiore della pagina. La pagina dovrebbe ora indicare che Office 365 è connesso. Selezionare **Fine**.  Lo stato verrà ora visualizzato con un segnale di avviso giallo, che indica che non è presente alcuno stato recente.  L'aggiornamento dello stato richiederà tempo, perché il periodo di tempo per l'analisi retroattiva differisce per ogni app e i tenant del lab potrebbero riscontrare ritardi più lunghi rispetto al normale.
@@ -48,7 +48,7 @@ In questa demo verranno presentate le funzionalità di Microsoft Defender for Cl
 
 1. Nella pagina delle impostazioni delle applicazioni cloud, è opportuno dedicare qualche minuto anche all'esplorazione di altre impostazioni di Cloud Discovery.  
     1. Selezionare **App di controllo app per l'accesso condizionale** e prendere nota della descrizione "Controllo app per l'accesso condizionale aggiunge funzionalità di monitoraggio e controllo in tempo reale per le applicazioni".
-    1. Selezionare Microsoft Information Protection e consultare le impostazioni disponibili.
+    1. Selezionare **Microsoft Information Protection** e parlare con le impostazioni disponibili.
     1. Esplorare le altre a seconda delle esigenze. Illustrare il livello di integrazione e di flessibilità.
 
 1. Tornare al dashboard di Cloud Discovery selezionando **Cloud Discovery** nel riquadro di spostamento più a sinistra.
@@ -67,15 +67,11 @@ In questa parte della demo verranno illustrate le funzionalità del catalogo del
 
 1. Tenere aperta la pagina perché verrà usata nell'attività successiva.
 
-### Demo parte 3 - Esplorare il log attività e i file
+### Demo Part 3 - Esplorare il log attività
 
-Esplorare i modi in cui è possibile analizzare le attività registrate con il log attività e i file.
+Esplorare i modi in cui è possibile analizzare le attività registrate con il log attività.
 
 1. Dal riquadro di spostamento sinistro selezionare **Log attività**. Qui si ha visibilità su tutte le attività delle app connesse. È possibile che non vengano visualizzati dati perché possono essere necessarie diverse ore per eseguire analisi retroattive dopo l'abilitazione del controllo e i tenant del lab potrebbero riscontrare ritardi più lunghi del normale. Notare le opzioni di filtro disponibili e l'opzione per creare un nuovo criterio dalla ricerca.
-
-1. Per garantire la protezione dei dati personali, Microsoft Defender for Cloud Apps offre visibilità su tutti i file delle applicazioni connesse, ad esempio tutti i file archiviati in SharePoint e Salesforce. Nel pannello di spostamento a sinistra, selezionare ed esplorare l'opzione **File**.
-    1. La possibilità di analizzare i file deve essere abilitata come parte delle impostazioni di Protezione delle informazioni delle app cloud di Microsoft 365.  Selezionare **Abilita monitoraggio file** e selezionare la casella accanto a dove è indicato **Abilita monitoraggio file**, quindi selezionare **Salva**.  
-    1. Tornare ai file, elencati in App cloud, selezionando **File**, nel riquadro di spostamento a sinistra. È possibile che non venga visualizzato alcun elemento nell'elenco, questo perché la visualizzazione dei file potrebbe richiedere diversi giorni, ma vale la pena evidenziarli una volta presenti, in modo da poter filtrare i dati in base ad app, proprietario, livello di accesso, tipo di file e criteri corrispondenti. Inoltre, è possibile creare un nuovo criterio dalla funzione ricerca ed esportarne i dati.
 
 1. Tenere aperta la pagina perché verrà usata nell'attività successiva.
 
@@ -90,7 +86,7 @@ In questa parte verranno visualizzate le opzioni disponibili per i criteri in Mi
 
 1. Dal riquadro di spostamento sinistro selezionare **Modelli del criterio**. Per creare un criterio da uno dei modelli disponibili, selezionare il **+** sul lato a destra delle voci del modello.  Visualizzare le diverse opzioni di configurazione per i criteri.  Selezionare **Annulla** per uscire dalla pagina.
 
-1. Dal riquadro di spostamento a sinistra, selezionare **Home** per tornare alla home page di Microsoft 365 Defender.
+1. Nel pannello di spostamento a sinistra selezionare **Home** per tornare alla home page di Microsoft Defender.
 
 1. Se si prevede di continuare con la demo successiva, mantenere aperta la scheda del browser.
 

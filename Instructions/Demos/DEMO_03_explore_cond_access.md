@@ -20,7 +20,7 @@ Questa demo presenterà le varie opzioni disponibili per i criteri di accesso co
 
 1. Dal riquadro di spostamento a sinistra, espandere **Protezione** e selezionare **Accesso condizionale**.
 
-1. Verrà visualizzata la pagina di panoramica dell'accesso condizionale.  Qui verranno visualizzati i riquadri che mostrano il riepilogo dei criteri e gli avvisi generali.  Dal riquadro di spostamento a sinistra, selezionare **Criteri**.
+1. Verrà visualizzata la pagina di panoramica dell'accesso condizionale.  Qui verranno visualizzate informazioni sul riepilogo dei criteri, sulle novità e sugli avvisi generali.  Nel pannello di spostamento sinistro della finestra Accesso condizionale selezionare **Criteri**.
 
 1. Viene visualizzata la schermata Criteri di accesso condizionale. Tutti i criteri di accesso condizionale esistenti sono elencati qui. Per visualizzare le impostazioni associate all'accesso condizionale, selezionare **+ Nuovo criterio**.
 
@@ -32,9 +32,11 @@ Questa demo presenterà le varie opzioni disponibili per i criteri di accesso co
         1. Selezionare **App cloud**, quindi nella scheda Includi, selezionare l'opzione **Seleziona app**. Sotto la dicitura **Seleziona**, selezionare **Nessuna** e verrà aperta una finestra per selezionare una o più applicazioni a cui applicare il criterio.
         1. Chiudere la finestra Seleziona app cloud selezionando la **X** nell'angolo in alto a destra della finestra.
         1. Se il tempo lo consente, si può scegliere di analizzare le altre opzioni (azioni utente e contesto di autenticazione) per vedere le opzioni di configurazione per ciascuna di esse.
+    1. **Rete:** passare il puntatore del mouse sull'icona delle informazioni accanto a dove è indicato "Rete".  Chiamare che i percorsi di rete sono determinati dall'intervallo di indirizzi IP o dalle coordinate GPS da cui l'utente accede.  Selezionare Non configurato** per visualizzare **le opzioni disponibili.
     1. **Condizioni**: passare con il puntatore del mouse sull'icona delle informazioni accanto alla dicitura "Condizioni" e illustrare che si tratta di condizioni che definiscono quando si applica il criterio. Ad esempio, "posizione". Selezionare **0 condizioni selezionate**. Illustrare i diversi "segnali" elencati.   Selezionare alcune delle opzioni selezionando prima l'icona delle informazioni per definire di cosa si tratta e quindi **Non configurato** per l'elemento specifico per visualizzare le varie opzioni.
         1. **Rischio utente** - Un rischio utente rappresenta la probabilità che una data identità o account siano compromessi. Questi rischi vengono calcolati offline usando le origini di intelligence sulle minacce interne ed esterne di Microsoft.
         1. **Rischio di accesso** - Un rischio di accesso rappresenta la probabilità che una data richiesta di autenticazione non sia autorizzata dal proprietario dell'identità. Ad esempio, se l'accesso avviene da un indirizzo IP anonimo o da un spostamento fisico atipico, ecc.
+        1. **Rischio** Insider: il rischio Insider, configurato in Protezione adattiva, valuta il rischio in base alle attività correlate ai dati a rischio di un utente.
         1. **Piattaforma del dispositivo** - Piattaforma da cui l'utente sta effettuando l'accesso. Ad esempio, "iOS".
         1. **Posizione** - Posizione (determinata usando l'intervallo di indirizzi IP) da cui l'utente sta effettuando l'accesso
         1. **App cliente** - Software usato dall'utente per accedere all'app cloud. Ad esempio, "Browser"
