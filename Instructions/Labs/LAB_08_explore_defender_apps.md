@@ -16,7 +16,7 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 In questo lab verranno esplorate le funzionalità di Microsoft Defender for Cloud Apps.  Verranno presentate le informazioni disponibili nel dashboard di Cloud Discovery, il catalogo delle app cloud, le funzionalità disponibili per esaminare i risultati e i modi a disposizione per controllare l'impatto sull'organizzazione attraverso i criteri. Nota: un'organizzazione deve avere una licenza per usare Microsoft Defender for Cloud Apps, che è un servizio in abbonamento basato sull'utente.
 
-**Tempo stimato:** 15-20 minuti
+**Tempo stimato**: 30 minuti
 
 ### Attività 1 - Esplorare Cloud Discovery
 

@@ -16,7 +16,7 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 Questo lab illustrerà il processo di creazione di un'istanza di Microsoft Sentinel.  Verranno anche configurate le autorizzazioni per garantire l'accesso alle risorse che verranno distribuite per supportare Microsoft Sentinel.  Dopo aver completato questa configurazione di base, verranno illustrati i passaggi per connettere Microsoft Sentinel alle origini dati, per configurare una cartella di lavoro e verranno illustrate brevemente alcune delle funzionalità chiave disponibili in Microsoft Sentinel.
 
-**Tempo stimato:** 45-60 minuti
+**Tempo** stimato: 60 minuti
 
 ### Attività 1
 

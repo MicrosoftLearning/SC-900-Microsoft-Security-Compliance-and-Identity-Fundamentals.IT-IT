@@ -16,7 +16,7 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 In questo lab, si esplorerà la funzione dei gruppi di sicurezza di rete in Azure.  A tale scopo, si creerà un gruppo di sicurezza di rete (NSG) e si assegnerà il gruppo di sicurezza di rete all'interfaccia di una macchina virtuale preesistente.  Dopo la configurazione, si osserveranno le regole predefinite in ingresso e in uscita, si creeranno nuove regole e infine si testeranno queste regole.  In questo lab, la macchina virtuale che verrà usata con il gruppo di sicurezza di rete viene creata automaticamente, quindi verranno visualizzate prima di tutto alcune delle informazioni associate alla macchina virtuale.
   
-**Tempo stimato:** 30-45 minuti
+**Tempo** stimato: 45 minuti
 
 ### Attività 1
 

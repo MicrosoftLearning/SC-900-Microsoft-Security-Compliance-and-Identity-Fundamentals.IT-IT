@@ -22,7 +22,7 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 In questo lab, l'utente, in qualità di amministratore, seguirà il processo di aggiunta di un utente al gruppo di sicurezza per la reimpostazione della password self-service, già configurato nel tenant di Microsoft 365. Dopo l'abilitazione della reimpostazione della password self-service, si assumerà quindi il ruolo di un utente e si seguirà il processo di registrazione per la reimpostazione della password self-service e anche di reimpostazione della password.  Infine, l'utente, in qualità di amministratore, sarà in grado di visualizzare i log di controllo, i dati di utilizzo e le informazioni dettagliate per la reimpostazione della password self-service.
 
-**Tempo stimato:** 15-20 minuti
+**Tempo stimato**: 30 minuti
 
 ### Attività 1
 
@@ -77,7 +77,7 @@ In questa attività, l'utente, in qualità di amministratore, aggiungerà al gru
 
 ### Attività 3
 
-In questa attività, l'utente Sara Perez dovrà eseguire il processo di registrazione per la reimpostazione della password self-service.  Questa attività richiede l'accesso a un dispositivo mobile in cui è possibile ricevere sms.
+In questa attività, l'utente Sara Perez dovrà eseguire il processo di registrazione per la reimpostazione della password self-service.
 
 1. Aprire Microsoft Edge e nella barra degli indirizzi, immettere **https://login.microsoft.com**.
 
@@ -85,10 +85,13 @@ In questa attività, l'utente Sara Perez dovrà eseguire il processo di registra
 
 1. Verrà visualizzato un messaggio popup in cui è indicato che sono necessarie ulteriori informazioni.  Questo perché, come membro del gruppo SSPRSecurityGroupUsers, la configurazione richiede che i propri membri si registrino quando effettuano l'accesso.  Seleziona il pulsante **Avanti**.  Nota: un'alternativa alla registrazione degli utenti è la configurazione diretta dei metodi di autenticazione da parte degli amministratori quando aggiungono un utente. Questo richiede che gli amministratori conoscano e impostino i numeri di telefono e gli indirizzi di posta elettronica usati dagli utenti per la reimpostazione della password self-service e che reimpostino la password di un utente.
 
-1. Viene visualizzata la pagina "Proteggi l'account".  La finestra visualizzata è per il metodo Phone.
-    1. Viene richiesta l'immissione di un numero di telefono. Verificare che l'opzione **Ricevi un codice** sia abilitata.   Immettere il numero di telefono in cui è possibile ricevere il codice e selezionare **Avanti**.  
-    1. Si apre una nuova finestra, la quale indica che è stato inviato un codice al numero di telefono immesso.  Immettere il codice ricevuto e selezionare **Avanti**. Viene visualizzata una finestra che indica che il telefono è stato registrato. Selezionare ****Avanti** e quindi Fine**.  
-    1. Se invece si vuole usare la posta elettronica, selezionare Desidero configurare **un metodo** diverso e seguire la procedura. 
+1. Viene visualizzata la pagina "Proteggi l'account".  La finestra visualizzata e i passaggi seguenti sono relativi al metodo dell'app Microsoft Authenticator. Se invece si vuole usare la posta elettronica, selezionare Desidero configurare **un metodo** diverso e seguire la procedura.
+    1. Se nel dispositivo mobile è già installata l'app Microsoft Authenticator selezionare **Avanti**. In caso contrario, selezionare **Scarica adesso** e seguire la procedura.
+    1. Si inizierà a configurare l'account.  Selezionare **Avanti**.
+    1. Usando l'app Microsoft Authenticator nel dispositivo mobile, selezionare l'elemento per aggiungere un account e selezionare **Account aziendale o dell'istituto di istruzione**.**+**
+    1. Selezionare l'opzione **Analizza il codice** a matrice, quindi usando il dispositivo mobile, analizzare il codice a matrice sullo schermo del PC.
+    1. Seguire i passaggi nel PC e nel dispositivo mobile, quindi selezionare **Avanti**.
+    1. Dopo aver configurato le informazioni di sicurezza, verrà visualizzata una finestra Operazione completata.  Selezionare **Fatto**.
 
 1. È ora possibile completare l'accesso. Se si nota che il tempo per l'accesso è scaduto, immettere nuovamente la password.
 
@@ -100,7 +103,7 @@ In questa attività, l'utente Sara Perez dovrà eseguire il processo di reimpost
 
 1. Aprire Microsoft Edge.
 
-1. Nella barra degli indirizzi, immettere **https://login.microsoftonline.com**.
+1. Nella barra degli indirizzi, immettere **https://login.microsoft.com**.
 
 1. Accedere come Sara Perez, inserendo l'e-mail **sara@WWLxZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di hosting del lab) e selezionare il pulsante **Avanti**. Potrebbe invece essere visualizzata la finestra Scegli un account, in tal caso, selezionare l'account di Sara Perez.
 
@@ -110,9 +113,9 @@ In questa attività, l'utente Sara Perez dovrà eseguire il processo di reimpost
 
 1. Nella casella vuota, immettere i caratteri visualizzati nell'immagine o le parole dell'audio. Una volta effettuata questa operazione, selezionare **Avanti**.
 
-1. Viene visualizzata la schermata Recupera l'accesso al tuo account che mostra il passaggio di verifica 1 > scegli una nuova password. Lasciare l'impostazione predefinita **Invia SMS sul telefono cellulare**.  Viene richiesta l'immissione del proprio numero di telefono cellulare.  Una volta effettuata questa operazione, selezionare il **pulsante SMS**. 
+1. Viene visualizzata la schermata Recupera l'accesso al tuo account che mostra il passaggio di verifica 1 > scegli una nuova password. Selezionare l'opzione **Approva una notifica nell'app** di autenticazione e quindi selezionare **Invia notifica**.
 
-1. Immettere il codice di verifica e quindi selezionare **Avanti**.
+1. Prendere nota del numero nel PC e seguire le istruzioni per approvare l'accesso usando l'app Microsoft Authenticator nel dispositivo mobile.
 
 1. Nella schermata successiva verranno richieste l'immissione della nuova password e la sua conferma.  Immetterle ora e selezionare il pulsante **Fine**.
 

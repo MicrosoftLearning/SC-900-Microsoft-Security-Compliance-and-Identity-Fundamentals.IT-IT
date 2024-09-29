@@ -69,6 +69,8 @@ In questa attività, si seguirà il processo di creazione di criteri di accesso 
 
 1. Selezionare **Portali** di amministrazione Microsoft, quindi premere **Seleziona** nella parte inferiore della pagina.  Notare l'avviso.  
 
+1. In Rete selezionare **Qualsiasi rete o percorso**.  Esaminare le opzioni, ma non selezionare alcuna opzione.
+
 1. In Condizioni, selezionare **0 condizioni selezionate**.  Notare le diverse opzioni che si possono configurare.  Attraverso il criterio, è possibile controllare l'accesso degli utenti in base a segnali provenienti da condizioni quali: rischio utente, rischio accesso, piattaforma dispositivo, posizione, app client o filtro per dispositivi.  Esplorare queste opzioni configurabili, ma non impostare alcuna condizione.
 
 1. Ora si imposteranno i controlli di accesso.  In Concedi, selezionare **0 controlli selezionati**.
@@ -97,11 +99,18 @@ In questa attività si vedrà l'impatto dei criteri di accesso condizionale dal 
 
 1. Nella finestra Mantieni sicuro il tuo account, è possibile selezionare il metodo da utilizzare per l'autenticazione MFA.  Microsoft Authenticator è una delle opzioni disponibili. Per comodità, in questo esercizio del lab si sceglierà un metodo diverso.  Selezionare **Desidero configurare un altro metodo**.  Nella finestra popup Scegli un metodo diverso, selezionare la **freccia giù** e selezionare **Telefono**, quindi selezionare **Conferma**.
 
-1. Nella finestra che si apre assicurarsi che sia selezionato il proprio paese, quindi immettere il numero di telefono cellulare da usare.  Verificare che sia selezionato **Invia un SMS** e quindi selezionare **Avanti**.  Si riceverà un SMS nel telefono con un codice che sarà necessario immettere dove indicato.  Immettere il codice ricevuto e quindi selezionare **Avanti**.  Dopo la conferma, nella schermata comparirà "Verificato tramite SMS. Il telefono è stato registrato".  Selezionare **Avanti**. Selezionare quindi **Fine**.  Questo conclude il processo di registrazione una tantum.
+1. La finestra visualizzata e i passaggi seguenti sono relativi al metodo dell'app Microsoft Authenticator. .
+    1. Se nel dispositivo mobile è già installata l'app Microsoft Authenticator selezionare **Avanti**. In caso contrario, selezionare **Scarica adesso** e seguire la procedura.
+    1. Si inizierà a configurare l'account.  Selezionare **Avanti**.
+    1. Usando l'app Microsoft Authenticator nel dispositivo mobile, selezionare l'elemento per aggiungere un account e selezionare **Account aziendale o dell'istituto di istruzione**.**+**
+    1. Selezionare l'opzione **Analizza il codice** a matrice, quindi usando il dispositivo mobile, analizzare il codice a matrice sullo schermo del PC.
+    1. Usando l'app Microsoft Authenticator nel dispositivo mobile, eseguire la scansione del codice a matrice.
+    1. Seguire i passaggi nel PC e nel dispositivo mobile, quindi selezionare **Avanti**.
+    1. Dopo aver configurato le informazioni di sicurezza, verrà visualizzata una finestra Operazione completata.  Selezionare **Fatto**.
 
 1. Ora è possibile accedere al portale di Azure.  Il portale di Azure è un portale di amministrazione Microsoft e pertanto richiede l'autenticazione a più fattori, in base al criterio di accesso condizionato che è stato creato.  
     1. Se viene visualizzato un messaggio che indica che l'accesso è scaduto, immettere la password e selezionare **Accedi**.
-    1. Verrà visualizzata una finestra che richiede di verificare l'identità.  Selezionare dove viene indicato Invia un SMS al numero =X XXXXXXX per ricevere un codice sul telefono cellulare, immettere il codice e selezionare **Verifica**.
+    1. Verrà visualizzata una finestra che richiede di approvare la richiesta di accesso.  Prendere nota del numero nel PC e seguire le istruzioni nell'app Microsoft Authenticator.
     1. Se viene richiesto se si vuole rimanere connessi, selezionare **No**.
 
 1. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo di posta elettronica nell'angolo in alto a destra della schermata, quindi Disconnetti. Chiudere quindi tutte le finestre del browser.
