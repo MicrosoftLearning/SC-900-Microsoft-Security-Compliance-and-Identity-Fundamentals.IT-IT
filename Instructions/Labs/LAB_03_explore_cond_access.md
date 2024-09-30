@@ -1,7 +1,7 @@
 ---
 lab:
   title: Accesso condizionale Microsoft Entra
-  module: Describe the access management capabilities of Microsoft Entra ID
+  module: Describe the access management capabilities of Microsoft Entra
 ---
 
 # Lab: Accesso condizionale a Microsoft Entra
@@ -9,7 +9,7 @@ lab:
 Questo lab corrisponde al contenuto di Learn seguente:
 
 - Percorso di apprendimento: Descrivere le funzionalità di Microsoft Entra
-- Modulo: Descrivere le funzionalità di gestione degli accessi di Microsoft Entra ID
+- Modulo: Descrivere le funzionalità di gestione degli accessi di Microsoft Entra
 - Unità: Descrivere l'accesso condizionale
 
 ## Scenario laboratorio

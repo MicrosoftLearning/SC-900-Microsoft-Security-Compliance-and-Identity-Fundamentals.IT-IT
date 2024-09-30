@@ -1,45 +1,43 @@
 ---
 lab:
   title: Esplorare le etichette di riservatezza in Microsoft Purview
-  module: Describe information protection and data lifecycle management in Microsoft Purview
+  module: Describe the data security solutions of Microsoft Purview
 ---
 
 # Lab: esplorare le etichette di riservatezza in Microsoft Purview
 
 Questo lab corrisponde al contenuto di Learn seguente:
 
-- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
-- Modulo: Descrivere la protezione delle informazioni e la gestione del ciclo di vita dei dati in Microsoft Purview
-- Unità: Descrivere le etichette di riservatezza
+- Percorso di apprendimento: Descrivere le funzionalità di Microsoft Priva e Microsoft Purview
+- Modulo: Descrivere le soluzioni di sicurezza dei dati di Microsoft Purview
+- Unità: Descrivere etichette di riservatezza e criteri in Microsoft Purview Information Protection
 
 ## Scenario laboratorio
 
 In questo lab verranno esplorate le funzionalità delle etichette di riservatezza.  Verranno esaminate le impostazioni per le etichette di riservatezza esistenti che sono state create e il criterio corrispondente per pubblicare l'etichetta.   Verrà quindi illustrato come applicare un'etichetta e l'impatto della stessa dal punto di vista dell'utente.
 
-**Tempo stimato:** 20-25 minuti
+**Tempo** stimato: 45 minuti
 
 ### Attività 1
 
-In questa attività, verrà acquisita una comprensione delle funzioni delle etichette di riservatezza attraverso il processo di creazione di una nuova etichetta e dei criteri per la pubblicazione dell'etichetta.
+In questa attività si acquisirà una conoscenza delle operazioni che le etichette di riservatezza possono eseguire eseguendo il processo di creazione di una nuova etichetta e la creazione di un criterio per pubblicare l'etichetta.
 
-1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH). Dal riquadro di spostamento dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**, quindi selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del portale di conformità di Microsoft Purview.
+1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH). Dal riquadro di spostamento dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**, quindi selezionare **Conformità**.  Verrà aperta una nuova pagina del browser nella pagina iniziale del portale di Microsoft Purview.
 
-1. Nel riquadro di spostamento a sinistra, in Soluzioni, espandere **Protezione delle informazioni** e quindi selezionare **Panoramica**. Notare l'avviso nella parte superiore della pagina e scorrere verso il basso per visualizzare le informazioni disponibili.
-   1. Nella pagina di Panoramica, potrebbe essere visualizzato un riquadro delle informazioni giallo che indica che l'organizzazione non ha attivato la possibilità di elaborare il contenuto dei file online di Office con etichette di riservatezza crittografate applicate e archiviati in OneDrive e SharePoint.  Selezionare **Attiva ora**.  Una volta eseguita questa operazione, può verificarsi un ritardo nella propagazione dell'impostazione nel sistema ed è necessario completare ulteriori passaggi per la protezione di Teams, dei siti SharePoint e Gruppi di Microsoft 365.
+1. Nel pannello di spostamento sinistro selezionare **Soluzioni** e quindi Selezionare **Protezione delle informazioni**.  Si è nella pagina di panoramica. Scorrere verso il basso per visualizzare le informazioni disponibili.
 
-1. Dal riquadro di spostamento a sinistra, selezionare **Etichette**.
-   1. Nella pagina Etichette, potrebbe essere visualizzato un riquadro delle informazioni giallo che indica che l'organizzazione non ha attivato la possibilità di elaborare il contenuto dei file online di Office con etichette di riservatezza crittografate applicate e archiviati in OneDrive e SharePoint.  Selezionare **Attiva ora**.  Una volta eseguita questa operazione, può verificarsi un ritardo nella propagazione dell'impostazione nel sistema ed è necessario completare ulteriori passaggi per la protezione di Teams, dei siti SharePoint e Gruppi di Microsoft 365.
+1. Nel pannello di spostamento a sinistra selezionare Etichette** di riservatezza**.
 
-1. Alcune etichette sono state preconfigurate nel tenant del lab di Microsoft 365, per praticità. Selezionare l'etichetta denominata **Riservato - Finanza**.  Verrà visualizzata una finestra che fornisce informazioni su questa etichetta.  Notare le impostazioni per questa etichetta.  Selezionare **Modifica etichetta** (può anche essere visualizzata come icona a forma di matita) nella parte superiore della pagina per visualizzare alcune delle impostazioni di configurazione di base. Se questa opzione non viene visualizzata, selezionare i puntini di sospensione.
-    1. La configurazione inizia specificando un nome e una descrizione per l'etichetta.  Non modificare nulla.  Nella parte inferiore della pagina, selezionare **Avanti**.
+1. Alcune etichette sono state preconfigurate nel tenant del lab di Microsoft 365, per praticità. Selezionare l'etichetta denominata **Riservato - Finanza**.  Verrà visualizzata una finestra che fornisce informazioni su questa etichetta.  Notare le impostazioni per questa etichetta.  Selezionare **Modifica etichetta** Se questa opzione non viene visualizzata, selezionare i puntini di sospensione.
+    1. La configurazione inizia con l'aggiunta di dettagli di base per l'etichetta.  Non modificare nulla.  Nella parte inferiore della pagina, selezionare **Avanti**.
     1. Esaminare l'ambito per questa etichetta. Non modificare nulla.  Nella parte inferiore della pagina, selezionare **Avanti**.
     1. Questa schermata successiva consente di scegliere le impostazioni di protezione per gli elementi etichettati. Questa etichetta è configurata per supportare il contrassegno del contenuto. Non modificare nulla.  Nella parte inferiore della pagina, selezionare **Avanti**.
         1. Nella pagina Contrassegni di contenuto, prendere nota della casella delle informazioni nella parte superiore della pagina.  Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
     1. Ora ci si trova nell'etichettatura automatica per la finestra di file e messaggi di posta elettronica.  Leggere la descrizione dell'etichettatura automatica nella parte superiore della pagina e la casella di informazioni sottostante.  Notare anche che questa etichetta è impostata per l'etichettatura automatica secondo condizioni specifiche. Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.
-    1. Questa finestra definisce le impostazioni di protezione per team, gruppi e siti a cui è applicata questa etichetta. Se non è abilitata, selezionare **Avanti** nella parte inferiore della pagina.
+    1. Questa finestra definisce le impostazioni di protezione per gruppi e siti a cui è applicata questa etichetta. Se non è abilitata, selezionare **Avanti** nella parte inferiore della pagina.
     1. Questa finestra costituisce una funzionalità di anteprima per l'etichettatura automatica agli asset di dati schematizzati in Microsoft Purview Data Map (ad esempio SQL, Synapse e altro ancora), che contengono i tipi di informazioni sensibili scelti dall'utente.  Questa funzionalità non è abilitata. Selezionare **Annulla** nella parte inferiore della pagina per uscire dalla procedura guidata per la configurazione dell'etichetta e tornare alla pagina della Protezione delle informazioni.
 
-1. Dal riquadro di spostamento a sinistra, selezionare **Criteri etichette**   Si tratta di criteri che consentono la pubblicazione di etichette di riservatezza.  Il tenant di Microsoft 365 è stato configurato con alcuni criteri delle etichette, per praticità.
+1. Nel riquadro di spostamento a sinistra espandere **Criteri** e quindi selezionare  **Criteri di pubblicazione**.  Si tratta di criteri che consentono la pubblicazione di etichette di riservatezza.  Il tenant di Microsoft 365 è stato configurato con alcuni criteri delle etichette, per praticità.
 
 1. Selezionare **Riservato - Criterio finanza**.  Verrà visualizzata una finestra che fornisce informazioni sui criteri. Selezionare **Modifica criterio** nella parte superiore della finestra.  Qui verranno illustrate le impostazioni senza modificare nulla.
     1. Esaminare la descrizione per "Scegliere le etichette di riservatezza da pubblicare".  Notare l'etichetta presente nell'elenco.  Non modificare nessuna impostazione.  Nella parte inferiore della pagina, selezionare **Avanti**.

@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: titolo: "Service Trust Portal" Percorso di apprendimento/Modulo/Unità: "Percorso di apprendimento: Descrivere le funzionalità della conformità Microsoft; Modulo 1: Descrivere le funzionalità di gestione della conformità in Microsoft; Unità 2: Esplorare Service Trust Portal"
+Demo: Title: 'Service Trust Portal' Learning Path/Module/Unit: 'Describe the capabilities of Microsoft Priva and Microsoft Purview; Modulo 1: Descrivere le funzionalità del portale Service Trust e della privacy di Microsoft; Unità 2: Esplorare Service Trust Portal'
 ---
 --->
 

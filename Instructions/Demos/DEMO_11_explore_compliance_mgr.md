@@ -4,7 +4,7 @@ Demo: Title: 'Explore the Microsoft Purview portal & Compliance Manager' Learnin
 ---
 --->
 
-# Demo: Esplorare il portale di conformità di Microsoft Purview e Compliance Manager
+# Demo: Esplorare il portale di Microsoft Purview e Compliance Manager
 
 Questa demo corrisponde al contenuto di Learn seguente:
 

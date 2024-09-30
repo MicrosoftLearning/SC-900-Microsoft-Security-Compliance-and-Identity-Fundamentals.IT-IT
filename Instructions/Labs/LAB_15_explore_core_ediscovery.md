@@ -1,16 +1,16 @@
 ---
 lab:
-  title: Esplorare il flusso di lavoro di eDiscovery (Standard)
-  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
+  title: Esplorare eDiscovery
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# Lab: Esplorare il flusso di lavoro di eDiscovery (Standard)
+# Lab: Esplorare eDiscovery
 
 Questo lab corrisponde al contenuto di Learn seguente:
 
-- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
-- Modulo: Descrivere le funzionalità eDiscovery e di controllo di Microsoft Purview
-- Unità: Descrivere le soluzioni eDiscovery in Microsoft Purview
+- Percorso di apprendimento: Descrivere le funzionalità di Microsoft Priva e Microsoft Purview
+- Modulo: Descrivere le soluzioni di conformità dei dati di Microsoft Purview
+- Unità: Descrivere eDiscovery
 
 ## Scenario laboratorio
 
