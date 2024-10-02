@@ -26,8 +26,8 @@ Esplorare la pagina di destinazione di Microsoft Defender.
 
 1. Accedere utilizzando le credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
-
     1. Immettere la password di amministratore fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
+    1. Se in precedenza è stato eseguito l'accesso come amministratore, verrà richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, verrà richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**. Verrà visualizzata la pagina dell'interfaccia di amministrazione di Microsoft 365.
 
 1. Nel riquadro di spostamento a sinistra dell'interfaccia di amministrazione di Microsoft 365, in Interfacce di amministrazione, selezionare **Sicurezza**.  Se l'opzione Sicurezza non è elencata, selezionare **Mostra tutto** e quindi **Sicurezza**.  Viene aperta una nuova pagina del browser nella pagina iniziale del portale di Microsoft Defender.  

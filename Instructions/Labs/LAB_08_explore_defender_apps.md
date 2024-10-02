@@ -27,6 +27,7 @@ Esplorare Cloud Discovery.
 1. Accedere con le credenziali di amministratore del tenant Microsoft 365.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
+    1. Se in precedenza è stato eseguito l'accesso come amministratore, verrà richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, verrà richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**. Verrà visualizzata la pagina dell'interfaccia di amministrazione di Microsoft 365.
 
 1. Dal riquadro di spostamento a sinistra dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.

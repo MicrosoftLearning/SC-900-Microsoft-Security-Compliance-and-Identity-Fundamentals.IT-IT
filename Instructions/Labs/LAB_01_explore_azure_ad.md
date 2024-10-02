@@ -25,7 +25,8 @@ Gli abbonati a Microsoft 365 usano già Microsoft Entra ID (noto in precedenza c
 1. Apri il browser Microsoft Edge. Nella barra degli indirizzi immettere **[admin.microsoft.com](https://admin.microsoft.com)** e accedere con le credenziali di Microsoft 365 fornite dal provider di servizi di hosting per lab autorizzato (ALH).
     1. Nella finestra Accedi, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio ALH) e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
-    1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.
+    1. Poiché è la prima volta che si esegue l'accesso, potrebbe essere richiesto di configurare l'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
+    1. Se viene richiesto se si desidera rimanere connessi, selezionare **Sì**.
 
 1. In Interfacce di amministrazione, selezionare **Identità** (potrebbe essere necessario selezionare **Mostra tutto** e scorrere verso il basso).  Verrà visualizzata una nuova pagina del browser della pagina panoramica dell'Interfaccia di amministrazione di Microsoft Entra.
 
@@ -102,18 +103,20 @@ In questa attività, si effettuerà l'accesso come Sara Perez per la prima volta
 
 1. Aprire Microsoft Edge.
 
-2. Nella barra degli indirizzi immettere **https://login.microsoft.com**.
+1. Nella barra degli indirizzi immettere **https://login.microsoft.com**.
 
-3. Accedere come **sara@WWLxZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di servizi di hosting per i lab autorizzato).
-4. Immettere la password temporanea impostata nell'attività precedente.
+1. Accedere come **sara@WWLxZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di servizi di hosting per i lab autorizzato).
+1. Immettere la password temporanea impostata nell'attività precedente.
 
-5. Viene chiesto di aggiornare la password. Nel campo Password corrente immettere la password temporanea dell'attività precedente.
+1. Viene chiesto di aggiornare la password. Nel campo Password corrente immettere la password temporanea dell'attività precedente.
 
-6. Nel campo Nuova password immettere una nuova password, confermarla e quindi selezionare **Accedi**.  Prendere nota della nuova password perché sarà necessaria per l'esercizio del lab successivo sulla reimpostazione della password self-service.
+1. Nel campo Nuova password immettere una nuova password, confermarla e quindi selezionare **Accedi**.  Prendere nota della nuova password perché sarà necessaria per l'esercizio del lab successivo sulla reimpostazione della password self-service.
 
-7. A questo momento dovrebbe essere eseguito l'accesso all'account Microsoft di Sara.  Si noti che le licenze di Sara assegnate nell'attività precedente erano limitate solo a Power Automate Gratuito e Power Apps for Developer e non includevano le licenze E5.
+1. Poiché questa è la prima volta che si esegue l'accesso come Sara Perez, potrebbe essere richiesto di configurare MFA. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
 
-8. Per disconnettersi, selezionare l'icona nell'angolo superiore destro della finestra di Microsoft 365 visualizzata come cerchio con le lettere SP (accanto all'icona del punto interrogativo), quindi selezionare **Disconnetti** e infine chiudere il browser.
+1. A questo momento dovrebbe essere eseguito l'accesso all'account Microsoft di Sara.  Si noti che le licenze di Sara assegnate nell'attività precedente erano limitate solo a Power Automate Gratuito e Power Apps for Developer e non includevano le licenze E5.
+
+1. Per disconnettersi, selezionare l'icona nell'angolo superiore destro della finestra di Microsoft 365 visualizzata come cerchio con le lettere SP (accanto all'icona del punto interrogativo), quindi selezionare **Disconnetti** e infine chiudere il browser.
 
 ### Revisione
 

@@ -27,6 +27,7 @@ In questa attività, in qualità di amministratore, reimpostare la password per 
 1. Accedere con le credenziali di amministratore di Microsoft 365 fornite dall'ALH.
     1. Nella finestra Accedi, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio ALH) e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
+    1. Se in precedenza è stato eseguito l'accesso come amministratore, potrebbe essere richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, potrebbe essere richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.
 
 1. Nel pannello di spostamento a sinistra espandere **Identità**, **Utenti**, quindi selezionare **Tutti gli utenti**.
@@ -91,6 +92,7 @@ In questa attività, l'utente, in qualità di Diego Siciliani, effettuerà l'acc
     1. Nella finestra Accedi immettere **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     1. Immettere la password temporanea annotata nell'attività precedente, quindi selezionare **Accedi**.  Fare clic su **Accedi**.
     1. Poiché la password immessa era una password temporanea, ora occorre aggiornarla. Immettere la password corrente, immettere una nuova password, quindi confermare la nuova password.  Prendete nota della nuova password, che servirà per completare l'operazione.
+    1. Poiché questa è la prima volta che si esegue l'accesso come Diego, potrebbe essere richiesto di configurare MFA. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.
 
 1. L'accesso all'interfaccia di amministrazione di Microsoft Entra dovrebbe essere completato.

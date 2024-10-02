@@ -31,6 +31,7 @@ In questa attività, l'utente, in qualità di amministratore, esaminerà alcune 
 1. Apri il browser Microsoft Edge. Nella barra degli indirizzi, inserire **https://entra.microsoft.com** e accedere con le credenziali di amministratore di Microsoft 365 fornite dall'ALH (provider di servizi di hosting per i lab autorizzato)
     1. Nella finestra Accedi, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio ALH) e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
+    1. Se in precedenza è stato eseguito l'accesso come amministratore, verrà richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, verrà richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.
 
 1. Nel riquadro di spostamento a sinistra, espandere l'opzione **Protezione**, quindi selezionare **Reimpostazione della password**.  
@@ -81,7 +82,7 @@ In questa attività, l'utente Sara Perez dovrà eseguire il processo di registra
 
 1. Aprire Microsoft Edge e nella barra degli indirizzi, immettere **https://login.microsoft.com**.
 
-1. Accedere come Sara Perez.
+1. Accedere come Sara Perez. Il processo di accesso potrebbe richiedere l'autenticazione a più fattori.
 
 1. Verrà visualizzato un messaggio popup in cui è indicato che sono necessarie ulteriori informazioni.  Questo perché, come membro del gruppo SSPRSecurityGroupUsers, la configurazione richiede che i propri membri si registrino quando effettuano l'accesso.  Seleziona il pulsante **Avanti**.  Nota: un'alternativa alla registrazione degli utenti è la configurazione diretta dei metodi di autenticazione da parte degli amministratori quando aggiungono un utente. Questo richiede che gli amministratori conoscano e impostino i numeri di telefono e gli indirizzi di posta elettronica usati dagli utenti per la reimpostazione della password self-service e che reimpostino la password di un utente.
 

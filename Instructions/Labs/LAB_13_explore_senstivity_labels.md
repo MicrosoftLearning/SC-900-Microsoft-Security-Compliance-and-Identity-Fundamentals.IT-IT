@@ -22,7 +22,9 @@ In questo lab verranno esplorate le funzionalità delle etichette di riservatezz
 
 In questa attività si acquisirà una conoscenza delle operazioni che le etichette di riservatezza possono eseguire eseguendo il processo di creazione di una nuova etichetta e la creazione di un criterio per pubblicare l'etichetta.
 
-1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH). Dal riquadro di spostamento dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**, quindi selezionare **Conformità**.  Verrà aperta una nuova pagina del browser nella pagina iniziale del portale di Microsoft Purview.
+1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH). Se in precedenza è stato eseguito l'accesso come amministratore, verrà richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, verrà richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
+
+1. Dal riquadro di spostamento dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**, quindi selezionare **Conformità**.  Verrà aperta una nuova pagina del browser nella pagina iniziale del portale di Microsoft Purview.
 
 1. Nel pannello di spostamento sinistro selezionare **Soluzioni** e quindi Selezionare **Protezione delle informazioni**.  Si è nella pagina di panoramica. Scorrere verso il basso per visualizzare le informazioni disponibili.
 

@@ -25,6 +25,7 @@ In questa attività, l'amministratore dovrà reimpostare la password dell'utente
 1. Aprire Microsoft Edge.  Nella barra degli indirizzi, immettere **https://entra.microsoft.com** e accedere con le proprie credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
+    1. Se in precedenza è stato eseguito l'accesso come amministratore, potrebbe essere richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, potrebbe essere richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.
 
 1. Nel riquadro di spostamento a sinistra, espandere **Identità**, **Utenti**, quindi selezionare **Tutti gli utenti**.
@@ -53,7 +54,7 @@ In questa attività, si seguirà il processo di creazione di criteri di accesso 
 
 1. Dal riquadro di spostamento a sinistra, selezionare **Criteri**. Tutti i criteri di accesso condizionale esistenti sono elencati qui. Selezionare **+ Nuovi criteri**.
 
-1. Nel campo Nome, immettere **Criterio test MFA**.
+1. Nel campo Nome immettere **Blocca portali** di amministrazione.
 
 1. In Utenti, selezionare **0 utenti e gruppi selezionati**.
 
@@ -75,7 +76,7 @@ In questa attività, si seguirà il processo di creazione di criteri di accesso 
 
 1. Ora si imposteranno i controlli di accesso.  In Concedi, selezionare **0 controlli selezionati**.
 
-1. Viene aperta la finestra Concedi.  Assicurarsi che l'opzione **Concedi accesso** sia selezionata e quindi selezionare **Richiedi l'autenticazione a più fattori**. Scorrere verso il basso nella finestra destra e nella sezione Per più controlli lasciare l'impostazione predefinita **Richiedi tutti i controlli selezionati**.  Selezionare **OK** nella parte inferiore della pagina.
+1. Viene aperta la finestra Concedi.  Selezionare **Blocca accesso**. Selezionare **OK** nella parte inferiore della pagina.
 
 1. Nella parte inferiore della pagina, in Abilita criterio, selezionare **Attivato** e quindi selezionare **Crea**.
 
@@ -85,36 +86,19 @@ In questa attività, si seguirà il processo di creazione di criteri di accesso 
 
 ### Attività 3
 
-In questa attività si vedrà l'impatto dei criteri di accesso condizionale dal punto di vista dell'utente Debra Berger. Per prima cosa, è necessario accedere a un'applicazione non inclusa nel criterio di accesso condizionale (portale di Microsoft 365 all'indirizzo https://login.microsoftonline.com)).  Quindi ripetere la procedura per un'applicazione inclusa nel criterio di accesso condizionale (portale di Azure all'indirizzo https://portal.azure.com)).  Occorre ricordare che il criterio richiede all'utente di passare attraverso l'autenticazione MFA durante l'accesso a qualsiasi portale di amministrazione Microsoft, compreso il portale di Azure.  Per utilizzare l'autenticazione MFA, l'utente deve prima registrare il metodo di autenticazione che verrà utilizzato, ad esempio un codice inviato a un dispositivo mobile o un'applicazione di autenticazione.
+In questa attività si vedrà l'impatto dei criteri di accesso condizionale dal punto di vista dell'utente Debra Berger. Per prima cosa, è necessario accedere a un'applicazione non inclusa nel criterio di accesso condizionale (portale di Microsoft 365 all'indirizzo https://login.microsoftonline.com)).  Quindi ripetere la procedura per un'applicazione inclusa nel criterio di accesso condizionale (portale di Azure all'indirizzo https://portal.azure.com)).  Tenere presente che i criteri bloccano l'accesso a qualsiasi portale di amministrazione di Microsoft, incluso il portale di Azure.  NOTA: per motivi di sicurezza, tutti gli account utente che accedono a qualsiasi portale sono necessari per l'uso dell'autenticazione a più fattori.  Il requisito dell'autenticazione a più fattori è indipendente da questo esercizio del lab.
 
 1. Aprire Microsoft Edge.  Nella barra degli indirizzi, immettere **https://login.microsoftonline.com**.
     1. Accedere come **DebraB@WWLxZZZZZZ.onmicrosoft.com**, dove ZZZZZZ è l'ID del tenant univoco fornito dal provider di hosting del lab, quindi selezionare **Avanti**.
     1. Immettere la password annotata nell'attività precedente. Fare clic su **Accedi**.
-    1. Poiché la password fornita quando, in qualità di amministratore, è stata reimpostata è temporanea, sarà necessario aggiornare la password (questo non fa parte dei criteri MFA). Immettere la password attuale, quindi immettere una nuova password e confermarla.  Annotare la nuova password, poiché sarà necessaria per completare l'attività.
-    1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.  L'accesso all'account Microsoft 365 dovrebbe essere completato. L'autenticazione MFA non è richiesta per questa applicazione, in quanto non fa parte del criterio.
+    1. Poiché la password specificata quando l'amministratore reimposta la password è temporanea, è necessario aggiornare la password. Immettere la password attuale, quindi immettere una nuova password e confermarla.  Annotare la nuova password, poiché sarà necessaria per completare l'attività.
+    1. Poiché questa è la prima volta che si esegue l'accesso come Debra Berger, potrebbe essere richiesto di configurare MFA. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
+    1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.  L'accesso all'account Microsoft 365 dovrebbe essere completato.
 
-1. Ora si proverà a effettuare l'accesso a un'applicazione che soddisfa i criteri per la MFA. Aprire una nuova scheda del browser e immettere **https://portal.azure.com**.
-
-1. Verrà visualizzata una finestra con l'indicazione Sono necessarie altre informazioni.  Selezionare **Avanti**.  Notare che in questo modo si avvierà il processo di registrazione MFA, poiché si tratta del primo accesso all'app cloud identificata nei criteri di accesso condizionale.  Questa procedura di registrazione viene richiesta una sola volta.   Un'alternativa al processo di registrazione dell'utente è quella di far configurare all'amministratore il metodo di autenticazione da utilizzare.
-
-1. Nella finestra Mantieni sicuro il tuo account, è possibile selezionare il metodo da utilizzare per l'autenticazione MFA.  Microsoft Authenticator è una delle opzioni disponibili. Per comodità, in questo esercizio del lab si sceglierà un metodo diverso.  Selezionare **Desidero configurare un altro metodo**.  Nella finestra popup Scegli un metodo diverso, selezionare la **freccia giù** e selezionare **Telefono**, quindi selezionare **Conferma**.
-
-1. La finestra visualizzata e i passaggi seguenti sono relativi al metodo dell'app Microsoft Authenticator. .
-    1. Se nel dispositivo mobile è già installata l'app Microsoft Authenticator selezionare **Avanti**. In caso contrario, selezionare **Scarica adesso** e seguire la procedura.
-    1. Si inizierà a configurare l'account.  Selezionare **Avanti**.
-    1. Usando l'app Microsoft Authenticator nel dispositivo mobile, selezionare l'elemento per aggiungere un account e selezionare **Account aziendale o dell'istituto di istruzione**.**+**
-    1. Selezionare l'opzione **Analizza il codice** a matrice, quindi usando il dispositivo mobile, analizzare il codice a matrice sullo schermo del PC.
-    1. Usando l'app Microsoft Authenticator nel dispositivo mobile, eseguire la scansione del codice a matrice.
-    1. Seguire i passaggi nel PC e nel dispositivo mobile, quindi selezionare **Avanti**.
-    1. Dopo aver configurato le informazioni di sicurezza, verrà visualizzata una finestra Operazione completata.  Selezionare **Fatto**.
-
-1. Ora è possibile accedere al portale di Azure.  Il portale di Azure è un portale di amministrazione Microsoft e pertanto richiede l'autenticazione a più fattori, in base al criterio di accesso condizionato che è stato creato.  
-    1. Se viene visualizzato un messaggio che indica che l'accesso è scaduto, immettere la password e selezionare **Accedi**.
-    1. Verrà visualizzata una finestra che richiede di approvare la richiesta di accesso.  Prendere nota del numero nel PC e seguire le istruzioni nell'app Microsoft Authenticator.
-    1. Se viene richiesto se si vuole rimanere connessi, selezionare **No**.
+1. A questo punto si proverà ad accedere a un'applicazione che soddisfi i criteri dei criteri di accesso condizionale. Aprire una nuova scheda del browser e immettere **https://portal.azure.com**, ovvero il portale di amministrazione per Azure.  Viene visualizzata una finestra popup che indica che "Non si ha accesso a questo".  Questo è il risultato dei criteri di accesso condizionale che bloccano l'accesso a tutti i portali di amministrazione Microsoft.
 
 1. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo di posta elettronica nell'angolo in alto a destra della schermata, quindi Disconnetti. Chiudere quindi tutte le finestre del browser.
 
 ### Revisione
 
-In questo lab è stato presentato il processo di impostazione di un criterio di accesso condizionale che richiede agli utenti di effettuare l'autenticazione MFA quando accedono a qualsiasi portale di amministrazione Microsoft.  Quindi, in qualità di utente, è stata eseguita la procedura di registrazione per l'autenticazione MFA ed è stato illustrato l'effetto dei criteri di accesso condizionale che richiedono l'utilizzo dell'autenticazione MFA durante l'accesso al portale di Azure.
+In questo lab è stato eseguito il processo di configurazione di criteri di accesso condizionale che bloccano l'accesso ai portali di amministrazione Microsoft per tutti gli utenti inclusi nei criteri.  Quindi, come utente si è verificato l'impatto dei criteri di accesso condizionale quando si accede al portale di Azure.
