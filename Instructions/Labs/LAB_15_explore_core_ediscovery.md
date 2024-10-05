@@ -1,39 +1,39 @@
 ---
 lab:
-  title: Esplorare il flusso di lavoro di eDiscovery (Standard)
-  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
+  title: Esplorare eDiscovery
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# Lab: Esplorare il flusso di lavoro di eDiscovery (Standard)
+# Lab: Esplorare eDiscovery
 
 Questo lab corrisponde al contenuto di Learn seguente:
 
-- Percorso di apprendimento: Descrivere le funzionalità di conformità Microsoft
-- Modulo: Descrivere le funzionalità eDiscovery e di controllo di Microsoft Purview
-- Unità: Descrivere le soluzioni eDiscovery in Microsoft Purview
+- Percorso di apprendimento: Descrivere le funzionalità di Microsoft Priva e Microsoft Purview
+- Modulo: Descrivere le soluzioni di conformità dei dati di Microsoft Purview
+- Unità: Descrivere eDiscovery
 
 ## Scenario laboratorio
 
 In questo lab verranno illustrati i passaggi necessari per configurare eDiscovery, tra cui la configurazione delle autorizzazioni per i ruoli, la creazione di un caso di eDiscovery, la creazione di un blocco di eDiscovery e la creazione di una query di ricerca.  Le licenze per eDiscovery (Standard) richiedono un abbonamento dell'organizzazione appropriata e licenze per utente. In caso di dubbi sulle licenze che supportano eDiscovery (Standard), vedere [Attività iniziali con eDiscovery (Standard) in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
-**Tempo stimato:** 25-30 minuti
+**Tempo** stimato: 45 minuti
 
 ### Attività 1
 
 Per accedere a eDiscovery (Standard) o essere aggiunti come membro di un caso di eDiscovery, a un utente devono essere assegnate le autorizzazioni appropriate. In questa attività, l'amministratore globale aggiungerà utenti specifici come membri del Gruppo di ruoli Manager di eDiscovery.
 
-1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH). Dal riquadro di spostamento dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**, quindi selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del portale di conformità di Microsoft Purview.  
+1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH). Se in precedenza è stato eseguito l'accesso come amministratore, verrà richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, verrà richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
 
+1. Dal riquadro di spostamento dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**, quindi selezionare **Conformità**.  Verrà aperta una nuova pagina del browser nella pagina iniziale del portale di Microsoft Purview.  
 
-1. Nel riquadro di spostamento a sinistra, espandere (selezionando la freccia in giù) **Ruoli e ambiti** e selezionare **Autorizzazioni**.
+1. Nel riquadro di spostamento a sinistra selezionare **Impostazioni, espandere **Ruoli e ambiti**, quindi selezionare **Gruppi di ruoli****.
 
-1. Sotto le soluzioni Microsoft Purview, selezionare **Ruoli**.
+1. Nel campo di ricerca, in alto a destra della pagina, immettere **eDiscovery** e quindi premere INVIO sulla tastiera.  Selezionare **Manager di eDiscovery**.
 
-1. Nel campo della ricerca, immettere **eDiscovery** e premere INVIO sulla tastiera.  Selezionare **Manager di eDiscovery**.
-
-1. Seleziona **Modifica**  Notare che ci sono due sottogruppi, Manager di eDiscovery e Amministratore di eDiscovery.  
-    1. La pagina "Gestisci Manager di eDiscovery" consente di aggiungere utenti al ruolo di Manager di eDiscovery. Per questo lab, verranno aggiunti membri al sottogruppo Amministratore di eDiscovery, quindi selezionare **Avanti**.
-    1. Nella pagina "Gestisci Amministratore di eDiscovery", selezionare **Scegli utenti**. Cercare e selezionare **Amministratore MOD** e **Megan Bowen**, quindi premere **Seleziona** nella parte inferiore della pagina, quindi selezionare **Avanti** e **Salva**.
+1. Seleziona **Modifica** Ai fini di questo lab, l'amministratore mod verrà impostato come amministratore di eDiscovery e amministratore.  In pratica, è necessario designare utenti specifici per ruoli specifici.
+    1. La pagina "Gestisci Manager di eDiscovery" consente di aggiungere utenti al ruolo di Manager di eDiscovery.
+    1. Selezionare **Scegli utenti**. Cercare e selezionare **Amministratore MOD** , quindi premere **Seleziona** nella parte inferiore della pagina, quindi selezionare **Avanti**.
+    1. Nella pagina "Gestisci Amministratore di eDiscovery", selezionare **Scegli utenti**. Cercare e selezionare **Amministratore MOD** , quindi premere **Seleziona** nella parte inferiore della pagina, quindi selezionare **Avanti** e quindi **Salva**.
     1. Nella pagina "Il gruppo di ruoli è stato aggiornato correttamente", selezionare **Fine**.
 
 1. Mantenere la scheda del browser aperta perché verrà usata nell'attività successiva.
@@ -42,9 +42,9 @@ Per accedere a eDiscovery (Standard) o essere aggiunti come membro di un caso di
 
 In questa attività, lo studente, in qualità di Amministratore di eDiscovery (l'amministratore MOD è un amministratore di eDiscovery), creerà un caso per iniziare a utilizzare eDiscovery (Standard).
 
-1. Dovrebbe essere ancora visualizzata la pagina Ruoli del portale di conformità. Se la scheda del browser è stata chiusa dall'attività precedente, aprire una nuova scheda del browser e immettere **compliance.microsoft.com**
+1. Dovrebbe essere ancora visualizzata la pagina Ruoli del portale di conformità. Se la scheda del browser è stata chiusa dall'attività precedente, aprire una nuova scheda del browser e immettere **compliance.microsoft.com** per accedere al portale di Microsoft Purview.
 
-1. Nel riquadro di spostamento a sinistra, sotto Soluzioni, espandere **eDiscovery** e selezionare **Standard**.
+1. Nel pannello di spostamento a sinistra, in Soluzioni espandere **eDiscovery** e quindi selezionare **Casi** standard.
 
 1. Nella parte superiore della pagina eDiscovery (Standard), selezionare **+ Crea un caso**.
 

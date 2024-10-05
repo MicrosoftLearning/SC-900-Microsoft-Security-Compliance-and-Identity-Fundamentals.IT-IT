@@ -16,13 +16,13 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 Questo lab illustrerà il processo di creazione di un'istanza di Microsoft Sentinel.  Verranno anche configurate le autorizzazioni per garantire l'accesso alle risorse che verranno distribuite per supportare Microsoft Sentinel.  Dopo aver completato questa configurazione di base, verranno illustrati i passaggi per connettere Microsoft Sentinel alle origini dati, per configurare una cartella di lavoro e verranno illustrate brevemente alcune delle funzionalità chiave disponibili in Microsoft Sentinel.
 
-**Tempo stimato:** 45-60 minuti
+**Tempo** stimato: 60 minuti
 
 ### Attività 1
 
 Creare un'istanza di Microsoft Sentinel
 
-1. Ci si dovrebbe trovare nella home page per i servizi di Azure.  Se il browser è stato chiuso in precedenza, aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com** e accedere con le proprie credenziali di amministratore.
+1. Ci si dovrebbe trovare nella home page per i servizi di Azure.  Se il browser è stato chiuso in precedenza, aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com** e accedere con le proprie credenziali di amministratore. Se è stato effettuato l'accesso in precedenza, potrebbe essere richiesto un formato secondario di autenticazione, come per l'autenticazione a più fattori.  Se non è stato eseguito l'accesso in precedenza, potrebbe essere richiesto di configurare l'autenticazione a più fattori.  Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
 
 1. Nella casella di ricerca blu nella parte superiore della pagina immettere **Microsoft Sentinel** e quindi selezionare **Microsoft Sentinel** dai risultati della ricerca.
 
