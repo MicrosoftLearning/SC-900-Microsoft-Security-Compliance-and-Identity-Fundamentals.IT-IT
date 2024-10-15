@@ -1,10 +1,10 @@
 <!---
 ---
-Demo: Title: 'Explore the eDiscovery workflow' Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview; Modulo 3: Descrivere le soluzioni di conformità dei dati di Microsoft Purview; Unità 2: Descrivere eDiscovery'
+Demo: Title: 'Explore the eDiscovery' Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview; Modulo 3: Descrivere le soluzioni di conformità dei dati di Microsoft Purview; Unità 2: Descrivere eDiscovery'
 ---
 --->
 
-# Demo: esplorare il flusso di lavoro di eDiscovery (Standard)
+# Demo: Esplorare eDiscovery (Standard)
 
 Questa demo corrisponde al contenuto di Learn seguente:
 

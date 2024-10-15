@@ -22,7 +22,7 @@ In questo lab si esplorerà Microsoft Defender per il cloud.  NOTA: la sottoscri
 
 In questa attività verranno presente a livello generale alcune delle funzionalità di Microsoft Defender per il cloud
 
-1. Ci si dovrebbe trovare nella home page per i servizi di Azure.  Se il browser è stato chiuso in precedenza, aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com** e accedere con le proprie credenziali di amministratore.
+1. Ci si dovrebbe trovare nella home page per i servizi di Azure.  Se il browser è stato chiuso in precedenza, aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com** e accedere con le proprie credenziali di amministratore. Se è stato effettuato l'accesso in precedenza, potrebbe essere richiesto un formato secondario di autenticazione, come per l'autenticazione a più fattori.  Se non è stato eseguito l'accesso in precedenza, potrebbe essere richiesto di configurare l'autenticazione a più fattori.  Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
 
 1. Nella barra di ricerca blu immettere **Microsoft Defender per il cloud** e quindi nell'elenco dei risultati selezionare **Microsoft Defender per il cloud**.
 
