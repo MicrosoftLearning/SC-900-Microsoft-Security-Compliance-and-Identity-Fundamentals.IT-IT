@@ -22,7 +22,7 @@ In questo lab, verrà descritto il processo di impostazione di un criterio di ri
 
 In questa attività l'utente, in qualità di amministratore globale, abiliterà le autorizzazioni per la Gestione dei rischi Insider.  Nello specifico, verranno aggiunti utenti al gruppo di ruoli Gestione dei rischi Insider per assicurare che gli utenti designati possano accedere e gestire le funzionalità di gestione dei rischi Insider.  Possono essere necessari fino a 30 minuti affinché le autorizzazioni del gruppo di ruoli vengano applicate agli utenti dell'organizzazione.
 
-1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH). Se in precedenza è stato eseguito l'accesso come amministratore, verrà richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, verrà richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
+1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH). 
 
 1. Dal riquadro di spostamento dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**, quindi selezionare **Conformità**.  Verrà aperta una nuova pagina del browser nella pagina iniziale del portale di Microsoft Purview.  
 
@@ -75,7 +75,7 @@ In questa attività verranno esaminate le impostazioni per la creazione di un cr
 
 1. Gli amministratori possono iniziare immediatamente ad assegnare punteggi di rischio agli utenti in base all'attività rilevata dai criteri selezionati. In questo modo viene ignorato il requisito che prevede che venga prima rilevato un evento di attivazione, ad esempio una corrispondenza con criteri DLP.  A questo scopo, un amministratore dovrà selezionare il quadratino vuoto accanto al nome del criterio per selezionarlo e quindi selezionare l'opzione **Inizia calcolo punteggio attività per utenti**, disponibile sopra alla tabella dei criteri.  Verrà visualizzata una nuova finestra che richiede all'amministratore di popolare i campi disponibili. Lasciare vuoti i campi perché questa opzione non verrà configurata. Per altre informazioni sul motivo per cui un amministratore potrebbe voler eseguire questa operazione, selezionare **Perché eseguire questa operazione?**.  Chiudere la finestra selezionando la **X** nell'angolo in alto a destra della finestra.
 
-1. Dal riquadro di spostamento a sinistra, selezionare **Home** per tornare alla pagina di destinazione del portale di conformità di Microsoft Purview.
+1. Nel pannello di spostamento a sinistra selezionare **Home** per tornare alla pagina di destinazione del portale di Microsoft Purview.
 
 1. Mantenere aperta la scheda del browser.
 

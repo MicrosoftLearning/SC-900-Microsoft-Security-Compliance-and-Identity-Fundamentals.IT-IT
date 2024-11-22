@@ -22,13 +22,14 @@ In questo lab verranno esplorate le funzionalità delle etichette di riservatezz
 
 In questa attività si acquisirà una conoscenza delle operazioni che le etichette di riservatezza possono eseguire eseguendo il processo di creazione di una nuova etichetta e la creazione di un criterio per pubblicare l'etichetta.
 
-1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH). Se in precedenza è stato eseguito l'accesso come amministratore, verrà richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, verrà richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
+1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **`https://admin.microsoft.com`**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH).
 
 1. Dal riquadro di spostamento dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**, quindi selezionare **Conformità**.  Verrà aperta una nuova pagina del browser nella pagina iniziale del portale di Microsoft Purview.
 
 1. Nel pannello di spostamento sinistro selezionare **Soluzioni** e quindi Selezionare **Protezione delle informazioni**.  Si è nella pagina di panoramica. Scorrere verso il basso per visualizzare le informazioni disponibili.
 
 1. Nel pannello di spostamento a sinistra selezionare Etichette** di riservatezza**.
+1. Verrà visualizzato un banner giallo che indica che l'organizzazione non ha attivato la possibilità di elaborare il contenuto nei file online di Office con etichette di riservatezza crittografate applicate e archiviate in OneDrive e SharePoint.  Selezionare **Attiva ora**.
 
 1. Alcune etichette sono state preconfigurate nel tenant del lab di Microsoft 365, per praticità. Selezionare l'etichetta denominata **Riservato - Finanza**.  Verrà visualizzata una finestra che fornisce informazioni su questa etichetta.  Notare le impostazioni per questa etichetta.  Selezionare **Modifica etichetta** Se questa opzione non viene visualizzata, selezionare i puntini di sospensione.
     1. La configurazione inizia con l'aggiunta di dettagli di base per l'etichetta.  Non modificare nulla.  Nella parte inferiore della pagina, selezionare **Avanti**.
@@ -65,7 +66,7 @@ In questa attività si acquisirà una conoscenza delle operazioni che le etichet
     1. È possibile testare il criterio ora o in un secondo momento.  Selezionare **Mantieni criterio disattivato** e quindi selezionare **Avanti**.
     1. Rivedere le impostazioni e selezionare **Crea criterio**, quindi selezionare **Fine**.
 
-1. Dal riquadro di spostamento a sinistra, selezionare **Home** per tornare al portale di conformità Microsoft Purview.
+1. Nel pannello di spostamento a sinistra selezionare **Home** per tornare al portale di Microsoft Purview.
 
 1. Tenere aperta la pagina perché verrà usata nell'attività successiva.
 
@@ -73,9 +74,10 @@ In questa attività si acquisirà una conoscenza delle operazioni che le etichet
 
 In questa attività, verrà eseguito il processo di applicazione di un'etichetta di riservatezza a un documento di Microsoft Word e quindi visualizzato il contrassegno del contenuto (filigrana) generato dall'etichetta. NOTA: quando si utilizza Microsoft Word online, è possibile che si verifichi un ritardo prima che l'opzione di selezione delle etichette di riservatezza venga visualizzata sulla barra multifunzione superiore.  È consigliabile completare tutti i lab rimanenti e quindi tornare a questa attività.
 
-1. Nella home page del portale di conformità di Microsoft Purview selezionare l'**icona di avvio dell'app** accanto a Contoso Electronics. Selezionare l'**icona di Word**.  
+1. Si dovrebbe ancora trovarsi nella home page del portale di Microsoft Purview. 
+1. Nel portale di Microsoft Purview selezionare l'icona dell'icona **** di avvio delle app, accanto alla posizione in cui è indicato Microsoft Purview. Selezionare l'**icona di Word**.  
 
-1. In Crea nuovo, selezionare **Documento vuoto**, quindi immettere del testo nella pagina.  Nella parte superiore della pagina selezionare la freccia in giù accanto a Documento - Salvato, nella casella Nome file immettere **Etichetta di test** e quindi premere **INVIO**.
+1. In Crea nuovo, selezionare **Documento vuoto**, quindi immettere del testo nella pagina.  Nella parte superiore della pagina, accanto all'icona di Word, selezionare il punto in cui è indicato **Documento** e rinominare il file in **Test-label** e quindi premere **INVIO** sulla tastiera.
 
 1. All'estrema destra della barra del menu superiore (detta anche barra multifunzione) è presente una freccia verso il basso, selezionarla, quindi selezionare **Barra multifunzione classica**.  In questo modo sarà più semplice identificare l'icona di riservatezza. Selezionare **Riservatezza**, accanto all'icona del microfono. Nel menu a discesa selezionare **Riservato-Finanza**.  
 

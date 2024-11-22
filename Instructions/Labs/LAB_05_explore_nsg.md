@@ -27,8 +27,7 @@ In questa attività verranno visualizzati alcuni parametri associati alla macchi
 1. Accedere utilizzando le credenziali di amministratore.
     1. Nella finestra Accedi immettere il nome utente fornito dal provider di hosting del lab e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
-    1. Se in precedenza è stato eseguito l'accesso, potrebbe essere richiesto di completare un'autenticazione secondaria, come parte di MFA. Se non è stato eseguito l'accesso in precedenza, potrebbe essere richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
-    1. Se viene richiesto se si desidera rimanere connessi, selezionare **Sì**.
+    1. A seconda dell'host del lab e se è la prima volta che si esegue l'accesso al tenant, potrebbe essere richiesto di completare il processo di registrazione dell'autenticazione a più fattori. In tal caso, seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
 
 1. Nella parte superiore della pagina, sotto alla dicitura Servizi di Azure, selezionare **Macchine virtuali**.  Se questa opzione non è disponibile, nella casella di ricerca, nella barra blu nella parte superiore della pagina accanto a Microsoft Azure, immettere **Macchine virtuali** e quindi selezionare **Macchine virtuali** dai risultati della ricerca.
 
@@ -126,7 +125,7 @@ Nell'attività precedente è stata confermata la possibilità di stabilire una c
 
 1. Dovrebbe essere visualizzata la pagina SC900-WinVM \| Connetti. Dal riquadro di spostamento sinistro selezionare **Rete**. Se in precedenza è stata chiusa la scheda del browser, selezionare la barra di ricerca blu nella parte superiore della pagina e selezionare Macchine virtuali, quindi selezionare la macchina virtuale **SC900-WinVM** e quindi selezionare **Rete**.
 
-1. Selezionare la scheda **Regole porta in uscita**. Verranno visualizzate le regole in uscita predefinite.  Notare la regola predefinita "AllowInternetOutBound". Questa regola consente tutto il traffico Internet in uscita. Non è possibile rimuovere la regola predefinita, ma è possibile sostituirla creando una regola con priorità più alta. Nella parte destra della pagina, selezionare **Aggiungi regola porta in uscita**.
+1. Selezionare la scheda **Regole porta in uscita**. Verranno visualizzate le regole in uscita predefinite.  Notare la regola predefinita "AllowInternetOutBound". Questa regola consente tutto il traffico Internet in uscita. Non è possibile rimuovere la regola predefinita, ma è possibile sostituirla creando una regola con priorità più alta. Dal lato destro della pagina selezionare **+Crate port rule (Regola** porta Crate), quindi nell'elenco a discesa selezionare **Regola** porta in uscita.
 
 1. Nella pagina Aggiungi regola di sicurezza in uscita, specificare le seguenti impostazioni:
     1. Origine: **qualsiasi**
