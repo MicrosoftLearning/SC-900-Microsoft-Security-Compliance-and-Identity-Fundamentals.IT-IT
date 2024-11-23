@@ -23,15 +23,13 @@ Questo lab di installazione consiste nell'abilitare le funzionalità di monitora
 
 In questa attività di installazione si abiliteranno le funzionalità di monitoraggio dei log di controllo e dei file in Microsoft 365.  
 
-1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **https://admin.microsoft.com**.
+1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **`https://admin.microsoft.com`**.
 
 1. Accedere con le credenziali di amministrazione del tenant Microsoft 365 fornite dall'ALH (provider di servizi di hosting per i lab autorizzato).
 
 1. Dal riquadro di spostamento a sinistra dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
 
-1. In Interfacce di amministrazione selezionare **Sicurezza**.  Verrà visualizzata una nuova pagina del browser nella pagina iniziale di Microsoft Defender.  
-
-1. Dal riquadro di spostamento sinistro del portale di conformità di Microsoft Purview selezionare **Mostra tutto**.
+1. In Interfacce di amministrazione selezionare **Sicurezza**.  Verrà visualizzata una nuova pagina del browser nella pagina iniziale di Microsoft Defender.
 
 1. Nel pannello di spostamento sinistro scorrere verso il basso ed espandere **Sistema**.  Nell'elenco espanso selezionare **Controlla**.  Nota: la funzionalità di controllo è accessibile anche tramite il portale di Microsoft Purview.
 
@@ -39,7 +37,7 @@ In questa attività di installazione si abiliteranno le funzionalità di monitor
 
 1. Nel pannello di spostamento a sinistra, in Sistema, selezionare **Impostazioni**.
 
-1. Nella pagina delle impostazioni selezionare **App cloud**.   Scorrere verso il basso, quindi in Information Protection selezionare **File**.
+1. Nella pagina delle impostazioni selezionare **App cloud**.   Scorrere verso il basso, quindi in **Information Protection** selezionare **File**.
 
 1. Se non è già abilitato, selezionare la casella accanto a dove è indicato **Abilita monitoraggio** file e quindi selezionare **Salva**.  
 

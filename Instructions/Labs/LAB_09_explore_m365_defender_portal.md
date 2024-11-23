@@ -27,12 +27,12 @@ Esplorare la pagina di destinazione di Microsoft Defender.
 1. Accedere utilizzando le credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
-    1. Se in precedenza è stato eseguito l'accesso come amministratore, verrà richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, verrà richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
-    1. Quando viene richiesto di rimanere connessi, selezionare **Sì**. Verrà visualizzata la pagina dell'interfaccia di amministrazione di Microsoft 365.
+    1. A seconda dell'host del lab e se è la prima volta che si esegue l'accesso al tenant, potrebbe essere richiesto di completare il processo di registrazione dell'autenticazione a più fattori. In tal caso, seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
+    1. Dopo aver eseguito l'accesso, viene visualizzata la pagina interfaccia di amministrazione di Microsoft 365.
 
 1. Nel riquadro di spostamento a sinistra dell'interfaccia di amministrazione di Microsoft 365, in Interfacce di amministrazione, selezionare **Sicurezza**.  Se l'opzione Sicurezza non è elencata, selezionare **Mostra tutto** e quindi **Sicurezza**.  Viene aperta una nuova pagina del browser nella pagina iniziale del portale di Microsoft Defender.  
 
-1. Se questa è la prima volta che si visita il portale di Microsoft Defender, è possibile che venga visualizzata una finestra popup per un rapido tour.  È consigliabile completare la presentazione.  Selezionare **Presentazione rapida**.  Leggere la descrizione fornita in ogni finestra a comparsa, quindi selezionare **Avanti**. Continuare con la presentazione fino alla fine, quindi selezionare **Fine**.
+1. Se è la prima volta che si visita il portale di Microsoft 365 Defender, è possibile che venga visualizzata una finestra a comparsa per una breve presentazione.  È possibile scegliere di fare il breve tour o chiudere la finestra.
 
 1. La home page del portale di Microsoft Defender mostra molte delle schede comuni necessarie ai team di sicurezza. La composizione delle schede e dei dati dipende dal ruolo dell'utente. Scorrere la pagina per visualizzare il set di schede predefinito per il proprio ruolo di amministratore globale.
 
@@ -58,7 +58,7 @@ In questa parte del lab verranno esaminate alcune delle opzioni disponibili nel 
 
 In questa attività si vedrà come Microsoft Secure Score può aiutare un'organizzazione a migliorare la propria postura di sicurezza.
 
-1. Nella pagina iniziale del portale di Microsoft Defender selezionare **Microsoft Secure Score**, dalla barra del titolo della scheda (il testo diventerà blu).  In alternativa, è possibile selezionare **Punteggio di sicurezza** dal riquadro di spostamento a sinistra.
+1. Si dovrebbe ancora trovarsi nel portale di Microsoft Defender. Nel pannello di spostamento sinistro espandere **Exposure Management (Gestione** esposizione) invece di selezionare **Secure score (Punteggio** di sicurezza).  Se la gestione dell'esposizione non viene visualizzata nel tenant, dalla pagina iniziale del portale di Microsoft Defender scorrere verso il basso fino a visualizzare la scheda per **Microsoft Secure Score**. Selezionare il titolo della scheda (il testo diventa blu quando si posiziona il cursore del mouse sul titolo della scheda).
 
 1. La pagina Microsoft Secure Score viene aperta nella scheda Panoramica. Microsoft Secure Score è una misurazione della postura di sicurezza di un'organizzazione. Il punteggio di sicurezza dell'organizzazione è mostrato come percentuale, insieme al numero di punti raggiunti rispetto al totale dei punti possibili e suddiviso per categoria. Selezionare **Includi** accanto alla posizione in cui è indicato Il punteggio di sicurezza.  Si apre una piccola finestra che consente di includere il punteggio realizzabile, il punteggio pianificato e il punteggio della licenza corrente nella suddivisione del punteggio di sicurezza dell'organizzazione.  Selezionare di nuovo **Includi** per chiudere la finestra.
 

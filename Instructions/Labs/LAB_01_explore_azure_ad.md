@@ -20,13 +20,13 @@ In questo lab, verrà effettuato l'accesso a Microsoft Entra ID (noto in precede
 
 ### Attività 1
 
-Gli abbonati a Microsoft 365 usano già Microsoft Entra ID (noto in precedenza come Azure AD).  In questa attività si apprenderà come creare un nuovo utente in Microsoft Entra ID e verranno esplorati alcuni servizi gestibili a livello di utente.
+Gli abbonati a Microsoft 365 usano già Microsoft Entra ID.  In questa attività si apprenderà come creare un nuovo utente in Microsoft Entra ID e verranno esplorati alcuni servizi gestibili a livello di utente.
 
-1. Apri il browser Microsoft Edge. Nella barra degli indirizzi immettere **[admin.microsoft.com](https://admin.microsoft.com)** e accedere con le credenziali di Microsoft 365 fornite dal provider di servizi di hosting per lab autorizzato (ALH).
+1. Apri il browser Microsoft Edge. Nella barra degli indirizzi immettere **`https://admin.microsoft.com`** e accedere con le credenziali di Microsoft 365 fornite dall'host del lab autorizzato (ALH).
     1. Nella finestra Accedi, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio ALH) e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
-    1. Poiché è la prima volta che si esegue l'accesso, potrebbe essere richiesto di configurare l'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
-    1. Se viene richiesto se si desidera rimanere connessi, selezionare **Sì**.
+    1. A seconda dell'host del lab e se è la prima volta che si esegue l'accesso al tenant, potrebbe essere richiesto di completare il processo di registrazione dell'autenticazione a più fattori. In tal caso, seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
+    1. Dopo aver eseguito l'accesso, viene visualizzata la pagina interfaccia di amministrazione di Microsoft 365.
 
 1. In Interfacce di amministrazione, selezionare **Identità** (potrebbe essere necessario selezionare **Mostra tutto** e scorrere verso il basso).  Verrà visualizzata una nuova pagina del browser della pagina panoramica dell'Interfaccia di amministrazione di Microsoft Entra.
 

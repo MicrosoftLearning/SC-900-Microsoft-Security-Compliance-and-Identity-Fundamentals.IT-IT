@@ -22,7 +22,7 @@ Questo lab illustrerà il processo di creazione di un'istanza di Microsoft Senti
 
 Creare un'istanza di Microsoft Sentinel
 
-1. Ci si dovrebbe trovare nella home page per i servizi di Azure.  Se il browser è stato chiuso in precedenza, aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com** e accedere con le proprie credenziali di amministratore. Se è stato effettuato l'accesso in precedenza, potrebbe essere richiesto un formato secondario di autenticazione, come per l'autenticazione a più fattori.  Se non è stato eseguito l'accesso in precedenza, potrebbe essere richiesto di configurare l'autenticazione a più fattori.  Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
+1. Ci si dovrebbe trovare nella home page per i servizi di Azure.  Se il browser è stato chiuso in precedenza, aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com** e accedere con le proprie credenziali di amministratore.
 
 1. Nella casella di ricerca blu nella parte superiore della pagina immettere **Microsoft Sentinel** e quindi selezionare **Microsoft Sentinel** dai risultati della ricerca.
 
@@ -39,7 +39,7 @@ Creare un'istanza di Microsoft Sentinel
     1. Verificare le informazioni immesse in precedenza e quindi selezionare **Crea**.
     1. Elencare le aree di lavoro potrebbe richiedere qualche minuto. Se l'elenco non viene ancora visualizzato, selezionare **Aggiorna**, quindi selezionare **Aggiungi**.
 
-1. Dopo aver aggiunto la nuova area di lavoro, verrà visualizzata la pagina Microsoft Sentinel | Novità e guide che indica che la versione di valutazione gratuita di Microsoft Sentinel è attivata.  Seleziona **OK**.  Notare i tre passaggi elencati nella pagina Attività iniziali.
+1. Dopo aver aggiunto la nuova area di lavoro, verrà visualizzata la pagina Microsoft Sentinel | Novità e guide che indica che la versione di valutazione gratuita di Microsoft Sentinel è attivata.  Seleziona **OK**.
 
 1. Tenere aperta la pagina perché verrà usata nell'attività successiva.
 
@@ -72,7 +72,7 @@ Lo scopo di questa attività è quello di illustrare i passaggi necessari necess
 
 1. Nella home page dei servizi di Azure, selezionare Microsoft Sentinel, quindi selezionare l'istanza creata, **SC900-LogAnalytics-workspace**.
 
-1. Dal riquadro di spostamento a sinistra, selezionare **Hub contenuti**.
+1. Nel pannello di spostamento a sinistra espandere **Gestione** contenuto e quindi selezionare **Hub** contenuto.
 
 1. Scorrere verso il basso per visualizzare il lungo elenco lungo di soluzioni disponibili e le opzioni per filtrare l'elenco.  Per questa attività, la ricerca è **Microsoft Defender per il cloud**.  Selezionarlo dall'elenco.  Nella finestra laterale visualizzata, leggere la descrizione e quindi selezionare **Installa**.  Al termine dell'installazione, nella colonna stato della finestra principale verrà visualizzata installato.
 
@@ -95,21 +95,23 @@ Lo scopo di questa attività è quello di illustrare i passaggi necessari necess
 
 In questa attività verranno illustrate alcune delle opzioni disponibili in Sentinel.
 
-1. Dal riquadro di spostamento sinistro, selezionare **Ricerca**.  Nella parte superiore della pagina, selezionare la scheda **Query**. Leggere la descrizione relativa a cosa è una query di ricerca. È possibile aggiungere query di ricerca tramite l'Hub contenuti. Tutte le query installate in precedenza verranno elencate qui. Selezionare **Passa a Hub contenuti**.  L'Hub contenuti elenca contenuti che includono query come parte di una soluzione o come query autonoma.  Scorrere verso il basso per visualizzare le opzioni disponibili. Chiudere la finestra selezionando la **X** nell'angolo in alto a destra.
+1. Nel pannello di spostamento sinistro espandere **Gestione** delle minacce ed esplorare le opzioni elencate nella gestione delle minacce.
+    1. Selezionare **Eventi imprevisti**.  Anche se non vengono trovati eventi imprevisti, vedere la sezione Che cos'è **?**
+    1. Selezionare **Ricerca** e quindi esaminare le informazioni fornite nella **scheda Caccia (anteprima).**
+    1. Selezionare **Notebook ed** esaminare la sezione Che cos'è **?**
+    1. Selezionare **Intelligence** per le minacce ed esaminare le informazioni nella pagina.
+    1. Selezionare **MITRE ATT&CK**.  MITRE ATT&CK è una knowledge base pubblica di tattiche e tecniche comunemente usate dagli utenti malintenzionati. Con Microsoft Sentinel è possibile visualizzare i rilevamenti già attivi nell'area di lavoro e quelli disponibili per la configurazione, per comprendere la copertura della sicurezza dell'organizzazione, in base alle tattiche e alle tecniche del framework MITRE ATT&CK®.  Selezionare una cella della matrice e prendere nota delle informazioni disponibili sul lato destro della schermata. **Nota:** potrebbe essere necessario selezionare "**<<**" all'estremità destra della finestra per visualizzare il riquadro delle informazioni.
 
-1. Dal riquadro di spostamento sinistro, selezionare **MITRE ATT&CK**.  MITRE ATT&CK è una knowledge base pubblica di tattiche e tecniche comunemente usate dagli utenti malintenzionati. Con Microsoft Sentinel è possibile visualizzare i rilevamenti già attivi nell'area di lavoro e quelli disponibili per la configurazione, per comprendere la copertura della sicurezza dell'organizzazione, in base alle tattiche e alle tecniche del framework MITRE ATT&CK®.  Selezionare una cella della matrice e prendere nota delle informazioni disponibili sul lato destro della schermata. **Nota:** potrebbe essere necessario selezionare "**<<**" all'estremità destra della finestra per visualizzare il riquadro delle informazioni.
+1. Nel pannello di spostamento a sinistra espandere **Gestione** contenuto, quindi selezionare **Community**. La pagina della community include informazioni dettagliate sulla cybersecurity e aggiornamenti di Microsoft Research, un collegamento a un elenco di blog di Microsoft Sentinel, un collegamento ai forum di Microsoft Sentinel, collegamenti alle edizioni più recenti nell'hub di Microsoft Sentinel e altro ancora. Esplorare questi elementi come si vuole.
 
-1. Dal riquadro di spostamento sinistro, selezionare **Community**. La pagina della community include informazioni dettagliate sulla cybersecurity e aggiornamenti di Microsoft Research, un collegamento a un elenco di blog di Microsoft Sentinel, un collegamento ai forum di Microsoft Sentinel, collegamenti alle edizioni più recenti nell'hub di Microsoft Sentinel e altro ancora. Esplorare questi elementi come si vuole.
 
-1. Dal riquadro di spostamento a sinistra, selezionare **Analisi**.  Saranno presenti due regole attive, una disponibile per impostazione predefinita e l'altra creata nell'attività precedente. Selezionare la regola predefinita **Rilevamento avanzato attacchi multifase**.  Prendere nota delle informazioni dettagliate.  Microsoft Sentinel usa Fusion, un motore di correlazione basato su algoritmi di Machine Learning scalabili, per rilevare automaticamente gli attacchi multistage (noti anche come minacce persistenti avanzate) identificando combinazioni di comportamenti anomali e attività sospette che vengono osservate in varie fasi della kill chain. Sulla base di queste individuazioni, Microsoft Sentinel genera eventi imprevisti che altrimenti sarebbero difficili da intercettare. **Nota:** potrebbe essere necessario selezionare "**<<**" all'estremità destra della finestra per visualizzare il riquadro delle informazioni.
-
-1. Dal riquadro di spostamento a sinistra, selezionare **Automazione**.  Qui è possibile creare semplici regole di automazione, integrare i playbook esistenti o crearne di nuovi.  Selezionare **+ Crea** e quindi selezionare **Regola di automazione**.  Notare la finestra visualizzata sul lato destro della schermata e le opzioni disponibili per creare condizioni e azioni.  Selezionare **Annulla** nella parte inferiore della schermata.
-
-1. Dal riquadro di spostamento a sinistra selezionare **Cartelle di lavoro**. Leggere la descrizione della cartella di lavoro di Microsoft Sentinel.  Le cartelle di lavoro possono essere aggiunte tramite l'Hub contenuti. Tutte le cartelle di lavoro installate in precedenza verranno elencate qui. Selezionare **Passa a Hub contenuti**.  L'Hub contenuti elenca contenuti che includono cartelle di lavoro come parte di una soluzione o come cartella di lavoro autonoma. Scorrere verso il basso per visualizzare le opzioni disponibili.
+1. Nel pannello di spostamento a sinistra espandere **Configurazione** ed esplorare le opzioni elencate:
+    1. selezionare **Analisi**.  Saranno presenti due regole attive, una disponibile per impostazione predefinita e l'altra creata nell'attività precedente. Selezionare la regola predefinita **Rilevamento avanzato attacchi multifase**.  Esaminare le informazioni dettagliate. **Nota:** potrebbe essere necessario selezionare "**<<**" all'estremità destra della finestra per visualizzare il riquadro delle informazioni.
+    1. Dal riquadro di spostamento a sinistra, selezionare **Automazione**.  Qui è possibile creare semplici regole di automazione, integrare i playbook esistenti o crearne di nuovi.  Selezionare **+ Crea** e quindi selezionare **Regola di automazione**.  Notare la finestra visualizzata sul lato destro della schermata e le opzioni disponibili per creare condizioni e azioni.  Selezionare **Annulla** nella parte inferiore della schermata.
 
 1. Chiudere la finestra selezionando la **X** nell'angolo in alto a destra della schermata.
 
-1. Nell'angolo superiore sinistro della finestra, subito sotto la barra blu, selezionare **Home** per tornare alla home page del portale di Azure.
+1. Nell'angolo superiore sinistro della finestra, nel banner blu selezionare **Microsoft Azure** per tornare alla home page del portale di Azure.
 
 1. Disconnettersi e chiudere tutte le schede del browser aperte.
 

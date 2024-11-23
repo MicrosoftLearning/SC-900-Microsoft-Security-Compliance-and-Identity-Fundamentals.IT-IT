@@ -22,7 +22,7 @@ In questo lab verranno illustrati i passaggi necessari per configurare eDiscover
 
 Per accedere a eDiscovery (Standard) o essere aggiunti come membro di un caso di eDiscovery, a un utente devono essere assegnate le autorizzazioni appropriate. In questa attività, l'amministratore globale aggiungerà utenti specifici come membri del Gruppo di ruoli Manager di eDiscovery.
 
-1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH). Se in precedenza è stato eseguito l'accesso come amministratore, verrà richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, verrà richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
+1. Aprire la scheda del browser sulla Home page di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://admin.microsoft.com**. Accedere con le credenziali di amministratore per il tenant di Microsoft 365 fornito tramite un provider di servizi di hosting per lab autorizzato (ALH).
 
 1. Dal riquadro di spostamento dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**, quindi selezionare **Conformità**.  Verrà aperta una nuova pagina del browser nella pagina iniziale del portale di Microsoft Purview.  
 
@@ -74,7 +74,7 @@ Ora che è stato creato un caso di eDiscovery (Standard), si può iniziare a lav
 
 1. Nella pagina Scegli posizioni, selezionare **Avanti**.  Per motivi di praticità con il lab, non saranno incluse altre posizioni in questo blocco.
 
-1. La pagina Condizioni della query consente di creare un blocco basato su specifiche parole chiave o condizioni che devono essere soddisfatte. Selezionare **+ Aggiungi condizione** per visualizzare le opzioni disponibili.  Selezionare **Avanti**. Senza alcuna condizione, il blocco conserva tutti i contenuti nella posizione specificata.
+1. La pagina Condizioni query consente di creare un blocco per gli elementi in base a una query che è possibile creare.  È possibile scegliere di usare il generatore di query per creare una query o per utenti più avanzati, è possibile usare l'editor KQL. Per questo esercizio, si vuole che il blocco mantenga tutto il contenuto nel percorso specificato per l'utente specificato, quindi non verrà creata una query.
 
 1. Esaminare le impostazioni e selezionare **Invia**; potrebbe essere necessario qualche minuto, quindi selezionare **Fine**.  Il blocco della prova dovrebbe apparire nell'elenco.  Se non viene visualizzato immediatamente, selezionare **Aggiorna**.
 
@@ -82,7 +82,7 @@ Ora che è stato creato un caso di eDiscovery (Standard), si può iniziare a lav
 
 ### Attività 4
 
-Una volta creato il blocco, occorre creare una query di ricerca.  Al termine della ricerca, eDiscovery supporta azioni, ad esempio l'esportazione e il download dei risultati per indagini successive.   Nota: le ricerche associate a un caso di eDiscovery (Standard) non sono elencate nella pagina Ricerca di contenuto del portale di conformità di Microsoft Purview. Queste ricerche sono elencate solo nella pagina Ricerche del caso di eDiscovery (Standard) associato.
+Una volta creato il blocco, occorre creare una query di ricerca.  Al termine della ricerca, eDiscovery supporta azioni, ad esempio l'esportazione e il download dei risultati per indagini successive.   Nota: le ricerche associate a un caso eDiscovery (Standard) non sono elencate nella pagina Ricerca contenuto nel portale di Microsoft Purview. Queste ricerche sono elencate solo nella pagina Ricerche del caso di eDiscovery (Standard) associato.
 
 1. Aprire la scheda SC900 Caso di test nel browser.
 

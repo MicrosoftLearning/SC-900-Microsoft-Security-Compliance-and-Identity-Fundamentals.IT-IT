@@ -22,25 +22,25 @@ In questo lab verranno esplorate le funzionalità di Microsoft Defender for Clou
 
 Esplorare Cloud Discovery.
 
-1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **admin.microsoft.com**.
+1. Aprire Microsoft Edge. Nella barra degli indirizzi, immettere **`https://admin.microsoft.com`**.
 
 1. Accedere con le credenziali di amministratore del tenant Microsoft 365.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
-    1. Se in precedenza è stato eseguito l'accesso come amministratore, verrà richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, verrà richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
-    1. Quando viene richiesto di rimanere connessi, selezionare **Sì**. Verrà visualizzata la pagina dell'interfaccia di amministrazione di Microsoft 365.
+    1. A seconda dell'host del lab e se è la prima volta che si esegue l'accesso al tenant, potrebbe essere richiesto di completare il processo di registrazione dell'autenticazione a più fattori. In tal caso, seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
+    1. Dopo aver eseguito l'accesso, viene visualizzata la pagina interfaccia di amministrazione di Microsoft 365.
 
 1. Dal riquadro di spostamento a sinistra dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
 
 1. In Interfacce di amministrazione selezionare **Sicurezza**.  Verrà visualizzata una nuova pagina del browser con la pagina di benvenuto del portale Microsoft 365 Defender.  
 
-1. Se è la prima volta che si visita il portale di Microsoft 365 Defender, è possibile che venga visualizzata una finestra a comparsa per una breve presentazione.  Chiuderla.
+1. Se è la prima volta che si visita il portale di Microsoft 365 Defender, è possibile che venga visualizzata una finestra a comparsa per una breve presentazione.  È possibile scegliere di fare il breve tour o chiudere la finestra.
 
 1. Dal riquadro di spostamento sinistro selezionare **App cloud** per espandere l'elenco e quindi selezionare **Cloud Discovery**. Verrà aperta la visualizzazione Dashboard.  Notare le informazioni disponibili nel dashboard. Nella visualizzazione del dashboard è possibile selezionare schede diverse nella parte superiore della pagina.  
 
 1. Selezionare **App individuate**. La finestra App individuate offre una visualizzazione più dettagliata delle app individuate, tra cui punteggio di rischio, traffico, numero di utenti e altro ancora.
     1. Da qualsiasi voce dell'elenco, selezionare i **puntini di sospensione** (...) nella colonna delle azioni della tabella.  Notare le varie opzioni disponibili, inclusa la possibilità di contrassegnare un'app come approvata o non approvata.  Selezionare di nuovo i **puntini di sospensione** (...) per chiudere la casella delle azioni.
-    1. Selezionando una voce specifica, verrà visualizzata una pagina Dettagli per l'app relativa.  Selezionare un elemento dall'elenco ed esaminare le informazioni disponibili nella pagina di panoramica.  Per l'elemento selezionato, selezionare la scheda **Utilizzo dell'app cloud** per visualizzare informazioni più dettagliate, tra cui **Utilizzo**, **Utenti**, **Indirizzi IP** e **Avvisi**. Al termine dell'esplorazione della pagina dei dettagli, tornare alla pagina delle app individuate selezionando **Cloud Discovery** nel percorso di navigazione nella parte superiore della pagina.  Se si seleziona Cloud Discovery nel riquadro di spostamento sinistro, si tornerà alla visualizzazione del dashboard.
+    1. Selezionando una voce specifica, verrà visualizzata una pagina Dettagli per l'app relativa.  Selezionare un elemento dall'elenco ed esaminare le informazioni disponibili nella pagina di panoramica.  Per l'elemento selezionato, selezionare la **scheda Utilizzo** app cloud per visualizzare informazioni più dettagliate, tra cui  **Utilizzo**, **Utenti, IP**, **Indirizzi** e **Eventi imprevisti**. Al termine dell'esplorazione della pagina dei dettagli, tornare alla pagina delle app individuate selezionando **Cloud Discovery** nel percorso di navigazione nella parte superiore della pagina.  Se si seleziona Cloud Discovery nel riquadro di spostamento sinistro, si tornerà alla visualizzazione del dashboard.
     1. Nella parte superiore della pagina selezionare la scheda **Indirizzi IP**. In questa scheda sono disponibili dati, tra cui il numero di transazioni, la quantità di traffico e di caricamenti, in base all'indirizzo IP.  Tenere presente che è possibile filtrare anche in base a un indirizzo IP specifico o esportare i dati per ulteriori analisi.
     1. Nella parte superiore della pagina selezionare **Utenti**.  Questo è lo stesso tipo di informazioni fornite quando si selezionano gli indirizzi IP, ma sono elencate per i singoli utenti.  Anche in questo caso, è possibile filtrare in base a utenti specifici ed esportare i dati per un'ulteriore analisi.
 

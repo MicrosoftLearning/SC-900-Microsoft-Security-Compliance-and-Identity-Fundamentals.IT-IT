@@ -25,8 +25,8 @@ In questa attività, l'amministratore dovrà reimpostare la password dell'utente
 1. Aprire Microsoft Edge.  Nella barra degli indirizzi, immettere **https://entra.microsoft.com** e accedere con le proprie credenziali di amministratore.
     1. Nella finestra Accedi immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio provider di hosting del lab) e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
-    1. Se in precedenza è stato eseguito l'accesso come amministratore, potrebbe essere richiesto di completare un'autenticazione secondaria, come parte di MFA. Se in precedenza non è stato eseguito l'accesso come amministratore, potrebbe essere richiesto di completare il processo di registrazione dell'autenticazione a più fattori. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
-    1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.
+    1. A seconda dell'host del lab e se è la prima volta che si esegue l'accesso al tenant, potrebbe essere richiesto di completare il processo di registrazione dell'autenticazione a più fattori. In tal caso, seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
+    1. Dopo aver eseguito l'accesso, viene visualizzata la pagina interfaccia di amministrazione di Microsoft 365.
 
 1. Nel riquadro di spostamento a sinistra, espandere **Identità**, **Utenti**, quindi selezionare **Tutti gli utenti**.
 
@@ -46,11 +46,11 @@ In questa attività, l'amministratore dovrà reimpostare la password dell'utente
 
 In questa attività, si seguirà il processo di creazione di criteri di accesso condizionale in Microsoft Entra ID.
 
-1. Aprire la scheda del browser con la pagina iniziale dell'interfaccia di amministrazione di Microsoft Entra.   Se la scheda del browser è stata chiusa in precedenza, aprire Microsoft Edge e nella barra degli indirizzi digitare **https://entra.microsoft.com** e accedere con le credenziali di amministrazione di Microsoft 365 fornite dall'ALH.
+1. Aprire la scheda del browser con la pagina iniziale dell'interfaccia di amministrazione di Microsoft Entra.   Se la scheda del browser è stata chiusa in precedenza, aprire Microsoft Edge e nella barra degli indirizzi digitare **`https://entra.microsoft.com`** e accedere con le credenziali di amministrazione di Microsoft 365 fornite dall'ALH.
 
 1. Dal riquadro di spostamento a sinistra, espandere **Protezione** e selezionare **Accesso condizionale**.
 
-1. Verrà visualizzata la pagina di panoramica dell'accesso condizionale.  Qui verranno visualizzati i riquadri che mostrano il riepilogo dei criteri e gli avvisi generali.  Dal riquadro di spostamento a sinistra, selezionare **Criteri**.
+1. Verrà visualizzata la pagina di panoramica dell'accesso condizionale. Quando si arriva alla pagina di panoramica, viene selezionata la **scheda Attività iniziali** (sottolineata). Selezionare la **scheda Panoramica** . Qui verranno visualizzati riquadri che mostrano il riepilogo dei criteri e gli avvisi generali.  Dal riquadro di spostamento a sinistra, selezionare **Criteri**.
 
 1. Dal riquadro di spostamento a sinistra, selezionare **Criteri**. Tutti i criteri di accesso condizionale esistenti sono elencati qui. Selezionare **+ Nuovi criteri**.
 
@@ -80,7 +80,7 @@ In questa attività, si seguirà il processo di creazione di criteri di accesso 
 
 1. Nella parte inferiore della pagina, in Abilita criterio, selezionare **Attivato** e quindi selezionare **Crea**.
 
-1. Nel riquadro di spostamento a sinistra selezionare **Criteri**. Il criterio MFA Pilot dovrebbe apparire nell'elenco dei criteri di accesso condizionale (se necessario, selezionare l'icona **Aggiorna** nella barra dei comandi nella parte superiore della pagina).
+1. Nel riquadro di spostamento a sinistra selezionare **Criteri**. I **criteri Blocca portali** di amministrazione appena creati dovrebbero essere visualizzati nell'elenco dei criteri di accesso condizionale (se necessario, selezionare l'icona **** Aggiorna nella barra dei comandi nella parte superiore della pagina).
 
 1. Disconnettersi selezionando l'icona utente accanto all'indirizzo e-mail nell'angolo in alto a destra dello schermo e selezionando **Esci**. Chiudere quindi tutte le finestre del browser
 
