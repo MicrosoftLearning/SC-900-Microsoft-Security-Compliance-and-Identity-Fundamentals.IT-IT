@@ -16,7 +16,7 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 In questo lab, si esploreranno alcune delle funzionalità di base di Privileged Identity Management (PIM). PIM richiede licenze P2 per Microsoft Entra ID.  In questo lab, l'amministratore configurerà uno degli utenti, Diego Siciliani, con un ruolo di amministratore utente di Microsoft Entra, tramite Privileged ID Management (PIM).   Con i privilegi di amministratore utente, Diego sarà in grado di creare licenze di gestione per utenti e gruppi e altro ancora.  Sia l'amministratore che l'utente, Diego, devono essere configurati per le licenze P2 di Microsoft Entra ID.
 
-**Tempo** stimato: 60 minuti
+**Tempo stimato**: 60 minuti
 
 ### Attività 1
 
@@ -48,7 +48,7 @@ In questa attività, in qualità di amministratore, assegnerà a Diego un ruolo 
 
 1. Aprire la scheda del browser per raggiungere la home page dell'interfaccia di amministrazione di Microsoft Entra.
 
-1. Nel pannello di spostamento a sinistra, in "Identità", espandere **Identity Governance** e quindi selezionare **Privileged Identity Management**.
+1. Nel pannello di spostamento a sinistra espandere **IF Governance**, quindi selezionare **Privileged Identity Management**.
 
 1. Ora ci si trova nella finestra di avvio rapido di Privileged Identity Management. Rivedere le informazioni nella pagine Attività iniziali. Nella finestra principale, in cui è indicato Gestisci accesso, selezionare **Gestisci**.
 
@@ -96,7 +96,7 @@ In questa attività, l'utente, in qualità di Diego Siciliani, effettuerà l'acc
     1. Quando viene richiesto di rimanere connessi, selezionare **Sì**.
 
 1. L'accesso all'interfaccia di amministrazione di Microsoft Entra dovrebbe essere completato.
-1. Nel riquadro di spostamento a sinistra, espandere **Identity Governance** e selezionare **Privileged Identity Management**.
+1. Nel pannello di spostamento a sinistra espandere **Governance ID** e quindi selezionare **Privileged Identity Management**.
 1. Dal riquadro di spostamento a sinistra, selezionare **I miei ruoli**.  Verranno visualizzate le informazioni relative alle assegnazioni idonee.  Si vedrà che all'utente Diego è stato assegnato il ruolo di amministratore utenti.  
 1. Nell'ultima colonna della tabella, etichettata come azione, selezionare **Attiva**.
 1. Verrà visualizzata un'icona di avviso che indica che è necessaria una verifica aggiuntiva.  Selezionare **Fai clic per continuare**.  Ricordare che le impostazioni di PIM per il ruolo di amministratore utenti richiedono l'autenticazione a più fattori.  Inoltre, poiché le informazioni di contatto di Diego per l'utilizzo di MFA (metodi di autenticazione) non sono state configurate in precedenza, è necessario registrarle per poter usare l'autenticazione MFA.  Anche se Diego dovrà effettuare l'autenticazione MFA a ogni accesso come amministratore utenti, il processo di registrazione MFA è richiesto una sola volta durante il periodo di assegnazione.

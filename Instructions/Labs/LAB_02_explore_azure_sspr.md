@@ -34,15 +34,15 @@ In questa attività, l'utente, in qualità di amministratore, esaminerà alcune 
     1. A seconda dell'host del lab e se è la prima volta che si esegue l'accesso al tenant, potrebbe essere richiesto di completare il processo di registrazione dell'autenticazione a più fattori. In tal caso, seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
     1. Dopo aver eseguito l'accesso, viene visualizzata la pagina interfaccia di amministrazione di Microsoft 365.
 
-1. Nel riquadro di spostamento a sinistra, espandere l'opzione **Protezione**, quindi selezionare **Reimpostazione della password**.  
+1. Nel pannello di spostamento sinistro assicurarsi che **Entra ID** sia espanso, quindi scorrere verso il basso e selezionare **Reimpostazione** password.  
 
 1. Verranno visualizzate le proprietà per la reimpostazione della password self-service. Selezionare l'icona delle informazioni accanto alla dicitura **Reimpostazione della password self-service abilitata** per visualizzare la descrizione. Assicurarsi che l'opzione **Selezionata** sia evidenziata in blu. Ora posizionare il cursore sull'icona di informazioni accanto a **Seleziona gruppo** e notare la dicitura "Definisce il gruppo di utenti autorizzati a reimpostare le proprie password". È necessario includere gli utenti nel gruppo, non è possibile selezionarli individualmente. Notare che esiste già un gruppo elencato: SSPRSecurityGroupUsers (questo gruppo è stato preconfigurato come parte del tenant di Microsoft 365). Infine, notare la casella di informazioni blu "Queste impostazioni si applicano solo agli utenti finali dell'organizzazione. Gli amministratori sono sempre abilitati per la reimpostazione della password self-service e devono utilizzare due metodi di autenticazione per reimpostare la propria password".
 
 1. Nel riquadro di spostamento a sinistra di Reimpostazione della password, selezionare **Metodi di autenticazione**.
 
-1. In Numero di metodi richiesti per la reimpostazione, selezionare **1**. Notare la casella di informazioni sullo schermo.
-
-1. Notare i diversi metodi a disposizione degli utenti.  **La posta elettronica** e **il telefono** cellulare devono essere già controllati; in caso contrario, selezionarli.
+1. In Numero di metodi necessari per reimpostare selezionare **1**. Esiste un solo metodo elencato, Domande di sicurezza, ma sotto questa opzione è possibile usare **i criteri di autenticazione per gestire altri metodi** di autenticazione.  
+    1. Selezionare i criteri dei metodi** di autenticazione per visualizzare **i criteri del metodo di autenticazione disponibili
+    1. Selezionare **X** in alto a destra della pagina per tornare alla pagina precedente.
 
 1. Nel riquadro di spostamento a sinistra di Reimpostazione della password, selezionare **Registrazione**.  
 

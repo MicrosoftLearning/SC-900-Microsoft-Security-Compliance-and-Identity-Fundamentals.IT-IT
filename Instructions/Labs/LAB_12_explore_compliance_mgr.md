@@ -31,7 +31,7 @@ Esplorare la home page del portale di Microsoft Purview.
 
 1. Dal riquadro di spostamento a sinistra dell'interfaccia di amministrazione di Microsoft 365, selezionare **Mostra tutto**.
 
-1. In Interfacce di amministrazione selezionare **Conformità**.  Viene visualizzata una nuova pagina del browser con una finestra popup che consente di visualizzare il nuovo portale di Microsoft Purview. Nella parte inferiore della pagina selezionare la casella accanto a **Accetto le condizioni per la divulgazione del flusso di dati e le** informative sulla privacy, quindi selezionare **Inizia**.
+1. In Interfacce di amministrazione selezionare **Microsoft Purview**.  Viene visualizzata una nuova pagina del browser con una finestra popup che consente di visualizzare il nuovo portale di Microsoft Purview. Nella parte inferiore della pagina selezionare **Inizia**.
 
 1. La sezione scheda nella home page mostra, a colpo d'occhio, come l'organizzazione sta facendo con il comportamento di conformità, quali soluzioni sono disponibili per l'organizzazione, versioni di valutazione e raccomandazioni disponibili e altro ancora.
 
@@ -59,13 +59,13 @@ Informazioni sul comportamento di conformità dell'organizzazione tramite Compli
 
 1. Nel riquadro di spostamento a sinistra selezionare **Valutazioni**. Questa pagina mostra la Baseline per la protezione dei dati per Microsoft 365.  Questa è una valutazione della baseline predefinita offerta da Microsoft in Compliance Manager per Microsoft 365.  Questa valutazione di base prevede un set di controlli per le normative e gli standard chiave per la protezione dei dati e per la governance generale dei dati. Compliance Manager diventa più utile quando si aggiungono valutazioni personalizzate in base alle specifiche esigenze della propria organizzazione.  Si noti che è possibile aggiungere valutazioni personalizzate.
 
-1. Selezionare **Protezione dei dati personali di base**.  Osservare le informazioni disponibili nella scheda di avanzamento. È anche possibile visualizzare informazioni sui controlli, le azioni di miglioramento e le azioni di Microsoft.  
+1. Selezionare **Baseline di protezione dei dati per Microsoft 365**.  Osservare le informazioni disponibili nella scheda di avanzamento. È anche possibile visualizzare informazioni sui controlli, le azioni di miglioramento e le azioni di Microsoft.  
 
 1. Nel riquadro di spostamento a sinistra selezionare **Normative**.  Questa pagina elenca le normative disponibili per l'organizzazione. Verranno visualizzate informazioni specifiche sulla normativa, compresi i controlli, le azioni di miglioramento e l'azione Microsoft. Da questa pagina, nell'angolo superiore destro della pagina, è possibile creare una valutazione basata sul modello.
 
 1. 1. Nel riquadro di spostamento sinistro selezionare **Criteri**. Di seguito è riportato l'elenco dei criteri che consentono di monitorare e ricevere notifiche sugli eventi in Compliance Manager che sono di importanza per l'utente. È possibile creare o modificare criteri, modificarne lo stato di attivazione e controllare la frequenza e la gravità degli avvisi. Selezionare i **criteri di avviso** predefiniti di Compliance Manager per visualizzare i dettagli sui criteri.  Selezionare Azioni** per visualizzare **le opzioni disponibili (esplorarlo).
 
-1. Nel riquadro di spostamento sinistro selezionare **Avvisi**.   Qui è possibile visualizzare e gestire gli avvisi per gli eventi che possono influenzare il punteggio di conformità dell'organizzazione. 
+1. Nel riquadro di spostamento sinistro selezionare **Avvisi**.   Qui è possibile visualizzare e gestire gli avvisi per gli eventi che possono influenzare il punteggio di conformità dell'organizzazione.
 
 1. Nel pannello di spostamento a sinistra selezionare **Home** per tornare alla pagina di destinazione del portale di Microsoft Purview.
 

@@ -17,7 +17,7 @@ I tenant non devono essere convertiti in un abbonamento a pagamento. I tenant ot
 
 Questo lab di installazione consiste nell'abilitare le funzionalità di monitoraggio dei file e del log di controllo Microsoft nel tenant di Microsoft 365.
 
-**Tempo stimato:** 5-10 minuti
+**Tempo stimato**: 10-15 minuti
 
 ### Installazione - Abilitare il log di controllo e il monitoraggio dei file di Microsoft 365
 
@@ -33,9 +33,9 @@ In questa attività di installazione si abiliteranno le funzionalità di monitor
 
 1. Nel pannello di spostamento sinistro scorrere verso il basso ed espandere **Sistema**.  Nell'elenco espanso selezionare **Controlla**.  Nota: la funzionalità di controllo è accessibile anche tramite il portale di Microsoft Purview.
 
-1. Una volta atterrato nella pagina Controllo, attendere 1-2 minuti.  Se il controllo NON è abilitato, verrà visualizzata una barra blu nella parte superiore della pagina con l'indicazione di avviare la registrazione delle attività di utenti e amministratori.  Selezionare **Avvia la registrazione delle attività di utenti e amministratori**.  Una volta abilitato il controllo, la barra blu scompare.  Se la barra blu non è presente, il controllo è già abilitato e non sono richieste ulteriori azioni.  Se viene visualizzato un messaggio: "Si è verificato un problema se l'attività viene registrata. Provare ad aggiornare la pagina" e non viene apportata alcuna modifica dopo l'aggiornamento della pagina, è necessario abilitare il controllo tramite PowerShell.
+1. Una volta atterrato nella pagina Controllo, attendere 1-2 minuti.  Se il controllo NON è abilitato, verrà visualizzata una barra blu nella parte superiore della pagina con l'indicazione di avviare la registrazione delle attività di utenti e amministratori.  Selezionare **Avvia la registrazione delle attività di utenti e amministratori**.  Una volta abilitato il controllo, la barra blu scompare.  Se la barra blu non è presente, il controllo è già abilitato e non sono richieste ulteriori azioni.  Se viene visualizzato un messaggio: "Si è verificato un problema se l'attività viene registrata. Provare ad aggiornare la pagina." Se non è stata apportata alcuna modifica dopo l'aggiornamento della pagina, sarà necessario abilitare il controllo tramite PowerShell.
     1. Selezionare l'icona blu di Windows PowerShell sulla barra delle applicazioni e selezionare **Esegui come amministratore**.
-    1. Per verificare che il modulo PowerShell di Exchange Online sia installato nel computer, immettere **`Get-InstalledModule ExchangeOnlineManagement | Format-List Name,Version,InstalledLocation`**.  Verrà visualizzato il nome, la versione e il percorso installato di Exchange OnlineManagement.
+    1. Installare il modulo PowerShell di Exchange Online immettendo **`Install-Module -Name ExchangeOnlineManagement`**.  Quando richiesto, "Assicurarsi di voler installare i moduli da 'PSGallery'", selezionare **`[A]` Sì a tutti**
     1. Caricare ora il modulo immettendo **`Import-Module ExchangeOnlineManagement`**.
     1. Per connettersi, immettere **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**.  Per l'UPN immettere il nome utente dell'amministratore trovato nella scheda risorse del lab.
     1. Verrà richiesto di effettuare l'accesso.  Immettere il nome utente e la password amministrativi disponibili nella scheda risorse del lab.
@@ -49,6 +49,7 @@ In questa attività di installazione si abiliteranno le funzionalità di monitor
 1. Se non è già abilitato, selezionare la casella accanto a dove è indicato **Abilita monitoraggio** file e quindi selezionare **Salva**.  
 
 1. Questo conclude la configurazione del lab nel tenant di Microsoft 365.
+1. È possibile chiudere la scheda del browser "Cloud Apps-Microsoft Defender", ma mantenere aperta la scheda "interfaccia di amministrazione di Microsoft 365" per l'esercizio successivo.
 
 ### Revisione
 
