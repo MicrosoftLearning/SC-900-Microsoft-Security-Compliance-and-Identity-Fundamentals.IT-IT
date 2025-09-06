@@ -16,21 +16,23 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 In questo lab, verrà effettuato l'accesso a Microsoft Entra ID (noto in precedenza come Azure Active Directory).  Inoltre, si creerà un utente e si configureranno le varie impostazioni, compresa l'aggiunta di licenze.  
 
-**Tempo stimato**: 30 minuti
+**Tempo** stimato: 45 minuti
 
 ### Attività 1
 
 Gli abbonati a Microsoft 365 usano già Microsoft Entra ID.  In questa attività si apprenderà come creare un nuovo utente in Microsoft Entra ID e verranno esplorati alcuni servizi gestibili a livello di utente.
 
-1. Apri il browser Microsoft Edge. Nella barra degli indirizzi immettere **`https://admin.microsoft.com`** e accedere con le credenziali di Microsoft 365 fornite dall'host del lab autorizzato (ALH).
+1. Se è aperta la scheda interfaccia di amministrazione di Microsoft 365, nell'esercizio precedente, in Interfacce di amministrazione selezionare **Identità**
+1. Se il interfaccia di amministrazione di Microsoft 365 è già aperto nel browser, dall'esercizio precedente, passare al passaggio successivo; in caso contrario, accedere all'interfaccia di amministrazione di Microsoft come indicato di seguito:
+    1. Nella barra degli indirizzi immettere **`https://admin.microsoft.com`** e accedere con le credenziali di Microsoft 365 fornite dall'host del lab autorizzato (ALH).
     1. Nella finestra Accedi, immettere **admin@WWLxZZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal proprio ALH) e quindi selezionare **Avanti**.
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Fare clic su **Accedi**.
     1. A seconda dell'host del lab e se è la prima volta che si esegue l'accesso al tenant, potrebbe essere richiesto di completare il processo di registrazione dell'autenticazione a più fattori. In tal caso, seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
     1. Dopo aver eseguito l'accesso, viene visualizzata la pagina interfaccia di amministrazione di Microsoft 365.
 
-1. In Interfacce di amministrazione, selezionare **Identità** (potrebbe essere necessario selezionare **Mostra tutto** e scorrere verso il basso).  Verrà visualizzata una nuova pagina del browser della pagina panoramica dell'Interfaccia di amministrazione di Microsoft Entra.
+1. In Interfacce di amministrazione, selezionare **Identità** (potrebbe essere necessario selezionare **Mostra tutto** e scorrere verso il basso).  Verrà visualizzata una nuova pagina del browser della pagina panoramica dell'Interfaccia di amministrazione di Microsoft Entra.  Se viene richiesto di configurare l'autenticazione a più fattori, seguire la procedura visualizzata sullo schermo.
 
-1. Nel riquadro di spostamento a sinistra, espandere **Utenti** quindi selezionare **Tutti gli utenti**. Tenere presente che il tenant è già configurato con gli utenti.
+1. Nel riquadro di spostamento a sinistra selezionare **Utenti**.  Verrà visualizzata la pagina utenti. **Tutti gli utenti** devono essere già selezionati. Tenere presente che il tenant è già configurato con gli utenti.
 
 1. Nella parte superiore della pagina selezionare **+ Nuovo utente** e quindi nella casella a discesa selezionare **Crea nuovo utente**.
 
@@ -87,13 +89,11 @@ In questa attività si assegnerà una licenza all'utente appena creato, usando i
 1. Nel pannello di spostamento a sinistra, in Utenti, selezionare **Utenti** attivi.  Nell'elenco degli utenti selezionare **Sara Perez**.  Viene visualizzata una finestra che mostra informazioni sull'utente.  
 
     1. Selezionare la **scheda Licenze e app** .
-    1. Per ognuna delle licenze elencate, viene visualizzato il numero di licenze disponibili.  Poiché non sono disponibili licenze di Microsoft 365 E5 (sono già state assegnate ad altri utenti), assegnare le **licenze per sviluppatori** di Microsoft Power Apps e le **licenze gratuite** di Microsoft Power Automate selezionando la casella di controllo accanto a essi.
-    1. Seleziona **Salva modifiche**. Una notifica nell'angolo superiore a destra della schermata dovrebbe indicare che le assegnazioni di licenza sono state eseguite correttamente.
+    1. Per ognuna delle licenze elencate, viene visualizzato il numero di licenze disponibili.  Poiché non sono disponibili licenze di Microsoft 365 E5 (sono già state assegnate ad altri utenti), assegnare la **licenza per sviluppatori** di Microsoft Power Apps selezionando la casella di controllo accanto.
+    1. Selezionare **Save changes** (Salva modifiche). Una notifica nell'angolo superiore a destra della schermata dovrebbe indicare che le assegnazioni di licenza sono state eseguite correttamente.
     1. Chiudere la pagina selezionando la **X** nell'angolo superiore destro della pagina.
 
-1. Tornare all'interfaccia di amministrazione di Microsoft Entra selezionando **Home** nel pannello di spostamento a sinistra o dalla parte superiore a sinistra dello schermo (nella barra di navigazione), sopra il punto in cui è indicato Sara Perez | Licenze.
-
-1. Sono state assegnate le licenze all'utente.
+1. È stata assegnata una licenza all'utente.
 
 1. Disconnettersi da tutte le schede del browser aperte. Disconnettersi selezionando l'icona dell'utente accanto all'indirizzo di posta elettronica nell'angolo in alto a destra della schermata, poi selezionare **Disconnetti**. Chiudere quindi tutte le finestre del browser.
 
@@ -103,7 +103,7 @@ In questa attività, si effettuerà l'accesso come Sara Perez per la prima volta
 
 1. Aprire Microsoft Edge.
 
-1. Nella barra degli indirizzi immettere **https://login.microsoft.com**.
+1. Nella barra degli indirizzi immettere **`https://login.microsoft.com`**.
 
 1. Accedere come **sara@WWLxZZZZZ.onmicrosoft.com** (dove ZZZZZZ è l'ID tenant univoco fornito dal provider di servizi di hosting per i lab autorizzato).
 1. Immettere la password temporanea impostata nell'attività precedente.
@@ -114,9 +114,9 @@ In questa attività, si effettuerà l'accesso come Sara Perez per la prima volta
 
 1. Poiché questa è la prima volta che si esegue l'accesso come Sara Perez, potrebbe essere richiesto di configurare MFA. Seguire le istruzioni visualizzate sullo schermo per configurare l'autenticazione a più fattori.
 
-1. A questo momento dovrebbe essere eseguito l'accesso all'account Microsoft di Sara.  Si noti che le licenze di Sara assegnate nell'attività precedente erano limitate solo a Power Automate Gratuito e Power Apps for Developer e non includevano le licenze E5.
+1. A questo momento dovrebbe essere eseguito l'accesso all'account Microsoft di Sara.  Si noti che le licenze di Sara assegnate nell'attività precedente erano limitate solo a Power Apps for Developer e non includevano le licenze E5.
 
-1. Per disconnettersi, selezionare l'icona nell'angolo superiore destro della finestra di Microsoft 365 visualizzata come cerchio con le lettere SP (accanto all'icona del punto interrogativo), quindi selezionare **Disconnetti** e infine chiudere il browser.
+1. Per disconnettersi, selezionare posta elettronica di Sara nella parte inferiore del riquadro di spostamento a sinistra e selezionare **Disconnetti** e quindi chiudere il browser.
 
 ### Revisione
 

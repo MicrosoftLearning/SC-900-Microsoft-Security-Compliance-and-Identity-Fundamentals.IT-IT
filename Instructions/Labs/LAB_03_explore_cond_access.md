@@ -16,7 +16,7 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 In questo lab, si esplorerà l'autenticazione a più fattori (MFA) degli accessi condizionali dal punto di vista di un amministratore e di un utente.  In qualità di amministratore, verrà creato un criterio che richiederà all'utente di effettuare l'autenticazione a più fattori quando accede a uno qualsiasi dei portali di amministrazione di Microsoft.  Dal punto di vista di un utente, si vedrà l'impatto dei criteri di accesso condizionale, compreso il processo di registrazione per l'autenticazione a più fattori.
 
-**Tempo stimato**: 30 minuti
+**Tempo** stimato: 45 minuti
 
 ### Attività 1
 
@@ -48,11 +48,11 @@ In questa attività, si seguirà il processo di creazione di criteri di accesso 
 
 1. Aprire la scheda del browser con la pagina iniziale dell'interfaccia di amministrazione di Microsoft Entra.   Se la scheda del browser è stata chiusa in precedenza, aprire Microsoft Edge e nella barra degli indirizzi digitare **`https://entra.microsoft.com`** e accedere con le credenziali di amministrazione di Microsoft 365 fornite dall'ALH.
 
-1. Dal riquadro di spostamento a sinistra, espandere **Protezione** e selezionare **Accesso condizionale**.
+1. Nel pannello di spostamento a sinistra assicurarsi che **Entra ID** sia espanso, scorrere verso il basso e selezionare Accesso** condizionale**.
 
-1. Verrà visualizzata la pagina di panoramica dell'accesso condizionale. Quando si arriva alla pagina di panoramica, viene selezionata la **scheda Attività iniziali** (sottolineata). Selezionare la **scheda Panoramica** . Qui verranno visualizzati riquadri che mostrano il riepilogo dei criteri e gli avvisi generali.  Dal riquadro di spostamento a sinistra, selezionare **Criteri**.
+1. Verrà visualizzata la pagina di panoramica dell'accesso condizionale. Quando si arriva alla pagina di panoramica, viene selezionata la **scheda Attività iniziali** (sottolineata). Selezionare la **scheda Panoramica** . Qui verranno visualizzati riquadri che mostrano il riepilogo dei criteri e gli avvisi generali.
 
-1. Dal riquadro di spostamento a sinistra, selezionare **Criteri**. Tutti i criteri di accesso condizionale esistenti sono elencati qui. Selezionare **+ Nuovi criteri**.
+1. Nel pannello di spostamento a sinistra selezionare **Criteri**, quindi selezionare **+ Nuovo criterio**.
 
 1. Nel campo Nome immettere **Blocca portali** di amministrazione.
 
@@ -62,11 +62,11 @@ In questa attività, si seguirà il processo di creazione di criteri di accesso 
 
 1. Selezionare l'opzione **Seleziona utenti e gruppi** e **Utenti e gruppi**.  Viene visualizzata la finestra per la selezione degli utenti e dei gruppi.  
 
-1. Nella barra di ricerca, immettere **Debra**.  Selezionare **Debra Berger** dalla barra di ricerca, quindi premere il pulsante **Seleziona** nella parte inferiore della pagina.  Notare che una pratica comune è quella di assegnare il criterio agli utenti di un gruppo.  Per gli scopi di questo lab, i criteri verranno assegnati a un utente specifico.
+1. Nella barra di ricerca, immettere **Debra**.  Selezionare **Debra Berger** dalla barra di ricerca, quindi premere il pulsante **Seleziona** nella parte inferiore della pagina.  Notare che una pratica comune è quella di assegnare il criterio agli utenti di un gruppo.  Ai fini dell'esperienza con questo lab, i criteri verranno assegnati a un utente specifico.
 
 1. In Risorse di destinazione, selezionare **Nessuna risorsa di destinazione selezionata**.
 
-1. Nel campo sotto la dicitura **Seleziona a cosa si applica questo criterio**, selezionare la freccia giù e prendere nota delle opzioni disponibili.  Mantenere l'impostazione predefinita, **App cloud**.  Assicurarsi che la scheda **Includi** sia sottolineata.  Selezionare **Seleziona app**, quindi sotto la casella **Seleziona**, selezionare **Nessuna**.  Viene visualizzata la finestra Seleziona app cloud.
+1. Nel campo sotto la dicitura **Seleziona a cosa si applica questo criterio**, selezionare la freccia giù e prendere nota delle opzioni disponibili.  Mantenere l'impostazione predefinita Risorse **(in precedenza App cloud).**  Assicurarsi che la scheda **Includi** sia sottolineata.  Selezionare **Seleziona risorse**, quindi sotto la casella **Seleziona**, selezionare **** Nessuno.  Viene visualizzata la finestra Seleziona app cloud.
 
 1. Selezionare **Portali** di amministrazione Microsoft, quindi premere **Seleziona** nella parte inferiore della pagina.  Notare l'avviso.  
 
