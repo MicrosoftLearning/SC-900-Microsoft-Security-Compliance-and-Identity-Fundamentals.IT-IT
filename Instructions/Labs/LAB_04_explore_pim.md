@@ -48,7 +48,7 @@ In questa attività, in qualità di amministratore, assegnerà a Diego un ruolo 
 
 1. Aprire la scheda del browser per raggiungere la home page dell'interfaccia di amministrazione di Microsoft Entra.
 
-1. Nel pannello di spostamento a sinistra espandere **IF Governance**, quindi selezionare **Privileged Identity Management**.
+1. Nel pannello di spostamento a sinistra espandere **Governance ID**, quindi selezionare **Privileged Identity Management**.
 
 1. Ora ci si trova nella finestra di avvio rapido di Privileged Identity Management. Rivedere le informazioni nella pagine Attività iniziali. Nella finestra principale, in cui è indicato Gestisci accesso, selezionare **Gestisci**.
 
