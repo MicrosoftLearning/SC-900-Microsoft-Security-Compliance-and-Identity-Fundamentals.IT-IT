@@ -14,32 +14,13 @@ Questa demo corrisponde al contenuto di Learn seguente:
 
 ## Scenario dimostrativo
 
-In questa demo verranno visualizzate le funzionalità delle etichette di riservatezza.  Verranno esaminate le impostazioni per le etichette di riservatezza esistenti che sono state create e il criterio corrispondente per pubblicare l'etichetta.   Verrà quindi illustrato come applicare un'etichetta e l'impatto della stessa dal punto di vista dell'utente.
+Questa demo mostra le funzionalità delle etichette di riservatezza.  Verranno esaminate le impostazioni per le etichette di riservatezza esistenti che sono state create e il criterio corrispondente per pubblicare l'etichetta.   Verrà quindi illustrato come applicare un'etichetta e l'impatto della stessa dal punto di vista dell'utente.  **NOTA:** la prima volta che si usa Word online con il tenant di Microsoft 365, la visualizzazione dell'opzione Riservatezza sulla barra multifunzione può richiedere 15 minuti.  I relatori devono eseguire la seconda parte della demo prima della lezione per garantire un tempo sufficiente per la visualizzazione dell'opzione.
 
-**NOTA**: la prima volta che si usa Word online con il tenant di Microsoft 365, la visualizzazione dell'icona Riservatezza sulla barra multifunzione può richiedere fino a 15 minuti. È consigliabile che i relatori aprono Word Online (come illustrato nella parte demo 3) prima di avviare la demo completa per garantire un tempo sufficiente per la visualizzazione dell'opzione.
-
-### Demo part 1 (facoltativo)
-
-Se si tratta della prima istanza in cui si demono le soluzioni Microsoft Purview, è consigliabile dedicare alcuni minuti all'introduzione del portale di Microsoft Purview prima di accedere alle etichette di riservatezza.
-
-1. Aprire Microsoft Edge e nella barra degli indirizzi immettere , accedere **https://purview.microsoft.com**con le credenziali fornite dall'host del lab autorizzato e quindi selezionare **Inizia**.  
-
-1. Prima di accedere alle etichette di riservatezza, dedicare alcuni istanti all'esplorazione del portale di Microsoft Purview.
-
-1. Selezionare il riquadro **Visualizza tutte le soluzioni** per visualizzare il raggruppamento per le soluzioni Microsoft Purview.
-
-1. Nel pannello di spostamento a sinistra verranno visualizzate le opzioni per Soluzioni, Informazioni, Impostazioni e soluzioni selezionate di recente.
-    1. **Soluzioni.** Verrà aperto un nuovo pannello con tutte le soluzioni e i portali correlati.
-    1. **Informazioni su come** visualizzare i collegamenti a documenti, video e blog.
-    1. **Impostazioni**. Esplorare queste opzioni a volontà. Da qui è possibile configurare ruoli e ambiti, connettore dati e tutte le impostazioni della soluzione.
-
-1. Tornare alla home page selezionando **Home** nel pannello di spostamento a sinistra.
-
-### Demo parte 2
+### Demo parte 1
 
 Questa demo illustrerà le impostazioni per un'etichetta di riservatezza esistente e il criterio corrispondente per pubblicare l'etichetta.
 
-1. Si dovrebbe essere nella pagina di destinazione del portale di Microsoft Purview.  In caso contrario, aprire una scheda del browser in Microsoft Edge e immettere e accedere **`https://puriview.microsoft.com`** con le credenziali fornite dall'host del lab autorizzato.
+1. Si dovrebbe ancora trovarsi nella home page del portale di Microsoft Purview. In caso contrario, aprire una nuova scheda del browser Microsoft Edge. Nella barra degli indirizzi immettere **https://purview.microsoft.com** e quindi selezionare **Inizia**.  
 
 1. Nella pagina di destinazione del nuovo portale di Microsoft Purview selezionare il **riquadro Visualizza tutte le soluzioni** e quindi selezionare il **riquadro Information Protection** . In alternativa, selezionare **Soluzioni** nel pannello di spostamento a sinistra, quindi selezionare **Information Protection**.
 
@@ -73,7 +54,7 @@ Questa demo illustrerà le impostazioni per un'etichetta di riservatezza esisten
 
 1. Mantenere aperta la scheda del browser.
 
-### Demo parte 3
+### Demo parte 2
 
 In questo passaggio verrà illustrato il processo di applicazione di un'etichetta di riservatezza a un documento di Microsoft Word e quindi di visualizzare il contrassegno del contenuto (piè di pagina) generato dall'etichetta. NOTA: quando si utilizza Microsoft Word online, è possibile che si verifichi un ritardo prima che l'opzione di selezione delle etichette di riservatezza venga visualizzata sulla barra multifunzione superiore.  È consigliabile completare tutti i lab rimanenti e quindi tornare a questa attività.
 
