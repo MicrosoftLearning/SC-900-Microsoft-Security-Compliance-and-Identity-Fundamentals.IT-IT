@@ -61,11 +61,11 @@ Informazioni sul comportamento di conformità dell'organizzazione tramite Compli
 
 1. Selezionare **Baseline di protezione dei dati per Microsoft 365**.  Osservare le informazioni disponibili nella scheda di avanzamento. È anche possibile visualizzare informazioni sui controlli, le azioni di miglioramento e le azioni di Microsoft.  
 
-1. Nel riquadro di spostamento a sinistra selezionare **Normative**.  Questa pagina elenca le normative disponibili per l'organizzazione. Verranno visualizzate informazioni specifiche sulla normativa, compresi i controlli, le azioni di miglioramento e l'azione Microsoft. Da questa pagina, nell'angolo superiore destro della pagina, è possibile creare una valutazione basata sul modello.
+1. Nel riquadro di spostamento a sinistra selezionare **Normative**.  Questa pagina elenca le normative disponibili per l'organizzazione. Selezionare qualsiasi regolamento elencato. Verranno visualizzate informazioni specifiche sulla normativa, compresi i controlli, le azioni di miglioramento e l'azione Microsoft.
 
 1. 1. Nel riquadro di spostamento sinistro selezionare **Criteri**. Di seguito è riportato l'elenco dei criteri che consentono di monitorare e ricevere notifiche sugli eventi in Compliance Manager che sono di importanza per l'utente. È possibile creare o modificare criteri, modificarne lo stato di attivazione e controllare la frequenza e la gravità degli avvisi. Selezionare i **criteri di avviso** predefiniti di Compliance Manager per visualizzare i dettagli sui criteri.  Selezionare Azioni** per visualizzare **le opzioni disponibili (esplorarlo).
 
-1. Nel riquadro di spostamento sinistro selezionare **Avvisi**.   Qui è possibile visualizzare e gestire gli avvisi per gli eventi che possono influenzare il punteggio di conformità dell'organizzazione.
+1. Nel riquadro di spostamento sinistro selezionare **Avvisi**.   Qui è possibile visualizzare e gestire gli avvisi per gli eventi che possono influenzare il punteggio di conformità dell'organizzazione. Poiché si tratta di un tenant lab appena creato, non dovrebbero essere visualizzati avvisi.
 
 1. Nel pannello di spostamento a sinistra selezionare **Home** per tornare alla pagina di destinazione del portale di Microsoft Purview.
 

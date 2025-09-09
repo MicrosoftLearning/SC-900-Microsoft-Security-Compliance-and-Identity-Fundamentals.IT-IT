@@ -33,14 +33,7 @@ In questa attività di installazione si abiliteranno le funzionalità di monitor
 
 1. Nel pannello di spostamento sinistro scorrere verso il basso ed espandere **Sistema**.  Nell'elenco espanso selezionare **Controlla**.  Nota: la funzionalità di controllo è accessibile anche tramite il portale di Microsoft Purview.
 
-1. Una volta atterrato nella pagina Controllo, attendere 1-2 minuti.  Se il controllo NON è abilitato, verrà visualizzata una barra blu nella parte superiore della pagina con l'indicazione di avviare la registrazione delle attività di utenti e amministratori.  Selezionare **Avvia la registrazione delle attività di utenti e amministratori**.  Una volta abilitato il controllo, la barra blu scompare.  Se la barra blu non è presente, il controllo è già abilitato e non sono richieste ulteriori azioni.  Se viene visualizzato un messaggio: "Si è verificato un problema se l'attività viene registrata. Provare ad aggiornare la pagina." Se non è stata apportata alcuna modifica dopo l'aggiornamento della pagina, sarà necessario abilitare il controllo tramite PowerShell.
-    1. Selezionare l'icona blu di Windows PowerShell sulla barra delle applicazioni e selezionare **Esegui come amministratore**.
-    1. Installare il modulo PowerShell di Exchange Online immettendo **`Install-Module -Name ExchangeOnlineManagement`**.  Quando richiesto, "Assicurarsi di voler installare i moduli da 'PSGallery'", selezionare **`[A]` Sì a tutti**
-    1. Caricare ora il modulo immettendo **`Import-Module ExchangeOnlineManagement`**.
-    1. Per connettersi, immettere **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**.  Per l'UPN immettere il nome utente dell'amministratore trovato nella scheda risorse del lab.
-    1. Verrà richiesto di effettuare l'accesso.  Immettere il nome utente e la password amministrativi disponibili nella scheda risorse del lab.
-    1. Per attivare Controllo, immettere **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**. Viene visualizzato un messaggio che informa che la modifica potrebbe richiedere fino a 60 minuti.
-    1. Anche se potrebbero essere necessari fino a 60 minuti, è possibile verificare che il comando sia stato ricevuto immettendo **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`**.  Se il controllo è abilitato, la proprietà UnifiedAuditLogIngestionEnabled mostrerà il valore true.
+1. Una volta atterrato nella pagina Controllo, attendere 1-2 minuti.  Se il controllo NON è abilitato, verrà visualizzata una barra blu nella parte superiore della pagina con l'indicazione di avviare la registrazione delle attività di utenti e amministratori.  Selezionare **Avvia la registrazione delle attività di utenti e amministratori**.  Una volta abilitato il controllo, la barra blu scompare.
 
 1. Nel pannello di spostamento a sinistra, in Sistema, selezionare **Impostazioni**.
 

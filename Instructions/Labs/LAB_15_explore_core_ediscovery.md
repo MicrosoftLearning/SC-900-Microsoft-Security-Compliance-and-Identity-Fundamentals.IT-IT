@@ -22,7 +22,7 @@ In questo lab verranno illustrati i passaggi necessari per configurare eDiscover
 
 Per accedere a eDiscovery o essere aggiunti come membro di un caso eDiscovery, a un utente devono essere assegnate le autorizzazioni appropriate. In questa attività, l'amministratore globale aggiungerà utenti specifici come membri del Gruppo di ruoli Manager di eDiscovery.
 
-1. Dovrebbe trovarsi nella home page del portale di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://purivew.microsoft.com**.
+1. Dovrebbe trovarsi nella home page del portale di Microsoft Purview.  Se in precedenza è stata chiusa, aprire una scheda del browser e immettere **https://purview.microsoft.com**.
 
 1. Nel riquadro di spostamento a sinistra selezionare **Impostazioni, espandere **Ruoli e ambiti**, quindi selezionare **Gruppi di ruoli****.
 
@@ -46,19 +46,15 @@ In questa attività, come amministratore di eDiscovery (amministratore MOD è un
 
 1. Nel pannello di spostamento a sinistra, in Soluzioni espandere **eDiscovery** e quindi selezionare **Casi**.
 
-1. Nella pagina Casi selezionare **Crea caso**.
-
-1. Nella finestra Nuovo caso immettere un nome case, **SC900 Test Case** e quindi selezionare Crea****.
-
-1. Il caso dovrebbe ora apparire nell'elenco.
-
-1. In qualità di autore del caso e grazie ai privilegi di amministratore di eDiscovery, è possibile iniziare a utilizzare il caso.  
-
-1. Lasciare aperta questa scheda del browser, perché verrà usata nell'attività successiva.
+1. Nella pagina Casi selezionare il testo nella parte sinistra della casella blu che indica Crea **caso**.  Se si seleziona la freccia giù, si aprirà la finestra per creare una ricerca e nel processo di creazione di una ricerca creerà un caso.
+    1. Nella finestra Nuovo caso immettere un nome case, **SC900 Test Case** e quindi selezionare Crea****.
+    1. Il caso dovrebbe ora apparire nell'elenco.
+    1. In qualità di autore del caso e grazie ai privilegi di amministratore di eDiscovery, è possibile iniziare a utilizzare il caso.  
+    1. Lasciare aperta questa scheda del browser, perché verrà usata nell'attività successiva.
 
 ### Attività 3
 
-Con un caso creato, è possibile iniziare a lavorare con il caso.  Ciò include la creazione di una query di ricerca per trovare dati e contenuti rilevanti per il caso, l'applicazione di un criterio di blocco, la creazione di un set di revisione e l'esportazione dei dati. In questa attività verranno esaminate alcune di queste opzioni.
+Con un caso creato, è possibile iniziare a lavorare con il caso. Ciò include la creazione di una query di ricerca per trovare dati e contenuti rilevanti per il caso, l'applicazione di un criterio di blocco, la creazione di un set di revisione e l'esportazione dei dati. In questa attività verranno esaminate alcune di queste opzioni.
 
 1. Aprire la scheda SC900 Caso di test nel browser.
 
@@ -66,16 +62,16 @@ Con un caso creato, è possibile iniziare a lavorare con il caso.  Ciò include 
 
 1. Nel campo nome immettere **SC900 case search** e quindi selezionare **Crea**.
 
-1. Selezionare **Aggiungi origini**. Prendere nota delle opzioni di filtro e delle impostazioni predefinite. Nella casella di ricerca immettere **Pradeep** e quindi premere INVIO sulla tastiera. Nei risultati della ricerca selezionare Pradeep Gupta, quindi selezionare ****Salva e chiudi**.** Il generatore di condizioni consente di compilare una query di ricerca in base a parole chiave o condizioni specifiche soddisfatte, nella casella della parola chiave immettere **Sales**. Da qui è possibile selezionare **Esegui la query**.  Questa operazione può richiedere alcuni minuti.
+1. Selezionare **Aggiungi origini**. Prendere nota delle opzioni di filtro e delle impostazioni predefinite. Nella casella di ricerca immettere **`Pradeep`** e quindi selezionare **Cerca.** Nei risultati della ricerca selezionare Pradeep Gupta, quindi selezionare ****Salva e chiudi**.** Il generatore di condizioni consente di compilare una query di ricerca in base a parole chiave o condizioni specifiche soddisfatte, nella casella della parola chiave immettere **Sales**. Da qui è possibile selezionare **Esegui la query** dalla finestra Scegliere i risultati della ricerca. Per il tenant del lab, è disponibile solo la visualizzazione delle statistiche dei risultati della ricerca. Si notino le opzioni per disporre in base agli indicatori principali. Selezionare **Esegui query**.  Questa operazione può richiedere alcuni minuti.
 
-1. Con i risultati delle query restituiti sotto forma di statistiche, è possibile esportare i risultati.  Selezionare **Esporta** per impostare le opzioni disponibili e quindi selezionare **Annulla** (le opzioni di esportazione non possono essere selezionate dalla piattaforma lab fornita dall'host del lab autorizzato, ma sono disponibili in un ambiente di produzione e sono considerate parte del flusso di lavoro).
+1. Con i risultati delle query restituiti sotto forma di statistiche, è possibile esportare i risultati.  Selezionare **Esporta** per impostare le opzioni disponibili e quindi selezionare **Annulla**.
 
-1. È possibile aggiungere a un insieme di revisione per un'ulteriore elaborazione.  Selezionare **Aggiungi per rivedere il set**. Immettere un nome per il nuovo set di revisione, **`SC900-review-set`**, lasciare le impostazioni predefinite e quindi selezionare **Aggiungi per rivedere il set .**  Questa operazione può richiedere alcuni minuti.  È ora possibile esaminare e intervenire dal set di revisione, inclusi gli elementi di assegnazione di tag, l'esecuzione di query sul set di revisione, l'esecuzione di analisi e altro ancora.  Esplorare le varie opzioni.
+1. È possibile aggiungere a un insieme di revisione per un'ulteriore elaborazione.  Selezionare **Aggiungi per rivedere il set**. Immettere un nome per il nuovo set di revisione, **`SC900-review-set`**, lasciare le impostazioni predefinite e quindi selezionare **Aggiungi per rivedere set.** Questa operazione può richiedere alcuni minuti. Dopo aver presentato i risultati del set di revisione, è possibile esplorare le diverse opzioni, tra cui Analisi, Query, Azioni, File di tag e Gestione.
 
-1. È anche possibile creare criteri di blocco per mantenere il contenuto pertinente al caso. Selezionare **Hold policies (Mantieni criteri**) e quindi **New policy (Nuovo criterio**).  Immettere un nome di criteri, **`SC900-hold`** e selezionare **Crea.**  Come nella ricerca, è necessario aggiungere origini dati per il blocco ed è possibile aggiungere parole chiave e condizioni da usare nei criteri di blocco, quindi è possibile selezionare **Applica blocco**.  Le azioni che è possibile eseguire in un criterio di blocco includono un nuovo tentativo, disattivare un criterio ed eliminare un criterio di blocco.
+1. È anche possibile creare criteri di blocco per mantenere il contenuto pertinente al caso. Nella finestra Rivedi set selezionare la **scheda Blocco** .  Verrà visualizzata la finestra Criteri di blocco. Selezionare **Nuovi criteri**.  Immettere un nome di criteri, **`SC900-hold`** e selezionare **Crea.**  Come nella ricerca, è necessario aggiungere origini dati per il blocco ed è possibile aggiungere parole chiave e condizioni da usare nei criteri di blocco, quindi è possibile selezionare **Applica blocco**.  Le azioni che è possibile eseguire in un criterio di blocco includono un nuovo tentativo, disattivare un criterio ed eliminare un criterio di blocco.
 
 1. Disconnettersi e chiudere tutte le finestre del browser aperte.
 
 ### Revisione
 
-In questo lab sono stati illustrati i passaggi necessari per iniziare a usare eDiscovery, inclusa la configurazione delle autorizzazioni del ruolo per eDiscovery e la creazione di un caso eDiscovery.  Con il caso, sono state esaminate le opzioni disponibili come parte del flusso di lavoro di eDiscovery, tra cui una ricerca eDiscovery, un criterio di blocco, aggiungere i risultati della ricerca a un set di revisione ed esportare i risultati.
+In questo lab sono stati illustrati i passaggi necessari per iniziare a usare eDiscovery, inclusa la configurazione delle autorizzazioni del ruolo per eDiscovery e la creazione di un caso eDiscovery.  Con il caso, sono state esaminate le impostazioni per la creazione di risultati di ricerca ed esportazione, l'aggiunta a un set di revisione e la creazione di un blocco.

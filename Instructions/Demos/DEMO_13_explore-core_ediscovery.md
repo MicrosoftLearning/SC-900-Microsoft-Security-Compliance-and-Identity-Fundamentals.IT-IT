@@ -18,9 +18,9 @@ In questa demo verranno illustrati i passaggi necessari per configurare eDiscove
 
 ### Demo parte 1
 
-Per accedere a eDiscovery (Standard) o essere aggiunti come membro di un caso di eDiscovery, a un utente devono essere assegnate le autorizzazioni appropriate. In questa parte della demo, l'amministratore globale illustrerà il processo di aggiunta di utenti specifici come membri del gruppo di ruoli di eDiscovery Manager.
+Per accedere a eDiscovery o essere aggiunti come membro di un caso eDiscovery, a un utente devono essere assegnate le autorizzazioni appropriate. In questa parte della demo, l'amministratore globale illustrerà il processo di aggiunta di utenti specifici come membri del gruppo di ruoli di eDiscovery Manager.
 
-1. Aprire la scheda del browser per **Microsoft Purview**. Se è stata chiusa in precedenza, aprire una scheda del browser e nella barra degli indirizzi immettere **https://purview.microsoft.com**. Per accedere al nuovo portale di Microsoft Purview, selezionare la casella accanto alla posizione in cui è indicato, **accetto le condizioni per la divulgazione del flusso di dati e le informative** sulla privacy, quindi selezionare **Inizia**.  
+1. Aprire la scheda del browser per **Microsoft Purview**. Se è stata chiusa in precedenza, aprire una scheda del browser e nella barra degli indirizzi immettere **https://purview.microsoft.com** e quindi selezionare **Inizia.**  
 1. Nel pannello di spostamento a sinistra selezionare **Impostazioni**.
 1. Nel pannello di spostamento visualizzato selezionare **Ruoli e con ambito** per espandere l'opzione e quindi selezionare **Gruppi di ruoli**.
 1. Nella casella di ricerca sul lato destro della schermata cercare il termine **eDiscovery**.  Selezionare **Manager di eDiscovery**.
@@ -33,64 +33,42 @@ Per accedere a eDiscovery (Standard) o essere aggiunti come membro di un caso di
 
 ### Demo parte 2
 
-In questa parte verrà creato un caso per iniziare a usare eDiscovery (Standard).
+In questa parte, come amministratore di eDiscovery (amministratore MOD è un amministratore di eDiscovery), creerà un caso per iniziare a usare eDiscovery.
 
-1. Nel pannello di spostamento a sinistra selezionare **Soluzioni**, selezionare **eDiscovery** e quindi Casi **standard**.
+1. Dovrebbe trovarsi nella home page del portale di Microsoft Purview.
 
-1. Nella parte superiore della pagina eDiscovery (Standard), selezionare **+ Crea un caso**.
+1. Nel pannello di spostamento a sinistra, in Soluzioni espandere **eDiscovery** e quindi selezionare **Casi**.
 
-1. Nella finestra Nuovo caso, immettere il nome del caso, **SC900 Caso di test** e selezionare **Salva** in fondo alla pagina.
+1. Nella pagina Casi selezionare **Crea caso**.
+
+1. Nella finestra Nuovo caso immettere un nome case, **SC900 Test Case** e quindi selezionare Crea****.
 
 1. Il caso dovrebbe ora apparire nell'elenco.
 
 1. In qualità di autore del caso e grazie ai privilegi di amministratore di eDiscovery, è possibile iniziare a utilizzare il caso.  
 
-1. Mantenere aperta la scheda del browser.
+1. Lasciare aperta questa scheda del browser, perché verrà usata nell'attività successiva.
 
 ### Demo parte 3
 
-Ora che è stato creato un caso di eDiscovery (Standard), si può iniziare a lavorare su di esso.  In questa parte, lo studente creerà un blocco di eDiscovery per il caso creato.  Nello specifico, si dovrà creare un blocco per la cassetta postale di Exchange che appartiene ad Adele Vance.
+Con un caso creato, è possibile iniziare a lavorare con il caso. Ciò include la creazione di una query di ricerca per trovare dati e contenuti rilevanti per il caso, l'applicazione di un criterio di blocco, la creazione di un set di revisione e l'esportazione dei dati. In questa attività verranno esaminate alcune di queste opzioni. NOTA: è consigliabile passare attraverso la creazione di una ricerca e una revisione impostata prima del recapito, in modo che i risultati del set di ricerca e revisione siano prontamente disponibili durante la demo, perché queste azioni possono richiedere alcuni minuti per completare.  
 
-1. Dalla pagina eDiscovery (Standard), selezionare il caso creato: **SC900 Caso di test**.
+1. Aprire la scheda SC900 Caso di test nel browser.
 
-1. Dalla pagina iniziale del caso, selezionare la scheda **Blocco**, quindi selezionare **+Crea**.
+1. Nella pagina TEST CASE SC900 selezionare  **Crea una ricerca**.
 
-1. Nel campo del nome immettere **Blocco di test** e quindi selezionare **Avanti**.
+1. Nel campo nome immettere **SC900 case search** e quindi selezionare **Crea**.
 
-1. Nella pagina Scegli posizioni, selezionare l'interruttore accanto a **Cassette postali Exchange** per impostare lo stato su **Attivata**.  
+1. Selezionare **Aggiungi origini**. Prendere nota delle opzioni di filtro e delle impostazioni predefinite. Nella casella di ricerca immettere **`Pradeep`** e quindi selezionare **Cerca.** Nei risultati della ricerca selezionare Pradeep Gupta, quindi selezionare ****Salva e chiudi**.** Il generatore di condizioni consente di compilare una query di ricerca in base a parole chiave o condizioni specifiche soddisfatte, nella casella della parola chiave immettere **Sales**. Da qui è possibile selezionare **Esegui la query** dalla finestra Scegliere i risultati della ricerca. Per il tenant del lab, è disponibile solo la visualizzazione delle statistiche dei risultati della ricerca. Si notino le opzioni per disporre in base agli indicatori principali. Selezionare **Esegui query**.  Questa operazione può richiedere alcuni minuti.
 
-1. Selezionare ora **Scegli utenti, gruppi o team**.  Nella casella di ricerca, immettere **Adele**, quindi premere INVIO sulla tastiera. Nei risultati della ricerca selezionare **Adele Vance** e quindi selezionare **Fatto**.
+1. Con i risultati delle query restituiti sotto forma di statistiche, è possibile esportare i risultati.  Nell'angolo in alto a destra della schermata (accanto a dove è indicato Aggiungi al set di revisione), selezionare **Esporta** per impostare le opzioni disponibili e quindi selezionare **Annulla**.
 
-1. Nella pagina Scegli posizioni, selezionare **Avanti**.  Per motivi di praticità con la demo, non saranno incluse altre posizioni in questo blocco.
+1. È possibile aggiungere a un insieme di revisione per un'ulteriore elaborazione.  Selezionare **Aggiungi per rivedere il set**. Immettere un nome per il nuovo set di revisione, **`SC900-review-set`**, lasciare le impostazioni predefinite e quindi selezionare **Aggiungi per rivedere set.** Questa operazione può richiedere alcuni minuti. Dopo aver presentato i risultati del set di revisione, è possibile esplorare le diverse opzioni, tra cui Analisi, Query, Azioni, File di tag e Gestione.
 
-1. La pagina Condizioni della query consente di creare un blocco basato su specifiche parole chiave o condizioni che devono essere soddisfatte. Selezionare **+ Aggiungi condizione** per visualizzare le opzioni disponibili.  Selezionare **Avanti**. Senza alcuna condizione, il blocco conserva tutti i contenuti nella posizione specificata.
+1. È anche possibile creare criteri di blocco per mantenere il contenuto pertinente al caso. Nella finestra Rivedi set selezionare la **scheda Blocco** .  Verrà visualizzata la finestra Criteri di blocco. Selezionare **Nuovi criteri**.  Immettere un nome di criteri, **`SC900-hold`** e selezionare **Crea.**  Come nella ricerca, è necessario aggiungere origini dati per il blocco ed è possibile aggiungere parole chiave e condizioni da usare nei criteri di blocco, quindi è possibile selezionare **Applica blocco**.  Le azioni che è possibile eseguire in un criterio di blocco includono un nuovo tentativo, disattivare un criterio ed eliminare un criterio di blocco.
 
-1. Esaminare le impostazioni e selezionare **Invia**; potrebbe essere necessario qualche minuto, quindi selezionare **Fine**.  Il blocco della prova dovrebbe apparire nell'elenco.  Se non viene visualizzato immediatamente, selezionare **Aggiorna**.
-
-1. Mantenere aperta la scheda del browser.
-
-### Demo parte 4
-
-Una volta creato il blocco, occorre creare una query di ricerca.  Al termine della ricerca, eDiscovery supporta azioni, ad esempio l'esportazione e il download dei risultati per indagini successive.   Nota: le ricerche associate a un caso di eDiscovery (Standard) non sono elencate nella pagina Ricerca di contenuto del portale di conformità di Microsoft Purview. Queste ricerche sono elencate solo nella pagina Ricerche del caso di eDiscovery (Standard) associato.
-
-1. Nella pagina SC900 Caso di test selezionare **Ricerche**.
-
-1. Dalla pagina Ricerca, selezionare **+ Nuova ricerca**.
-
-1. Nel campo Nome, immettere **Blocco test – Ricerca vendite** e quindi selezionare **Avanti** nella parte inferiore della pagina.
-
-1. Nella pagina Scegli posizioni selezionare **le posizioni in attesa** e deselezionare **Aggiungi contenuto app per gli utenti** locali, in quanto l'ambiente lab non ha utenti locali, quindi selezionare **Avanti**.
-
-1. La pagina Condizioni query consente di creare una ricerca, in base a parole chiave o condizioni specifiche soddisfatte. Nel campo parola chiave immettere **Vendite** e selezionare **Avanti**.
-
-1. Esaminare le impostazioni e selezionare **Invia**; potrebbe essere necessario qualche minuto, quindi selezionare **Fine**.  La ricerca dovrebbe essere visualizzata nell'elenco.  Se non viene visualizzato immediatamente, selezionare **Aggiorna**.
-
-1. Nella finestra Ricerche selezionare la ricerca appena creata, **Blocco di test - Ricerca vendite**.  Finestra visualizzata con la scheda Riepilogo selezionata.  Una volta eseguita la ricerca, lo stato ne indica il completamento.  Verrà visualizzata la scheda Statistiche ricerca (se la scheda Statistiche ricerca non compare, significa che la ricerca è in corso e richiede ancora qualche minuto per essere completata).  Selezionare la scheda **Cerca statistiche** e selezionare la freccia rivolta verso il basso, accanto a Cerca contenuto.  È possibile visualizzare anche altre informazioni relative al report Condizione e alle posizioni principali.  
-
-1. Nella parte inferiore della pagina, selezionare **Azioni**.  Notare le opzioni disponibili che includono quelle di esportazione. Selezionare **Chiudi**.
-
-1. Chiudere tutte le schede del browser aperte.
+1. Disconnettersi e chiudere tutte le finestre del browser aperte.
 
 ### Revisione
 
-In questa demo sono stati eseguiti i passaggi necessari per iniziare a utilizzare eDiscovery (Standard), incluse l'impostazione delle autorizzazioni per i ruoli di eDiscovery e la creazione di un caso di eDiscovery.  Dopo aver creato il caso sono stati presentati gli elementi del flusso di lavoro di eDiscovery (Standard), creando un blocco di eDiscovery e una query di ricerca.
+In questa demo sono stati illustrati i passaggi necessari per iniziare a usare eDiscovery, inclusa la configurazione delle autorizzazioni del ruolo per eDiscovery e la creazione di un caso eDiscovery.  Con il caso, sono state esaminate le impostazioni per la creazione di risultati di ricerca ed esportazione, l'aggiunta a un set di revisione e la creazione di un blocco.
