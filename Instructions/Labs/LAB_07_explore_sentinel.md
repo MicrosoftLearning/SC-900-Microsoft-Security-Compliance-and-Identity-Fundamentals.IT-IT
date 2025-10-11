@@ -16,36 +16,34 @@ Questo lab corrisponde al contenuto di Learn seguente:
 
 Questo lab illustrerà il processo di creazione di un'istanza di Microsoft Sentinel.  Verranno anche configurate le autorizzazioni per garantire l'accesso alle risorse che verranno distribuite per supportare Microsoft Sentinel.  Dopo aver completato questa configurazione di base, verranno illustrati i passaggi per connettere Microsoft Sentinel alle origini dati, per configurare una cartella di lavoro e verranno illustrate brevemente alcune delle funzionalità chiave disponibili in Microsoft Sentinel.
 
-**Tempo** stimato: 60 minuti
+**Tempo stimato**: 60 minuti
 
 ### Attività 1
 
-Creare un'istanza di Microsoft Sentinel
+Per creare un'istanza di Microsoft Sentinel, è prima necessario creare un'area di lavoro Log Analytics, usata per archiviare i dati da Microsoft Sentinel.  Dopo aver creato un'area di lavoro Log Analytics, è possibile creare un'istanza di Microsoft Sentinel e aggiungervi l'area di lavoro Log Analytics.  In questa attività si esegue ognuno di questi passaggi.
 
-1. Ci si dovrebbe trovare nella home page per i servizi di Azure.  Se il browser è stato chiuso in precedenza, aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com** e accedere con le proprie credenziali di amministratore.
+1. Ci si dovrebbe trovare nella home page per i servizi di Azure.  In caso contrario, aprire Microsoft Edge e nella barra degli indirizzi immettere **portal.azure.com** e accedere con le credenziali di amministratore del portale di Azure.
 
-1. Nella casella di ricerca blu nella parte superiore della pagina immettere **Microsoft Sentinel** e quindi selezionare **Microsoft Sentinel** dai risultati della ricerca.
-
-1. Nella pagina di Microsoft Sentinel selezionare **Crea Microsoft Sentinel**.
-
-1. Nella pagina Aggiungi Microsoft Sentinel a un'area di lavoro selezionare **Crea una nuova area di lavoro**.
-
+1. Nella casella di ricerca blu nella parte superiore della pagina immettere **Log Analytics** e selezionarlo nei risultati della ricerca.
+1. Seleziona **+ Crea**.
 1. Nella scheda Informazioni di base dell'area di lavoro Crea Log Analytics, immettere quanto segue:
     1. Sottoscrizione: lasciare l'impostazione predefinita, ovvero la sottoscrizione di Azure fornita dal provider di servizi di hosting per i lab autorizzato.
     1. Gruppo di risorse: selezionare **SC900-Sentinel-RG**. Se questo gruppo di risorse non è elencato, crearlo selezionando **Crea nuovo**, immettere **SC900-Sentinel-RG**, quindi selezionare **OK**.
-    1. Nome: **Area di lavoro Log Analytics SC900**.
+    1. Nome: **SC900-Sentinel-workspace**.
     1. Area geografica: **Stati Uniti orientali** (è possibile selezionare un'area geografica predefinita diversa in base alla posizione)
     1. Selezionare **Rivedi e crea** (non verranno configurati tag).
     1. Verificare le informazioni immesse in precedenza e quindi selezionare **Crea**.
-    1. Elencare le aree di lavoro potrebbe richiedere qualche minuto. Se l'elenco non viene ancora visualizzato, selezionare **Aggiorna**, quindi selezionare **Aggiungi**.
-
-1. Dopo aver aggiunto la nuova area di lavoro, verrà visualizzata la pagina Microsoft Sentinel | Novità e guide che indica che la versione di valutazione gratuita di Microsoft Sentinel è attivata.  Seleziona **OK**.
-
+    1. La creazione della nuova area di lavoro potrebbe richiedere un minuto o due.
+    1. Dopo la creazione, selezionare Vai alla risorsa** per visualizzare **le informazioni sull'area di lavoro.
+1. A questo punto, l'istanza di Microsoft Sentinel non è ancora stata creata. Per creare un'istanza di Sentinel, è necessario passare alla pagina di Microsoft Sentinel. Usare la barra di ricerca blu nella parte superiore della pagina per cercare **Microsoft Sentinel** e selezionarla nel risultato della ricerca.
+1. Per aggiungere l'area di lavoro a Microsoft Sentinel, è necessario passare alla pagina di Microsoft Sentinel. Usare la barra di ricerca blu nella parte superiore della pagina per cercare **Microsoft Sentinel**
+    1. Nella pagina Microsoft Sentinel selezionare **+ Crea**.
+    1. È ora possibile aggiungere l'area di lavoro appena creata. Selezionare **SC900-Sentinel-workspace**, quindi selezionare **Aggiungi**.  L'attivazione della versione di valutazione gratuita di Microsoft Sentinel potrebbe richiedere alcuni minuti.  Dopo l'attivazione, selezionare **OK**.
 1. Tenere aperta la pagina perché verrà usata nell'attività successiva.
 
 ### Attività 2
 
-Dopo aver creato l'istanza di Microsoft Sentinel, è importante che gli utenti che avranno la responsabilità di supportare Microsoft Sentinel dispongano delle autorizzazioni necessarie.  A tale scopo, è necessario assegnare all'utente designato le autorizzazioni necessarie per il ruolo.  In questa attività verranno visualizzati i ruoli di Microsoft Sentinel predefiniti disponibili.
+Con l'istanza di Microsoft Sentinel creata e l'area di lavoro Log Analytics assegnata, è importante che gli utenti che avranno la responsabilità di supportare Microsoft Sentinel dispongano delle autorizzazioni necessarie.  A tale scopo, è necessario assegnare all'utente designato le autorizzazioni necessarie per il ruolo.  In questa attività verranno visualizzati i ruoli di Microsoft Sentinel predefiniti disponibili.
 
 1. Nella casella di ricerca blu immettere **gruppi di risorse** e quindi selezionare **Gruppi di risorse** dai risultati della ricerca. 
 
@@ -70,7 +68,7 @@ Dopo aver creato l'istanza di Microsoft Sentinel, è importante che gli utenti c
 
 Lo scopo di questa attività è quello di illustrare i passaggi necessari necessari per la connessione a un'origine dati. Molti connettori dati vengono distribuiti come parte di una soluzione Microsoft Sentinel insieme a contenuti correlati quali regole di analisi, cartelle di lavoro e playbook. L'Hub contenuti di Microsoft Sentinel è la posizione centralizzata per individuare e gestire contenuto predefinito. In questo passaggio, verrà utilizzato l'Hub contenuti per distribuire la soluzione Microsoft Defender per il cloud per Microsoft Sentinel.  Questa soluzione consente di inserire avvisi di sicurezza segnalati in Microsoft Defender per il cloud.
 
-1. Nella home page dei servizi di Azure, selezionare Microsoft Sentinel, quindi selezionare l'istanza creata, **SC900-LogAnalytics-workspace**.
+1. Nella home page dei servizi di Azure selezionare Microsoft Sentinel, quindi selezionare l'istanza creata, **SC900-Sentinel-workspace**.
 
 1. Nel pannello di spostamento a sinistra espandere **Gestione** contenuto e quindi selezionare **Hub** contenuto.
 
@@ -117,4 +115,4 @@ In questa attività verranno illustrate alcune delle opzioni disponibili in Sent
 
 ### Revisione
 
-In questa demo IV sono stati illustrati i passaggi per la connessione di Microsoft Sentinel alle origini dati, è stata impostata una cartella di lavoro e sono state presentate varie opzioni disponibili in Microsoft Sentinel.
+In questo lab sono stati illustrati i passaggi per la connessione di Microsoft Sentinel alle origini dati, è stata configurata una cartella di lavoro e sono state illustrate diverse opzioni disponibili in Microsoft Sentinel.
